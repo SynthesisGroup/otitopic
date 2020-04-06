@@ -1,0 +1,19 @@
+// OTI TOPIC GRID 
+
+.grid-row-footer {
+	display: grid;
+	grid-template-columns: 25rem 1fr 1fr 1fr;
+	grid-gap: 1rem;
+
+	@media only screen and (max-width: $bp-tab-lg) {
+        grid-template-columns: 20rem 1fr 1fr 1fr;
+    }
+
+	@media only screen and (max-width: $bp-tab-sm) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+	@media only screen and (max-width: $bp-mobile-lg) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

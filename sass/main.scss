@@ -1,0 +1,25 @@
+// Abstracts 
+
+@import "abstracts/variables";
+
+// Base
+
+@import "base/typography";
+
+// Components
+
+@import "components/blogs";
+@import "components/buttons";
+@import "components/cta";
+@import "components/hero";
+
+// Layouts
+
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/grid";
+
+// Pages
+
+@import "pages/home";
+
