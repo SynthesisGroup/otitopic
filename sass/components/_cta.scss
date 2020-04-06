@@ -1,0 +1,15 @@
+.cta-section  {
+   	background: url('../img/cta.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: right;
+
+  	h2 {
+  		font-family: $font-primary;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 35px;
+		color: $color-white;
+  	}
+}

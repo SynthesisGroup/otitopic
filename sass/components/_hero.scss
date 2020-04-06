@@ -1,0 +1,81 @@
+// OTITOPIC HERO BANNERS
+
+.header-section {
+	.banner-tag-head {
+        position: relative;
+        background: $color-primary;
+        padding: 40px 80px 40px;
+        margin-top: 7rem;
+        z-index: 999;
+
+        h2 {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 60px;
+            color: $color-white;
+            text-align: left;
+        }
+
+        p {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 21px;
+            line-height: 145%;
+            color: #E6ECF0;
+            width: 520px;
+        }
+    }
+}
+
+.home-banner {
+  	background: url('../img/banners/home-banner.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: right;
+  	height: 100vh;
+}
+
+.about-us-banner {
+  	background: url('../img/banners/about-us-banner.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	height: 500px;
+}
+
+.therapies-banner {
+  	background: url('../img/banners/therapies-banner.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	height: 500px;
+}
+
+.research-banner {
+  	background: url('../img/banners/research-banner.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	height: 500px;
+}
+
+.technology-banner {
+  	background: url('../img/banners/technology-banner.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	height: 500px;
+}
+
+.careers-banner {
+  	background: url('../img/banners/careers-banner.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	height: 500px;
+}
+
+.contact-us-banner {
+  	background: url('../img/banners/contact-us-banner.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	height: 500px;
+}

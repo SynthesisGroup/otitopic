@@ -1,0 +1,21 @@
+// OTITOPIC HOME PAGE 
+
+.home-page-banner {
+	h1 {
+	    font-family: $font-primary;
+	    font-style: normal;
+	    font-weight: 600;
+	    font-size: 60px;
+	    line-height: 60px;
+	    color: $color-white;
+	}
+
+	p {
+	    font-family: $font-primary;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 26px;
+	    line-height: 145%;
+	    color: $color-white;
+	}
+}

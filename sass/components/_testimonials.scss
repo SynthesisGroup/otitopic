@@ -1,0 +1,47 @@
+.testimonials-section  {
+	background: $color-primary !important;
+
+	img {
+		max-width: 3rem;
+		padding-bottom: 1rem;
+	}
+
+   	h2 {
+   		font-family: $font-primary;
+		font-style: italic;
+		font-weight: 600;
+		font-size: 23px !important;
+		line-height: 35px;
+		color: $color-white;
+   	}
+
+   	.author {
+   		display: grid;
+   		grid-template-columns: 8% 80%;
+   		grid-gap: 1rem;
+
+   		.line-separator {
+   			margin-top: 3.6rem;
+   		}
+
+   	}
+
+   	h4 {
+   		font-family: $font-primary;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 19px;
+		color: $color-white;
+		padding-top: 2rem;
+   	}
+
+   	p {
+   		font-family: $font-primary;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		color: $color-white;
+   	}
+}

@@ -33,7 +33,7 @@
 	&:hover {
 		border: 1px solid $color-orange;
 		background: $color-orange;
-		color: $color-white;
+		color: $color-white !important;
 	}
 }
 
