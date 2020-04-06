@@ -6,7 +6,6 @@
         background: $color-primary;
         padding: 40px 80px 40px;
         margin-top: 7rem;
-        z-index: 999;
 
         h2 {
             font-family: $font-primary;
@@ -25,7 +24,9 @@
             font-size: 21px;
             line-height: 145%;
             color: #E6ECF0;
-            width: 520px;
+            width: 100%;
+
+
         }
     }
 }

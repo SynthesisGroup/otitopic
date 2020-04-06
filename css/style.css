@@ -189,8 +189,7 @@ h4 {
   position: relative;
   background: #081D31;
   padding: 40px 80px 40px;
-  margin-top: 7rem;
-  z-index: 999; }
+  margin-top: 7rem; }
   .header-section .banner-tag-head h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -206,7 +205,7 @@ h4 {
     font-size: 21px;
     line-height: 145%;
     color: #E6ECF0;
-    width: 520px; }
+    width: 100%; }
 
 .home-banner {
   background: url("../img/banners/home-banner.jpg");
@@ -1552,8 +1551,9 @@ h4 {
   @media only screen and (max-width: 64em) {
     .grid-row-footer {
       grid-template-columns: 20rem 1fr 1fr 1fr; } }
-  @media only screen and (max-width: 48em) {
+  @media only screen and (max-width: 767px) {
     .grid-row-footer {
+      display: grid;
       grid-template-columns: repeat(1, 1fr); } }
   @media only screen and (max-width: 40em) {
     .grid-row-footer {
