@@ -1,0 +1,91 @@
+.dope-nav-container  .about-us-list-nav a {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    text-decoration: none;
+    outline: none;
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 155%;
+    color: $color-primary !important;
+    display: inline-block;
+}
+
+.dope-nav-container .about-us-list-nav a:hover,
+.dope-nav-container .about-us-list-nav a.active,
+.dope-nav-container .about-us-list-nav a:focus {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: none;
+  color: $color-orange !important;
+}
+
+
+
+.info-section {
+    overflow: hidden;
+    padding: 100px;
+
+    @media only screen and (max-width: $bp-tab-md) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-tab-pt) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-sm) {
+        padding:20px;
+    } 
+
+    .info-left ul li {
+        display: flex;
+
+        .list-number {
+            margin-right: 30px;
+
+            img {
+                width: 200px; 
+
+                @media only screen and (max-width: $bp-tab-md) {
+                    width: 200px;
+                } 
+
+                @media only screen and (max-width: $bp-tab-pt) {
+                    width: 130px;
+                } 
+
+                @media only screen and (max-width: $bp-mobile-lg) {
+                    width: 200px;
+                } 
+            }
+        }
+
+        .details {
+            h4 {
+                font-family: $font-primary;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 155%;
+                color: #0F63A7;
+            }
+
+            p {
+                font-family: $font-primary;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 155%;
+                color: #1B3349;
+            }
+        }
+    }
+}
+

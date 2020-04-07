@@ -176,7 +176,20 @@ h4 {
   background: url("../img/cta.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right; }
+  background-position: right;
+  padding: 100px; }
+  @media only screen and (max-width: 61.9em) {
+    .cta-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 53.75em) {
+    .cta-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 40em) {
+    .cta-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 25.8em) {
+    .cta-section {
+      padding: 20px; } }
   .cta-section h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -251,7 +264,20 @@ h4 {
   height: 500px; }
 
 .testimonials-section {
-  background: #081D31 !important; }
+  background: #081D31 !important;
+  padding: 100px; }
+  @media only screen and (max-width: 61.9em) {
+    .testimonials-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 53.75em) {
+    .testimonials-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 40em) {
+    .testimonials-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 25.8em) {
+    .testimonials-section {
+      padding: 20px; } }
   .testimonials-section img {
     max-width: 3rem;
     padding-bottom: 1rem; }
@@ -262,6 +288,9 @@ h4 {
     font-size: 23px !important;
     line-height: 35px;
     color: #ffffff; }
+    @media only screen and (max-width: 25.8em) {
+      .testimonials-section h2 {
+        font-size: 18px !important; } }
   .testimonials-section .author {
     display: grid;
     grid-template-columns: 8% 80%;
@@ -285,7 +314,20 @@ h4 {
     color: #ffffff; }
 
 .footer-section {
-  background: #081D31; }
+  background: #081D31;
+  padding: 100px; }
+  @media only screen and (max-width: 61.9em) {
+    .footer-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 53.75em) {
+    .footer-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 40em) {
+    .footer-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 25.8em) {
+    .footer-section {
+      padding: 20px; } }
   .footer-section .list-style {
     position: relative;
     top: 27.51%;
@@ -1559,6 +1601,27 @@ h4 {
     .grid-row-footer {
       grid-template-columns: repeat(1, 1fr); } }
 
+.grid-container-flex-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; }
+  @media only screen and (max-width: 64em) {
+    .grid-container-flex-two {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media only screen and (max-width: 61.9em) {
+    .grid-container-flex-two {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media only screen and (max-width: 53.75em) {
+    .grid-container-flex-two {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 40em) {
+    .grid-container-flex-two {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+
 .dope-nav-container .about-us-list-nav a {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -1580,6 +1643,51 @@ h4 {
   text-decoration: none;
   outline: none;
   color: #ffa000 !important; }
+
+.info-section {
+  overflow: hidden;
+  padding: 100px; }
+  @media only screen and (max-width: 61.9em) {
+    .info-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 53.75em) {
+    .info-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 40em) {
+    .info-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 25.8em) {
+    .info-section {
+      padding: 20px; } }
+  .info-section .info-left ul li {
+    display: flex; }
+    .info-section .info-left ul li .list-number {
+      margin-right: 30px; }
+      .info-section .info-left ul li .list-number img {
+        width: 200px; }
+        @media only screen and (max-width: 61.9em) {
+          .info-section .info-left ul li .list-number img {
+            width: 200px; } }
+        @media only screen and (max-width: 53.75em) {
+          .info-section .info-left ul li .list-number img {
+            width: 130px; } }
+        @media only screen and (max-width: 40em) {
+          .info-section .info-left ul li .list-number img {
+            width: 200px; } }
+    .info-section .info-left ul li .details h4 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 155%;
+      color: #0F63A7; }
+    .info-section .info-left ul li .details p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 155%;
+      color: #1B3349; }
 
 .home-page-banner h1 {
   font-family: "Nunito", sans-serif;

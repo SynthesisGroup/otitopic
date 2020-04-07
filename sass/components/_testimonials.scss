@@ -1,5 +1,22 @@
 .testimonials-section  {
 	background: $color-primary !important;
+	padding: 100px;
+
+    @media only screen and (max-width: $bp-tab-md) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-tab-pt) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-sm) {
+        padding:20px;
+    } 
 
 	img {
 		max-width: 3rem;
@@ -13,6 +30,10 @@
 		font-size: 23px !important;
 		line-height: 35px;
 		color: $color-white;
+
+		@media only screen and (max-width: $bp-mobile-sm) {
+	        font-size: 18px !important;
+	    } 
    	}
 
    	.author {
