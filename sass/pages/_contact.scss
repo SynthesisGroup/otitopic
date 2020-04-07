@@ -1,0 +1,141 @@
+.contact-form-section {
+	padding: 100px;
+
+    @media only screen and (max-width: $bp-tab-md) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-tab-pt) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-sm) {
+        padding:20px;
+    } 
+
+	.form-wrap {
+		background: #E6ECF0;
+		padding: 50px;
+
+		@media only screen and (max-width: $bp-tab-md) {
+        padding:30px;
+	    } 
+
+	    @media only screen and (max-width: $bp-tab-pt) {
+	        padding:30px;
+	    } 
+
+	    @media only screen and (max-width: $bp-mobile-lg) {
+	        padding:30px;
+	    } 
+
+	    @media only screen and (max-width: $bp-mobile-sm) {
+	        padding:30px;
+	    } 
+
+		h2 {
+		  	font-family: $font-primary;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 32px;
+			line-height: 49px;
+			color: #0F63A7;
+
+			@media only screen and (max-width: $bp-mobile-sm) {
+		        line-height: 35px;
+		    } 
+		}
+
+		p {
+			font-family: $font-primary;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 27px;
+			color: #081D31;
+			margin-bottom: 30px;
+
+			@media only screen and (max-width: $bp-mobile-sm) {
+		        margin-top: 10px;
+		    } 
+		}
+
+		input {
+		  	margin-bottom: 20px;
+		  	background: $color-white;
+		  	border: none;
+		  	border-radius: 1px !important;
+		  	height: 40px;
+
+			&:focus {
+			  -webkit-box-shadow: none;
+			          box-shadow: none;
+			}
+		}
+
+		textarea {
+			margin-bottom: 20px;
+		  	background: $color-white;
+		  	border: none;
+		  	border-radius: 1px !important;
+
+			&:focus {
+			  -webkit-box-shadow: none;
+			          box-shadow: none;
+			}
+		}
+	}
+
+	.contact-details-wrap {
+		.contact-wrap {
+			background: #0F63A7;
+			padding: 30px;
+
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 28px;
+				line-height: 49px;
+				color: $color-white;
+			}
+
+			.contact {
+
+				.img-icon {
+					margin-top: 1.3rem;
+					margin-bottom: 1rem;
+
+					img {
+						max-width: 30px;
+					}
+				}
+
+				span {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 33px;
+					color: #E6ECF0;
+				}
+
+				p {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 14px;
+					line-height: 33px;
+					color: $color-white;
+				}
+			}
+
+		}
+	}
+}
+
+
