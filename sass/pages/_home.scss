@@ -1,6 +1,26 @@
 // OTITOPIC HOME PAGE 
 
 .home-page-banner {
+
+	margin-top: 4rem;
+	padding: 60px;
+
+  	@media only screen and (max-width: $bp-tab-md) {
+        padding:60px;
+    } 
+
+    @media only screen and (max-width: $bp-tab-pt) {
+        padding:60px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        padding:60px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-sm) {
+        padding:20px;
+    } 
+
 	h1 {
 	    font-family: $font-primary;
 	    font-style: normal;
@@ -8,6 +28,12 @@
 	    font-size: 60px;
 	    line-height: 60px;
 	    color: $color-white;
+
+	    @media only screen and (max-width: $bp-mobile-sm) {
+	        font-size: 50px;
+	        text-align: center;
+	        margin-top: 2rem;
+	    } 
 	}
 
 	p {
@@ -17,130 +43,136 @@
 	    font-size: 26px;
 	    line-height: 145%;
 	    color: $color-white;
+
+	    @media only screen and (max-width: $bp-mobile-sm) {
+	        font-size: 23px;
+	       	text-align: center;
+	        margin-top: 2rem;
+	    } 
 	}
 }
 
 
-.why-choose-section {
+// Push the Boundaries
 
-  padding: 60px;
+.push-the-boundaries-section {
 
-  .section-title-s3 {
+  	padding: 60px;
 
-      h2 {
-        font-family: $font-primary;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 49px;
-        color: #081D31;
-      }
+  	// 991px
 
-      p {
-        font-family: $font-primary;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 155%;
-        text-align: center;
-        color: #1B3349;
-      }
-  }
+  	@media only screen and (max-width: $bp-tab-md) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-tab-pt) {
+        padding:70px;
+    } 
+
+    // 768px
+
+  	@media only screen and (max-width: $bp-tab-sm) {
+        padding:20px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-sm) {
+        padding:20px;
+    } 
+
+  	.section-title-s3 {
+
+      	h2 {
+	        font-family: $font-primary;
+	        font-style: normal;
+	        font-weight: 600;
+	        font-size: 36px;
+	        line-height: 49px;
+	        color: #081D31;
+      	}
+
+      	p {
+	        font-family: $font-primary;
+	        font-style: normal;
+	        font-weight: normal;
+	        font-size: 18px;
+	        line-height: 155%;
+	        text-align: center;
+	        color: #1B3349;
+      	}
+  	}
+
+	.push-the-boundaries-grids .grid {
+	  	text-align: center;
+	  	margin-top: 2rem;
+
+	  	img {
+	  		max-width: 80px;
+	  	}
+
+		h3 {
+		    font-family: $font-primary;
+		    font-style: normal;
+		    font-weight: bold;
+		    font-size: 26px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #0F63A7;
+		    margin: 0.8em 0 0.7em;
+		}
+
+		p {
+		    font-family: $font-primary;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-size: 16px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #1B3349;
+		    margin: 0;
+		}
+	}
 }
 
-@media (max-width: 991px) {
-  .why-choose-section {
-    padding-bottom: 60px;
-  }
-}
-
-@media (max-width: 767px) {
-  .why-choose-section {
-    padding-bottom: 65px;
-  }
-}
-
-.why-choose-section .why-choose-grids {
-  margin: 0 -15px;
-}
-
-@media (max-width: 767px) {
-  .why-choose-section .why-choose-grids {
-    margin: 0 -7.5px;
-  }
-}
-
-.why-choose-section .why-choose-grids .grid {
-  width: calc(25% - 30px);
-  float: left;
-  margin: 0 15px 30px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 35px 25px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-  position: relative;
-  top: 0;
-}
 
 
-@media (max-width: 1199px) {
-  .why-choose-section .why-choose-grids .grid {
-    width: calc(50% - 30px);
-  }
-}
 
-@media (max-width: 767px) {
-  .why-choose-section .why-choose-grids .grid {
-    width: calc(50% - 15px);
-    margin: 0 7.5px 15px;
-  }
-}
 
-@media (max-width: 600px) {
-  .why-choose-section .why-choose-grids .grid {
-    width: calc(100% - 15px);
-    float: none;
-  }
-}
-
-.why-choose-section .why-choose-grids .fi:before {
-  font-size: 50px;
-  font-size: 3.125rem;
-  color: #fd5f17;
-}
-
-.why-choose-section .why-choose-grids h3 {
-    font-family: $font-primary;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 155%;
-    text-align: center;
-    color: #0F63A7;
-    margin: 0.8em 0 0.7em;
-}
-
-.why-choose-section .why-choose-grids p {
-    font-family: $font-primary;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 155%;
-    text-align: center;
-    color: #1B3349;
-    margin: 0;
-}
 
 
 .heart-attack-grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
-    padding: 2rem 0;
+
+    @media only screen and (max-width: $bp-tab-lg) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    // 991px
+
+    @media only screen and (max-width: $bp-tab-md) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+	@media only screen and (max-width: $bp-tab-pt) {
+		display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+	@media only screen and (max-width: $bp-mobile-lg) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    img {
+    	width: 100%;
+    }
 
     .text-content {
 

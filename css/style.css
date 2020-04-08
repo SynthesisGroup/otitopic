@@ -87,15 +87,19 @@ h4 {
   background: #081D31 !important; }
 
 .blog-section {
-  padding: 65px; }
-
-@media (max-width: 991px) {
-  .blog-section {
-    padding: 55px; } }
-
-@media (max-width: 767px) {
-  .blog-section {
-    padding-bottom: 45px; } }
+  padding: 60px; }
+  @media only screen and (max-width: 61.9em) {
+    .blog-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 53.75em) {
+    .blog-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 40em) {
+    .blog-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 25.8em) {
+    .blog-section {
+      padding: 20px; } }
 
 .blog-section .blog-grids {
   margin: 0 -15px; }
@@ -1554,13 +1558,13 @@ h4 {
   border-left: 1px solid #fff; }
 
 .section-gap {
-  padding: 100px 0px; }
+  padding: 100px 100px !important; }
 
 .section-gap-top {
-  padding-top: 100px; }
+  padding-top: 100px !important; }
 
 .section-gap-bottom {
-  padding-bottom: 100px; }
+  padding-bottom: 100px !important; }
 
 .section-title {
   text-align: center;
@@ -2748,6 +2752,28 @@ h4 {
       display: grid;
       grid-template-columns: repeat(1, 1fr); } }
 
+.push-the-boundaries-grids {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  grid-auto-rows: minmax(100px, auto); }
+  @media only screen and (max-width: 64em) {
+    .push-the-boundaries-grids {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media only screen and (max-width: 61.9em) {
+    .push-the-boundaries-grids {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media only screen and (max-width: 53.75em) {
+    .push-the-boundaries-grids {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media only screen and (max-width: 40em) {
+    .push-the-boundaries-grids {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+
 .dope-nav-container .about-us-list-nav a {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -2912,32 +2938,71 @@ h4 {
       line-height: 33px;
       color: #ffffff; }
 
-.home-page-banner h1 {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 60px;
-  color: #ffffff; }
-
-.home-page-banner p {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 145%;
-  color: #ffffff; }
-
-.why-choose-section {
+.home-page-banner {
+  margin-top: 4rem;
   padding: 60px; }
-  .why-choose-section .section-title-s3 h2 {
+  @media only screen and (max-width: 61.9em) {
+    .home-page-banner {
+      padding: 60px; } }
+  @media only screen and (max-width: 53.75em) {
+    .home-page-banner {
+      padding: 60px; } }
+  @media only screen and (max-width: 40em) {
+    .home-page-banner {
+      padding: 60px; } }
+  @media only screen and (max-width: 25.8em) {
+    .home-page-banner {
+      padding: 20px; } }
+  .home-page-banner h1 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffffff; }
+    @media only screen and (max-width: 25.8em) {
+      .home-page-banner h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 2rem; } }
+  .home-page-banner p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 145%;
+    color: #ffffff; }
+    @media only screen and (max-width: 25.8em) {
+      .home-page-banner p {
+        font-size: 23px;
+        text-align: center;
+        margin-top: 2rem; } }
+
+.push-the-boundaries-section {
+  padding: 60px; }
+  @media only screen and (max-width: 61.9em) {
+    .push-the-boundaries-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 53.75em) {
+    .push-the-boundaries-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 48em) {
+    .push-the-boundaries-section {
+      padding: 20px; } }
+  @media only screen and (max-width: 40em) {
+    .push-the-boundaries-section {
+      padding: 70px; } }
+  @media only screen and (max-width: 25.8em) {
+    .push-the-boundaries-section {
+      padding: 20px; } }
+  .push-the-boundaries-section .section-title-s3 h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 49px;
     color: #081D31; }
-  .why-choose-section .section-title-s3 p {
+  .push-the-boundaries-section .section-title-s3 p {
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -2945,81 +3010,52 @@ h4 {
     line-height: 155%;
     text-align: center;
     color: #1B3349; }
-
-@media (max-width: 991px) {
-  .why-choose-section {
-    padding-bottom: 60px; } }
-
-@media (max-width: 767px) {
-  .why-choose-section {
-    padding-bottom: 65px; } }
-
-.why-choose-section .why-choose-grids {
-  margin: 0 -15px; }
-
-@media (max-width: 767px) {
-  .why-choose-section .why-choose-grids {
-    margin: 0 -7.5px; } }
-
-.why-choose-section .why-choose-grids .grid {
-  width: calc(25% - 30px);
-  float: left;
-  margin: 0 15px 30px;
-  text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 35px 25px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-  position: relative;
-  top: 0; }
-
-@media (max-width: 1199px) {
-  .why-choose-section .why-choose-grids .grid {
-    width: calc(50% - 30px); } }
-
-@media (max-width: 767px) {
-  .why-choose-section .why-choose-grids .grid {
-    width: calc(50% - 15px);
-    margin: 0 7.5px 15px; } }
-
-@media (max-width: 600px) {
-  .why-choose-section .why-choose-grids .grid {
-    width: calc(100% - 15px);
-    float: none; } }
-
-.why-choose-section .why-choose-grids .fi:before {
-  font-size: 50px;
-  font-size: 3.125rem;
-  color: #fd5f17; }
-
-.why-choose-section .why-choose-grids h3 {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 155%;
-  text-align: center;
-  color: #0F63A7;
-  margin: 0.8em 0 0.7em; }
-
-.why-choose-section .why-choose-grids p {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 155%;
-  text-align: center;
-  color: #1B3349;
-  margin: 0; }
+  .push-the-boundaries-section .push-the-boundaries-grids .grid {
+    text-align: center;
+    margin-top: 2rem; }
+    .push-the-boundaries-section .push-the-boundaries-grids .grid img {
+      max-width: 80px; }
+    .push-the-boundaries-section .push-the-boundaries-grids .grid h3 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 155%;
+      text-align: center;
+      color: #0F63A7;
+      margin: 0.8em 0 0.7em; }
+    .push-the-boundaries-section .push-the-boundaries-grids .grid p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 155%;
+      text-align: center;
+      color: #1B3349;
+      margin: 0; }
 
 .heart-attack-grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem;
-  padding: 2rem 0; }
+  grid-gap: 3rem; }
+  @media only screen and (max-width: 64em) {
+    .heart-attack-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 61.9em) {
+    .heart-attack-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 53.75em) {
+    .heart-attack-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 40em) {
+    .heart-attack-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); } }
+  .heart-attack-grid-2 img {
+    width: 100%; }
   .heart-attack-grid-2 .text-content h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;

@@ -70,3 +70,30 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.push-the-boundaries-grids {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+	grid-auto-rows: minmax(100px, auto);
+
+	@media only screen and (max-width: $bp-tab-lg) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media only screen and (max-width: $bp-tab-md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+	@media only screen and (max-width: $bp-tab-pt) {
+		display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+	@media only screen and (max-width: $bp-mobile-lg) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
