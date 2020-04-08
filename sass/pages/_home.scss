@@ -19,3 +19,148 @@
 	    color: $color-white;
 	}
 }
+
+
+.why-choose-section {
+
+  padding: 60px;
+
+  .section-title-s3 {
+
+      h2 {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 49px;
+        color: #081D31;
+      }
+
+      p {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 155%;
+        text-align: center;
+        color: #1B3349;
+      }
+  }
+}
+
+@media (max-width: 991px) {
+  .why-choose-section {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .why-choose-section {
+    padding-bottom: 65px;
+  }
+}
+
+.why-choose-section .why-choose-grids {
+  margin: 0 -15px;
+}
+
+@media (max-width: 767px) {
+  .why-choose-section .why-choose-grids {
+    margin: 0 -7.5px;
+  }
+}
+
+.why-choose-section .why-choose-grids .grid {
+  width: calc(25% - 30px);
+  float: left;
+  margin: 0 15px 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 35px 25px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  top: 0;
+}
+
+
+@media (max-width: 1199px) {
+  .why-choose-section .why-choose-grids .grid {
+    width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 767px) {
+  .why-choose-section .why-choose-grids .grid {
+    width: calc(50% - 15px);
+    margin: 0 7.5px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-choose-section .why-choose-grids .grid {
+    width: calc(100% - 15px);
+    float: none;
+  }
+}
+
+.why-choose-section .why-choose-grids .fi:before {
+  font-size: 50px;
+  font-size: 3.125rem;
+  color: #fd5f17;
+}
+
+.why-choose-section .why-choose-grids h3 {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 155%;
+    text-align: center;
+    color: #0F63A7;
+    margin: 0.8em 0 0.7em;
+}
+
+.why-choose-section .why-choose-grids p {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    color: #1B3349;
+    margin: 0;
+}
+
+
+.heart-attack-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    padding: 2rem 0;
+
+    .text-content {
+
+        h2 {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 49px;
+            color: #081D31;
+            width: 441px;
+        }
+
+        p {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 155%;
+            color: #1B3349;
+        }
+    }
+}

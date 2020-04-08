@@ -17,57 +17,6 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 
-    <style type="text/css">
-        header {
-          position: relative;
-          background-color: black;
-          height: 100vh;
-          min-height: 25rem;
-          width: 100%;
-          overflow: hidden;
-        }
-
-        header video {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          min-width: 100%;
-          min-height: 100%;
-          width: auto;
-          height: auto;
-          z-index: 0;
-          -ms-transform: translateX(-50%) translateY(-50%);
-          -moz-transform: translateX(-50%) translateY(-50%);
-          -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-        }
-
-        header .container {
-          position: relative;
-          z-index: 2;
-        }
-
-        header .overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 100%;
-          width: 100%;
-          background-color: black;
-          opacity: 0.5;
-          z-index: 1;
-        }
-
-        @media (pointer: coarse) and (hover: none) {
-          header {
-            background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-          }
-          header video {
-            display: none;
-          }
-        }
-            </style>
-
 </head>
 
 <body>
@@ -84,137 +33,68 @@
     <!-- End Pre-loader -->
 
     <!-- Start header section -->
-    <header class="header-area">
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="img/videos/iStock-469473726.mp4" type="video/mp4">
-        </video>
-
-        <div class="dope-nav-container breakpoint-off">
-            <div class="container">
-                <div class="row">
-                    <!-- Main Menu -->
-                    <nav class="dope-navbar justify-content-between" id="dopeNav">
-
-                        <!-- Logo -->
-                        <a class="nav-brand" href="index.html"><img src="img/otitopic-logo-header.svg" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="dope-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="dope-menu">
-                            <!-- close btn -->
-                            <div class="dopecloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="dopenav">
-                                <ul id="nav">
-                                    <li><a href="index.html" class="active">Home</a></li>
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="therapies.html">Therapies</a></li>
-                                    <li><a href="research.html">Research</a></li>
-                                    <li><a href="technology.html">Technology</a></li>
-                                    <li><a href="investors.html">Investors</a></li>
-                                    <li><a href="careers.html">Careers</a></li>
-                                    <li><a href="contact-us.html">Contact</a></li>
-                                </ul>
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
-                    <!-- Start Nav Overlay -->
-                    <div class="overlay"></div>
-                    <!-- End Nav Overlay -->
-                </div>
-            </div>
-        </div>
-
-        <!-- Start Home Banner -->
-        <section class="header-section">
-          <div class="page-banner home-page-banner">
+    <section class="header-section press-releases-banner">
+        <header class="header-area">
+            <div class="dope-nav-container breakpoint-off">
                 <div class="container">
-                    <div class="row section-gap header-content col-md-rev">
-                        <div class="col-lg-10 col-md-12 header-text-wrap">
-                            <h1>Revolutionizing Myocardial Infraction Management</h1>
-                            <p>Our mission is to provide patients with a faster alternative for management of suspected myocardial infraction (MI).</p>
-                        </div>
+                    <div class="row">
+                        <!-- Main Menu -->
+                        <nav class="dope-navbar justify-content-between" id="dopeNav">
+
+                            <!-- Logo -->
+                            <a class="nav-brand" href="index.html"><img src="img/otitopic-logo-header.svg" alt=""></a>
+
+                            <!-- Navbar Toggler -->
+                            <div class="dope-navbar-toggler">
+                                <span class="navbarToggler"><span></span><span></span><span></span></span>
+                            </div>
+
+                            <!-- Menu -->
+                            <div class="dope-menu">
+                                <!-- close btn -->
+                                <div class="dopecloseIcon">
+                                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                </div>
+
+                                <!-- Nav Start -->
+                                <div class="dopenav">
+                                    <ul id="nav">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="therapies.html">Therapies</a></li>
+                                        <li><a href="research.html">Research</a></li>
+                                        <li><a href="technology.html">Technology</a></li>
+                                        <li><a href="investors.html">Investors</a></li>
+                                        <li><a href="careers.html">Careers</a></li>
+                                        <li><a href="contact-us.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Nav End -->
+                            </div>
+                        </nav>
+
+                        <!-- Start Nav Overlay -->
+                        <div class="overlay"></div>
+                        <!-- End Nav Overlay -->
+
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- End Home Banner -->
+        </header>
 
-    </header>
+    </section>
     <!-- End header section -->
 
     <!-- Start Main Page Wrapper -->
     <main>
 
-        <!-- Push the boundaries -->
-        <section class="why-choose-section section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
-                        <div class="section-title-s3">
-                            <h2>Push the Boundaries of What’s Humanly Possible</h2>
-                            <p>We are a late-stage pharmaceutical company, with a track record of success in product drug delivery and drug device development.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="why-choose-grids clearfix">
-                            <div class="grid">
-                                <img src="img/icons/heartbeat.svg" alt="icon">
-                                <h3>4,000,000,000+</h3>
-                                <p>Processing over 4 billion heartbeats a day</p>
-                            </div>
-                            <div class="grid">
-                                <img src="img/icons/cardiogram.svg" alt="icon">
-                                <h3>1,000,000+</h3>
-                                <p>Monitoring over 1 Million patients per year</p>
-                            </div>
-                            <div class="grid">
-                                <img src="img/icons/care.svg" alt="icon">
-                                <h3>30,000+</h3>
-                                <p>Each month more than 30,000 physicians refer patients to our services</p>
-                            </div>
-                            <div class="grid">
-                                <img src="img/icons/shuttle.svg" alt="icon">
-                                <h3>$300,000,000+</h3>
-                                <p>Over $300 million invested in the technology and service platform</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="heart-attack-grid-2">
-                    <div class="img-holder">
-                        <img src="img/heart-attack.jpg" alt="">
-                    </div>
-                    <div class="text-content">
-                        <h2>Management of suspected heart attack</h2>
-
-                        <p>A myocardial infarction (MI), commonly known as a heart attack, occurs every 40 seconds in the US. Otitopic is committed to the development of a rapid therapy for the treatment of MI. Otitopic has developed a dry powder inhalation treatment for MI that enters the bloodstream in less than two minutes.</p>
- 
-                        <p>Myocardial infarction occurs when an interruption in blood supply causes heart cell death from lack of oxygen and nutrients. Myocardial infarctions are typically caused by the blockage of a coronary artery by atherosclerotic plaque, a mass of cholesterol and white blood cells in the artery wall. Otitopic has been working on the proprietary formulation since 2012 and is focused on bringing this therapy to market.</p>
-                    </div>
-                </div>
-            </div> <!-- end container -->
-        </section>
-        <!-- end why-choose-section -->
-
-        <section class="blog-section">
+               <!-- start blog-section -->
+        <section class="blog-section section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col col-lg-6 col-md-8">
                         <div class="section-title-s5">
-                            <h2 style="text-align: left">Press Releases</h2>
+                            <h2 style="text-align: left">Featured Articles</h2>
                         </div>
                     </div>
                 </div> 
@@ -259,6 +139,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="pagination-wrapper pagination-wrapper-center">
+                    <ul class="pg-pagination">
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
                 </div>               
             </div> <!-- end container -->
         </section>
@@ -338,7 +227,7 @@
             </div>
         </section>
         <!-- End testimonials section -->
-
+      
         <!-- Start call to action section -->
         <section class="cta-section section-gap-top section-gap-bottom">
             <div class="container">
