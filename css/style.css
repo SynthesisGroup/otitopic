@@ -2816,6 +2816,13 @@ h4 {
         font-size: 36px;
         line-height: 45px;
         color: #081D31; }
+      .our-mission-section .col-md-rev-mission .text-wrap h4 {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 155%;
+        color: #081D31; }
       .our-mission-section .col-md-rev-mission .text-wrap p {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -2851,7 +2858,7 @@ h4 {
             color: #E6ECF0;
             margin-top: 2rem; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area a {
-            margin-top: 3.5rem;
+            margin-top: 3.3rem;
             width: 64%; }
 
 .why-work-otitopic-section {

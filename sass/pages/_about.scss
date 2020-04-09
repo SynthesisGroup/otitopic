@@ -70,6 +70,16 @@
                 color: $color-primary
             }
 
+            h4 {
+                font-family: $font-primary;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 155%;
+                color: #081D31;
+
+            }
+
             p {
                 font-family: $font-primary;
                 font-style: normal;
@@ -117,7 +127,7 @@
                     }
 
                     a {
-                        margin-top: 3.5rem;
+                        margin-top: 3.3rem;
                         width: 64%;
                     }
                 }
