@@ -1,4 +1,3 @@
-@import url("../fonts/Nunito/NunitoSans-Regular.ttf");
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -2808,7 +2807,7 @@ h4 {
     .our-mission-section .col-md-rev-mission .text-wrap {
       background: #ffffff;
       padding: 56px;
-      height: 640.63px; }
+      height: 100%; }
       .our-mission-section .col-md-rev-mission .text-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -2831,12 +2830,10 @@ h4 {
         line-height: 155%;
         color: #081D31; }
     .our-mission-section .col-md-rev-mission .img-wrap {
-      height: 640.63px;
+      height: 100%;
       width: 100%;
       display: grid;
       grid-auto-rows: minmax(100px, auto); }
-      .our-mission-section .col-md-rev-mission .img-wrap img {
-        height: 446px; }
       .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
         background: #0F63A7;
         height: 100%; }
@@ -2858,7 +2855,7 @@ h4 {
             color: #E6ECF0;
             margin-top: 2rem; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area a {
-            margin-top: 3.3rem;
+            margin-top: 3rem;
             width: 64%; }
 
 .why-work-otitopic-section {
@@ -3496,6 +3493,93 @@ h4 {
       padding: 30px;
       justify-items: center;
       align-items: center; }
+
+.recovering-hearts-section .infraction-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-columns: minmax(100px, auto); }
+  .recovering-hearts-section .infraction-grid .text-wrap h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #081D31;
+    width: 538px; }
+  .recovering-hearts-section .infraction-grid .text-wrap p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    color: #1B3349;
+    width: 618px; }
+  .recovering-hearts-section .infraction-grid .text-wrap video {
+    height: 100%;
+    margin-top: 1rem;
+    z-index: 9999; }
+  .recovering-hearts-section .infraction-grid .img-wrap {
+    margin-top: 130px; }
+    .recovering-hearts-section .infraction-grid .img-wrap img {
+      height: 500px;
+      margin-left: -50px; }
+
+.recovering-hearts-section .our-technology .text-wrap h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #081D31; }
+
+.recovering-hearts-section .our-technology .text-wrap p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  color: #1B3349; }
+
+.recovering-hearts-section .asprihale-area .text-wrap h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0F63A7;
+  text-align: center; }
+
+.recovering-hearts-section .asprihale-area .asprihale-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 4rem; }
+  .recovering-hearts-section .asprihale-area .asprihale-grid .content img {
+    width: 100%; }
+  .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 130%;
+      color: #ffa000;
+      background: #E6ECF0;
+      height: 60px;
+      width: 50px;
+      padding: 10px; }
+    .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      color: #081D31;
+      margin-left: -30px;
+      margin-top: 10px; }
 
 .innovative-options-section .container p {
   font-family: "Nunito", sans-serif;

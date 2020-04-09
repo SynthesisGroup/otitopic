@@ -1,0 +1,126 @@
+.recovering-hearts-section {
+
+	.infraction-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-auto-columns: minmax(100px, auto);
+
+		.text-wrap {
+
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: #081D31;
+				width: 538px;
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: #1B3349;
+				width: 618px;
+			}
+
+			video {
+				height: 100%;
+				margin-top: 1rem;
+				z-index: 9999;
+			}
+		}
+
+		.img-wrap {
+			margin-top: 130px;
+
+			img {
+				height: 500px;
+				margin-left: -50px;
+				
+			}
+		}
+	}
+
+	.our-technology {
+		.text-wrap {
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: #081D31;
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: #1B3349;
+			}
+		}
+	}
+
+	.asprihale-area {
+		.text-wrap {
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 24px;
+				line-height: 30px;
+				color: #0F63A7;
+				text-align: center;
+			}
+		}
+
+		.asprihale-grid {
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			margin-top: 4rem;
+
+			.content {
+				img {
+					width: 100%;
+				}
+
+				.content-wrap {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+
+					.number {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 25px;
+						line-height: 130%;
+						color: $color-orange;
+						background: #E6ECF0;
+						height: 60px;
+						width: 50px;
+						padding: 10px;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 16px;
+						line-height: 130%;
+						display: flex;
+						align-items: center;
+						color: #081D31;
+						margin-left: -30px;
+						margin-top: 10px;
+					}
+				}
+			}
+		}
+	}
+}

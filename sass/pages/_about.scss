@@ -59,7 +59,7 @@
         .text-wrap {
             background: $color-white;
             padding: 56px;
-            height: 640.63px;
+            height: 100%;
 
             h2 {
                 font-family: $font-primary;
@@ -91,14 +91,10 @@
         }
 
         .img-wrap {
-            height: 640.63px;
+            height: 100%;
             width: 100%;
             display: grid;
             grid-auto-rows: minmax(100px, auto);
-
-            img {
-                height: 446px;
-            }
 
             .content-wrap {
                 background: #0F63A7;
@@ -127,7 +123,7 @@
                     }
 
                     a {
-                        margin-top: 3.3rem;
+                        margin-top: 3rem;
                         width: 64%;
                     }
                 }
