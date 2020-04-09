@@ -1,11 +1,20 @@
 // OTITOPIC HERO BANNERS
 
-.header-section {
+.otitopic-header-info {
+    position: relative;
+    z-index: 9;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: -60px;
+
 	.banner-tag-head {
-        position: relative;
+        position: absolute;
         background: $color-primary;
         padding: 40px 80px 40px;
-        margin-top: 7rem;
+        margin-top: -150px;
+        z-index: 9;
+        width: 600px;
+        height: 270px;
 
         h2 {
             font-family: $font-primary;
@@ -17,6 +26,18 @@
             text-align: left;
         }
 
+        ul {
+            margin-top: 20px;
+            li {
+                font-family: $font-primary;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 145%;
+                color: #E6ECF0;
+            }
+        }
+
         p {
             font-family: $font-primary;
             font-style: normal;
@@ -25,9 +46,36 @@
             line-height: 145%;
             color: #E6ECF0;
             width: 100%;
-
-
         }
+    }
+
+    .breadcrumbs{
+        list-style-type: none;
+        display: flex;
+        float: right;
+        padding-top: 30px;
+
+        .inactive {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 155%;
+            color: #1B3349;
+        }
+
+        .active {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 155%;
+        }
+    }
+
+    .breadcrumbs > * + *::before {
+        content: ">";
+        padding: 0 16px;
     }
 }
 
@@ -43,47 +91,47 @@
   	background: url('../img/banners/about-us-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 500px;
+  	height: 440px;
 }
 
 .press-releases-banner {
     background: url('../img/banners/press-releases-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 440px;
 }
 
 .therapies-banner {
   	background: url('../img/banners/therapies-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 500px;
+  	height: 440px;
 }
 
 .research-banner {
   	background: url('../img/banners/research-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 500px;
+  	height: 440px;
 }
 
 .technology-banner {
   	background: url('../img/banners/technology-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 500px;
+  	height: 440px;
 }
 
 .careers-banner {
   	background: url('../img/banners/careers-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 500px;
+  	height: 440px;
 }
 
 .contact-us-banner {
   	background: url('../img/banners/contact-us-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 500px;
+  	height: 440px;
 }

@@ -1297,27 +1297,66 @@ h4 {
     line-height: 35px;
     color: #ffffff; }
 
-.header-section .banner-tag-head {
+.otitopic-header-info {
   position: relative;
-  background: #081D31;
-  padding: 40px 80px 40px;
-  margin-top: 7rem; }
-  .header-section .banner-tag-head h2 {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 60px;
-    color: #ffffff;
-    text-align: left; }
-  .header-section .banner-tag-head p {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 21px;
-    line-height: 145%;
-    color: #E6ECF0;
-    width: 100%; }
+  z-index: 9;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: -60px; }
+  .otitopic-header-info .banner-tag-head {
+    position: absolute;
+    background: #081D31;
+    padding: 40px 80px 40px;
+    margin-top: -150px;
+    z-index: 9;
+    width: 600px;
+    height: 270px; }
+    .otitopic-header-info .banner-tag-head h2 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 60px;
+      color: #ffffff;
+      text-align: left; }
+    .otitopic-header-info .banner-tag-head ul {
+      margin-top: 20px; }
+      .otitopic-header-info .banner-tag-head ul li {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 145%;
+        color: #E6ECF0; }
+    .otitopic-header-info .banner-tag-head p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 145%;
+      color: #E6ECF0;
+      width: 100%; }
+  .otitopic-header-info .breadcrumbs {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding-top: 30px; }
+    .otitopic-header-info .breadcrumbs .inactive {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 155%;
+      color: #1B3349; }
+    .otitopic-header-info .breadcrumbs .active {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 155%; }
+  .otitopic-header-info .breadcrumbs > * + *::before {
+    content: ">";
+    padding: 0 16px; }
 
 .home-banner {
   background: url("../img/banners/home-banner.jpg");
@@ -1330,43 +1369,43 @@ h4 {
   background: url("../img/banners/about-us-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px; }
+  height: 440px; }
 
 .press-releases-banner {
   background: url("../img/banners/press-releases-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px; }
+  height: 440px; }
 
 .therapies-banner {
   background: url("../img/banners/therapies-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px; }
+  height: 440px; }
 
 .research-banner {
   background: url("../img/banners/research-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px; }
+  height: 440px; }
 
 .technology-banner {
   background: url("../img/banners/technology-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px; }
+  height: 440px; }
 
 .careers-banner {
   background: url("../img/banners/careers-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px; }
+  height: 440px; }
 
 .contact-us-banner {
   background: url("../img/banners/contact-us-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px; }
+  height: 440px; }
 
 .testimonials-section {
   background: #081D31 !important;
@@ -1564,8 +1603,14 @@ h4 {
 .mb-30 {
   margin-bottom: 30px; }
 
+.mt-40 {
+  margin-top: 40px; }
+
 .mt-50 {
   margin-top: 50px; }
+
+.mt-100 {
+  margin-top: 100px; }
 
 .container-fluid {
   max-width: 1920px; }
@@ -3298,6 +3343,111 @@ h4 {
     font-size: 18px;
     line-height: 155%;
     color: #1B3349; }
+
+.company-overview-section .text-wrap h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #081D31; }
+
+.company-overview-section .text-wrap p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  color: #1B3349; }
+
+.company-overview-section .img-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem; }
+  .company-overview-section .img-wrap .img-cap .text-content {
+    position: absolute;
+    background: #FFA000;
+    width: 487px;
+    height: 230px;
+    margin-top: -160px;
+    z-index: 9; }
+    .company-overview-section .img-wrap .img-cap .text-content p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 45px;
+      color: #081D31;
+      padding: 53px; }
+  .company-overview-section .img-wrap .contact-card {
+    background: #1B3349;
+    padding: 30px; }
+    .company-overview-section .img-wrap .contact-card h2 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 15px;
+      color: #FFA000; }
+    .company-overview-section .img-wrap .contact-card p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 23px;
+      color: #ffffff;
+      margin-bottom: 40px; }
+    .company-overview-section .img-wrap .contact-card .contact {
+      margin-top: 20px; }
+      .company-overview-section .img-wrap .contact-card .contact img {
+        max-width: 30px; }
+      .company-overview-section .img-wrap .contact-card .contact p {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+        color: #ffffff;
+        margin-top: 10px; }
+
+.company-overview-section .press-rel-down {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 3rem; }
+  .company-overview-section .press-rel-down .press-releases h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #081D31; }
+  .company-overview-section .press-rel-down .press-releases .press-content {
+    display: grid;
+    grid-template-columns: 20% 90%; }
+    .company-overview-section .press-rel-down .press-releases .press-content span {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #7E7E7E; }
+    .company-overview-section .press-rel-down .press-releases .press-content p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffa000;
+      width: 85%; }
+  .company-overview-section .press-rel-down .downloads .content ul li {
+    padding: 8px 0px; }
+    .company-overview-section .press-rel-down .downloads .content ul li a {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffa000 !important; }
 
 .myocardial-infarction-section .col-md-myocardial {
   display: grid;

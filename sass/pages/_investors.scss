@@ -1,0 +1,153 @@
+.company-overview-section {
+
+	.text-wrap {
+		h2 {
+			font-family: $font-primary;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 36px;
+			line-height: 45px;
+			color: #081D31;
+		}
+
+		p {
+			font-family: $font-primary;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 155%;
+			color: #1B3349;
+		}
+	}
+
+	.img-wrap {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 2rem;
+
+		.img-cap {
+			.text-content {
+				position: absolute;
+				background: #FFA000;
+				width: 487px;
+				height: 230px;
+				margin-top: -160px;
+				z-index: 9;
+
+				p {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 36px;
+					line-height: 45px;
+					color: #081D31;
+					padding: 53px;
+				}
+			}
+		}
+
+		.contact-card {
+			background: #1B3349;
+			padding: 30px;
+
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20px;
+				line-height: 15px;
+				color: #FFA000;
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 23px;
+				color: $color-white;
+				margin-bottom: 40px;
+			}
+
+			.contact {
+				margin-top: 20px;
+
+				img {
+					max-width: 30px;
+				}
+
+				p {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 14px;
+					line-height: 23px;
+					color: $color-white;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	.press-rel-down {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-gap: 3rem;
+
+		.press-releases {
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: #081D31;
+			}
+
+			.press-content {
+				display: grid;
+				grid-template-columns: 20% 90%;
+
+				span {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 20px;
+					color: #7E7E7E;
+				}
+
+				p {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: 600;
+					font-size: 16px;
+					line-height: 20px;
+					color: $color-orange;
+					width: 85%;
+				}
+			}
+		}
+
+		.downloads {
+			.content {
+
+				ul {
+
+					li {
+						padding: 8px 0px;
+						a {
+							font-family: $font-primary;
+							font-style: normal;
+							font-weight: 600;
+							font-size: 16px;
+							line-height: 20px;
+							color: $color-orange !important;
+						}
+					}
+				} 
+			}
+		}
+	}
+
+}
