@@ -33,9 +33,6 @@ ul {
   padding: 0;
   list-style: none; }
 
-img {
-  max-width: 100%; }
-
 .img-full {
   width: 100%;
   height: 100%;
@@ -1423,20 +1420,7 @@ h4 {
     color: #ffffff; }
 
 .footer-section {
-  background: #081D31;
-  padding: 100px; }
-  @media only screen and (max-width: 61.9em) {
-    .footer-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 53.75em) {
-    .footer-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 40em) {
-    .footer-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 25.8em) {
-    .footer-section {
-      padding: 20px; } }
+  background: #081D31; }
   .footer-section .list-style {
     position: relative;
     top: 27.51%;
@@ -2796,50 +2780,171 @@ h4 {
   outline: none;
   color: #ffa000 !important; }
 
-.info-section {
-  overflow: hidden;
-  padding: 100px; }
+.recovering-hearts-section .card-wrap {
+  background: #E6ECF0;
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  border-left: 2px solid #ffa000;
+  height: 80px;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+  .recovering-hearts-section .card-wrap p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 155%;
+    color: #1B3349;
+    padding: 20px;
+    justify-items: center;
+    align-items: center; }
+
+.why-work-otitopic-section {
+  background: #EBE9E8;
+  padding: 60px; }
   @media only screen and (max-width: 61.9em) {
-    .info-section {
+    .why-work-otitopic-section {
       padding: 70px; } }
   @media only screen and (max-width: 53.75em) {
-    .info-section {
+    .why-work-otitopic-section {
       padding: 70px; } }
+  @media only screen and (max-width: 48em) {
+    .why-work-otitopic-section {
+      padding: 20px; } }
   @media only screen and (max-width: 40em) {
-    .info-section {
+    .why-work-otitopic-section {
       padding: 70px; } }
   @media only screen and (max-width: 25.8em) {
-    .info-section {
+    .why-work-otitopic-section {
       padding: 20px; } }
-  .info-section .info-left ul li {
-    display: flex; }
-    .info-section .info-left ul li .list-number {
-      margin-right: 30px; }
-      .info-section .info-left ul li .list-number img {
-        width: 200px; }
-        @media only screen and (max-width: 61.9em) {
-          .info-section .info-left ul li .list-number img {
-            width: 200px; } }
-        @media only screen and (max-width: 53.75em) {
-          .info-section .info-left ul li .list-number img {
-            width: 130px; } }
-        @media only screen and (max-width: 40em) {
-          .info-section .info-left ul li .list-number img {
-            width: 200px; } }
-    .info-section .info-left ul li .details h4 {
+  .why-work-otitopic-section .section-title-s3 h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #081D31; }
+  .why-work-otitopic-section .section-title-s3 p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    color: #1B3349; }
+  .why-work-otitopic-section .push-the-boundaries-grids .grid {
+    text-align: center;
+    margin-top: 2rem; }
+    .why-work-otitopic-section .push-the-boundaries-grids .grid img {
+      max-width: 80px; }
+    .why-work-otitopic-section .push-the-boundaries-grids .grid h3 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 26px;
       line-height: 155%;
-      color: #0F63A7; }
-    .info-section .info-left ul li .details p {
+      text-align: center;
+      color: #0F63A7;
+      margin: 0.8em 0 0.7em; }
+    .why-work-otitopic-section .push-the-boundaries-grids .grid p {
       font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
       line-height: 155%;
-      color: #1B3349; }
+      text-align: center;
+      color: #1B3349;
+      margin: 0; }
+  .why-work-otitopic-section .col-md-why-work-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem; }
+    .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem; }
+      .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission {
+        background: url("../img/our-mission.jpg") no-repeat; }
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details {
+          padding: 40px; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details h2 {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            color: #ffffff; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details p {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            width: 100%;
+            margin-top: 2rem; }
+      .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision {
+        background: url("../img/our-vision.jpg") no-repeat; }
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details {
+          padding: 40px; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details h2 {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            color: #ffffff; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details p {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            width: 100%;
+            margin-top: 2rem; }
+      .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits {
+        background: url("../img/our-benefits.jpg") no-repeat; }
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details {
+          padding: 40px; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details h2 {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            color: #ffffff; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details p {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            width: 100%;
+            margin-top: 2rem; }
+      .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture {
+        background: url("../img/our-culture.jpg") no-repeat; }
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details {
+          padding: 40px; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details h2 {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            color: #ffffff; }
+          .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details p {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #ffffff;
+            width: 100%;
+            margin-top: 2rem; }
+  .why-work-otitopic-section img {
+    width: 323px; }
 
 .contact-form-section {
   padding: 100px; }
@@ -2978,6 +3083,69 @@ h4 {
         text-align: center;
         margin-top: 2rem; } }
 
+.about-otitopic-section {
+  padding: 0px 0px;
+  background-color: #081D31; }
+  .about-otitopic-section .content-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .about-otitopic-section .left-col {
+    float: left; }
+    @media (max-width: 1199px) {
+      .about-otitopic-section .left-col {
+        padding: 120px 185px 120px 60px; } }
+    @media (max-width: 991px) {
+      .about-otitopic-section .left-col {
+        width: 100%;
+        float: none;
+        padding: 80px 50px 80px 50px;
+        height: auto !important; } }
+    @media (max-width: 767px) {
+      .about-otitopic-section .left-col {
+        padding: 60px 30px; } }
+    .about-otitopic-section .left-col img {
+      width: 100%; }
+  .about-otitopic-section .right-col {
+    float: right; }
+    @media (max-width: 991px) {
+      .about-otitopic-section .right-col {
+        width: 100%;
+        float: none; } }
+  .about-otitopic-section .left-col h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    margin-top: 2rem; }
+    @media (max-width: 1199px) {
+      .about-otitopic-section .left-col h2 {
+        font-size: 33px;
+        font-size: 2.0625rem; } }
+    @media (max-width: 767px) {
+      .about-otitopic-section .left-col h2 {
+        font-size: 25px;
+        font-size: 1.5625rem; } }
+  .about-otitopic-section .details p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 155%;
+    color: #ffffff;
+    margin-top: 2em;
+    width: 640px; }
+  .about-otitopic-section .right-col {
+    background-image: url("../img/img-overlay-about.jpg") center center/cover no-repeat local;
+    position: relative; }
+    @media (max-width: 991px) {
+      .about-otitopic-section .right-col {
+        height: 800px !important; } }
+    @media (max-width: 767px) {
+      .about-otitopic-section .right-col {
+        height: 700px !important; } }
+
 .push-the-boundaries-section {
   padding: 60px; }
   @media only screen and (max-width: 61.9em) {
@@ -3072,6 +3240,201 @@ h4 {
     line-height: 155%;
     color: #1B3349; }
 
+.myocardial-infarction-section .col-md-myocardial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  grid-auto-rows: minmax(100px, auto); }
+  .myocardial-infarction-section .col-md-myocardial .img-wrap img {
+    width: 100%; }
+  .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #081D31;
+    width: 538px !important; }
+  .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    color: #1B3349; }
+
+.myocardial-infarction-section .info-section {
+  overflow: hidden;
+  margin-top: 100px; }
+  .myocardial-infarction-section .info-section .info-left ul li {
+    display: flex; }
+    .myocardial-infarction-section .info-section .info-left ul li .list-number {
+      margin-right: 30px; }
+      .myocardial-infarction-section .info-section .info-left ul li .list-number img {
+        width: 50px !important; }
+        @media only screen and (max-width: 61.9em) {
+          .myocardial-infarction-section .info-section .info-left ul li .list-number img {
+            width: 200px; } }
+        @media only screen and (max-width: 53.75em) {
+          .myocardial-infarction-section .info-section .info-left ul li .list-number img {
+            width: 130px; } }
+        @media only screen and (max-width: 40em) {
+          .myocardial-infarction-section .info-section .info-left ul li .list-number img {
+            width: 200px; } }
+    .myocardial-infarction-section .info-section .info-left ul li .details h4 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 155%;
+      color: #0F63A7; }
+    .myocardial-infarction-section .info-section .info-left ul li .details p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 155%;
+      color: #1B3349; }
+
+.otitopic-research-tech-trials-section .col-md-rev-otitopic-research {
+  background: url("../img/otitopic-research.jpg");
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(100px, auto); }
+  .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap {
+    padding: 56px;
+    height: 500px; }
+    .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap h2 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 45px;
+      color: #ffffff;
+      border-bottom: 2px solid #ffa000;
+      width: 374px;
+      text-transform: uppercase;
+      padding: 15px 0px; }
+    .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap .col-grid-text {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      grid-gap: 3rem;
+      margin-top: 4.5rem; }
+      .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap .col-grid-text p {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 155%;
+        color: #ffffff; }
+
+.otitopic-research-tech-trials-section .col-md-rev {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto); }
+  .otitopic-research-tech-trials-section .col-md-rev .text-wrap {
+    background: #0F63A7;
+    padding: 56px;
+    height: 446px; }
+    .otitopic-research-tech-trials-section .col-md-rev .text-wrap h2 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 45px;
+      color: #ffffff; }
+    .otitopic-research-tech-trials-section .col-md-rev .text-wrap p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 155%;
+      color: #ffffff; }
+  .otitopic-research-tech-trials-section .col-md-rev .img-wrap {
+    height: 446px;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto); }
+    .otitopic-research-tech-trials-section .col-md-rev .img-wrap img {
+      height: 446px; }
+
+.otitopic-research-tech-trials-section .col-md-rev-trials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 2rem; }
+  .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
+    background: #ffffff;
+    height: 446px; }
+    .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials h2 {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 45px;
+      color: #081D31; }
+    .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 155%;
+      color: #1B3349; }
+    .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials .col-md-clinical-trials-grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      margin-top: 3rem;
+      justify-items: center; }
+      .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials .col-md-clinical-trials-grid .card-wrap {
+        background: #E6ECF0;
+        display: grid;
+        grid-auto-rows: minmax(100px, auto);
+        border-left: 2px solid #0F63A7;
+        height: 80px; }
+        .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials .col-md-clinical-trials-grid .card-wrap p {
+          font-family: "Nunito", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 155%;
+          color: #1B3349;
+          padding: 20px;
+          justify-items: center;
+          align-items: center; }
+  .otitopic-research-tech-trials-section .col-md-rev-trials .img-wrap {
+    height: 446px;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto); }
+    .otitopic-research-tech-trials-section .col-md-rev-trials .img-wrap img {
+      height: 446px; }
+
+.otitopic-research-tech-trials-section .col-md-bottom-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 3rem;
+  margin-top: 3rem;
+  justify-items: center; }
+  .otitopic-research-tech-trials-section .col-md-bottom-grid .card-wrap {
+    background: #ffffff;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    border-left: 2px solid #ffa000;
+    height: 121px; }
+    .otitopic-research-tech-trials-section .col-md-bottom-grid .card-wrap p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 155%;
+      color: #1B3349;
+      padding: 30px;
+      justify-items: center;
+      align-items: center; }
+
 .innovative-options-section .container p {
   font-family: "Nunito", sans-serif;
   font-style: normal;
@@ -3080,3 +3443,50 @@ h4 {
   line-height: 155%;
   color: #1B3349;
   top: 1023.5px; }
+
+.therapies-section {
+  background: #EBE9E8; }
+  .therapies-section .col-md-rev {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto); }
+    .therapies-section .col-md-rev .text-wrap {
+      background: #081D31;
+      padding: 55px; }
+      .therapies-section .col-md-rev .text-wrap h2 {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+        color: #ffa000; }
+      .therapies-section .col-md-rev .text-wrap p {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 155%;
+        color: #ffffff; }
+  .therapies-section .col-md-bottom-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 3rem;
+    margin-top: 3rem;
+    justify-items: center; }
+    .therapies-section .col-md-bottom-grid .card-wrap {
+      background: #ffffff;
+      display: grid;
+      grid-auto-rows: minmax(100px, auto);
+      border-left: 2px solid #ffa000;
+      height: 121px; }
+      .therapies-section .col-md-bottom-grid .card-wrap p {
+        font-family: "Nunito", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 155%;
+        color: #1B3349;
+        padding: 30px;
+        justify-items: center;
+        align-items: center; }

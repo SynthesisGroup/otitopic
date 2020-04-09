@@ -9,3 +9,65 @@
 		top: 1023.5px;
 	}
 }
+
+.therapies-section {
+	background: #EBE9E8;
+
+	.col-md-rev {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+
+		.text-wrap {
+			background: #081D31;
+			padding: 55px;
+
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: $color-orange
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: $color-white;
+			}
+		}
+	}
+
+	.col-md-bottom-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 3rem;
+		margin-top: 3rem;
+		justify-items: center;
+
+		.card-wrap {
+			background: $color-white;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+			border-left: 2px solid $color-orange;
+			height: 121px;
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 13px;
+				line-height: 155%;
+				color: #1B3349;
+				padding: 30px;
+				justify-items: center;
+				align-items: center;
+			}
+		}
+	}
+}

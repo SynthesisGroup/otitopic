@@ -23,69 +23,30 @@
 }
 
 
+.recovering-hearts-section {
 
-.info-section {
-    overflow: hidden;
-    padding: 100px;
+    .card-wrap {
+        background: #E6ECF0;
+        display: grid;
+        grid-auto-rows: minmax(100px, auto);
+        border-left: 2px solid $color-orange;
+        height: 80px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
 
-    @media only screen and (max-width: $bp-tab-md) {
-        padding:70px;
-    } 
-
-    @media only screen and (max-width: $bp-tab-pt) {
-        padding:70px;
-    } 
-
-    @media only screen and (max-width: $bp-mobile-lg) {
-        padding:70px;
-    } 
-
-    @media only screen and (max-width: $bp-mobile-sm) {
-        padding:20px;
-    } 
-
-    .info-left ul li {
-        display: flex;
-
-        .list-number {
-            margin-right: 30px;
-
-            img {
-                width: 200px; 
-
-                @media only screen and (max-width: $bp-tab-md) {
-                    width: 200px;
-                } 
-
-                @media only screen and (max-width: $bp-tab-pt) {
-                    width: 130px;
-                } 
-
-                @media only screen and (max-width: $bp-mobile-lg) {
-                    width: 200px;
-                } 
-            }
-        }
-
-        .details {
-            h4 {
-                font-family: $font-primary;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 18px;
-                line-height: 155%;
-                color: #0F63A7;
-            }
-
-            p {
-                font-family: $font-primary;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 16px;
-                line-height: 155%;
-                color: #1B3349;
-            }
+        p {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 155%;
+            color: #1B3349;
+            padding: 20px;
+            justify-items: center;
+            align-items: center;
         }
     }
 }
+
+
 

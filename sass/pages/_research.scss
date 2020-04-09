@@ -1,0 +1,273 @@
+.myocardial-infarction-section {
+
+
+	.col-md-myocardial {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 4rem;
+		grid-auto-rows: minmax(100px, auto);
+
+		.img-wrap {
+			img {
+				width: 100%;
+			}
+		}
+
+		.text-wrap-myocardial {
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: #081D31;
+				width: 538px !important;
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: #1B3349;
+			}
+		}
+	}
+
+	.info-section {
+	    overflow: hidden;
+	    margin-top: 100px;
+
+	    .info-left ul li {
+	        display: flex;
+
+	        .list-number {
+	            margin-right: 30px;
+
+	            img {
+	                width: 50px !important; 
+
+	                @media only screen and (max-width: $bp-tab-md) {
+	                    width: 200px;
+	                } 
+
+	                @media only screen and (max-width: $bp-tab-pt) {
+	                    width: 130px;
+	                } 
+
+	                @media only screen and (max-width: $bp-mobile-lg) {
+	                    width: 200px;
+	                } 
+	            }
+	        }
+
+	        .details {
+	            h4 {
+	                font-family: $font-primary;
+	                font-style: normal;
+	                font-weight: bold;
+	                font-size: 18px;
+	                line-height: 155%;
+	                color: #0F63A7;
+	            }
+
+	            p {
+	                font-family: $font-primary;
+	                font-style: normal;
+	                font-weight: normal;
+	                font-size: 16px;
+	                line-height: 155%;
+	                color: #1B3349;
+	            }
+	        }
+	    }
+	}
+
+}
+
+
+.otitopic-research-tech-trials-section {
+
+	.col-md-rev-otitopic-research {
+		background: url("../img/otitopic-research.jpg");
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+
+		.text-wrap {
+			padding: 56px;
+			height: 500px;
+
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: $color-white;
+				border-bottom: 2px solid $color-orange;
+				width: 374px;
+				text-transform: uppercase;
+				padding: 15px 0px;
+			}
+
+			.col-grid-text {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-auto-rows: minmax(100px, auto);
+				grid-gap: 3rem;
+				margin-top: 4.5rem;
+
+				p {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 155%;
+					color: $color-white;
+				}
+			}
+
+		}
+	}
+
+	.col-md-rev {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+
+		.text-wrap {
+			background: #0F63A7;
+			padding: 56px;
+			height: 446px;
+
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: $color-white
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: $color-white;
+			}
+		}
+
+		.img-wrap {
+			height: 446px;
+			width: 100%;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+
+			img {
+				height: 446px;
+			}
+		}
+	}
+
+	.col-md-rev-trials {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 2rem;
+
+		.text-wrap-trials {
+			background: $color-white;
+			height: 446px;
+
+			h2 {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: #081D31
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: #1B3349;
+			}
+
+			.col-md-clinical-trials-grid {
+				display: grid;
+				grid-template-columns: repeat(1, 1fr);
+				grid-auto-rows: minmax(100px, auto);
+				margin-top: 3rem;
+				justify-items: center;
+
+				.card-wrap {
+					background: #E6ECF0;
+					display: grid;
+					grid-auto-rows: minmax(100px, auto);
+					border-left: 2px solid #0F63A7;
+					height: 80px;
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 13px;
+						line-height: 155%;
+						color: #1B3349;
+						padding: 20px;
+						justify-items: center;
+						align-items: center;
+					}
+				}
+			}
+		}
+
+		.img-wrap {
+			height: 446px;
+			width: 100%;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+
+			img {
+				height: 446px;
+			}
+		}
+	}
+
+	.col-md-bottom-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 3rem;
+		margin-top: 3rem;
+		justify-items: center;
+
+		.card-wrap {
+			background: $color-white;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+			border-left: 2px solid $color-orange;
+			height: 121px;
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 13px;
+				line-height: 155%;
+				color: #1B3349;
+				padding: 30px;
+				justify-items: center;
+				align-items: center;
+			}
+		}
+	}
+}

@@ -1,0 +1,215 @@
+// Push the Boundaries
+
+.why-work-otitopic-section {
+	background: #EBE9E8;
+  	padding: 60px;
+
+  	// 991px
+
+  	@media only screen and (max-width: $bp-tab-md) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-tab-pt) {
+        padding:70px;
+    } 
+
+    // 768px
+
+  	@media only screen and (max-width: $bp-tab-sm) {
+        padding:20px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-lg) {
+        padding:70px;
+    } 
+
+    @media only screen and (max-width: $bp-mobile-sm) {
+        padding:20px;
+    } 
+
+  	.section-title-s3 {
+
+      	h2 {
+	        font-family: $font-primary;
+	        font-style: normal;
+	        font-weight: 600;
+	        font-size: 36px;
+	        line-height: 49px;
+	        color: #081D31;
+      	}
+
+      	p {
+	        font-family: $font-primary;
+	        font-style: normal;
+	        font-weight: normal;
+	        font-size: 18px;
+	        line-height: 155%;
+	        text-align: center;
+	        color: #1B3349;
+      	}
+  	}
+
+	.push-the-boundaries-grids .grid {
+	  	text-align: center;
+	  	margin-top: 2rem;
+
+	  	img {
+	  		max-width: 80px;
+	  	}
+
+		h3 {
+		    font-family: $font-primary;
+		    font-style: normal;
+		    font-weight: bold;
+		    font-size: 26px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #0F63A7;
+		    margin: 0.8em 0 0.7em;
+		}
+
+		p {
+		    font-family: $font-primary;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-size: 16px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #1B3349;
+		    margin: 0;
+		}
+	}
+
+	.col-md-why-work-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-gap: 1rem;
+
+		.grid-box {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 1rem;
+
+			.our-mission {
+				background: url("../img/our-mission.jpg") no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+
+			.our-vision {
+				background: url("../img/our-vision.jpg") no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+
+			.our-benefits {
+				background: url("../img/our-benefits.jpg") no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+
+			.our-culture {
+				background: url("../img/our-culture.jpg") no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+		}
+	}
+
+	img {
+		width: 323px;
+	}
+}
