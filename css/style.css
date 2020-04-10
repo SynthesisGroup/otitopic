@@ -1189,11 +1189,21 @@ h4 {
     color: #ffffff !important; }
 
 .btn-white {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  color: #081D31;
   display: flex;
   padding: 12px 53px;
   background: #ffffff;
   border-radius: 6px;
-  text-align: center; }
+  text-align: center;
+  width: 200px; }
+  .btn-white:hover {
+    background: #ffa000;
+    color: #ffffff !important; }
 
 .read-more-btn-primary {
   font-family: "Nunito", sans-serif;
@@ -3343,6 +3353,143 @@ h4 {
     font-size: 18px;
     line-height: 155%;
     color: #1B3349; }
+
+.featured-project-section {
+  padding-bottom: 0; }
+
+.featured-project-section .project-grids .grid {
+  width: 25%;
+  float: left;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;
+  overflow: hidden; }
+
+@media (max-width: 1199px) {
+  .featured-project-section .project-grids .grid {
+    width: 50%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); } }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .grid {
+    background-color: rgba(19, 30, 74, 0.9); } }
+
+@media (max-width: 600px) {
+  .featured-project-section .project-grids .grid {
+    width: 100%;
+    float: none; } }
+
+.featured-project-section .project-grids .overlay {
+  padding: 10px 30px 60px;
+  position: relative;
+  top: 20px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s; }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay {
+    padding: 80px 30px 50px;
+    top: 0; } }
+
+.featured-project-section .project-grids .grid:hover .overlay {
+  background-color: #0F63A7;
+  opacity: 0.9;
+  top: 0; }
+
+.featured-project-section .project-grids .tag-area {
+  position: absolute;
+  top: 400px;
+  width: 200px;
+  height: 43px;
+  left: 0px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145%;
+  color: #ffffff;
+  background: #0F63A7;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 40px; }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .count {
+    font-size: 30px;
+    font-size: 1.875rem; } }
+
+.featured-project-section .project-grids h3 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 145%;
+  color: #FFFFFF;
+  margin-bottom: 1em;
+  margin-top: 30px; }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids h3 {
+    font-size: 18px;
+    font-size: 1.125rem; } }
+
+.featured-project-section .project-grids p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 155%;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 2em;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids p {
+    font-size: 14px;
+    font-size: 0.875rem; } }
+
+.featured-project-section .project-grids .overlay > h3 {
+  position: relative;
+  top: 1000px; }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay > h3 {
+    top: 0; } }
+
+.featured-project-section .project-grids .grid:hover .overlay > h3 {
+  top: 0; }
+
+.featured-project-section .project-grids .overlay > p {
+  position: relative;
+  top: 1000px; }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay > p {
+    top: 0; } }
+
+.featured-project-section .project-grids .grid:hover .overlay > p {
+  top: 0; }
+
+.featured-project-section .project-grids .overlay > a {
+  position: relative;
+  top: 1000px; }
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay > a {
+    top: 0; } }
+
+.featured-project-section .project-grids .grid:hover .overlay > a {
+  top: 0; }
 
 .company-overview-section .text-wrap h2 {
   font-family: "Nunito", sans-serif;

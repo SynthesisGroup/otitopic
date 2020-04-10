@@ -38,11 +38,24 @@
 }
 
 .btn-white {
+	font-family: $font-primary;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	color: $color-primary;
+
 	display: flex;
 	padding: 12px 53px;
 	background: $color-white;
 	border-radius: 6px;
 	text-align: center;
+	width: 200px;
+
+	&:hover {
+		background: $color-orange;
+		color: $color-white !important;
+	}
 }
 
 .read-more-btn-primary {
