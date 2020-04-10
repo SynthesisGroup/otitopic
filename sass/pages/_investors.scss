@@ -200,7 +200,7 @@
 
 		.contact-card {
 			background: #1B3349;
-			padding: 30px;
+			padding: 50px;
 
 			@media only screen and (max-width: 767px) {
 	        	padding: 40px;
@@ -234,7 +234,7 @@
 				font-family: $font-primary;
 				font-style: normal;
 				font-weight: 600;
-				font-size: 20px;
+				font-size: 28px;
 				line-height: 15px;
 				color: #FFA000;
 
@@ -278,8 +278,8 @@
 				font-family: $font-primary;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 14px;
-				line-height: 23px;
+				font-size: 18px;
+				line-height: 33px;
 				color: $color-white;
 				margin-bottom: 40px;
 			}
@@ -295,7 +295,7 @@
 					font-family: $font-primary;
 					font-style: normal;
 					font-weight: normal;
-					font-size: 14px;
+					font-size: 18px;
 					line-height: 23px;
 					color: $color-white;
 					margin-top: 10px;

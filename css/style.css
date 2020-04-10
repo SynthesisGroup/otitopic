@@ -4364,7 +4364,7 @@ h4 {
           padding: 40px; } }
   .company-overview-section .img-wrap .contact-card {
     background: #1B3349;
-    padding: 30px; }
+    padding: 50px; }
     @media only screen and (max-width: 767px) {
       .company-overview-section .img-wrap .contact-card {
         padding: 40px; } }
@@ -4390,7 +4390,7 @@ h4 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 28px;
       line-height: 15px;
       color: #FFA000; }
       @media only screen and (max-width: 767px) {
@@ -4425,8 +4425,8 @@ h4 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 14px;
-      line-height: 23px;
+      font-size: 18px;
+      line-height: 33px;
       color: #ffffff;
       margin-bottom: 40px; }
     .company-overview-section .img-wrap .contact-card .contact {
@@ -4437,7 +4437,7 @@ h4 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 23px;
         color: #ffffff;
         margin-top: 10px; }
