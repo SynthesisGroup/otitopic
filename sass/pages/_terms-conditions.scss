@@ -41,4 +41,22 @@
         padding-top: 60px !important;
         padding-bottom: 60px !important;
     }
+
+    h2 {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 45px;
+        color: #081D31;
+    }
+
+    p {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 155%;
+        color: #1B3349;
+    }
 }

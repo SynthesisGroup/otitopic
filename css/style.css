@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Open+Sans:wght@400;700&display=swap");
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -1340,46 +1340,45 @@ h4 {
   position: relative;
   z-index: 9;
   padding-left: 100px;
-  padding-right: 100px;
-  margin-bottom: -60px; }
+  padding-right: 100px; }
   @media only screen and (max-width: 767px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (max-width: 661px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (max-width: 640px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (max-width: 600px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (max-width: 575px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (max-width: 526px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (max-width: 485px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   @media only screen and (max-width: 411px) {
     .otitopic-header-info {
-      padding: 30px !important;
+      padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
   .otitopic-header-info .banner-tag-head {
@@ -1470,18 +1469,22 @@ h4 {
       text-align: left; }
       @media only screen and (max-width: 575px) {
         .otitopic-header-info .banner-tag-head h2 {
+          font-family: "Nunito", sans-serif;
           font-size: 45px;
           line-height: 44px; } }
       @media only screen and (max-width: 526px) {
         .otitopic-header-info .banner-tag-head h2 {
+          font-family: "Nunito", sans-serif;
           font-size: 35px;
           line-height: 44px; } }
       @media only screen and (max-width: 485px) {
         .otitopic-header-info .banner-tag-head h2 {
+          font-family: "Nunito", sans-serif;
           font-size: 35px;
           line-height: 44px; } }
       @media only screen and (max-width: 411px) {
         .otitopic-header-info .banner-tag-head h2 {
+          font-family: "Nunito", sans-serif;
           font-size: 30px;
           line-height: 44px; } }
     .otitopic-header-info .banner-tag-head ul {
@@ -1659,16 +1662,16 @@ h4 {
   background: #081D31; }
   @media only screen and (max-width: 61.9em) {
     .footer-section {
-      padding: 30px; } }
+      padding: 20px; } }
   @media only screen and (max-width: 53.75em) {
     .footer-section {
-      padding: 30px; } }
+      padding: 20px; } }
   @media only screen and (max-width: 40em) {
     .footer-section {
-      padding: 30px; } }
+      padding: 20px; } }
   @media only screen and (max-width: 25.8em) {
     .footer-section {
-      padding: 30px; } }
+      padding: 20px; } }
   .footer-section .list-style {
     position: relative;
     top: 27.51%;
@@ -4084,8 +4087,23 @@ h4 {
 @media only screen and (max-width: 411px) {
   .privacy-policy-section {
     padding: 20px !important;
-    padding-top: 60px !important;
     padding-bottom: 60px !important; } }
+
+.privacy-policy-section h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #081D31; }
+
+.privacy-policy-section p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  color: #1B3349; }
 
 .myocardial-infarction-section .col-md-myocardial {
   display: grid;
@@ -4410,6 +4428,22 @@ h4 {
     padding: 30px !important;
     padding-top: 60px !important;
     padding-bottom: 60px !important; } }
+
+.terms-conditions-section h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #081D31; }
+
+.terms-conditions-section p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  color: #1B3349; }
 
 .innovative-options-section .container p {
   font-family: "Nunito", sans-serif;
