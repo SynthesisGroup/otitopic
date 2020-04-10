@@ -1341,6 +1341,46 @@ h4 {
   padding-left: 100px;
   padding-right: 100px;
   margin-bottom: -60px; }
+  @media only screen and (max-width: 767px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media only screen and (max-width: 661px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media only screen and (max-width: 640px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media only screen and (max-width: 600px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media only screen and (max-width: 575px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media only screen and (max-width: 526px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media only screen and (max-width: 485px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media only screen and (max-width: 411px) {
+    .otitopic-header-info {
+      padding: 30px !important;
+      padding-left: 0;
+      padding-right: 0; } }
   .otitopic-header-info .banner-tag-head {
     position: absolute;
     background: #081D31;
@@ -1349,6 +1389,76 @@ h4 {
     z-index: 9;
     width: 600px;
     height: 270px; }
+    @media only screen and (max-width: 990px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -157px; } }
+    @media only screen and (max-width: 860px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -140px; } }
+    @media only screen and (max-width: 767px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -195px; } }
+    @media only screen and (max-width: 661px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -195px; } }
+    @media only screen and (max-width: 640px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -195px; } }
+    @media only screen and (max-width: 600px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -195px; } }
+    @media only screen and (max-width: 575px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -276px; } }
+    @media only screen and (max-width: 526px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -235px; } }
+    @media only screen and (max-width: 485px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -276px; } }
+    @media only screen and (max-width: 411px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -276px; } }
     .otitopic-header-info .banner-tag-head h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -1357,6 +1467,22 @@ h4 {
       line-height: 60px;
       color: #ffffff;
       text-align: left; }
+      @media only screen and (max-width: 575px) {
+        .otitopic-header-info .banner-tag-head h2 {
+          font-size: 45px;
+          line-height: 44px; } }
+      @media only screen and (max-width: 526px) {
+        .otitopic-header-info .banner-tag-head h2 {
+          font-size: 35px;
+          line-height: 44px; } }
+      @media only screen and (max-width: 485px) {
+        .otitopic-header-info .banner-tag-head h2 {
+          font-size: 35px;
+          line-height: 44px; } }
+      @media only screen and (max-width: 411px) {
+        .otitopic-header-info .banner-tag-head h2 {
+          font-size: 30px;
+          line-height: 44px; } }
     .otitopic-header-info .banner-tag-head ul {
       margin-top: 20px; }
       .otitopic-header-info .banner-tag-head ul li {
@@ -1366,6 +1492,9 @@ h4 {
         font-size: 20px;
         line-height: 145%;
         color: #E6ECF0; }
+        @media only screen and (max-width: 411px) {
+          .otitopic-header-info .banner-tag-head ul li {
+            font-size: 16px; } }
     .otitopic-header-info .banner-tag-head p {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -1379,6 +1508,36 @@ h4 {
     display: flex;
     float: right;
     padding-top: 30px; }
+    @media only screen and (max-width: 990px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 860px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 767px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 661px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 640px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 600px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 575px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 526px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 485px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
+    @media only screen and (max-width: 411px) {
+      .otitopic-header-info .breadcrumbs {
+        display: none; } }
     .otitopic-header-info .breadcrumbs .inactive {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -1497,6 +1656,18 @@ h4 {
 
 .footer-section {
   background: #081D31; }
+  @media only screen and (max-width: 61.9em) {
+    .footer-section {
+      padding: 30px; } }
+  @media only screen and (max-width: 53.75em) {
+    .footer-section {
+      padding: 30px; } }
+  @media only screen and (max-width: 40em) {
+    .footer-section {
+      padding: 30px; } }
+  @media only screen and (max-width: 25.8em) {
+    .footer-section {
+      padding: 30px; } }
   .footer-section .list-style {
     position: relative;
     top: 27.51%;
@@ -2941,6 +3112,198 @@ h4 {
             margin-top: 3rem;
             width: 64%; }
 
+.regulatory-pathway-section .ps-timeline-sec {
+  position: relative;
+  background: #fff; }
+  .regulatory-pathway-section .ps-timeline-sec .container {
+    position: relative; }
+    @media screen and (max-width: 767px) {
+      .regulatory-pathway-section .ps-timeline-sec .container ol:before {
+        background: #E6ECF0;
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        position: absolute;
+        top: 130px !important;
+        left: 36px !important; }
+      .regulatory-pathway-section .ps-timeline-sec .container ol:after {
+        background: #DDDDDD;
+        content: "";
+        width: 48px;
+        height: 48px;
+        border-radius: 100%;
+        position: absolute;
+        top: inherit !important;
+        left: 36px; }
+      .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline {
+        margin: 130px 0 !important;
+        border-left: 2px solid #348e80;
+        padding-left: 0 !important;
+        padding-top: 120px !important;
+        border-top: 0 !important;
+        margin-left: 25px !important; }
+        .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li {
+          height: 220px;
+          float: none !important;
+          width: inherit !important; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li:nth-child(2) .img-handler-bot img {
+            width: 70px; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li:last-child {
+            margin: 0;
+            bottom: 0 !important;
+            height: 120px; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li:last-child .img-handler-bot {
+              bottom: 40px !important;
+              width: 40% !important;
+              margin-left: 25px !important;
+              margin-top: 0 !important; }
+              .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li:last-child .img-handler-bot img {
+                width: 100%; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li:last-child .ps-top {
+              margin-bottom: 0 !important;
+              top: 20px;
+              width: 50% !important; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span {
+            left: 0 !important; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
+              content: none !important; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:after {
+              content: none !important; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+              content: none !important; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:after {
+              content: none !important; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+            position: absolute !important;
+            bottom: 150px !important;
+            width: 100% !important;
+            float: left !important;
+            margin-bottom: 0 !important; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-top h2 {
+              font-family: "Nunito", sans-serif;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 23px;
+              color: #ffa000 !important; }
+            .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-top p {
+              font-family: "Nunito", sans-serif;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 23px;
+              color: #1B3349;
+              text-align: left !important; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
+            position: absolute !important;
+            bottom: 115px !important;
+            width: 30% !important;
+            float: left !important;
+            margin-left: 35px !important;
+            margin-bottom: 0 !important; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li p {
+            text-align: left !important;
+            width: 100% !important;
+            margin: 0 auto !important;
+            margin-top: 0px !important; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+            width: 60% !important;
+            float: right !important;
+            right: 0;
+            top: -40px; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+            width: 60% !important;
+            float: right !important;
+            right: 0;
+            top: -40px; } }
+    .regulatory-pathway-section .ps-timeline-sec .container ol:before {
+      background: #DDDDDD;
+      content: "";
+      width: 48px;
+      height: 48px;
+      border-radius: 100%;
+      position: absolute;
+      left: 8px;
+      top: -22px; }
+    .regulatory-pathway-section .ps-timeline-sec .container ol:after {
+      background: #DDDDDD;
+      content: "";
+      width: 48px;
+      height: 48px;
+      border-radius: 100%;
+      position: absolute;
+      right: 0;
+      top: -22px; }
+    .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline {
+      margin: 390px 0;
+      padding: 0;
+      border-top: 2px solid #E6ECF0;
+      list-style: none; }
+      .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li {
+        float: left;
+        width: 25%;
+        padding-top: 30px;
+        position: relative; }
+        .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span {
+          width: 18px;
+          height: 18px;
+          margin-left: -25px;
+          background: #ffa000;
+          border-radius: 50%;
+          box-shadow: 0 0 0 0px #fff;
+          text-align: center;
+          line-height: 50px -10;
+          color: #df8625;
+          font-size: 2em;
+          font-style: normal;
+          position: absolute;
+          top: -10px;
+          left: 50%; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-top:before {
+            content: '';
+            color: #E6ECF0;
+            width: 2px;
+            height: 50px;
+            background: #E6ECF0;
+            position: absolute;
+            top: -50px;
+            left: 50%; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:before {
+            content: '';
+            color: #E6ECF0;
+            width: 2px;
+            height: 50px;
+            background: #E6ECF0;
+            position: absolute;
+            bottom: -50px;
+            left: 50%; }
+        .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+          position: absolute;
+          bottom: 0;
+          margin-bottom: 130px;
+          width: 100%; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-top img {
+            display: table;
+            margin: 0 auto; }
+        .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot {
+          position: absolute;
+          margin-top: 60px;
+          width: 100%; }
+          .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-bot img {
+            display: table;
+            margin: 0 auto; }
+        .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li p {
+          text-align: left;
+          width: 80%; }
+        .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .ps-top {
+          position: absolute;
+          bottom: 0;
+          margin-bottom: 100px; }
+        .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .ps-bot {
+          position: absolute;
+          margin-top: 35px; }
+
 .why-work-otitopic-section {
   background: #EBE9E8;
   padding: 60px; }
@@ -3681,6 +4044,48 @@ h4 {
       line-height: 20px;
       color: #ffa000 !important; }
 
+@media only screen and (max-width: 767px) {
+  .privacy-policy-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .privacy-policy-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .privacy-policy-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .privacy-policy-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .privacy-policy-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .privacy-policy-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .privacy-policy-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
 .myocardial-infarction-section .col-md-myocardial {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -3962,6 +4367,48 @@ h4 {
       color: #081D31;
       margin-left: -30px;
       margin-top: 10px; }
+
+@media only screen and (max-width: 767px) {
+  .terms-conditions-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .terms-conditions-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .terms-conditions-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .terms-conditions-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .terms-conditions-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .terms-conditions-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .terms-conditions-section {
+    padding: 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
 
 .innovative-options-section .container p {
   font-family: "Nunito", sans-serif;

@@ -5,21 +5,21 @@
 
     // padding: 100px;
 
-    // @media only screen and (max-width: $bp-tab-md) {
-    //     padding:70px;
-    // } 
+    @media only screen and (max-width: $bp-tab-md) {
+        padding:30px;
+    } 
 
-    // @media only screen and (max-width: $bp-tab-pt) {
-    //     padding:70px;
-    // } 
+    @media only screen and (max-width: $bp-tab-pt) {
+        padding:30px;
+    } 
 
-    // @media only screen and (max-width: $bp-mobile-lg) {
-    //     padding:70px;
-    // } 
+    @media only screen and (max-width: $bp-mobile-lg) {
+        padding:30px;
+    } 
 
-    // @media only screen and (max-width: $bp-mobile-sm) {
-    //     padding:20px;
-    // } 
+    @media only screen and (max-width: $bp-mobile-sm) {
+        padding:30px;
+    } 
 
   	.list-style {
   		position: relative;
