@@ -8,49 +8,49 @@
     margin-bottom: -60px;
 
     @media only screen and (max-width: 767px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media only screen and (max-width: 661px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media only screen and (max-width: 640px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media only screen and (max-width: 600px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media only screen and (max-width: 575px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media only screen and (max-width: 526px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media only screen and (max-width: 485px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
 
     @media only screen and (max-width: 411px) {
-        padding: 30px !important;
+        padding: 20px !important;
         padding-left: 0;
         padding-right: 0;
     }
@@ -155,21 +155,25 @@
             text-align: left;
 
             @media only screen and (max-width: 575px) {
+                font-family: $font-primary;
                 font-size: 45px;
                 line-height: 44px;
             }
 
             @media only screen and (max-width: 526px) {
+                font-family: $font-primary;
                 font-size: 35px;
                 line-height: 44px;
             }
 
             @media only screen and (max-width: 485px) {
+                font-family: $font-primary;
                 font-size: 35px;
                 line-height: 44px;
             }
 
             @media only screen and (max-width: 411px) {
+                font-family: $font-primary;
                 font-size: 30px;
                 line-height: 44px;
             }
