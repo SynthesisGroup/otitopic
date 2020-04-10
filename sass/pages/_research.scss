@@ -186,48 +186,6 @@
 
 .otitopic-research-tech-trials-section {
 
-	@media only screen and (max-width: 767px) {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
-  	@media only screen and (max-width: 661px) {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
-  	@media only screen and (max-width: 600px) {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
-  	@media only screen and (max-width: 575px) {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
-  	@media only screen and (max-width: 526px) {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
-  	@media only screen and (max-width: 485px) {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
-  	@media only screen and (max-width: 411px) {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-    }
-
 	.col-md-rev-otitopic-research {
 		position: relative;
 		background: url("../img/otitopic-research.jpg");
@@ -409,8 +367,64 @@
 			display: grid;
 			grid-auto-rows: minmax(100px, auto);
 
+			@media only screen and (max-width: 767px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        height: auto;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		       height: auto;
+		    }
+
 			img {
 				height: 446px;
+
+				@media only screen and (max-width: 767px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        height: auto;
+			    }
+
+				@media only screen and (max-width: 411px) {
+			       height: auto;
+			    }
 			}
 		}
 	}
@@ -512,8 +526,64 @@
 			display: grid;
 			grid-auto-rows: minmax(100px, auto);
 
+			@media only screen and (max-width: 767px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        height: auto;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		       height: auto;
+		    }
+
 			img {
 				height: 446px;
+
+				@media only screen and (max-width: 767px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        height: auto;
+			    }
+
+				@media only screen and (max-width: 411px) {
+			       height: auto;
+			    }
 			}
 		}
 	}
