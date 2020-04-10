@@ -4853,35 +4853,118 @@ h4 {
       justify-items: center;
       align-items: center; }
 
+@media only screen and (max-width: 767px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+.recovering-hearts-section .text-wrap h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #081D31; }
+
+.recovering-hearts-section .text-wrap p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  color: #1B3349; }
+
 .recovering-hearts-section .infraction-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-auto-columns: minmax(100px, auto); }
-  .recovering-hearts-section .infraction-grid .text-wrap h2 {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    color: #081D31;
-    width: 538px; }
-  .recovering-hearts-section .infraction-grid .text-wrap p {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 155%;
-    color: #1B3349;
-    width: 618px; }
-  .recovering-hearts-section .infraction-grid .text-wrap video {
-    height: 100%;
+  grid-template-columns: 2fr 1fr; }
+  @media only screen and (max-width: 767px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 661px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 600px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 575px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 526px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 485px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 411px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 411px) {
+    .recovering-hearts-section .infraction-grid {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+      width: 100%; } }
+  .recovering-hearts-section .infraction-grid video {
+    position: relative;
+    width: 100%;
     margin-top: 1rem;
-    z-index: 9999; }
+    z-index: 999; }
+    @media only screen and (max-width: 411px) {
+      .recovering-hearts-section .infraction-grid video {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        width: 100%;
+        height: 100%; } }
   .recovering-hearts-section .infraction-grid .img-wrap {
-    margin-top: 130px; }
+    margin-top: -100px; }
+    @media only screen and (max-width: 411px) {
+      .recovering-hearts-section .infraction-grid .img-wrap {
+        position: absolute;
+        margin-top: 0;
+        height: 700px;
+        width: 260px;
+        margin-left: 100px; } }
     .recovering-hearts-section .infraction-grid .img-wrap img {
-      height: 500px;
-      margin-left: -50px; }
+      width: 100%;
+      height: 50%; }
 
 .recovering-hearts-section .our-technology .text-wrap h2 {
   font-family: "Nunito", sans-serif;
@@ -4912,11 +4995,53 @@ h4 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-top: 4rem; }
+  @media only screen and (max-width: 767px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 661px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 600px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 575px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 526px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 485px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 411px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
   .recovering-hearts-section .asprihale-area .asprihale-grid .content img {
     width: 100%; }
   .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
+    @media only screen and (max-width: 767px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 661px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 600px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 575px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 526px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 485px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 411px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
     .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
       font-family: "Nunito", sans-serif;
       font-style: normal;

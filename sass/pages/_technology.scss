@@ -1,46 +1,137 @@
 .recovering-hearts-section {
 
+	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .text-wrap {
+
+		h2 {
+			font-family: $font-primary;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 36px;
+			line-height: 45px;
+			color: #081D31;
+		}
+
+		p {
+			font-family: $font-primary;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 155%;
+			color: #1B3349;
+		}
+
+	}
+
 	.infraction-grid {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
-		grid-auto-columns: minmax(100px, auto);
 
-		.text-wrap {
+		@media only screen and (max-width: 767px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
 
-			h2 {
-				font-family: $font-primary;
-				font-style: normal;
-				font-weight: 600;
-				font-size: 36px;
-				line-height: 45px;
-				color: #081D31;
-				width: 538px;
-			}
+	  	@media only screen and (max-width: 661px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
 
-			p {
-				font-family: $font-primary;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 16px;
-				line-height: 155%;
-				color: #1B3349;
-				width: 618px;
-			}
+	  	@media only screen and (max-width: 600px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
 
-			video {
-				height: 100%;
-				margin-top: 1rem;
-				z-index: 9999;
-			}
+	  	@media only screen and (max-width: 575px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        padding: 10px !important;
+	        padding-top: 60px !important;
+	        padding-bottom: 60px !important;
+	        width: 100%;
+	    }
+
+		video {
+			position: relative;
+			width: 100%;
+			margin-top: 1rem;
+			z-index: 999;
+
+			@media only screen and (max-width: 411px) {
+		        padding: 10px !important;
+		        padding-top: 60px !important;
+		        padding-bottom: 60px !important;
+		        width: 100%;
+		        height: 100%;
+		    }
 		}
 
 		.img-wrap {
-			margin-top: 130px;
+			margin-top: -100px;
+
+			@media only screen and (max-width: 411px) {
+				position: absolute;
+		       	margin-top: 0;
+		       	height: 700px;
+		       	width: 260px;
+		       	margin-left: 100px;
+		    }
 
 			img {
-				height: 500px;
-				margin-left: -50px;
-				
+				width: 100%;
+				height: 50%;
 			}
 		}
 	}
@@ -85,6 +176,34 @@
 			grid-template-columns: repeat(5, 1fr);
 			margin-top: 4rem;
 
+			@media only screen and (max-width: 767px) {
+		        grid-template-columns: repeat(1, 1fr);
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        grid-template-columns: repeat(1, 1fr);
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	grid-template-columns: repeat(1, 1fr);
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	grid-template-columns: repeat(1, 1fr);
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        grid-template-columns: repeat(1, 1fr);
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        grid-template-columns: repeat(1, 1fr);
+		    }
+
+			@media only screen and (max-width: 411px) {
+		        grid-template-columns: repeat(1, 1fr);
+		    }
+
 			.content {
 				img {
 					width: 100%;
@@ -93,6 +212,34 @@
 				.content-wrap {
 					display: grid;
 					grid-template-columns: repeat(2, 1fr);
+
+					@media only screen and (max-width: 767px) {
+				        grid-template-columns: 30% 70%;
+				    }
+
+				  	@media only screen and (max-width: 661px) {
+				        grid-template-columns: 30% 70%;
+				    }
+
+				  	@media only screen and (max-width: 600px) {
+				       	grid-template-columns: 30% 70%;
+				    }
+
+				  	@media only screen and (max-width: 575px) {
+				       	grid-template-columns: 30% 70%;
+				    }
+
+				  	@media only screen and (max-width: 526px) {
+				        grid-template-columns: 30% 70%;
+				    }
+
+				  	@media only screen and (max-width: 485px) {
+				        grid-template-columns: 30% 70%;
+				    }
+
+					@media only screen and (max-width: 411px) {
+				        grid-template-columns: 30% 70%;
+				    }
 
 					.number {
 						font-family: $font-primary;
