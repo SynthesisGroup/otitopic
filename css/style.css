@@ -1160,6 +1160,34 @@ h4 {
 .pagination-wrapper-center {
   text-align: center; }
 
+.btn-outline-press {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  flex: none;
+  align-self: center;
+  margin: 10px 0px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 7px 31px;
+  position: static;
+  width: 240px;
+  height: 46px;
+  left: 246px;
+  bottom: 588px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px; }
+  .btn-outline-press:hover {
+    border: 1px solid #ffa000;
+    background: #ffa000;
+    color: #ffffff !important; }
+
 .btn-outline {
   font-family: "Nunito", sans-serif;
   font-style: normal;
@@ -3202,7 +3230,7 @@ h4 {
   background-color: #081D31; }
   .about-otitopic-section .content-area {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: 58% 50%; }
   .about-otitopic-section .left-col {
     float: left; }
     @media (max-width: 1199px) {
@@ -3220,11 +3248,68 @@ h4 {
     .about-otitopic-section .left-col img {
       width: 100%; }
   .about-otitopic-section .right-col {
+    margin-top: -50px;
     float: right; }
     @media (max-width: 991px) {
       .about-otitopic-section .right-col {
         width: 100%;
         float: none; } }
+    .about-otitopic-section .right-col .timeline {
+      max-width: 100%;
+      margin: 0 auto; }
+      .about-otitopic-section .right-col .timeline .timeline-body {
+        position: relative;
+        margin-left: 80px;
+        border-radius: 0px 8px 8px 0; }
+        .about-otitopic-section .right-col .timeline .timeline-body:after {
+          content: '';
+          width: 1px;
+          height: 100%;
+          background-color: #ffffff;
+          position: absolute;
+          left: -2px;
+          top: 0; }
+        .about-otitopic-section .right-col .timeline .timeline-body .content-head {
+          margin: 40px;
+          padding-bottom: 0px; }
+          .about-otitopic-section .right-col .timeline .timeline-body .content-head .title-head {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 30px;
+            color: #ffffff; }
+        .about-otitopic-section .right-col .timeline .timeline-body .timeline-item {
+          position: relative;
+          height: 100%; }
+          .about-otitopic-section .right-col .timeline .timeline-body .timeline-item:after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 2px solid #ffffff;
+            background-color: #ffffff;
+            position: absolute;
+            left: -6px;
+            top: 0px;
+            z-index: 9; }
+          .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content {
+            margin: 40px;
+            padding-bottom: 0px; }
+            .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content .title {
+              font-family: "Nunito", sans-serif;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18px;
+              line-height: 23px;
+              color: #ffffff; }
+            .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content a {
+              font-family: "Nunito", sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 20px;
+              color: #93B6D2; }
   .about-otitopic-section .left-col h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -3249,7 +3334,7 @@ h4 {
     line-height: 155%;
     color: #ffffff;
     margin-top: 2em;
-    width: 640px; }
+    width: 100%; }
   .about-otitopic-section .right-col {
     background-image: url("../img/img-overlay-about.jpg") center center/cover no-repeat local;
     position: relative; }
