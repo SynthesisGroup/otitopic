@@ -3871,20 +3871,42 @@ h4 {
       color: #ffffff; }
 
 .home-page-banner {
-  margin-top: 4rem;
-  padding: 60px; }
-  @media only screen and (max-width: 61.9em) {
+  margin-top: 4rem; }
+  @media only screen and (max-width: 767px) {
     .home-page-banner {
-      padding: 60px; } }
-  @media only screen and (max-width: 53.75em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 661px) {
     .home-page-banner {
-      padding: 60px; } }
-  @media only screen and (max-width: 40em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 600px) {
     .home-page-banner {
-      padding: 60px; } }
-  @media only screen and (max-width: 25.8em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 575px) {
     .home-page-banner {
-      padding: 20px; } }
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 526px) {
+    .home-page-banner {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 485px) {
+    .home-page-banner {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 411px) {
+    .home-page-banner {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   .home-page-banner h1 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -3894,9 +3916,9 @@ h4 {
     color: #ffffff; }
     @media only screen and (max-width: 25.8em) {
       .home-page-banner h1 {
-        font-size: 50px;
-        text-align: center;
-        margin-top: 2rem; } }
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: -60px; } }
   .home-page-banner p {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -3904,18 +3926,72 @@ h4 {
     font-size: 26px;
     line-height: 145%;
     color: #ffffff; }
-    @media only screen and (max-width: 25.8em) {
+    @media only screen and (max-width: 411px) {
       .home-page-banner p {
-        font-size: 23px;
-        text-align: center;
-        margin-top: 2rem; } }
+        font-size: 18px;
+        height: 100%; } }
 
 .about-otitopic-section {
-  padding: 0px 0px;
   background-color: #081D31; }
+  @media only screen and (max-width: 767px) {
+    .about-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 661px) {
+    .about-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 600px) {
+    .about-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 575px) {
+    .about-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 526px) {
+    .about-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 485px) {
+    .about-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 411px) {
+    .about-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   .about-otitopic-section .content-area {
     display: grid;
     grid-template-columns: 58% 50%; }
+    @media only screen and (max-width: 767px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 661px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 600px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 575px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 526px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 485px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 411px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
   .about-otitopic-section .left-col {
     float: left; }
     @media (max-width: 1199px) {
@@ -3946,6 +4022,9 @@ h4 {
         position: relative;
         margin-left: 80px;
         border-radius: 0px 8px 8px 0; }
+        @media only screen and (max-width: 411px) {
+          .about-otitopic-section .right-col .timeline .timeline-body {
+            margin-left: 30px; } }
         .about-otitopic-section .right-col .timeline .timeline-body:after {
           content: '';
           width: 1px;
@@ -4023,90 +4102,116 @@ h4 {
   .about-otitopic-section .right-col {
     background-image: url("../img/img-overlay-about.jpg") center center/cover no-repeat local;
     position: relative; }
-    @media (max-width: 991px) {
-      .about-otitopic-section .right-col {
-        height: 800px !important; } }
-    @media (max-width: 767px) {
-      .about-otitopic-section .right-col {
-        height: 700px !important; } }
 
-.push-the-boundaries-section {
-  padding: 60px; }
-  @media only screen and (max-width: 61.9em) {
-    .push-the-boundaries-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 53.75em) {
-    .push-the-boundaries-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 48em) {
-    .push-the-boundaries-section {
-      padding: 20px; } }
-  @media only screen and (max-width: 40em) {
-    .push-the-boundaries-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 25.8em) {
-    .push-the-boundaries-section {
-      padding: 20px; } }
-  .push-the-boundaries-section .section-title-s3 h2 {
+@media only screen and (max-width: 767px) {
+  .push-the-boundaries-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .push-the-boundaries-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .push-the-boundaries-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .push-the-boundaries-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .push-the-boundaries-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .push-the-boundaries-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .push-the-boundaries-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+.push-the-boundaries-section .section-title-s3 h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  color: #081D31; }
+
+.push-the-boundaries-section .section-title-s3 p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 155%;
+  text-align: center;
+  color: #1B3349; }
+
+.push-the-boundaries-section .push-the-boundaries-grids .grid {
+  text-align: center;
+  margin-top: 2rem; }
+  .push-the-boundaries-section .push-the-boundaries-grids .grid img {
+    max-width: 80px; }
+  .push-the-boundaries-section .push-the-boundaries-grids .grid h3 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 49px;
-    color: #081D31; }
-  .push-the-boundaries-section .section-title-s3 p {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 155%;
+    text-align: center;
+    color: #0F63A7;
+    margin: 0.8em 0 0.7em; }
+  .push-the-boundaries-section .push-the-boundaries-grids .grid p {
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 155%;
     text-align: center;
-    color: #1B3349; }
-  .push-the-boundaries-section .push-the-boundaries-grids .grid {
-    text-align: center;
-    margin-top: 2rem; }
-    .push-the-boundaries-section .push-the-boundaries-grids .grid img {
-      max-width: 80px; }
-    .push-the-boundaries-section .push-the-boundaries-grids .grid h3 {
-      font-family: "Nunito", sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 26px;
-      line-height: 155%;
-      text-align: center;
-      color: #0F63A7;
-      margin: 0.8em 0 0.7em; }
-    .push-the-boundaries-section .push-the-boundaries-grids .grid p {
-      font-family: "Nunito", sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 155%;
-      text-align: center;
-      color: #1B3349;
-      margin: 0; }
+    color: #1B3349;
+    margin: 0; }
 
 .heart-attack-grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem; }
-  @media only screen and (max-width: 64em) {
+  @media only screen and (max-width: 767px) {
     .heart-attack-grid-2 {
-      display: grid;
       grid-template-columns: repeat(1, 1fr); } }
-  @media only screen and (max-width: 61.9em) {
+  @media only screen and (max-width: 661px) {
     .heart-attack-grid-2 {
-      display: grid;
       grid-template-columns: repeat(1, 1fr); } }
-  @media only screen and (max-width: 53.75em) {
+  @media only screen and (max-width: 600px) {
     .heart-attack-grid-2 {
-      display: grid;
       grid-template-columns: repeat(1, 1fr); } }
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 575px) {
     .heart-attack-grid-2 {
-      display: grid;
       grid-template-columns: repeat(1, 1fr); } }
-  .heart-attack-grid-2 img {
+  @media only screen and (max-width: 526px) {
+    .heart-attack-grid-2 {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 485px) {
+    .heart-attack-grid-2 {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 411px) {
+    .heart-attack-grid-2 {
+      grid-template-columns: repeat(1, 1fr); } }
+  .heart-attack-grid-2 .img-holder img {
     width: 100%; }
   .heart-attack-grid-2 .text-content h2 {
     font-family: "Nunito", sans-serif;
@@ -4115,7 +4220,7 @@ h4 {
     font-size: 36px;
     line-height: 49px;
     color: #081D31;
-    width: 441px; }
+    width: 100%; }
   .heart-attack-grid-2 .text-content p {
     font-family: "Nunito", sans-serif;
     font-style: normal;
