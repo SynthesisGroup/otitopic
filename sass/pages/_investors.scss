@@ -1,5 +1,47 @@
 .company-overview-section {
 
+	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
 	.text-wrap {
 		h2 {
 			font-family: $font-primary;
@@ -25,7 +67,47 @@
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 2rem;
 
+		@media only screen and (max-width: 767px) {
+        	grid-template-columns: repeat(1, 1fr);
+        	grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        grid-template-columns: repeat(1, 1fr);
+	        grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	       	grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	       	grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        grid-template-columns: repeat(1, 1fr);
+	        grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        grid-template-columns: repeat(1, 1fr);
+	        grid-gap: 0;
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        grid-template-columns: repeat(1, 1fr);
+	       grid-gap: 0;
+	    }
+
 		.img-cap {
+
+			img {
+				width: 100%;
+			}
+
 			.text-content {
 				position: absolute;
 				background: #FFA000;
@@ -33,6 +115,48 @@
 				height: 230px;
 				margin-top: -160px;
 				z-index: 9;
+
+				@media only screen and (max-width: 767px) {
+		        	position: relative;
+					margin-top: 0;
+			        width: 100%;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        position: relative;
+					margin-top: 0;
+			        width: 100%;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	position: relative;
+					margin-top: 0;
+			        width: 100%;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	position: relative;
+					margin-top: 0;
+			        width: 100%;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        position: relative;
+					margin-top: 0;
+			        width: 100%;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        position: relative;
+					margin-top: 0;
+			        width: 100%;
+			    }
+
+				@media only screen and (max-width: 411px) {
+					position: relative;
+					margin-top: 0;
+			        width: 100%;
+			    }
 
 				p {
 					font-family: $font-primary;
@@ -42,6 +166,34 @@
 					line-height: 45px;
 					color: #081D31;
 					padding: 53px;
+
+					@media only screen and (max-width: 767px) {
+			        	padding: 40px;
+				    }
+
+				  	@media only screen and (max-width: 661px) {
+				        padding: 40px;
+				    }
+
+				  	@media only screen and (max-width: 600px) {
+				       	padding: 40px;
+				    }
+
+				  	@media only screen and (max-width: 575px) {
+				       	padding: 40px;
+				    }
+
+				  	@media only screen and (max-width: 526px) {
+				        padding: 40px;
+				    }
+
+				  	@media only screen and (max-width: 485px) {
+				        padding: 40px;
+				    }
+
+					@media only screen and (max-width: 411px) {
+						padding: 40px;
+				    }
 				}
 			}
 		}
@@ -50,6 +202,34 @@
 			background: #1B3349;
 			padding: 30px;
 
+			@media only screen and (max-width: 767px) {
+	        	padding: 40px;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        padding: 40px;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	padding: 40px;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	padding: 40px;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        padding: 40px;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        padding: 40px;
+		    }
+
+			@media only screen and (max-width: 411px) {
+				padding: 40px;
+		    }
+
 			h2 {
 				font-family: $font-primary;
 				font-style: normal;
@@ -57,6 +237,41 @@
 				font-size: 20px;
 				line-height: 15px;
 				color: #FFA000;
+
+				@media only screen and (max-width: 767px) {
+		        	font-size: 26px;
+					line-height: 30px;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        font-size: 26px;
+					line-height: 30px;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	font-size: 26px;
+					line-height: 30px;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	font-size: 26px;
+					line-height: 30px;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        font-size: 26px;
+					line-height: 30px;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        font-size: 26px;
+					line-height: 30px;
+			    }
+
+				@media only screen and (max-width: 411px) {
+					font-size: 26px;
+					line-height: 30px;
+			    }
 			}
 
 			p {
@@ -94,6 +309,41 @@
 		grid-template-columns: 2fr 1fr;
 		grid-gap: 3rem;
 
+		@media only screen and (max-width: 767px) {
+        	grid-template-columns: repeat(1, 1fr);
+        	grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        grid-template-columns: repeat(1, 1fr);
+	        grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	       	grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	       	grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        grid-template-columns: repeat(1, 1fr);
+	        grid-gap: 0;
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        grid-template-columns: repeat(1, 1fr);
+	        grid-gap: 0;
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        grid-template-columns: repeat(1, 1fr);
+	       grid-gap: 0;
+	    }
+
 		.press-releases {
 			h2 {
 				font-family: $font-primary;
@@ -107,6 +357,41 @@
 			.press-content {
 				display: grid;
 				grid-template-columns: 20% 90%;
+
+				@media only screen and (max-width: 767px) {
+		        	grid-template-columns: repeat(1, 1fr);
+		        	grid-gap: 0;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        grid-template-columns: repeat(1, 1fr);
+			        grid-gap: 0;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	grid-template-columns: repeat(1, 1fr);
+			       	grid-gap: 0;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	grid-template-columns: repeat(1, 1fr);
+			       	grid-gap: 0;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        grid-template-columns: repeat(1, 1fr);
+			        grid-gap: 0;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        grid-template-columns: repeat(1, 1fr);
+			        grid-gap: 0;
+			    }
+
+				@media only screen and (max-width: 411px) {
+			        grid-template-columns: repeat(1, 1fr);
+			       grid-gap: 0;
+			    }
 
 				span {
 					font-family: $font-primary;
@@ -125,11 +410,89 @@
 					line-height: 20px;
 					color: $color-orange;
 					width: 85%;
+
+					@media only screen and (max-width: 767px) {
+				        width: 100%;
+				        line-height: 26px;
+				    }
+
+				  	@media only screen and (max-width: 661px) {
+				        width: 100%;
+				        line-height: 26px;
+				    }
+
+				  	@media only screen and (max-width: 600px) {
+				       	width: 100%;
+				       	line-height: 26px;
+				    }
+
+				  	@media only screen and (max-width: 575px) {
+				       	width: 100%;
+				       	line-height: 26px;
+				    }
+
+				  	@media only screen and (max-width: 526px) {
+				        width: 100%;
+				        line-height: 26px;
+				    }
+
+				  	@media only screen and (max-width: 485px) {
+				        width: 100%;
+				        line-height: 26px;
+				    }
+
+					@media only screen and (max-width: 411px) {
+				        width: 100%;
+				        line-height: 26px;
+				    }
 				}
 			}
 		}
 
 		.downloads {
+
+			@media only screen and (max-width: 767px) {
+		       	border-top: 1px solid #1B3349;
+		        padding: 30px 0px;
+		        margin-top: 30px;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		       	border-top: 1px solid #1B3349;
+		        padding: 30px 0px;
+		        margin-top: 30px;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	border-top: 1px solid #1B3349;
+		        padding: 30px 0px;
+		        margin-top: 30px;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	border-top: 1px solid #1B3349;
+		        padding: 30px 0px;
+		        margin-top: 30px;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		       	border-top: 1px solid #1B3349;
+		        padding: 30px 0px;
+		        margin-top: 30px;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		       	border-top: 1px solid #1B3349;
+		        padding: 30px 0px;
+		        margin-top: 30px;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		        border-top: 1px solid #1B3349;
+		        padding: 30px 0px;
+		        margin-top: 30px;
+		    }
+
 			.content {
 
 				ul {
@@ -143,6 +506,7 @@
 							font-size: 16px;
 							line-height: 20px;
 							color: $color-orange !important;
+							width: 100%;
 						}
 					}
 				} 

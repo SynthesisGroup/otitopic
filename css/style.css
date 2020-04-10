@@ -4199,6 +4199,48 @@ h4 {
 .featured-project-section .project-grids .grid:hover .overlay > a {
   top: 0; }
 
+@media only screen and (max-width: 767px) {
+  .company-overview-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .company-overview-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .company-overview-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .company-overview-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .company-overview-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .company-overview-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .company-overview-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
 .company-overview-section .text-wrap h2 {
   font-family: "Nunito", sans-serif;
   font-style: normal;
@@ -4219,6 +4261,36 @@ h4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem; }
+  @media only screen and (max-width: 767px) {
+    .company-overview-section .img-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 661px) {
+    .company-overview-section .img-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 600px) {
+    .company-overview-section .img-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 575px) {
+    .company-overview-section .img-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 526px) {
+    .company-overview-section .img-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 485px) {
+    .company-overview-section .img-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 411px) {
+    .company-overview-section .img-wrap {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  .company-overview-section .img-wrap .img-cap img {
+    width: 100%; }
   .company-overview-section .img-wrap .img-cap .text-content {
     position: absolute;
     background: #FFA000;
@@ -4226,6 +4298,41 @@ h4 {
     height: 230px;
     margin-top: -160px;
     z-index: 9; }
+    @media only screen and (max-width: 767px) {
+      .company-overview-section .img-wrap .img-cap .text-content {
+        position: relative;
+        margin-top: 0;
+        width: 100%; } }
+    @media only screen and (max-width: 661px) {
+      .company-overview-section .img-wrap .img-cap .text-content {
+        position: relative;
+        margin-top: 0;
+        width: 100%; } }
+    @media only screen and (max-width: 600px) {
+      .company-overview-section .img-wrap .img-cap .text-content {
+        position: relative;
+        margin-top: 0;
+        width: 100%; } }
+    @media only screen and (max-width: 575px) {
+      .company-overview-section .img-wrap .img-cap .text-content {
+        position: relative;
+        margin-top: 0;
+        width: 100%; } }
+    @media only screen and (max-width: 526px) {
+      .company-overview-section .img-wrap .img-cap .text-content {
+        position: relative;
+        margin-top: 0;
+        width: 100%; } }
+    @media only screen and (max-width: 485px) {
+      .company-overview-section .img-wrap .img-cap .text-content {
+        position: relative;
+        margin-top: 0;
+        width: 100%; } }
+    @media only screen and (max-width: 411px) {
+      .company-overview-section .img-wrap .img-cap .text-content {
+        position: relative;
+        margin-top: 0;
+        width: 100%; } }
     .company-overview-section .img-wrap .img-cap .text-content p {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -4234,9 +4341,51 @@ h4 {
       line-height: 45px;
       color: #081D31;
       padding: 53px; }
+      @media only screen and (max-width: 767px) {
+        .company-overview-section .img-wrap .img-cap .text-content p {
+          padding: 40px; } }
+      @media only screen and (max-width: 661px) {
+        .company-overview-section .img-wrap .img-cap .text-content p {
+          padding: 40px; } }
+      @media only screen and (max-width: 600px) {
+        .company-overview-section .img-wrap .img-cap .text-content p {
+          padding: 40px; } }
+      @media only screen and (max-width: 575px) {
+        .company-overview-section .img-wrap .img-cap .text-content p {
+          padding: 40px; } }
+      @media only screen and (max-width: 526px) {
+        .company-overview-section .img-wrap .img-cap .text-content p {
+          padding: 40px; } }
+      @media only screen and (max-width: 485px) {
+        .company-overview-section .img-wrap .img-cap .text-content p {
+          padding: 40px; } }
+      @media only screen and (max-width: 411px) {
+        .company-overview-section .img-wrap .img-cap .text-content p {
+          padding: 40px; } }
   .company-overview-section .img-wrap .contact-card {
     background: #1B3349;
     padding: 30px; }
+    @media only screen and (max-width: 767px) {
+      .company-overview-section .img-wrap .contact-card {
+        padding: 40px; } }
+    @media only screen and (max-width: 661px) {
+      .company-overview-section .img-wrap .contact-card {
+        padding: 40px; } }
+    @media only screen and (max-width: 600px) {
+      .company-overview-section .img-wrap .contact-card {
+        padding: 40px; } }
+    @media only screen and (max-width: 575px) {
+      .company-overview-section .img-wrap .contact-card {
+        padding: 40px; } }
+    @media only screen and (max-width: 526px) {
+      .company-overview-section .img-wrap .contact-card {
+        padding: 40px; } }
+    @media only screen and (max-width: 485px) {
+      .company-overview-section .img-wrap .contact-card {
+        padding: 40px; } }
+    @media only screen and (max-width: 411px) {
+      .company-overview-section .img-wrap .contact-card {
+        padding: 40px; } }
     .company-overview-section .img-wrap .contact-card h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -4244,6 +4393,34 @@ h4 {
       font-size: 20px;
       line-height: 15px;
       color: #FFA000; }
+      @media only screen and (max-width: 767px) {
+        .company-overview-section .img-wrap .contact-card h2 {
+          font-size: 26px;
+          line-height: 30px; } }
+      @media only screen and (max-width: 661px) {
+        .company-overview-section .img-wrap .contact-card h2 {
+          font-size: 26px;
+          line-height: 30px; } }
+      @media only screen and (max-width: 600px) {
+        .company-overview-section .img-wrap .contact-card h2 {
+          font-size: 26px;
+          line-height: 30px; } }
+      @media only screen and (max-width: 575px) {
+        .company-overview-section .img-wrap .contact-card h2 {
+          font-size: 26px;
+          line-height: 30px; } }
+      @media only screen and (max-width: 526px) {
+        .company-overview-section .img-wrap .contact-card h2 {
+          font-size: 26px;
+          line-height: 30px; } }
+      @media only screen and (max-width: 485px) {
+        .company-overview-section .img-wrap .contact-card h2 {
+          font-size: 26px;
+          line-height: 30px; } }
+      @media only screen and (max-width: 411px) {
+        .company-overview-section .img-wrap .contact-card h2 {
+          font-size: 26px;
+          line-height: 30px; } }
     .company-overview-section .img-wrap .contact-card p {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -4269,6 +4446,34 @@ h4 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 3rem; }
+  @media only screen and (max-width: 767px) {
+    .company-overview-section .press-rel-down {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 661px) {
+    .company-overview-section .press-rel-down {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 600px) {
+    .company-overview-section .press-rel-down {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 575px) {
+    .company-overview-section .press-rel-down {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 526px) {
+    .company-overview-section .press-rel-down {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 485px) {
+    .company-overview-section .press-rel-down {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
+  @media only screen and (max-width: 411px) {
+    .company-overview-section .press-rel-down {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0; } }
   .company-overview-section .press-rel-down .press-releases h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -4279,6 +4484,34 @@ h4 {
   .company-overview-section .press-rel-down .press-releases .press-content {
     display: grid;
     grid-template-columns: 20% 90%; }
+    @media only screen and (max-width: 767px) {
+      .company-overview-section .press-rel-down .press-releases .press-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
+    @media only screen and (max-width: 661px) {
+      .company-overview-section .press-rel-down .press-releases .press-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
+    @media only screen and (max-width: 600px) {
+      .company-overview-section .press-rel-down .press-releases .press-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
+    @media only screen and (max-width: 575px) {
+      .company-overview-section .press-rel-down .press-releases .press-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
+    @media only screen and (max-width: 526px) {
+      .company-overview-section .press-rel-down .press-releases .press-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
+    @media only screen and (max-width: 485px) {
+      .company-overview-section .press-rel-down .press-releases .press-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
+    @media only screen and (max-width: 411px) {
+      .company-overview-section .press-rel-down .press-releases .press-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
     .company-overview-section .press-rel-down .press-releases .press-content span {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -4294,6 +4527,69 @@ h4 {
       line-height: 20px;
       color: #ffa000;
       width: 85%; }
+      @media only screen and (max-width: 767px) {
+        .company-overview-section .press-rel-down .press-releases .press-content p {
+          width: 100%;
+          line-height: 26px; } }
+      @media only screen and (max-width: 661px) {
+        .company-overview-section .press-rel-down .press-releases .press-content p {
+          width: 100%;
+          line-height: 26px; } }
+      @media only screen and (max-width: 600px) {
+        .company-overview-section .press-rel-down .press-releases .press-content p {
+          width: 100%;
+          line-height: 26px; } }
+      @media only screen and (max-width: 575px) {
+        .company-overview-section .press-rel-down .press-releases .press-content p {
+          width: 100%;
+          line-height: 26px; } }
+      @media only screen and (max-width: 526px) {
+        .company-overview-section .press-rel-down .press-releases .press-content p {
+          width: 100%;
+          line-height: 26px; } }
+      @media only screen and (max-width: 485px) {
+        .company-overview-section .press-rel-down .press-releases .press-content p {
+          width: 100%;
+          line-height: 26px; } }
+      @media only screen and (max-width: 411px) {
+        .company-overview-section .press-rel-down .press-releases .press-content p {
+          width: 100%;
+          line-height: 26px; } }
+  @media only screen and (max-width: 767px) {
+    .company-overview-section .press-rel-down .downloads {
+      border-top: 1px solid #1B3349;
+      padding: 30px 0px;
+      margin-top: 30px; } }
+  @media only screen and (max-width: 661px) {
+    .company-overview-section .press-rel-down .downloads {
+      border-top: 1px solid #1B3349;
+      padding: 30px 0px;
+      margin-top: 30px; } }
+  @media only screen and (max-width: 600px) {
+    .company-overview-section .press-rel-down .downloads {
+      border-top: 1px solid #1B3349;
+      padding: 30px 0px;
+      margin-top: 30px; } }
+  @media only screen and (max-width: 575px) {
+    .company-overview-section .press-rel-down .downloads {
+      border-top: 1px solid #1B3349;
+      padding: 30px 0px;
+      margin-top: 30px; } }
+  @media only screen and (max-width: 526px) {
+    .company-overview-section .press-rel-down .downloads {
+      border-top: 1px solid #1B3349;
+      padding: 30px 0px;
+      margin-top: 30px; } }
+  @media only screen and (max-width: 485px) {
+    .company-overview-section .press-rel-down .downloads {
+      border-top: 1px solid #1B3349;
+      padding: 30px 0px;
+      margin-top: 30px; } }
+  @media only screen and (max-width: 411px) {
+    .company-overview-section .press-rel-down .downloads {
+      border-top: 1px solid #1B3349;
+      padding: 30px 0px;
+      margin-top: 30px; } }
   .company-overview-section .press-rel-down .downloads .content ul li {
     padding: 8px 0px; }
     .company-overview-section .press-rel-down .downloads .content ul li a {
@@ -4302,7 +4598,8 @@ h4 {
       font-weight: 600;
       font-size: 16px;
       line-height: 20px;
-      color: #ffa000 !important; }
+      color: #ffa000 !important;
+      width: 100%; }
 
 @media only screen and (max-width: 767px) {
   .privacy-policy-section {
