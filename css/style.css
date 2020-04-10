@@ -1292,16 +1292,16 @@ h4 {
   line-height: 22px;
   color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  padding: 9px 44px;
   width: 220px;
   height: 46px;
   background: #ffa000;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   border-radius: 6px; }
   .send-message-btn:hover {
-    background: #ffa000;
-    color: #ffffff !important; }
+    background: #ffffff;
+    color: #081D31 !important; }
   @media only screen and (max-width: 25.8em) {
     .send-message-btn {
       width: 100%;
@@ -1340,7 +1340,8 @@ h4 {
   position: relative;
   z-index: 9;
   padding-left: 100px;
-  padding-right: 100px; }
+  padding-right: 100px;
+  margin-bottom: 100px !important; }
   @media only screen and (max-width: 767px) {
     .otitopic-header-info {
       padding: 20px !important;
@@ -3455,73 +3456,110 @@ h4 {
   .why-work-otitopic-section img {
     width: 323px; }
 
-.contact-form-section {
-  padding: 100px; }
+@media only screen and (max-width: 767px) {
+  .contact-form-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .contact-form-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .contact-form-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .contact-form-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .contact-form-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .contact-form-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .contact-form-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important; } }
+
+.contact-form-section .form-wrap {
+  background: #E6ECF0;
+  padding: 50px;
+  height: 100%; }
   @media only screen and (max-width: 61.9em) {
-    .contact-form-section {
-      padding: 70px; } }
+    .contact-form-section .form-wrap {
+      padding: 30px; } }
   @media only screen and (max-width: 53.75em) {
-    .contact-form-section {
-      padding: 70px; } }
+    .contact-form-section .form-wrap {
+      padding: 30px; } }
   @media only screen and (max-width: 40em) {
-    .contact-form-section {
-      padding: 70px; } }
+    .contact-form-section .form-wrap {
+      padding: 30px; } }
   @media only screen and (max-width: 25.8em) {
-    .contact-form-section {
-      padding: 20px; } }
-  .contact-form-section .form-wrap {
-    background: #E6ECF0;
-    padding: 50px; }
-    @media only screen and (max-width: 61.9em) {
-      .contact-form-section .form-wrap {
-        padding: 30px; } }
-    @media only screen and (max-width: 53.75em) {
-      .contact-form-section .form-wrap {
-        padding: 30px; } }
-    @media only screen and (max-width: 40em) {
-      .contact-form-section .form-wrap {
-        padding: 30px; } }
+    .contact-form-section .form-wrap {
+      padding: 30px; } }
+  .contact-form-section .form-wrap h2 {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 49px;
+    color: #0F63A7; }
     @media only screen and (max-width: 25.8em) {
-      .contact-form-section .form-wrap {
-        padding: 30px; } }
-    .contact-form-section .form-wrap h2 {
-      font-family: "Nunito", sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 32px;
-      line-height: 49px;
-      color: #0F63A7; }
-      @media only screen and (max-width: 25.8em) {
-        .contact-form-section .form-wrap h2 {
-          line-height: 35px; } }
-    .contact-form-section .form-wrap p {
-      font-family: "Nunito", sans-serif;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 27px;
-      color: #081D31;
-      margin-bottom: 30px; }
-      @media only screen and (max-width: 25.8em) {
-        .contact-form-section .form-wrap p {
-          margin-top: 10px; } }
-    .contact-form-section .form-wrap input {
-      margin-bottom: 20px;
-      background: #ffffff;
-      border: none;
-      border-radius: 1px !important;
-      height: 40px; }
-      .contact-form-section .form-wrap input:focus {
-        -webkit-box-shadow: none;
-        box-shadow: none; }
-    .contact-form-section .form-wrap textarea {
-      margin-bottom: 20px;
-      background: #ffffff;
-      border: none;
-      border-radius: 1px !important; }
-      .contact-form-section .form-wrap textarea:focus {
-        -webkit-box-shadow: none;
-        box-shadow: none; }
+      .contact-form-section .form-wrap h2 {
+        line-height: 35px; } }
+  .contact-form-section .form-wrap p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #081D31;
+    margin-bottom: 30px; }
+    @media only screen and (max-width: 25.8em) {
+      .contact-form-section .form-wrap p {
+        margin-top: 10px; } }
+  .contact-form-section .form-wrap input {
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: none;
+    border-radius: 1px !important;
+    height: 40px; }
+    .contact-form-section .form-wrap input:focus {
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  .contact-form-section .form-wrap textarea {
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: none;
+    border-radius: 1px !important; }
+    .contact-form-section .form-wrap textarea:focus {
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+
+.contact-form-section .contact-details-wrap {
+  width: 100%; }
+  @media only screen and (max-width: 411px) {
+    .contact-form-section .contact-details-wrap {
+      margin-top: 70px !important;
+      padding: 0px !important; } }
+  .contact-form-section .contact-details-wrap img {
+    width: 100%; }
   .contact-form-section .contact-details-wrap .contact-wrap {
     background: #0F63A7;
     padding: 30px; }

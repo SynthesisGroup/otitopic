@@ -166,8 +166,8 @@
 	color: $color-white;
 
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	flex-direction: row;
+	padding: 9px 44px;
 	width: 220px;
 	height: 46px;
 
@@ -176,8 +176,8 @@
 	border-radius: 6px;
 
 	&:hover {
-		background: $color-orange;
-		color: $color-white !important;
+		background: $color-white;
+		color: $color-primary !important;
 	}
 
 	@media only screen and (max-width: $bp-mobile-sm) {
