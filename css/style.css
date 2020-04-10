@@ -1314,20 +1314,42 @@ h4 {
   background: url("../img/cta.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: right;
-  padding: 100px; }
-  @media only screen and (max-width: 61.9em) {
+  background-position: right; }
+  @media only screen and (max-width: 767px) {
     .cta-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 53.75em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 661px) {
     .cta-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 40em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 600px) {
     .cta-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 25.8em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 575px) {
     .cta-section {
-      padding: 20px; } }
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 526px) {
+    .cta-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 485px) {
+    .cta-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 411px) {
+    .cta-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   .cta-section h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -1610,20 +1632,42 @@ h4 {
   height: 440px; }
 
 .testimonials-section {
-  background: #081D31 !important;
-  padding: 100px; }
-  @media only screen and (max-width: 61.9em) {
+  background: #081D31 !important; }
+  @media only screen and (max-width: 767px) {
     .testimonials-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 53.75em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 661px) {
     .testimonials-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 40em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 600px) {
     .testimonials-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 25.8em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 575px) {
     .testimonials-section {
-      padding: 20px; } }
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 526px) {
+    .testimonials-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 485px) {
+    .testimonials-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 411px) {
+    .testimonials-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   .testimonials-section img {
     max-width: 3rem;
     padding-bottom: 1rem; }
@@ -3309,24 +3353,85 @@ h4 {
           position: absolute;
           margin-top: 35px; }
 
+@media only screen and (max-width: 767px) {
+  .innovative-options-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .innovative-options-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .innovative-options-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .innovative-options-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .innovative-options-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .innovative-options-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .innovative-options-section {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
 .why-work-otitopic-section {
-  background: #EBE9E8;
-  padding: 60px; }
-  @media only screen and (max-width: 61.9em) {
+  background: #EBE9E8; }
+  @media only screen and (max-width: 767px) {
     .why-work-otitopic-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 53.75em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 661px) {
     .why-work-otitopic-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 48em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 600px) {
     .why-work-otitopic-section {
-      padding: 20px; } }
-  @media only screen and (max-width: 40em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 575px) {
     .why-work-otitopic-section {
-      padding: 70px; } }
-  @media only screen and (max-width: 25.8em) {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 526px) {
     .why-work-otitopic-section {
-      padding: 20px; } }
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 485px) {
+    .why-work-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 411px) {
+    .why-work-otitopic-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   .why-work-otitopic-section .section-title-s3 h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -3334,6 +3439,27 @@ h4 {
     font-size: 36px;
     line-height: 49px;
     color: #081D31; }
+    @media only screen and (max-width: 767px) {
+      .why-work-otitopic-section .section-title-s3 h2 {
+        text-align: left; } }
+    @media only screen and (max-width: 661px) {
+      .why-work-otitopic-section .section-title-s3 h2 {
+        text-align: left; } }
+    @media only screen and (max-width: 600px) {
+      .why-work-otitopic-section .section-title-s3 h2 {
+        text-align: left; } }
+    @media only screen and (max-width: 575px) {
+      .why-work-otitopic-section .section-title-s3 h2 {
+        text-align: left; } }
+    @media only screen and (max-width: 526px) {
+      .why-work-otitopic-section .section-title-s3 h2 {
+        text-align: left; } }
+    @media only screen and (max-width: 485px) {
+      .why-work-otitopic-section .section-title-s3 h2 {
+        text-align: left; } }
+    @media only screen and (max-width: 411px) {
+      .why-work-otitopic-section .section-title-s3 h2 {
+        text-align: left; } }
   .why-work-otitopic-section .section-title-s3 p {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -3342,6 +3468,27 @@ h4 {
     line-height: 155%;
     text-align: center;
     color: #1B3349; }
+    @media only screen and (max-width: 767px) {
+      .why-work-otitopic-section .section-title-s3 p {
+        text-align: left; } }
+    @media only screen and (max-width: 661px) {
+      .why-work-otitopic-section .section-title-s3 p {
+        text-align: left; } }
+    @media only screen and (max-width: 600px) {
+      .why-work-otitopic-section .section-title-s3 p {
+        text-align: left; } }
+    @media only screen and (max-width: 575px) {
+      .why-work-otitopic-section .section-title-s3 p {
+        text-align: left; } }
+    @media only screen and (max-width: 526px) {
+      .why-work-otitopic-section .section-title-s3 p {
+        text-align: left; } }
+    @media only screen and (max-width: 485px) {
+      .why-work-otitopic-section .section-title-s3 p {
+        text-align: left; } }
+    @media only screen and (max-width: 411px) {
+      .why-work-otitopic-section .section-title-s3 p {
+        text-align: left; } }
   .why-work-otitopic-section .push-the-boundaries-grids .grid {
     text-align: center;
     margin-top: 2rem; }
@@ -3369,14 +3516,64 @@ h4 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 1rem; }
+    @media only screen and (max-width: 767px) {
+      .why-work-otitopic-section .col-md-why-work-grid {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 661px) {
+      .why-work-otitopic-section .col-md-why-work-grid {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 600px) {
+      .why-work-otitopic-section .col-md-why-work-grid {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 575px) {
+      .why-work-otitopic-section .col-md-why-work-grid {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 526px) {
+      .why-work-otitopic-section .col-md-why-work-grid {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 485px) {
+      .why-work-otitopic-section .col-md-why-work-grid {
+        grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 411px) {
+      .why-work-otitopic-section .col-md-why-work-grid {
+        grid-template-columns: repeat(1, 1fr); } }
     .why-work-otitopic-section .col-md-why-work-grid .grid-box {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 1rem; }
+      @media only screen and (max-width: 767px) {
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 0; } }
+      @media only screen and (max-width: 661px) {
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 0; } }
+      @media only screen and (max-width: 600px) {
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 0; } }
+      @media only screen and (max-width: 575px) {
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 0; } }
+      @media only screen and (max-width: 526px) {
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 0; } }
+      @media only screen and (max-width: 485px) {
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 0; } }
+      @media only screen and (max-width: 411px) {
+        .why-work-otitopic-section .col-md-why-work-grid .grid-box {
+          grid-template-columns: repeat(1, 1fr);
+          grid-gap: 0; } }
       .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission {
-        background: url("../img/our-mission.jpg") no-repeat; }
+        background: url("../img/our-mission.jpg") center/cover no-repeat; }
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details {
-          padding: 40px; }
+          padding: 40px;
+          width: 100%; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details h2 {
             font-family: "Nunito", sans-serif;
             font-style: normal;
@@ -3394,7 +3591,7 @@ h4 {
             width: 100%;
             margin-top: 2rem; }
       .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision {
-        background: url("../img/our-vision.jpg") no-repeat; }
+        background: url("../img/our-vision.jpg") center/cover no-repeat; }
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details h2 {
@@ -3414,7 +3611,7 @@ h4 {
             width: 100%;
             margin-top: 2rem; }
       .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits {
-        background: url("../img/our-benefits.jpg") no-repeat; }
+        background: url("../img/our-benefits.jpg") center/cover no-repeat; }
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details h2 {
@@ -3434,7 +3631,7 @@ h4 {
             width: 100%;
             margin-top: 2rem; }
       .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture {
-        background: url("../img/our-culture.jpg") no-repeat; }
+        background: url("../img/our-culture.jpg") center/cover no-repeat; }
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details h2 {
@@ -3455,6 +3652,27 @@ h4 {
             margin-top: 2rem; }
   .why-work-otitopic-section img {
     width: 323px; }
+    @media only screen and (max-width: 767px) {
+      .why-work-otitopic-section img {
+        display: none; } }
+    @media only screen and (max-width: 661px) {
+      .why-work-otitopic-section img {
+        display: none; } }
+    @media only screen and (max-width: 600px) {
+      .why-work-otitopic-section img {
+        display: none; } }
+    @media only screen and (max-width: 575px) {
+      .why-work-otitopic-section img {
+        display: none; } }
+    @media only screen and (max-width: 526px) {
+      .why-work-otitopic-section img {
+        display: none; } }
+    @media only screen and (max-width: 485px) {
+      .why-work-otitopic-section img {
+        display: none; } }
+    @media only screen and (max-width: 411px) {
+      .why-work-otitopic-section img {
+        display: none; } }
 
 @media only screen and (max-width: 767px) {
   .contact-form-section {

@@ -1,32 +1,92 @@
-// Push the Boundaries
+.innovative-options-section {
+	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+
 
 .why-work-otitopic-section {
 	background: #EBE9E8;
-  	padding: 60px;
 
-  	// 991px
+  	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-  	@media only screen and (max-width: $bp-tab-md) {
-        padding:70px;
-    } 
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    @media only screen and (max-width: $bp-tab-pt) {
-        padding:70px;
-    } 
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    // 768px
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-  	@media only screen and (max-width: $bp-tab-sm) {
-        padding:20px;
-    } 
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    @media only screen and (max-width: $bp-mobile-lg) {
-        padding:70px;
-    } 
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    @media only screen and (max-width: $bp-mobile-sm) {
-        padding:20px;
-    } 
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
   	.section-title-s3 {
 
@@ -37,6 +97,34 @@
 	        font-size: 36px;
 	        line-height: 49px;
 	        color: #081D31;
+
+	        @media only screen and (max-width: 767px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        text-align: left;
+		    }
+
+	        @media only screen and (max-width: 411px) {
+	       		text-align: left;
+	    	}
       	}
 
       	p {
@@ -47,6 +135,34 @@
 	        line-height: 155%;
 	        text-align: center;
 	        color: #1B3349;
+
+	        @media only screen and (max-width: 767px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        text-align: left;
+		    }
+
+	        @media only screen and (max-width: 411px) {
+	       		text-align: left;
+	    	}
       	}
   	}
 
@@ -86,16 +202,80 @@
 		grid-template-columns: 2fr 1fr;
 		grid-gap: 1rem;
 
+		@media only screen and (max-width: 767px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
 		.grid-box {
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
 			grid-gap: 1rem;
 
+			@media only screen and (max-width: 767px) {
+	        	grid-template-columns: repeat(1, 1fr);
+	        	 grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        grid-template-columns: repeat(1, 1fr);
+		         grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	grid-template-columns: repeat(1, 1fr);
+		       	 grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	grid-template-columns: repeat(1, 1fr);
+		       	 grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        grid-template-columns: repeat(1, 1fr);
+		         grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        grid-template-columns: repeat(1, 1fr);
+		         grid-gap: 0;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		        grid-template-columns: repeat(1, 1fr);
+		        grid-gap: 0;
+		    }
+
 			.our-mission {
-				background: url("../img/our-mission.jpg") no-repeat;
+				background: url("../img/our-mission.jpg") center/cover no-repeat;
 
 				.text-details {
 					padding: 40px;
+					width: 100%;
 
 					h2 {
 						font-family: $font-primary;
@@ -121,7 +301,7 @@
 			}
 
 			.our-vision {
-				background: url("../img/our-vision.jpg") no-repeat;
+				background: url("../img/our-vision.jpg") center/cover no-repeat;
 
 				.text-details {
 					padding: 40px;
@@ -150,7 +330,7 @@
 			}
 
 			.our-benefits {
-				background: url("../img/our-benefits.jpg") no-repeat;
+				background: url("../img/our-benefits.jpg") center/cover no-repeat;
 
 				.text-details {
 					padding: 40px;
@@ -179,7 +359,7 @@
 			}
 
 			.our-culture {
-				background: url("../img/our-culture.jpg") no-repeat;
+				background: url("../img/our-culture.jpg") center/cover no-repeat;
 
 				.text-details {
 					padding: 40px;
@@ -211,5 +391,33 @@
 
 	img {
 		width: 323px;
+
+		@media only screen and (max-width: 767px) {
+	        display: none;
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        display: none;
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	display: none;
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	display: none;
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        display: none;
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        display: none;
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        display: none;
+	    }
 	}
 }

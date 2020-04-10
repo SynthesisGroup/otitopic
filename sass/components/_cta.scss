@@ -4,23 +4,47 @@
   	background-repeat: no-repeat;
   	background-position: right;
 
-    padding: 100px;
+    @media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    @media only screen and (max-width: $bp-tab-md) {
-        padding:70px;
-    } 
+    @media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    @media only screen and (max-width: $bp-tab-pt) {
-        padding:70px;
-    } 
+    @media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    @media only screen and (max-width: $bp-mobile-lg) {
-        padding:70px;
-    } 
+    @media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
-    @media only screen and (max-width: $bp-mobile-sm) {
-        padding:20px;
-    } 
+    @media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
   	h2 {
   		font-family: $font-primary;
