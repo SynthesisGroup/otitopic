@@ -64,7 +64,7 @@ button {
   background: transparent; }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-size: 14px;
   line-height: 24px; }
 
@@ -74,7 +74,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito"; }
 
 h4 {
   font-size: 24px;
@@ -1030,7 +1030,7 @@ h4 {
   margin-top: -0.2em; }
 
 .section-title h2, .section-title-s2 h2, .section-title-s3 h2, .section-title-s4 h2, .section-title-s5 h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -1133,7 +1133,7 @@ h4 {
         width: 50px;
         height: 50px;
         line-height: 47px;
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-size: 18px;
         font-weight: bold;
         color: #0F63A7;
@@ -1162,7 +1162,7 @@ h4 {
   text-align: center; }
 
 .btn-outline-press {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1190,7 +1190,7 @@ h4 {
     color: #ffffff !important; }
 
 .btn-outline {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1218,7 +1218,7 @@ h4 {
     color: #ffffff !important; }
 
 .btn-white {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1235,7 +1235,7 @@ h4 {
     color: #ffffff !important; }
 
 .read-more-btn-primary {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1261,7 +1261,7 @@ h4 {
     color: #081d32; }
 
 .read-more-btn {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1285,7 +1285,7 @@ h4 {
     color: #ffffff; }
 
 .send-message-btn {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1316,7 +1316,7 @@ h4 {
   height: 22px;
   left: 34px;
   bottom: 12px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -1377,7 +1377,7 @@ h4 {
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   .cta-section h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -1509,7 +1509,7 @@ h4 {
         height: auto;
         margin-top: -276px; } }
     .otitopic-header-info .banner-tag-head h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 45px;
@@ -1518,28 +1518,28 @@ h4 {
       text-align: left; }
       @media only screen and (max-width: 575px) {
         .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
+          font-family: "Nunito";
           font-size: 45px;
           line-height: 44px; } }
       @media only screen and (max-width: 526px) {
         .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
+          font-family: "Nunito";
           font-size: 35px;
           line-height: 44px; } }
       @media only screen and (max-width: 485px) {
         .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
+          font-family: "Nunito";
           font-size: 35px;
           line-height: 44px; } }
       @media only screen and (max-width: 411px) {
         .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
+          font-family: "Nunito";
           font-size: 30px;
           line-height: 44px; } }
     .otitopic-header-info .banner-tag-head ul {
       margin-top: 20px; }
       .otitopic-header-info .banner-tag-head ul li {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -1549,7 +1549,7 @@ h4 {
           .otitopic-header-info .banner-tag-head ul li {
             font-size: 16px; } }
     .otitopic-header-info .banner-tag-head p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 21px;
@@ -1592,14 +1592,14 @@ h4 {
       .otitopic-header-info .breadcrumbs {
         display: none; } }
     .otitopic-header-info .breadcrumbs .inactive {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
       line-height: 155%;
       color: #1B3349; }
     .otitopic-header-info .breadcrumbs .active {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: bold;
       font-size: 16px;
@@ -1698,7 +1698,7 @@ h4 {
     max-width: 3rem;
     padding-bottom: 1rem; }
   .testimonials-section h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: italic;
     font-weight: 600;
     font-size: 23px !important;
@@ -1714,7 +1714,7 @@ h4 {
     .testimonials-section .author .line-separator {
       margin-top: 3.6rem; }
   .testimonials-section h4 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -1722,7 +1722,7 @@ h4 {
     color: #ffffff;
     padding-top: 2rem; }
   .testimonials-section p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1747,13 +1747,13 @@ h4 {
     position: relative;
     top: 27.51%;
     bottom: 39.86%;
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 219.4%; }
   .footer-section .footer-brand-excerpt {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -1784,7 +1784,7 @@ h4 {
 
 .footer-section .footer-top .wiget-title,
 .footer-section .footer-top .footer-logo {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -2185,7 +2185,7 @@ h4 {
   transition-duration: 500ms;
   text-decoration: none;
   outline: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -3091,7 +3091,7 @@ h4 {
   transition-duration: 500ms;
   text-decoration: none;
   outline: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -3117,7 +3117,7 @@ h4 {
   margin-top: 2rem;
   margin-bottom: 2rem; }
   .recovering-hearts-section .card-wrap p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -3197,21 +3197,21 @@ h4 {
       padding: 56px;
       height: 100%; }
       .our-mission-section .col-md-rev-mission .text-wrap h2 {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 45px;
         color: #081D31; }
       .our-mission-section .col-md-rev-mission .text-wrap h4 {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 155%;
         color: #081D31; }
       .our-mission-section .col-md-rev-mission .text-wrap p {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -3228,14 +3228,14 @@ h4 {
         .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area {
           padding: 50px; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: 600;
             font-size: 36px;
             line-height: 36px;
             color: #ffffff; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area p {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -3318,14 +3318,14 @@ h4 {
             float: left !important;
             margin-bottom: 0 !important; }
             .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-top h2 {
-              font-family: "Nunito", sans-serif;
+              font-family: "Nunito";
               font-style: normal;
               font-weight: bold;
               font-size: 18px;
               line-height: 23px;
               color: #ffa000 !important; }
             .regulatory-pathway-section .ps-timeline-sec .container ol.ps-timeline li .img-handler-top p {
-              font-family: "Nunito", sans-serif;
+              font-family: "Nunito";
               font-style: normal;
               font-weight: bold;
               font-size: 18px;
@@ -3521,7 +3521,7 @@ h4 {
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   .why-work-otitopic-section .section-title-s3 h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -3549,7 +3549,7 @@ h4 {
       .why-work-otitopic-section .section-title-s3 h2 {
         text-align: left; } }
   .why-work-otitopic-section .section-title-s3 p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -3583,7 +3583,7 @@ h4 {
     .why-work-otitopic-section .push-the-boundaries-grids .grid img {
       max-width: 80px; }
     .why-work-otitopic-section .push-the-boundaries-grids .grid h3 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: bold;
       font-size: 26px;
@@ -3592,7 +3592,7 @@ h4 {
       color: #0F63A7;
       margin: 0.8em 0 0.7em; }
     .why-work-otitopic-section .push-the-boundaries-grids .grid p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -3663,14 +3663,14 @@ h4 {
           padding: 40px;
           width: 100%; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
             line-height: 35px;
             color: #ffffff; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details p {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -3683,14 +3683,14 @@ h4 {
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
             line-height: 35px;
             color: #ffffff; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details p {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -3703,14 +3703,14 @@ h4 {
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
             line-height: 35px;
             color: #ffffff; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details p {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -3723,14 +3723,14 @@ h4 {
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
             line-height: 35px;
             color: #ffffff; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details p {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
@@ -3820,7 +3820,7 @@ h4 {
     .contact-form-section .form-wrap {
       padding: 30px; } }
   .contact-form-section .form-wrap h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -3830,7 +3830,7 @@ h4 {
       .contact-form-section .form-wrap h2 {
         line-height: 35px; } }
   .contact-form-section .form-wrap p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -3870,7 +3870,7 @@ h4 {
     background: #0F63A7;
     padding: 30px; }
     .contact-form-section .contact-details-wrap .contact-wrap h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 28px;
@@ -3882,14 +3882,14 @@ h4 {
       .contact-form-section .contact-details-wrap .contact-wrap .contact .img-icon img {
         max-width: 30px; }
     .contact-form-section .contact-details-wrap .contact-wrap .contact span {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
       line-height: 33px;
       color: #E6ECF0; }
     .contact-form-section .contact-details-wrap .contact-wrap .contact p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 14px;
@@ -3934,7 +3934,7 @@ h4 {
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   .home-page-banner h1 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 60px;
@@ -3946,7 +3946,7 @@ h4 {
         line-height: 50px;
         margin-top: -60px; } }
   .home-page-banner p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
@@ -4063,7 +4063,7 @@ h4 {
           margin: 40px;
           padding-bottom: 0px; }
           .about-otitopic-section .right-col .timeline .timeline-body .content-head .title-head {
-            font-family: "Nunito", sans-serif;
+            font-family: "Nunito";
             font-style: normal;
             font-weight: 600;
             font-size: 24px;
@@ -4087,21 +4087,21 @@ h4 {
             margin: 40px;
             padding-bottom: 0px; }
             .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content .title {
-              font-family: "Nunito", sans-serif;
+              font-family: "Nunito";
               font-style: normal;
               font-weight: normal;
               font-size: 18px;
               line-height: 23px;
               color: #ffffff; }
             .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content a {
-              font-family: "Nunito", sans-serif;
+              font-family: "Nunito";
               font-style: normal;
               font-weight: 600;
               font-size: 16px;
               line-height: 20px;
               color: #93B6D2; }
   .about-otitopic-section .left-col h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -4117,7 +4117,7 @@ h4 {
         font-size: 25px;
         font-size: 1.5625rem; } }
   .about-otitopic-section .details p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -4172,7 +4172,7 @@ h4 {
     padding-bottom: 60px !important; } }
 
 .push-the-boundaries-section .section-title-s3 h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -4180,7 +4180,7 @@ h4 {
   color: #081D31; }
 
 .push-the-boundaries-section .section-title-s3 p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -4194,7 +4194,7 @@ h4 {
   .push-the-boundaries-section .push-the-boundaries-grids .grid img {
     max-width: 80px; }
   .push-the-boundaries-section .push-the-boundaries-grids .grid h3 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -4203,7 +4203,7 @@ h4 {
     color: #0F63A7;
     margin: 0.8em 0 0.7em; }
   .push-the-boundaries-section .push-the-boundaries-grids .grid p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -4240,7 +4240,7 @@ h4 {
   .heart-attack-grid-2 .img-holder img {
     width: 100%; }
   .heart-attack-grid-2 .text-content h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -4248,7 +4248,7 @@ h4 {
     color: #081D31;
     width: 100%; }
   .heart-attack-grid-2 .text-content p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -4308,7 +4308,7 @@ h4 {
   width: 200px;
   height: 43px;
   left: 0px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -4325,7 +4325,7 @@ h4 {
     font-size: 1.875rem; } }
 
 .featured-project-section .project-grids h3 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -4340,7 +4340,7 @@ h4 {
     font-size: 1.125rem; } }
 
 .featured-project-section .project-grids p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -4459,7 +4459,7 @@ h4 {
       margin-left: 21px;
       margin-top: 16px; }
   .btn-overlay p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -4511,7 +4511,7 @@ h4 {
     padding-bottom: 60px !important; } }
 
 .company-overview-section .text-wrap h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -4519,7 +4519,7 @@ h4 {
   color: #081D31; }
 
 .company-overview-section .text-wrap p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -4603,7 +4603,7 @@ h4 {
         margin-top: 0;
         width: 100%; } }
     .company-overview-section .img-wrap .img-cap .text-content p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -4656,7 +4656,7 @@ h4 {
       .company-overview-section .img-wrap .contact-card {
         padding: 40px; } }
     .company-overview-section .img-wrap .contact-card h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 28px;
@@ -4691,7 +4691,7 @@ h4 {
           font-size: 26px;
           line-height: 30px; } }
     .company-overview-section .img-wrap .contact-card p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
@@ -4703,7 +4703,7 @@ h4 {
       .company-overview-section .img-wrap .contact-card .contact img {
         max-width: 30px; }
       .company-overview-section .img-wrap .contact-card .contact p {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -4744,7 +4744,7 @@ h4 {
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 0; } }
   .company-overview-section .press-rel-down .press-releases h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -4782,14 +4782,14 @@ h4 {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
     .company-overview-section .press-rel-down .press-releases .press-content span {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
       line-height: 20px;
       color: #7E7E7E; }
     .company-overview-section .press-rel-down .press-releases .press-content p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
@@ -4862,7 +4862,7 @@ h4 {
   .company-overview-section .press-rel-down .downloads .content ul li {
     padding: 8px 0px; }
     .company-overview-section .press-rel-down .downloads .content ul li a {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
@@ -4986,7 +4986,7 @@ h4 {
     padding-bottom: 60px !important; } }
 
 .privacy-policy-section h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -4994,7 +4994,7 @@ h4 {
   color: #081D31; }
 
 .privacy-policy-section p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5072,7 +5072,7 @@ h4 {
   .myocardial-infarction-section .col-md-myocardial .img-wrap img {
     width: 100%; }
   .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -5101,7 +5101,7 @@ h4 {
       .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
         width: 100% !important; } }
   .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial p {
-    font-family: "Nunito", sans-serif;
+    font-family: "Nunito";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -5127,14 +5127,14 @@ h4 {
           .myocardial-infarction-section .info-section .info-left ul li .list-number img {
             width: 200px; } }
     .myocardial-infarction-section .info-section .info-left ul li .details h4 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: bold;
       font-size: 18px;
       line-height: 155%;
       color: #0F63A7; }
     .myocardial-infarction-section .info-section .info-left ul li .details p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -5157,7 +5157,7 @@ h4 {
         padding: 35px;
         height: 100%; } }
     .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -5198,7 +5198,7 @@ h4 {
         .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap .col-grid-text {
           grid-template-columns: repeat(1, 1fr); } }
       .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap .col-grid-text p {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -5263,14 +5263,14 @@ h4 {
         height: 100%;
         padding: 35px; } }
     .otitopic-research-tech-trials-section .col-md-rev .text-wrap h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
       line-height: 45px;
       color: #ffffff; }
     .otitopic-research-tech-trials-section .col-md-rev .text-wrap p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -5356,14 +5356,14 @@ h4 {
     background: #ffffff;
     height: 446px; }
     .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
       line-height: 45px;
       color: #081D31; }
     .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -5387,7 +5387,7 @@ h4 {
             height: 100%;
             width: 100%; } }
         .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials .col-md-clinical-trials-grid .card-wrap p {
-          font-family: "Nunito", sans-serif;
+          font-family: "Nunito";
           font-style: normal;
           font-weight: 600;
           font-size: 13px;
@@ -5460,7 +5460,7 @@ h4 {
     border-left: 2px solid #ffa000;
     height: 121px; }
     .otitopic-research-tech-trials-section .col-md-bottom-grid .card-wrap p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 13px;
@@ -5513,7 +5513,7 @@ h4 {
     padding-bottom: 60px !important; } }
 
 .recovering-hearts-section .text-wrap h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -5521,7 +5521,7 @@ h4 {
   color: #081D31; }
 
 .recovering-hearts-section .text-wrap p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5584,7 +5584,7 @@ h4 {
       height: 50%; }
 
 .recovering-hearts-section .our-technology .text-wrap h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -5592,7 +5592,7 @@ h4 {
   color: #081D31; }
 
 .recovering-hearts-section .our-technology .text-wrap p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5600,7 +5600,7 @@ h4 {
   color: #1B3349; }
 
 .recovering-hearts-section .asprihale-area .text-wrap h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -5660,7 +5660,7 @@ h4 {
       .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
         grid-template-columns: 30% 70%; } }
     .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: normal;
       font-size: 25px;
@@ -5671,7 +5671,7 @@ h4 {
       width: 50px;
       padding: 10px; }
     .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
-      font-family: "Nunito", sans-serif;
+      font-family: "Nunito";
       font-style: normal;
       font-weight: 600;
       font-size: 16px;
@@ -5725,7 +5725,7 @@ h4 {
     padding-bottom: 60px !important; } }
 
 .terms-conditions-section h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -5733,7 +5733,7 @@ h4 {
   color: #081D31; }
 
 .terms-conditions-section p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5741,7 +5741,7 @@ h4 {
   color: #1B3349; }
 
 .innovative-options-section .container p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5816,14 +5816,14 @@ h4 {
       padding: 60px;
       height: 100%; }
       .therapies-section .col-md-rev .text-wrap h2 {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 45px;
         color: #ffa000; }
       .therapies-section .col-md-rev .text-wrap p {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -5892,7 +5892,7 @@ h4 {
         .therapies-section .col-md-bottom-grid .card-wrap {
           height: 100%; } }
       .therapies-section .col-md-bottom-grid .card-wrap p {
-        font-family: "Nunito", sans-serif;
+        font-family: "Nunito";
         font-style: normal;
         font-weight: 600;
         font-size: 13px;
