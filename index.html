@@ -133,11 +133,18 @@
                     <div class="col-lg-10 col-md-12">
                         <h1>Revolutionizing Myocardial Infraction Management</h1>
                         <p>Our mission is to provide patients with a faster alternative for management of suspected myocardial infraction (MI).</p>
+
+                        <div class="img-fluid mt-50">
+                            <!-- <img src="img/icons/play.png" class="play-icon-btn" alt=""> -->
+                            <img src="img/img-home-sm.jpg" alt="">
+                            <a href="#" class="btn-view-video" data-toggle="modal" data-target="#view-our-video">View our video</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-       
+
+
         <!-- End Home Banner -->
 
     </header>
@@ -146,11 +153,45 @@
     <!-- Start Main Page Wrapper -->
     <main>
 
+        <!-- Modal Video for View our video -->
+        <div class="modal fade" id="view-our-video" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <video width="100%" height="100%" controls>
+                        <source src="img/videos/iStock-469473726.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
        <!-- start about otitopic -->
         <section class="about-otitopic-section section-gap section-gap-top section-gap-bottom">
             <div class="content-area clearfix">
                 <div class="left-col">
-                    <img src="img/home-about.jpg" alt="thumbnail">
+                  
+                    <div class="ugb-video-popup" style="background: url('img/home-about.jpg') no-repeat;">
+                       
+                        <div class="ugb-video-wrapper">
+                            <a href="#" data-toggle="modal" data-target="#about-otitopic-video">
+                                <span class="ugb-play-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 34 34"><path d="M17 34C7.6 34 0 26.4 0 17S7.6 0 17 0s17 7.6 17 17-7.6 17-17 17zm0-32C8.7 2 2 8.7 2 17s6.7 15 15 15 15-6.7 15-15S25.3 2 17 2z"/><path d="M12 25.7V8.3L27 17l-15 8.7zm2-14v10.5l9-5.3-9-5.2z"/></svg>
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- Modal Video for About Otitopic -->
+                        <div class="modal fade" id="about-otitopic-video" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <video width="100%" height="100%" controls>
+                                        <source src="img/videos/iStock-469473726.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                     <h2>About Otitopic</h2>
                     <div class="details">
                         <p>Otitopic, Inc., founded in 2012, is a late-stage pharmaceutical company, with a track record of success in product drug delivery and drug device development. Otitopic has changed the route of administration of a reference listed drug (RLD) and is on track to file a 505(b)(2) NDA for sale and marketing in the US.</p>
@@ -214,12 +255,40 @@
                 <div class="heart-attack-grid-2">
                     <div class="img-holder">
                         <img src="img/heart-attack.jpg" alt="">
+
+                        <div class="btn-overlay">
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#video-make-difference">
+                                <div class="play-btn">
+                                    <img src="img/icons/play.png" alt="img">
+                                </div>
+                            </a>
+                            <p>See how we make a difference</p>
+                        </div>
+
+                        <!-- Modal Video for About Otitopic -->
+                        <div class="modal fade" id="video-make-difference" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <video width="100%" height="100%" controls>
+                                        <source src="img/videos/iStock-469473726.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="text-content">
-                        <h2>Management of suspected heart attack</h2>
+                        <h2>Management of Suspected Heart Attack</h2>
 
-                        <p>A myocardial infarction (MI), commonly known as a heart attack, occurs every 40 seconds in the US. Otitopic is committed to the development of a rapid therapy for the treatment of MI. Otitopic has developed a dry powder inhalation treatment for MI that enters the bloodstream in less than two minutes.</p>
-                        <p>Myocardial infarction occurs when an interruption in blood supply causes heart cell death from lack of oxygen and nutrients. Myocardial infarctions are typically caused by the blockage of a coronary artery by atherosclerotic plaque, a mass of cholesterol and white blood cells in the artery wall. Otitopic has been working on the proprietary formulation since 2012 and is focused on bringing this therapy to market.</p>
+                        <p>A myocardial infarction (MI), commonly known as a heart attack, occurs every 40 seconds in the US.
+                        Otitopic is committed to the development of a rapid therapy for the treatment of MI. Otitopic has
+                        developed a dry powder inhalation treatment for MI that enters the bloodstream in less than two
+                        minutes.</p>
+
+                        <p>Myocardial infarction occurs when an interruption in blood supply causes heart cell death from lack of
+                        oxygen and nutrients. Myocardial infarctions are typically caused by the blockage of a coronary artery by
+                        atherosclerotic plaque, a mass of cholesterol and white blood cells in the artery wall. Otitopic has been
+                        working on the proprietary formulation since 2012 and is focused on bringing this therapy to market.</p>
                     </div>
                 </div>
                 
@@ -240,39 +309,39 @@
             </div>
             <div class="content-area">
                 <div class="project-grids clearfix">
-                    <div class="grid" style="background: url('img/img-hover-1.jpg') center no-repeat;">
+                    <div class="grid" style="background: url('img/img-hover-1.jpg') center no-repeat; height: 500px">
                         <div class="overlay">
                             <span class="count"><img src="img/icons/atomic.png" alt="icon"></span>
                             <div class="tag-area">Our Science</div>
-                            <h3>Our Technology</h3>
-                            <p>Asprihale® has been designed with deep lung deposition in mind. The formulation’s particles have been engineered to a specific size so that the inhaler produces the ideal aerodynamic profile for maximum absorption. Otitopic has been issued multiple patents worldwide and is the only company with the rights to market orally inhaled dry powder aspirin. </p>
+                            <h3>Our Science</h3>
+                            <p>Dry powder inhalation provides a rapid onset of action, especially when compared to oral formulations. The increased absorption rate of Asprihale® is due to the combination of the drug, device, and large absorptive surface area of the lungs. Otitopic has demonstrated that Asprihale® is delivered into the bloodstream in less than two minutes.</p>
                             <a href="#" class="btn-white">Learn More</a>
                         </div>
                     </div>
-                    <div class="grid" style="background: url('img/img-hover-2.jpg') center center no-repeat;">
+                    <div class="grid" style="background: url('img/img-hover-2.jpg') center center no-repeat; height: 500px">
                         <div class="overlay">
                             <span class="count"><img src="img/icons/medical-computer.png" alt="icon"></span>
                             <div class="tag-area">Our Technology</div>
                             <h3>Our Technology</h3>
-                            <p>Asprihale® has been designed with deep lung deposition in mind. The formulation’s particles have been engineered to a specific size so that the inhaler produces the ideal aerodynamic profile for maximum absorption. Otitopic has been issued multiple patents worldwide and is the only company with the rights to market orally inhaled dry powder aspirin. </p>
+                            <p>Asprihale® has been designed with deep lung deposition in mind. The formulation’s particles have been engineered to a specific size so that the inhaler produces the ideal aerodynamic profile for maximum absorption. Otitopic has been issued multiple patents worldwide and is the only company with the rights to market orally inhaled dry powder aspirin.</p>
                             <a href="#" class="btn-white">Learn More</a>
                         </div>
                     </div>
-                    <div class="grid" style="background: url('img/img-hover-3.jpg') center center no-repeat;">
+                    <div class="grid" style="background: url('img/img-hover-3.jpg') center center no-repeat; height: 500px">
                         <div class="overlay">
                             <span class="count"><img src="img/icons/pipe.png" alt="icon"></span>
                             <div class="tag-area">Our Pipeline</div>
-                            <h3>Our Technology</h3>
-                            <p>Asprihale® has been designed with deep lung deposition in mind. The formulation’s particles have been engineered to a specific size so that the inhaler produces the ideal aerodynamic profile for maximum absorption. Otitopic has been issued multiple patents worldwide and is the only company with the rights to market orally inhaled dry powder aspirin. </p>
+                            <h3>Our Pipeline</h3>
+                            <p>Otitopic is exploring additional indications that can be treated with Asprihale®, such as non-small cell lung cancer.</p>
                             <a href="#" class="btn-white">Learn More</a>
                         </div>
                     </div>
-                    <div class="grid" style="background: url('img/img-hover-4.jpg') center center no-repeat;">
+                    <div class="grid" style="background: url('img/img-hover-4.jpg') center center no-repeat; height: 500px">
                         <div class="overlay">
                             <span class="count"><img src="img/icons/therapy.png" alt="icon"></span>
                             <div class="tag-area">Our Therapies</div>
-                            <h3>Our Technology</h3>
-                            <p>Asprihale® has been designed with deep lung deposition in mind. The formulation’s particles have been engineered to a specific size so that the inhaler produces the ideal aerodynamic profile for maximum absorption. Otitopic has been issued multiple patents worldwide and is the only company with the rights to market orally inhaled dry powder aspirin. </p>
+                            <h3>Our Therapies</h3>
+                            <p>Asprihale® will be the first inhaled therapy intended to treat MI. Otitopic is committed to gaining approval of Asprihale® and making a difference in the lives of patients.</p>
                             <a href="#" class="btn-white">Learn More</a>
                         </div>
                     </div>
@@ -459,7 +528,12 @@
     <script src="js/odometer.js"></script>
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/main.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
     <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+
    <!--  <script type="text/javascript">
         window.addEventListener("scroll", function() {
           let headerStickyArea = document.getElementById('headerStickyArea');

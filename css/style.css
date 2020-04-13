@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -1309,6 +1309,32 @@ h4 {
       display: flex;
       justify-content: center;
       align-items: center; } }
+
+.btn-view-video {
+  position: static;
+  width: 111px;
+  height: 22px;
+  left: 34px;
+  bottom: 12px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 34px;
+  width: 179px;
+  height: 46px;
+  left: 149px;
+  bottom: 4036px;
+  background: #FFA000;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 6px 6px; }
 
 .cta-section {
   background: url("../img/cta.jpg");
@@ -4365,6 +4391,82 @@ h4 {
 
 .featured-project-section .project-grids .grid:hover .overlay > a {
   top: 0; }
+
+.ugb-video-popup {
+  position: relative;
+  width: 100%;
+  max-width: 600px; }
+  .ugb-video-popup .ugb-video-preview, .ugb-video-popup a, .ugb-video-popup .ugb-play-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .ugb-video-popup .ugb-video-preview {
+    background-size: cover;
+    background-position: center;
+    opacity: .4;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    object-fit: fill;
+    width: 100%; }
+  .ugb-video-popup:hover .ugb-video-preview {
+    opacity: .5; }
+  .ugb-video-popup .ugb-video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; }
+  .ugb-video-popup a {
+    z-index: 3;
+    box-shadow: none !important;
+    background: transparent !important;
+    display: block !important; }
+  .ugb-video-popup .ugb-play-button {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .ugb-video-popup svg {
+    fill: #fff !important; }
+
+.img-fluid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); }
+
+.play-icon-btn {
+  position: relative;
+  width: 32.31px;
+  height: 30px;
+  left: 253px;
+  bottom: 4112px; }
+
+.btn-overlay {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-gap: 1rem;
+  margin-top: -85px;
+  margin-left: 26px; }
+  .btn-overlay .play-btn {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    cursor: pointer; }
+    .btn-overlay .play-btn img {
+      max-width: 23px;
+      margin-left: 21px;
+      margin-top: 16px; }
+  .btn-overlay p {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 145%;
+    color: #ffffff;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    width: 146px; }
 
 @media only screen and (max-width: 767px) {
   .company-overview-section {
