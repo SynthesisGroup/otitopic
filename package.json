@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "watch:sass": "node-sass css/main.scss -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
@@ -35,7 +35,6 @@
     "postcss-cli": "^7.1.0"
   },
   "dependencies": {
-    "bigpicture": "^2.3.1",
     "live-server": "^1.2.1"
   }
 }
