@@ -223,3 +223,118 @@
 	border-radius: 0px 0px 6px 6px;
 
 }
+
+
+
+/*Btn Style Primary*/
+
+.btn-style-primary{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	color: $color-white;
+	padding: 8px 56px;
+	font-weight: bold;
+	font-style: normal;
+	overflow: hidden;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	background-color: $color-orange;
+	font-family: $font-primary;
+}
+
+.btn-style-primary .txt{
+	position:relative;
+	z-index:1;
+}
+
+.btn-style-primary:before{
+	position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-color: $color-white;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+
+.btn-style-primary:hover::before{
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.btn-style-primary:hover {
+	color: $color-primary;
+}
+
+
+/*Btn Style Secondary*/
+
+.btn-style-secondary{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	color: $color-white;
+	padding: 8px 56px;
+	font-weight: bold;
+	font-style: normal;
+	overflow: hidden;
+	border-radius: 6px;
+	border: 1px solid $color-white;
+	background-color: transparent;
+	font-family: $font-primary;
+}
+
+.btn-style-secondary .txt{
+	position:relative;
+	z-index:1;
+}
+
+.btn-style-secondary:before{
+	position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-color: $color-orange;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+
+.btn-style-secondary:hover::before{
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.btn-style-secondary:hover {
+	border: 1px solid $color-orange;
+	color: $color-white;
+}
+
+.theme-btn{
+	display:inline-block;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}

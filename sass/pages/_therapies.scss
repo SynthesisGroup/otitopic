@@ -91,7 +91,6 @@
 		.text-wrap {
 			background: #081D31;
 			padding: 60px;
-			height: 100%;
 
 			h2 {
 				font-family: $font-primary;
@@ -110,6 +109,11 @@
 				line-height: 155%;
 				color: $color-white;
 			}
+		}
+
+		.img-wrap {
+			width: 100%;
+			height: 100%;
 		}
 	}
 
