@@ -1366,7 +1366,7 @@ h4 {
   font-size: 16px;
   line-height: 30px;
   color: #ffffff;
-  padding: 8px 56px;
+  padding: 8px 47px;
   font-weight: bold;
   font-style: normal;
   overflow: hidden;
@@ -1403,6 +1403,50 @@ h4 {
 
 .btn-style-secondary:hover {
   border: 1px solid #ffa000;
+  color: #ffffff; }
+
+/*Btn Style Default*/
+.btn-style-default {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 30px;
+  color: #081D31;
+  padding: 8px 47px;
+  font-weight: bold;
+  font-style: normal;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: #ffffff;
+  font-family: "Nunito", sans-serif; }
+
+.btn-style-default .txt {
+  position: relative;
+  z-index: 1; }
+
+.btn-style-default:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  background-color: #ffa000;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: scale(0.5, 1);
+  transform: scale(0.5, 1); }
+
+.btn-style-default:hover::before {
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1); }
+
+.btn-style-default:hover {
   color: #ffffff; }
 
 .theme-btn {
@@ -3881,7 +3925,7 @@ h4 {
             border: 2px solid #ffffff;
             background-color: #ffffff;
             position: absolute;
-            left: -6px;
+            left: -8px;
             top: 0px;
             z-index: 9; }
           .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content {
@@ -4060,7 +4104,7 @@ h4 {
   padding-bottom: 0; }
 
 .featured-project-section .project-grids .grid {
-  width: 25%;
+  width: 100%;
   float: left;
   -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
@@ -4073,10 +4117,6 @@ h4 {
   .featured-project-section .project-grids .grid {
     width: 50%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); } }
-
-@media (max-width: 991px) {
-  .featured-project-section .project-grids .grid {
-    background-color: rgba(19, 30, 74, 0.9); } }
 
 @media (max-width: 600px) {
   .featured-project-section .project-grids .grid {
@@ -4106,8 +4146,6 @@ h4 {
 .featured-project-section .project-grids .tag-area {
   position: absolute;
   top: 400px;
-  width: 200px;
-  height: 43px;
   left: 0px;
   font-family: "Nunito", sans-serif;
   font-style: normal;
@@ -4118,7 +4156,23 @@ h4 {
   background: #0F63A7;
   display: flex;
   flex-direction: row;
-  padding: 7px 40px; }
+  padding: 15px 56px; }
+  @media only screen and (max-width: 411px) {
+    .featured-project-section .project-grids .tag-area {
+      left: 20px; } }
+
+.featured-project-section .project-grids .tag-icon {
+  position: absolute;
+  top: 21px;
+  left: -12px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 56px; }
 
 @media (max-width: 991px) {
   .featured-project-section .project-grids .count {
@@ -4268,6 +4322,69 @@ h4 {
     color: #ffffff;
     text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     width: 146px; }
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden; }
+  .content .content-overlay {
+    background: #0F63A7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s; }
+  .content:hover .content-overlay {
+    opacity: 1; }
+  .content:hover .tag-area {
+    display: none; }
+  .content:hover .tag-icon {
+    display: none; }
+
+.content-image {
+  width: 100%; }
+
+.content-details {
+  position: absolute;
+  text-align: left;
+  width: 75%;
+  padding: 50px;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s; }
+  .content-details img {
+    max-width: 40px; }
+
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1; }
+
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0.5em; }
+
+.content-details p {
+  color: #fff;
+  font-size: 0.8em; }
+
+.fadeIn-bottom {
+  top: 80%; }
 
 @media only screen and (max-width: 767px) {
   .company-overview-section {
