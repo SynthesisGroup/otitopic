@@ -1,5 +1,11 @@
 .company-overview-section {
 
+	@media only screen and (max-width: 768px) {
+        padding: 50px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
 	@media only screen and (max-width: 767px) {
         padding: 10px !important;
         padding-top: 60px !important;
@@ -67,6 +73,11 @@
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 2rem;
 
+		@media only screen and (max-width: 768px) {
+        	grid-template-columns: repeat(1, 1fr);
+        	grid-gap: 0;
+	    }
+
 		@media only screen and (max-width: 767px) {
         	grid-template-columns: repeat(1, 1fr);
         	grid-gap: 0;
@@ -107,6 +118,10 @@
 			img {
 				width: 100%;
 			}
+			
+			@media only screen and (max-width: 768px) {
+				height: 320px;
+	    	}
 
 			.text-content {
 				position: absolute;
@@ -114,7 +129,15 @@
 				width: 487px;
 				height: auto;
 				margin-top: 160px;
+				// margin-top: -85px;
 				z-index: 9;
+
+				@media only screen and (max-width: 768px) {
+		        	position: relative;
+					// margin-top: -160px;
+					margin-bottom: 0;
+			        width: 100%;
+			    }
 
 				@media only screen and (max-width: 767px) {
 		        	position: relative;
@@ -201,6 +224,10 @@
 		.contact-card {
 			background: #1B3349;
 			padding: 50px;
+			
+			@media only screen and (max-width: 768px) {
+	        	padding: 100px 30px 30px 60px;
+		    }
 
 			@media only screen and (max-width: 767px) {
 	        	padding: 40px;

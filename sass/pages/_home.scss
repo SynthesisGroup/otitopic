@@ -4,6 +4,13 @@
 .home-page-banner {
 
 	margin-top: 4rem;
+    
+    @media only screen and (max-width: 768px) {
+        // padding: 20px !important;
+        padding: 10px 30px 10px 30px;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
 	@media only screen and (max-width: 767px) {
         padding: 10px !important;
@@ -83,6 +90,12 @@
 
 .about-otitopic-section {
     background-color: $color-primary;
+    
+    @media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
     @media only screen and (max-width: 767px) {
         padding: 10px !important;
@@ -130,6 +143,9 @@
     	display: grid;
     	grid-template-columns: 58% 50%;
 
+        @media only screen and (max-width: 768px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
         @media only screen and (max-width: 767px) {
             grid-template-columns: repeat(1, 1fr);
         }
@@ -173,6 +189,11 @@
             height: auto !important;
         }
 
+        @media (max-width: 768px) {
+            padding: 0px 30px;
+
+        }
+
         @media (max-width: 767px) {
             padding: 60px 30px;
         }
@@ -200,7 +221,12 @@
                 margin-left: 80px;
                 border-radius: 0px 8px 8px 0;
 
-                 @media only screen and (max-width: 411px) {
+                @media only screen and (width: 768px) {
+                    margin-top: 110px;
+                    margin-left: 30px;
+                }
+
+                @media only screen and (max-width: 411px) {
                     margin-left: 30px;
                 }
 
@@ -315,6 +341,12 @@
 // Push the Boundaries
 
 .push-the-boundaries-section {
+    
+    @media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
   	@media only screen and (max-width: 767px) {
         padding: 10px !important;
@@ -418,6 +450,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
 
+    @media only screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
     @media only screen and (max-width: 767px) {
         grid-template-columns: repeat(1, 1fr);
     }
