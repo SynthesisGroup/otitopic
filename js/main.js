@@ -167,7 +167,32 @@
     responsiveClass: true,
     items: 1,
     autoplay: true,
+    autoplayTimeout:10000,
     dots: true,
+  });
+
+    // ------------------------------------------------------------------------------ //
+  // What we can offer Carousel
+  // ------------------------------------------------------------------------------ //
+
+  $(".what-we-offer-carousel").owlCarousel({
+    loop: false,
+    responsiveClass: true,
+    items: 4,
+    autoplay: false,
+    dots: false,
+
+    responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:2
+      },
+      1000:{
+          items:4
+      }
+    }
   });
 
   // ------------------------------------------------------------------------------ //
@@ -253,3 +278,6 @@
 })(jQuery);
 
 // Sticky Header
+
+
+

@@ -18,7 +18,13 @@
 
     @media only screen and (max-width: $bp-mobile-sm) {
         padding:20px;
-    } 
+    }
+    
+    .blog-grid-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+      grid-gap: 1rem;
+    }
   
 }
 
@@ -1313,8 +1319,8 @@
 
             a {
                 background-color: transparent;
-                width: 50px;
-                height: 50px;
+                width: 45px;
+                height: 45px;
                 line-height: 47px;
                 font-family: $font-primary;
                 font-size: 18px;
