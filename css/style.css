@@ -1584,9 +1584,9 @@ h4 {
       .otitopic-header-info .banner-tag-head {
         position: relative;
         padding: 30px 40px 40px;
-        width: 100%;
+        width: 73%;
         height: auto;
-        margin-top: -276px; } }
+        margin-top: -155px; } }
     .otitopic-header-info .banner-tag-head h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -1921,11 +1921,10 @@ h4 {
 .footer-section .copyright-bottom {
   padding: 20px 0px;
   justify-content: space-between;
-  width: 100%;
-  display: flex; }
+  width: 100%; }
   @media only screen and (max-width: 767px) {
     .footer-section .copyright-bottom {
-      display: inline;
+      display: inline-flex;
       justify-content: center; } }
   @media only screen and (max-width: 661px) {
     .footer-section .copyright-bottom {
@@ -1941,7 +1940,7 @@ h4 {
       justify-content: center; } }
   @media only screen and (max-width: 526px) {
     .footer-section .copyright-bottom {
-      display: inline;
+      display: inline-flex;
       justify-content: center; } }
   @media only screen and (max-width: 485px) {
     .footer-section .copyright-bottom {
@@ -1949,7 +1948,7 @@ h4 {
       justify-content: center; } }
   @media only screen and (max-width: 411px) {
     .footer-section .copyright-bottom {
-      display: inline;
+      display: inline-flex !important;
       justify-content: center; } }
 
 .footer-section .copyright-bottom p {
