@@ -1871,6 +1871,30 @@ h4 {
   color: #FFA000;
   margin-bottom: 20px; }
 
+@media only screen and (max-width: 767px) {
+  .footer-logo {
+    margin-left: -20px; } }
+
+@media only screen and (max-width: 661px) {
+  .footer-logo {
+    margin-left: -20px; } }
+
+@media only screen and (max-width: 600px) {
+  .footer-logo {
+    margin-left: -20px; } }
+
+@media only screen and (max-width: 575px) {
+  .footer-logo {
+    margin-left: -20px; } }
+
+@media only screen and (max-width: 526px) {
+  .footer-logo {
+    margin-left: -20px; } }
+
+@media only screen and (max-width: 485px) {
+  .footer-logo {
+    margin-left: -20px; } }
+
 .footer-section .footer-top .social-lists {
   margin-top: 30px; }
 
@@ -3214,43 +3238,50 @@ h4 {
   .innovative-options-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 661px) {
   .innovative-options-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 600px) {
   .innovative-options-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 575px) {
   .innovative-options-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 526px) {
   .innovative-options-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 485px) {
   .innovative-options-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 411px) {
   .innovative-options-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 .why-work-otitopic-section {
   background: #EBE9E8; }
@@ -3585,9 +3616,10 @@ h4 {
   @media only screen and (max-width: 40em) {
     .contact-form-section .form-wrap {
       padding: 30px; } }
-  @media only screen and (max-width: 25.8em) {
+  @media only screen and (max-width: 411px) {
     .contact-form-section .form-wrap {
-      padding: 30px; } }
+      padding: 30px;
+      margin-top: -70px; } }
   .contact-form-section .form-wrap h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -4241,43 +4273,50 @@ h4 {
   .company-overview-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 661px) {
   .company-overview-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 600px) {
   .company-overview-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 575px) {
   .company-overview-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 526px) {
   .company-overview-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 485px) {
   .company-overview-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 411px) {
   .company-overview-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 .company-overview-section .text-wrap h2 {
   font-family: "Nunito", sans-serif;
@@ -4774,43 +4813,50 @@ h4 {
   .myocardial-infarction-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 661px) {
   .myocardial-infarction-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 600px) {
   .myocardial-infarction-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 575px) {
   .myocardial-infarction-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 526px) {
   .myocardial-infarction-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 485px) {
   .myocardial-infarction-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 411px) {
   .myocardial-infarction-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 .myocardial-infarction-section .col-md-myocardial {
   display: grid;
@@ -5240,43 +5286,50 @@ h4 {
   .recovering-hearts-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 661px) {
   .recovering-hearts-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 600px) {
   .recovering-hearts-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 575px) {
   .recovering-hearts-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 526px) {
   .recovering-hearts-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 485px) {
   .recovering-hearts-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 @media only screen and (max-width: 411px) {
   .recovering-hearts-section {
     padding: 10px !important;
     padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
 
 .recovering-hearts-section .text-wrap h2 {
   font-family: "Nunito", sans-serif;

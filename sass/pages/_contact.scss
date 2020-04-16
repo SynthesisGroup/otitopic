@@ -57,8 +57,9 @@
 	        padding:30px;
 	    } 
 
-	    @media only screen and (max-width: $bp-mobile-sm) {
-	        padding:30px;
+	    @media only screen and (max-width: 411px) {
+			padding:30px;
+			margin-top: -70px;
 	    } 
 
 		h2 {

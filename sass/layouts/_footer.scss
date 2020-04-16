@@ -78,7 +78,33 @@
 	font-size: 16px;
 	line-height: 219.4%;
 	color: #FFA000;
-  	margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+  @media only screen and (max-width: 767px) {
+      margin-left: -20px;
+  }
+
+  @media only screen and (max-width: 661px) {
+      margin-left: -20px;
+  }
+
+  @media only screen and (max-width: 600px) {
+      margin-left: -20px;
+  }
+
+  @media only screen and (max-width: 575px) {
+      margin-left: -20px;
+  }
+
+  @media only screen and (max-width: 526px) {
+      margin-left: -20px;
+  }
+
+  @media only screen and (max-width: 485px) {
+      margin-left: -20px;
+  }
 }
 
 .footer-section .footer-top .social-lists {
