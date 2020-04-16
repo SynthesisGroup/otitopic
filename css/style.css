@@ -1919,7 +1919,9 @@ h4 {
   color: #fff; }
 
 .footer-section .copyright-bottom {
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  justify-content: space-between;
+  width: 100%; }
 
 .footer-section .copyright-bottom p {
   margin-bottom: 0px; }
