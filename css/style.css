@@ -2960,7 +2960,7 @@ h4 {
 
 .grid-row-form {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-auto-rows: minmax(100px, auto); }
   @media only screen and (max-width: 64em) {
     .grid-row-form {
@@ -3109,8 +3109,7 @@ h4 {
         grid-template-columns: repeat(1, 1fr); } }
     .our-mission-section .col-md-rev-mission .text-wrap {
       background: #ffffff;
-      padding: 56px;
-      height: 100%; }
+      padding: 56px; }
       .our-mission-section .col-md-rev-mission .text-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -3133,15 +3132,14 @@ h4 {
         line-height: 155%;
         color: #081D31; }
     .our-mission-section .col-md-rev-mission .img-wrap {
-      height: 100%;
-      width: 100%;
+      height: 566px;
       display: grid;
       grid-auto-rows: minmax(100px, auto); }
       .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
         background: #0F63A7;
-        height: 100%; }
+        padding: 60px; }
         .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area {
-          padding: 50px; }
+          width: 100%; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area h2 {
             font-family: "Nunito", sans-serif;
             font-style: normal;
@@ -3155,10 +3153,7 @@ h4 {
             font-weight: normal;
             font-size: 16px;
             line-height: 155%;
-            color: #E6ECF0;
-            margin-top: 2rem; }
-          .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area a {
-            margin-top: 2rem; }
+            color: #E6ECF0; }
 
 @media only screen and (max-width: 767px) {
   .innovative-options-section {
@@ -3458,7 +3453,8 @@ h4 {
             width: 100%;
             margin-top: 2rem; }
   .why-work-otitopic-section img {
-    width: 323px; }
+    width: 323px;
+    height: 100%; }
     @media only screen and (max-width: 767px) {
       .why-work-otitopic-section img {
         display: none; } }
@@ -3524,8 +3520,7 @@ h4 {
 
 .contact-form-section .form-wrap {
   background: #E6ECF0;
-  padding: 50px;
-  height: 100%; }
+  padding: 50px; }
   @media only screen and (max-width: 61.9em) {
     .contact-form-section .form-wrap {
       padding: 30px; } }
@@ -3564,7 +3559,8 @@ h4 {
     background: #ffffff;
     border: none;
     border-radius: 1px !important;
-    height: 40px; }
+    height: 40px;
+    width: 90%; }
     .contact-form-section .form-wrap input:focus {
       -webkit-box-shadow: none;
       box-shadow: none; }
@@ -3572,22 +3568,22 @@ h4 {
     margin-bottom: 20px;
     background: #ffffff;
     border: none;
-    border-radius: 1px !important; }
+    border-radius: 1px !important;
+    width: 90%; }
     .contact-form-section .form-wrap textarea:focus {
       -webkit-box-shadow: none;
       box-shadow: none; }
 
 .contact-form-section .contact-details-wrap {
-  width: 100%; }
+  height: 100%; }
   @media only screen and (max-width: 411px) {
     .contact-form-section .contact-details-wrap {
       margin-top: 70px !important;
       padding: 0px !important; } }
-  .contact-form-section .contact-details-wrap img {
-    width: 100%; }
   .contact-form-section .contact-details-wrap .contact-wrap {
     background: #0F63A7;
-    padding: 30px; }
+    padding: 30px;
+    width: 85%; }
     .contact-form-section .contact-details-wrap .contact-wrap h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
