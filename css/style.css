@@ -1921,7 +1921,36 @@ h4 {
 .footer-section .copyright-bottom {
   padding: 20px 0px;
   justify-content: space-between;
-  width: 100%; }
+  width: 100%;
+  display: flex; }
+  @media only screen and (max-width: 767px) {
+    .footer-section .copyright-bottom {
+      display: inline;
+      justify-content: center; } }
+  @media only screen and (max-width: 661px) {
+    .footer-section .copyright-bottom {
+      display: inline;
+      justify-content: center; } }
+  @media only screen and (max-width: 600px) {
+    .footer-section .copyright-bottom {
+      display: inline;
+      justify-content: center; } }
+  @media only screen and (max-width: 575px) {
+    .footer-section .copyright-bottom {
+      display: inline;
+      justify-content: center; } }
+  @media only screen and (max-width: 526px) {
+    .footer-section .copyright-bottom {
+      display: inline;
+      justify-content: center; } }
+  @media only screen and (max-width: 485px) {
+    .footer-section .copyright-bottom {
+      display: inline;
+      justify-content: center; } }
+  @media only screen and (max-width: 411px) {
+    .footer-section .copyright-bottom {
+      display: inline;
+      justify-content: center; } }
 
 .footer-section .copyright-bottom p {
   margin-bottom: 0px; }
@@ -2153,6 +2182,27 @@ h4 {
   color: #565656;
   display: inline-block;
   margin-left: -29px; }
+  @media only screen and (max-width: 767px) {
+    .dope-navbar .nav-brand {
+      margin-left: 0; } }
+  @media only screen and (max-width: 661px) {
+    .dope-navbar .nav-brand {
+      margin-left: 0; } }
+  @media only screen and (max-width: 600px) {
+    .dope-navbar .nav-brand {
+      margin-left: 0; } }
+  @media only screen and (max-width: 575px) {
+    .dope-navbar .nav-brand {
+      margin-left: 0; } }
+  @media only screen and (max-width: 526px) {
+    .dope-navbar .nav-brand {
+      margin-left: 0; } }
+  @media only screen and (max-width: 485px) {
+    .dope-navbar .nav-brand {
+      margin-left: 0; } }
+  @media only screen and (max-width: 411px) {
+    .dope-navbar .nav-brand {
+      margin-left: 0; } }
 
 .dope-navbar .nav-brand:focus,
 .dope-navbar .nav-brand:hover {
@@ -2921,6 +2971,12 @@ h4 {
   .cta-subscribe-wrap .input-group-append .form-btn-style {
     position: relative;
     margin-top: 10px; } }
+
+@media only screen and (max-width: 25.8em) {
+  .home-page-banner h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: -110px !important; } }
 
 .grid-row-footer {
   display: grid;
@@ -3740,7 +3796,6 @@ h4 {
         padding: 120px 185px 120px 60px; } }
     @media (max-width: 991px) {
       .about-otitopic-section .left-col {
-        width: 100%;
         float: none;
         padding: 80px 50px 80px 50px;
         height: auto !important; } }

@@ -256,6 +256,34 @@
   color: #565656;
   display: inline-block;
   margin-left: -29px;
+
+  @media only screen and (max-width: 767px) {
+    margin-left: 0;
+  }
+
+  @media only screen and (max-width: 661px) {
+      margin-left: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+      margin-left: 0;
+  }
+
+  @media only screen and (max-width: 575px) {
+      margin-left: 0;
+  }
+
+  @media only screen and (max-width: 526px) {
+      margin-left: 0;
+  }
+
+  @media only screen and (max-width: 485px) {
+      margin-left: 0;
+  }
+
+  @media only screen and (max-width: 411px) {
+    margin-left: 0;
+  }
 }
 
 .dope-navbar .nav-brand:focus,
@@ -1223,3 +1251,13 @@
   }
 }
 
+
+
+
+.home-page-banner h1 {
+    @media only screen and (max-width: 25.8em) {
+      font-size: 40px;
+      line-height: 50px;
+      margin-top: -110px !important;
+    }
+}
