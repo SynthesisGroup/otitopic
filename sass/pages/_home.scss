@@ -197,7 +197,6 @@
 
             .timeline-body {
                 position: relative;
-                margin-left: 80px;
                 border-radius: 0px 8px 8px 0;
 
                  @media only screen and (max-width: 411px) {
@@ -301,7 +300,7 @@
         line-height: 155%;
         color: $color-white;
         margin-top: 2em;
-        width: 100%;
+        width: 90%;
     }
 
    .right-col {

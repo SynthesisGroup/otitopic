@@ -167,6 +167,7 @@
     responsiveClass: true,
     items: 1,
     autoplay: true,
+    autoplayTimeout:10000,
     dots: true,
   });
 
