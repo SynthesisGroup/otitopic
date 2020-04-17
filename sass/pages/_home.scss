@@ -615,7 +615,8 @@
 
 @media (max-width: 1199px) {
   .featured-project-section .project-grids .grid {
-    width: 50%;
+    width: 100%;
+    height: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 }

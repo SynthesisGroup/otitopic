@@ -188,7 +188,7 @@
           items:1
       },
       768:{
-          items:4
+          items:2
       },
       600:{
           items:2
