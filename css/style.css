@@ -4446,6 +4446,11 @@ h4 {
     font-size: 60px;
     line-height: 60px;
     color: #ffffff; }
+    @media only screen and (max-width: 460px) {
+      .home-page-banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: -60px; } }
     @media only screen and (max-width: 414px) {
       .home-page-banner h1 {
         font-size: 50px;
@@ -5071,7 +5076,16 @@ h4 {
     line-height: 145%;
     color: #ffffff;
     text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
-    width: 146px; }
+    width: 146px;
+    margin-top: 8px; }
+    @media only screen and (max-width: 768px) {
+      .btn-overlay p {
+        margin-top: 8px;
+        margin-left: -5px; } }
+    @media only screen and (max-width: 767px) {
+      .btn-overlay p {
+        margin-top: 8px;
+        margin-left: 20px; } }
 
 .content {
   position: relative;
