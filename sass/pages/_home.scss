@@ -86,9 +86,7 @@
 
     .spcl-btn
     {
-        @media only screen and (max-width: 768px) {
-            width: 70%;
-        }
+        border-radius: 0px 0px 6px 6px !important;
     }
 }
 
@@ -226,6 +224,7 @@
             .timeline-body {
                 position: relative;
                 border-radius: 0px 8px 8px 0;
+                margin-left: 30px;
 
                 @media only screen and (width: 768px) {
                     margin-top: 110px;
@@ -289,6 +288,7 @@
                             font-size: 18px;
                             line-height: 23px;
                             color: $color-white;
+                            width: 80%;
                         }
 
                         a {
@@ -522,6 +522,7 @@
 
 .featured-project-section {
   padding-bottom: 0;
+  margin-top: -50px;
 }
 
 .featured-project-section .project-grids .grid {

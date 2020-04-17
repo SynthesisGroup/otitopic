@@ -262,31 +262,31 @@
   }
 
   @media only screen and (max-width: 767px) {
-    margin-left: 0;
+    margin-left: -28px;
   }
 
   @media only screen and (max-width: 661px) {
-      margin-left: 0;
+      margin-left: -28px;
   }
 
   @media only screen and (max-width: 600px) {
-      margin-left: 0;
+      margin-left: -28px;
   }
 
   @media only screen and (max-width: 575px) {
-      margin-left: 0;
+      margin-left: -28px;
   }
 
   @media only screen and (max-width: 526px) {
-      margin-left: 0;
+      margin-left: -28px;
   }
 
   @media only screen and (max-width: 485px) {
-      margin-left: 0;
+      margin-left: -28px;
   }
 
   @media only screen and (max-width: 411px) {
-    margin-left: 0;
+    margin-left: -28px;
   }
 }
 
@@ -470,6 +470,7 @@
 .dope-navbar-toggler .navbarToggler {
   display: inline-block;
   cursor: pointer;
+  margin-left: -45px !important;
 }
 
 .dope-navbar-toggler .navbarToggler span {
@@ -484,6 +485,21 @@
   transition-duration: 300ms;
   width: 30px;
   cursor: pointer;
+}
+
+.customNav .navbarToggler span {
+  position: relative;
+  background-color: $color-primary;
+  border-radius: 3px;
+  display: block;
+  height: 2px;
+  margin-top: 5px;
+  padding: 0;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  width: 30px;
+  cursor: pointer;
+  margin-left: -20px !important;
 }
 
 .dope-navbar-toggler .navbarToggler span:nth-of-type(1) {
@@ -737,7 +753,7 @@
   top: 0;
   right: -310px;
   z-index: 1000;
-  width: 270px;
+  width: 255px;
   height: 100%;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
