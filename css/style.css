@@ -107,7 +107,7 @@ h4 {
   .blog-section .blog-grid-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-    grid-gap: 1rem; }
+    grid-gap: 2.5rem; }
 
 .blog-section .entry-media {
   margin-bottom: 25px; }
@@ -5602,42 +5602,49 @@ h4 {
         width: 100%; }
 
 .blog-section {
-  margin-top: -70px; }
+  margin-top: -110px; }
   @media only screen and (max-width: 767px) {
     .blog-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 60px !important;
+      margin-top: -110px; } }
   @media only screen and (max-width: 661px) {
     .blog-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 60px !important;
+      margin-top: -110px; } }
   @media only screen and (max-width: 600px) {
     .blog-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 60px !important;
+      margin-top: -110px; } }
   @media only screen and (max-width: 575px) {
     .blog-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 60px !important;
+      margin-top: -110px; } }
   @media only screen and (max-width: 526px) {
     .blog-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 60px !important;
+      margin-top: -110px; } }
   @media only screen and (max-width: 485px) {
     .blog-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 60px !important;
+      margin-top: -110px; } }
   @media only screen and (max-width: 411px) {
     .blog-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 60px !important;
+      margin-top: -110px; } }
   @media only screen and (max-width: 767px) {
     .blog-section .grid {
       margin-top: 30px; } }
@@ -6593,9 +6600,9 @@ h4 {
     .therapies-section .col-md-rev .text-wrap {
       background: #081D31;
       padding: 60px; }
-      @media screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+      @media screen and (min-device-width: 300px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
         .therapies-section .col-md-rev .text-wrap {
-          padding: 35px; } }
+          padding: 35px !important; } }
       .therapies-section .col-md-rev .text-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
