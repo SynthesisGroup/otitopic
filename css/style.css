@@ -72,6 +72,9 @@ button {
   outline: none;
   background: transparent; }
 
+.clear-fix {
+  overflow: hidden; }
+
 h1,
 h2,
 h3,
