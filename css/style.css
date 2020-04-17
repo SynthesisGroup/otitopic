@@ -4568,9 +4568,41 @@ h4 {
     @media (max-width: 768px) {
       .about-otitopic-section .left-col {
         padding: 0px 30px; } }
-    @media (max-width: 767px) {
+    @media only screen and (max-width: 767px) {
       .about-otitopic-section .left-col {
-        padding: 60px 30px; } }
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 661px) {
+      .about-otitopic-section .left-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 600px) {
+      .about-otitopic-section .left-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 575px) {
+      .about-otitopic-section .left-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 526px) {
+      .about-otitopic-section .left-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 485px) {
+      .about-otitopic-section .left-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 411px) {
+      .about-otitopic-section .left-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
     .about-otitopic-section .left-col img {
       width: 100%; }
   .about-otitopic-section .right-col {
@@ -4580,6 +4612,41 @@ h4 {
       .about-otitopic-section .right-col {
         width: 100%;
         float: none; } }
+    @media only screen and (max-width: 767px) {
+      .about-otitopic-section .right-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 661px) {
+      .about-otitopic-section .right-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 600px) {
+      .about-otitopic-section .right-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 575px) {
+      .about-otitopic-section .right-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 526px) {
+      .about-otitopic-section .right-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 485px) {
+      .about-otitopic-section .right-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 411px) {
+      .about-otitopic-section .right-col {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
     .about-otitopic-section .right-col .timeline {
       max-width: 100%;
       margin: 0 auto; }
@@ -4593,7 +4660,7 @@ h4 {
             margin-left: 30px; } }
         @media only screen and (max-width: 411px) {
           .about-otitopic-section .right-col .timeline .timeline-body {
-            margin-left: 30px; } }
+            margin-left: 2px; } }
         .about-otitopic-section .right-col .timeline .timeline-body:after {
           content: '';
           width: 1px;
