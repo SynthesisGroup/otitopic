@@ -49,7 +49,7 @@
     }
 
     .img-wrap {
-        video {
+        iframe {
             width: 100%;
         }
     }
@@ -349,7 +349,7 @@
 
     .col-md-rev-mission {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-auto-rows: minmax(100px, auto);
 
         @media only screen and (max-width: 768px) {

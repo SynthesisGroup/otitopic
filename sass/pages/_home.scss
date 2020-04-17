@@ -641,7 +641,7 @@
 
 .featured-project-section .project-grids .tag-area {
     position: absolute;
-    top: 400px;
+    top: 464px;
     left: 0px;
     font-family: $font-primary;
     font-style: normal;
@@ -661,6 +661,14 @@
         and (-webkit-min-device-pixel-ratio: 2)
         and (min-resolution: 192dpi) { 
             left: 20px;
+    }
+
+    @media screen 
+        and (min-device-width: 1400px) 
+        and (max-device-width: 2000px) 
+        and (-webkit-min-device-pixel-ratio: 2)
+        and (min-resolution: 192dpi) { 
+            left: -1px;
     }
 
     @media only screen and (max-width: 411px) {
@@ -732,8 +740,6 @@
     font-size: 0.875rem;
   }
 }
-
-
 
 .featured-project-section .project-grids .overlay > h3 {
   position: relative;
