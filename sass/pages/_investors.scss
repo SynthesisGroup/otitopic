@@ -1,4 +1,5 @@
 .company-overview-section {
+	margin-top: -70px;
 
 	@media only screen and (max-width: 768px) {
         padding: 50px !important;
@@ -135,7 +136,7 @@
 				background: #FFA000;
 				width: 487px;
 				height: auto;
-				margin-top: 160px;
+				margin-top: 203px;
 				// margin-top: -85px;
 				z-index: 9;
 
@@ -193,7 +194,8 @@
 					font-style: normal;
 					font-weight: 600;
 					font-size: 36px;
-					line-height: 45px;
+					line-height: 38px;
+					letter-spacing: -1px;
 					color: #081D31;
 					padding: 53px;
 
@@ -442,7 +444,7 @@
 					font-weight: 600;
 					font-size: 16px;
 					line-height: 20px;
-					color: $color-orange;
+					color: $color-primary;
 					width: 85%;
 
 					@media only screen and (max-width: 767px) {
@@ -539,7 +541,7 @@
 							font-weight: 600;
 							font-size: 16px;
 							line-height: 20px;
-							color: $color-orange !important;
+							color: $color-primary !important;
 							width: 100%;
 						}
 					}

@@ -1,194 +1,5 @@
 //  OTITOPIC BUTTONS
 
-.btn-outline-press {
-	font-family: $font-primary;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 22px;
-
-	color: $color-white;
-
-	flex: none;
-	align-self: center;
-	margin: 10px 0px;
-	margin-top: 2rem;
-
-	display: flex;
-	flex-direction: row;
-	padding: 7px 31px;
-
-	position: static;
-	width: 240px;
-	height: 46px;
-	left: 246px;
-	bottom: 588px;
-
-	border: 1px solid $color-white;
-	box-sizing: border-box;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 6px;
-
-	&:hover {
-		border: 1px solid $color-orange;
-		background: $color-orange;
-		color: $color-white !important;
-	}
-}
-
-.btn-outline {
-
-	font-family: $font-primary;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 22px;
-
-	color: $color-white;
-
-	flex: none;
-	align-self: center;
-	margin: 10px 0px;
-	margin-top: 2rem;
-
-	display: flex;
-	flex-direction: row;
-	padding: 7px 53px;
-
-	position: static;
-	width: 200px;
-	height: 46px;
-	left: 246px;
-	bottom: 588px;
-
-	border: 1px solid $color-white;
-	box-sizing: border-box;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 6px;
-
-	&:hover {
-		border: 1px solid $color-orange;
-		background: $color-orange;
-		color: $color-white !important;
-	}
-}
-
-.btn-white {
-	font-family: $font-primary;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 14px;
-	line-height: 22px;
-	color: $color-primary;
-
-	display: flex;
-	padding: 12px 53px;
-	background: $color-white;
-	border-radius: 6px;
-	text-align: center;
-	width: 200px;
-
-	&:hover {
-		background: $color-orange;
-		color: $color-white !important;
-	}
-}
-
-.read-more-btn-primary {
-	font-family: $font-primary;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 22px;
-	color: $color-white;
-	flex: none;
-	align-self: center;
-	margin: 10px 0px;
-	margin-top: 2rem;
-
-	display: flex;
-	flex-direction: row;
-	padding: 9px 53px;
-
-	position: static;
-	width: 200px;
-	height: 46px;
-	left: 147px;
-	bottom: 3878px;
-
-	background: $color-orange;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 6px;
-
-	&:hover {
-		background: $color-white;
-		color: $color-black;
-	}
-}
-
-.read-more-btn {
-	font-family: $font-primary;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 125%;
-	color: #1B3349;
-
-	display: flex;
-	flex-direction: row;
-	padding: 5px 29px;
-
-	position: static;
-	width: 150px;
-	height: 40px;
-	left: 0px;
-
-	border: 2px solid #1B3349;
-	box-sizing: border-box;
-	border-radius: 6px;
-
-	flex: none;
-	align-self: flex-start;
-
-	&:hover {
-		border: 2px solid $color-orange;
-		background: $color-orange;
-		color: $color-white;
-	}
-}
-
-.send-message-btn {
-	font-family: $font-primary;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 22px;
-	color: $color-white;
-
-	display: flex;
-	flex-direction: row;
-	padding: 9px 44px;
-	width: 220px;
-	height: 46px;
-
-	background: $color-orange;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
-	border-radius: 6px;
-
-	&:hover {
-		background: $color-white;
-		color: $color-primary !important;
-	}
-
-	@media only screen and (max-width: $bp-mobile-sm) {
-        width: 100%;
-        padding: 9px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } 
-}
-
 .btn-view-video {
 
 	position: static;
@@ -242,41 +53,17 @@
 	border-radius: 6px;
 	background-color: $color-orange;
 	font-family: $font-primary;
-}
 
-.btn-style-primary .txt{
-	position:relative;
-	z-index:1;
-}
+	.txt{
+		position:relative;
+		z-index:1;
+	}
 
-.btn-style-primary:before{
-	position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    background-color: $color-white;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    -webkit-transform: scale(0.5, 1);
-    transform: scale(0.5, 1);
+	&:hover {
+		background-color: $color-white;
+		color: $color-primary;
+	}
 }
-
-.btn-style-primary:hover::before{
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-}
-
-.btn-style-primary:hover {
-	color: $color-primary;
-}
-
 
 /*Btn Style Secondary*/
 
@@ -294,42 +81,18 @@
 	border: 1px solid $color-white;
 	background-color: transparent;
 	font-family: $font-primary;
-}
 
-.btn-style-secondary .txt{
-	position:relative;
-	z-index:1;
-}
+	.txt{
+		position:relative;
+		z-index:1;
+	}
 
-.btn-style-secondary:before{
-	position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    background-color: $color-orange;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    -webkit-transform: scale(0.5, 1);
-    transform: scale(0.5, 1);
+	&:hover {
+		border: 1px solid $color-orange;
+		background-color: $color-orange;
+		color: $color-white;
+	}
 }
-
-.btn-style-secondary:hover::before{
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-}
-
-.btn-style-secondary:hover {
-	border: 1px solid $color-orange;
-	color: $color-white;
-}
-
 
 /*Btn Style Default*/
 
@@ -346,42 +109,17 @@
 	border-radius: 6px;
 	background-color: $color-white;
 	font-family: $font-primary;
+
+	.txt{
+		position:relative;
+		z-index:1;
+	}
+
+	&:hover {
+		background-color: $color-orange;
+		color: $color-white;
+	}
 }
-
-.btn-style-default .txt{
-	position:relative;
-	z-index:1;
-}
-
-.btn-style-default:before{
-	position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    background-color: $color-orange;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    -webkit-transform: scale(0.5, 1);
-    transform: scale(0.5, 1);
-}
-
-.btn-style-default:hover::before{
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-}
-
-.btn-style-default:hover {
-	color: $color-white;
-}
-
-
 
 /*Btn Style Outline*/
 
@@ -399,40 +137,17 @@
 	border: 2px solid #1B3349;
 	background-color: transparent;
 	font-family: $font-primary;
-}
 
-.btn-style-outline .txt{
-	position:relative;
-	z-index:1;
-}
+	.txt{
+		position:relative;
+		z-index:1;
+	}
 
-.btn-style-outline:before{
-	position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    background-color: $color-orange;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    -webkit-transform: scale(0.5, 1);
-    transform: scale(0.5, 1);
-}
-
-.btn-style-outline:hover::before{
-    opacity: 1;
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
-}
-
-.btn-style-outline:hover {
-	border: 2px solid $color-orange;
-	color: $color-white;
+	&:hover {
+		border: 2px solid $color-orange;
+		background-color: $color-orange;
+		color: $color-white;
+	}
 }
 
 .theme-btn{
