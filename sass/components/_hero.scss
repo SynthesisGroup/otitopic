@@ -98,65 +98,65 @@
         //     margin-top: -195px;
         // }
 
+        // @media only screen and (max-width: 767px) {
+        //     position: relative;
+        //     padding: 30px 40px 40px;
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -195px;
+        // }
+
+        // @media only screen and (max-width: 661px) {
+        //     position: relative;
+        //     padding: 30px 40px 40px;
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -195px;
+        // }
+
+        // @media only screen and (max-width: 640px) {
+        //     position: relative;
+        //     padding: 30px 40px 40px;
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -195px;
+        // }
+
+        // @media only screen and (max-width: 600px) {
+        //     position: relative;
+        //     padding: 30px 40px 40px;
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -195px;
+        // }
+
+        // @media only screen and (max-width: 575px) {
+        //     position: relative;
+        //     padding: 30px 40px 40px;
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -276px;
+        // }
+
+        // @media only screen and (max-width: 526px) {
+        //     position: relative;
+        //     padding: 30px 40px 40px;
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -235px;
+        // }
+
+        // @media only screen and (max-width: 485px) {
+        //     position: relative;
+        //     padding: 30px 40px 40px;
+        //     width: 100%;
+        //     height: auto;
+        //     margin-top: -276px;
+        // }
+
         @media only screen and (max-width: 767px) {
             position: relative;
-            padding: 30px 40px 40px;
-            width: 100%;
-            height: auto;
-            margin-top: -195px;
-        }
-
-        @media only screen and (max-width: 661px) {
-            position: relative;
-            padding: 30px 40px 40px;
-            width: 100%;
-            height: auto;
-            margin-top: -195px;
-        }
-
-        @media only screen and (max-width: 640px) {
-            position: relative;
-            padding: 30px 40px 40px;
-            width: 100%;
-            height: auto;
-            margin-top: -195px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            position: relative;
-            padding: 30px 40px 40px;
-            width: 100%;
-            height: auto;
-            margin-top: -195px;
-        }
-
-        @media only screen and (max-width: 575px) {
-            position: relative;
-            padding: 30px 40px 40px;
-            width: 100%;
-            height: auto;
-            margin-top: -276px;
-        }
-
-        @media only screen and (max-width: 526px) {
-            position: relative;
-            padding: 30px 40px 40px;
-            width: 100%;
-            height: auto;
-            margin-top: -235px;
-        }
-
-        @media only screen and (max-width: 485px) {
-            position: relative;
-            padding: 30px 40px 40px;
-            width: 100%;
-            height: auto;
-            margin-top: -276px;
-        }
-
-        @media only screen and (max-width: 415px) {
-            position: relative;
-            padding: 30px 40px 40px;
+            padding: 30px 43px 40px 40px;
             width: 78%;
             height: auto;
             margin-top: -155px;
@@ -204,33 +204,31 @@
             color: $color-white;
             text-align: left;
 
-            @media only screen and (max-width: 575px) {
-                font-family: $font-primary;
-                font-size: 23px;
-                line-height: 44px;
-            }
+            // @media only screen and (max-width: 575px) {
+            //     font-family: $font-primary;
+            //     font-size: 23px;
+            //     line-height: 44px;
+            // }
 
-            @media only screen and (max-width: 526px) {
-                font-family: $font-primary;
-                font-size: 35px;
-                line-height: 44px;
-            }
+            // @media only screen and (max-width: 526px) {
+            //     font-family: $font-primary;
+            //     font-size: 35px;
+            //     line-height: 44px;
+            // }
 
-            @media only screen and (max-width: 485px) {
-                font-family: $font-primary;
-                font-size: 35px;
-                line-height: 44px;
-            }
+            // @media only screen and (max-width: 485px) {
+            //     font-family: $font-primary;
+            //     font-size: 35px;
+            //     line-height: 44px;
+            // }
 
-            @media only screen and (max-width: 414px) {
-                .text-orange{
-                    color: $color-orange;
-                    width: 50%;
-                    text-transform: uppercase; 
-                }
-            }
+            // @media only screen and (max-width: 414px) {
+            //     font-family: $font-primary;
+            //     font-size: 30px;
+            //     line-height: 44px;
+            // }
 
-            @media only screen and (max-width: 411px) {
+            @media only screen and (max-width: 768px) {
                 font-family: $font-primary;
                 font-size: 30px;
                 line-height: 44px;
@@ -354,7 +352,7 @@
   	background-repeat: no-repeat;
   	height: 550px;
     
-    @media only screen and (max-width: 415px) {
+    @media only screen and (max-width: 767px) {
         height: 300px;
     }
 
@@ -380,6 +378,10 @@
   	background-repeat: no-repeat;
   	height: 550px;
 
+    @media only screen and (max-width: 767px) {
+        height: 300px;
+    }
+
     @media only screen and (max-width: 411px) {
         height: 300px;
     }
@@ -390,6 +392,10 @@
   	background-size: cover;
   	background-repeat: no-repeat;
   	height: 550px;
+    
+    @media only screen and (max-width: 767px) {
+        height: 300px;
+    }
 
     @media only screen and (max-width: 411px) {
         height: 300px;

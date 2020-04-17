@@ -1401,56 +1401,7 @@ h4 {
     @media only screen and (max-width: 767px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -195px; } }
-    @media only screen and (max-width: 661px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -195px; } }
-    @media only screen and (max-width: 640px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -195px; } }
-    @media only screen and (max-width: 600px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -195px; } }
-    @media only screen and (max-width: 575px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -276px; } }
-    @media only screen and (max-width: 526px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -235px; } }
-    @media only screen and (max-width: 485px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -276px; } }
-    @media only screen and (max-width: 415px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
+        padding: 30px 43px 40px 40px;
         width: 78%;
         height: auto;
         margin-top: -155px; } }
@@ -1490,27 +1441,7 @@ h4 {
       line-height: 60px;
       color: #ffffff;
       text-align: left; }
-      @media only screen and (max-width: 575px) {
-        .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
-          font-size: 23px;
-          line-height: 44px; } }
-      @media only screen and (max-width: 526px) {
-        .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
-          font-size: 35px;
-          line-height: 44px; } }
-      @media only screen and (max-width: 485px) {
-        .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
-          font-size: 35px;
-          line-height: 44px; } }
-      @media only screen and (max-width: 414px) {
-        .otitopic-header-info .banner-tag-head h2 .text-orange {
-          color: #ffa000;
-          width: 50%;
-          text-transform: uppercase; } }
-      @media only screen and (max-width: 411px) {
+      @media only screen and (max-width: 768px) {
         .otitopic-header-info .banner-tag-head h2 {
           font-family: "Nunito", sans-serif;
           font-size: 30px;
@@ -1604,7 +1535,7 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 550px; }
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 767px) {
     .about-us-banner {
       height: 300px; } }
   @media only screen and (max-width: 411px) {
@@ -1625,6 +1556,9 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 550px; }
+  @media only screen and (max-width: 767px) {
+    .therapies-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .therapies-banner {
       height: 300px; } }
@@ -1634,6 +1568,9 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 550px; }
+  @media only screen and (max-width: 767px) {
+    .research-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .research-banner {
       height: 300px; } }
@@ -2149,28 +2086,10 @@ h4 {
       padding-left: 25px; } }
   @media only screen and (max-width: 767px) {
     .dope-navbar .nav-brand {
-      margin-left: 0; } }
-  @media only screen and (max-width: 661px) {
-    .dope-navbar .nav-brand {
-      margin-left: 0; } }
-  @media only screen and (max-width: 600px) {
-    .dope-navbar .nav-brand {
-      margin-left: 0; } }
+      margin-left: -38px; } }
   @media only screen and (max-width: 575px) {
     .dope-navbar .nav-brand {
-      margin-left: 0; } }
-  @media only screen and (max-width: 526px) {
-    .dope-navbar .nav-brand {
-      margin-left: 0; } }
-  @media only screen and (max-width: 485px) {
-    .dope-navbar .nav-brand {
-      margin-left: 0; } }
-  @media only screen and (max-width: 414px) {
-    .dope-navbar .nav-brand {
-      margin-left: -32px; } }
-  @media only screen and (max-width: 411px) {
-    .dope-navbar .nav-brand {
-      margin-left: -32px; } }
+      margin-left: -25px; } }
 
 .dope-navbar .nav-brand:focus,
 .dope-navbar .nav-brand:hover {
@@ -2971,7 +2890,7 @@ h4 {
       display: flex; } }
 
 /* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 996px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media screen and (min-device-width: 996px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .nav-brand-side {
     margin-top: 30px;
     margin-left: 10px;
