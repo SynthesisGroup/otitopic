@@ -731,9 +731,9 @@
   background-color: $color-primary;
   position: fixed;
   top: 0;
-  left: -310px;
+  right: -310px;
   z-index: 1000;
-  width: 300px;
+  width: 270px;
   height: 100%;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -746,7 +746,7 @@
 }
 
 .breakpoint-on .dope-navbar .dope-menu.menu-on {
-  left: 0;
+  right: 0;
 }
 
 .breakpoint-on .dopenav ul li {
