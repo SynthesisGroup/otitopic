@@ -267,6 +267,11 @@
 		.text-wrap {
 			padding: 56px;
 
+			@media only screen and (max-width: 414px) {
+				padding: 40px 35px 30px 35px;
+		        height: 100%;
+			}
+			
 			@media only screen and (max-width: 411px) {
 				padding: 35px;
 		        height: 100%;
@@ -284,6 +289,11 @@
 				text-transform: uppercase;
 				padding: 15px 0px;
 
+				@media only screen and (max-width: 414px) {
+					width: 100%;
+					padding: 60px 0px 0px 0px;
+				}
+				
 				@media only screen and (max-width: 411px) {
 			        width: 100%;
 			    }
@@ -408,6 +418,11 @@
 		        padding: 35px;
 		    }
 
+			@media only screen and (max-width: 414px) {
+		        height: 100%;
+		        padding: 60px 35px 0px 35px;
+			}
+			
 			@media only screen and (max-width: 411px) {
 		        height: 100%;
 		        padding: 35px;
