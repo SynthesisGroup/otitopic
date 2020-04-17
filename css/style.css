@@ -3308,6 +3308,9 @@ h4 {
     .our-mission-section .col-md-rev-mission .text-wrap {
       background: #ffffff;
       padding: 56px; }
+      @media screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+        .our-mission-section .col-md-rev-mission .text-wrap {
+          padding: 35px; } }
       .our-mission-section .col-md-rev-mission .text-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -3336,6 +3339,9 @@ h4 {
       .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
         background: #0F63A7;
         padding: 60px; }
+        @media screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+          .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
+            padding: 35px; } }
         .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area {
           width: 100%; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area h2 {
@@ -5894,6 +5900,9 @@ h4 {
     .therapies-section .col-md-rev .text-wrap {
       background: #081D31;
       padding: 60px; }
+      @media screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+        .therapies-section .col-md-rev .text-wrap {
+          padding: 35px; } }
       .therapies-section .col-md-rev .text-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
