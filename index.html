@@ -67,7 +67,7 @@
 
 </head>
 
-<body>
+<body id="no-scroll">
 
     <!-- Start Pre-loader -->
     <div class="pre-loader-wrap">
@@ -85,7 +85,7 @@
             <source src="img/videos/iStock-469473726.mp4" type="video/mp4">
         </video>
 
-        <div class="dope-nav-container breakpoint-off" id="headerStickyArea">
+        <div class="dope-nav-container breakpoint-off headerStickyArea">
             <div class="container">
                 <div class="row">
                     <!-- Main Menu -->
@@ -150,13 +150,14 @@
                         <h1>Revolutionizing Myocardial Infraction Management</h1>
                         <p>Our mission is to provide patients with a faster alternative for management of suspected myocardial infraction (MI).</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="img/img-home-sm.jpg" alt="" width="221">
+                    <div class="col-xl-3 col-lg-3 col-md-5">
+                        <img src="img/icons/play.png" alt="icon" class="play-icon" data-toggle="modal" data-target="#view-our-video">
+                        <img src="img/img-home-sm.jpg" alt="" width="223">
                         <a href="#" class="theme-btn btn-style-primary spcl-btn" data-toggle="modal" data-target="#view-our-video">
                             <span class="txt">View our video</span>
                         </a>
                     </div>
-                </div>
+               </div>
             </div>
         </div>
 
@@ -167,21 +168,17 @@
     <!-- End header section -->
 
     <!-- Start Main Page Wrapper -->
-    <main>
+    <main class="page-wrapper">
 
         <!-- Modal Video for View our video -->
         <div class="modal fade" id="view-our-video" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <video width="100%" height="100%" controls>
-                        <source src="img/videos/iStock-469473726.mp4" type="video/mp4">
-                    </video>
-                </div>
+                <iframe src="https://player.vimeo.com/video/236684402" width="100%" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
         </div>
 
        <!-- start about otitopic -->
-        <section class="about-otitopic-section section-gap section-gap-top section-gap-bottom">
+        <section class="about-otitopic-section section-gap section-gap-top section-gap-bottom clear-fix">
             <div class="content-area clearfix">
                 <div class="left-col">
                   
@@ -265,7 +262,7 @@
         <!-- end about otitopic -->
 
         <!-- Push the boundaries -->
-        <section class="push-the-boundaries-section section-gap section-gap-top section-gap-bottom">
+        <section class="push-the-boundaries-section section-gap section-gap-top section-gap-bottom clear-fix">
             <div class="container">
                 
                 <div class="heart-attack-grid-2">
@@ -313,7 +310,7 @@
         <!-- end why-choose-section -->
 
          <!-- start featured-project-section -->
-        <section class="featured-project-section section-padding mt-50">
+        <section class="featured-project-section section-padding clear-fix">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -392,7 +389,7 @@
         <!-- end featured-project-section -->
 
         <!-- Start testimonials section -->
-        <section class="testimonials-section section-gap-top section-gap-bottom">
+        <section class="testimonials-section section-gap-top section-gap-bottom clear-fix">
             <div class="container">
                 <div class="row justify-content-center d-flex" style="width: 100% !important;">
                     <div class="col-lg-10 gallery-wrap">
@@ -467,7 +464,7 @@
         <!-- End testimonials section -->
 
         <!-- Start call to action section -->
-        <section class="cta-section section-gap-top section-gap-bottom">
+        <section class="cta-section section-gap-top section-gap-bottom clear-fix">
             <div class="container">
                 <div class="row d-flex align-items-center col-md-rev" style="width: 100% !important;">
                     <div class="col-lg-9 col-md-12">
@@ -487,7 +484,7 @@
 
   
     <!-- Start footer section -->
-    <footer class="footer-section section-gap-top">
+    <footer class="footer-section section-gap-top clear-fix">
         <div class="container">
             <div class="grid-row-footer footer-top section-gap-bottom">
 
@@ -536,7 +533,7 @@
 
             </div>
 
-            <div class="copyright-bottom d-flex align-items-center">
+            <div class="copyright-bottom d-flex">
                 <div class="text-left">
                     <p>&copy; Copyright OtiTopic <span id="year"></span>. All Rights Reserved.</p>
                 </div>

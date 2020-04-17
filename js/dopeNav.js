@@ -39,12 +39,14 @@
             navbarToggler.on('click', function () {
                 navToggler.toggleClass('active');
                 dopeMenu.toggleClass('menu-on');
+                document.getElementById("no-scroll").style.overflow = 'hidden';
                 $('.overlay').toggleClass("overlay-show");
             });
 
             $('.overlay').on('click', function () {
                 navToggler.toggleClass('active');
                 dopeMenu.toggleClass('menu-on');
+                document.getElementById("no-scroll").style.overflow = 'scroll';
                 $('.overlay').removeClass("overlay-show");
             });
 

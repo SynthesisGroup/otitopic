@@ -103,6 +103,14 @@
 			background: #081D31;
 			padding: 60px;
 
+			@media screen 
+				and (min-device-width: 400px) 
+				and (max-device-width: 700px) 
+				and (-webkit-min-device-pixel-ratio: 1) { 
+
+					padding: 35px;
+			}
+
 			h2 {
 				font-family: $font-primary;
 				font-style: normal;

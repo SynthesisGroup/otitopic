@@ -48,6 +48,13 @@
         padding-bottom: 60px !important;
     }
 
+    
+    @media only screen and (max-width: 414px) {
+        padding: 0px 10px 0px 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
     @media only screen and (max-width: 411px) {
         padding: 10px !important;
         padding-top: 60px !important;
@@ -62,11 +69,25 @@
 	    line-height: 60px;
 	    color: $color-white;
 
+        @media only screen and (max-width: 414px) {
+            font-size: 50px;
+            line-height: 50px;
+            margin-top: -60px;
+        }
+
 	    @media only screen and (max-width: $bp-mobile-sm) {
 	        font-size: 40px;
             line-height: 50px;
             margin-top: -60px;
-	    } 
+        }
+        
+        @media screen 
+            and (min-device-width: 1440px) 
+            and (max-device-width: 2000px) 
+            and (-webkit-min-device-pixel-ratio: 1) { 
+
+                margin-top: 100px;
+        }
 	}
 
 	p {
@@ -77,7 +98,6 @@
 	    line-height: 145%;
 	    color: $color-white;
 
-
         @media only screen and (max-width: 411px) {
             font-size: 18px;
             height: 100%;
@@ -86,9 +106,16 @@
 
     .spcl-btn
     {
-        @media only screen and (max-width: 768px) {
-            width: 70%;
-        }
+        border-radius: 0px 0px 6px 6px !important;
+    }
+
+    .play-icon {
+        position: absolute; 
+        padding: 100px; 
+        margin-top: -40px; 
+        justify-content: center; 
+        align-items: center; 
+        cursor: pointer;
     }
 }
 
@@ -226,6 +253,7 @@
             .timeline-body {
                 position: relative;
                 border-radius: 0px 8px 8px 0;
+                margin-left: 30px;
 
                 @media only screen and (width: 768px) {
                     margin-top: 110px;
@@ -289,6 +317,7 @@
                             font-size: 18px;
                             line-height: 23px;
                             color: $color-white;
+                            width: 80%;
                         }
 
                         a {
@@ -522,6 +551,7 @@
 
 .featured-project-section {
   padding-bottom: 0;
+  margin-top: -50px;
 }
 
 .featured-project-section .project-grids .grid {

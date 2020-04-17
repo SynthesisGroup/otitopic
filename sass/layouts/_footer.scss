@@ -115,6 +115,7 @@
 
 .footer-section .footer-top .social-lists {
   margin-top: 30px;
+  margin-left: -10px;
 }
 
 .footer-section .footer-top .social-lists li {
@@ -212,17 +213,34 @@
   }
 
   @media only screen and (max-width: 411px) {
-    display: inline-flex !important;
-    justify-content: center;
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: start;
+    align-items: start;
+    text-align: right !important;
   }
 }
 
 .footer-section .copyright-bottom p {
   margin-bottom: 0px;
+
+  @media screen 
+    and (min-device-width: 300px) 
+    and (max-device-width: 600px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+      text-align: left !important;
+  }
+
 }
 
 .footer-section .copyright-bottom ul {
-  text-align: right;
+  @media screen 
+    and (min-device-width: 300px) 
+    and (max-device-width: 600px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+      text-align: left !important;
+      margin-left: -10px !important;
+  }
 }
 
 .footer-section .copyright-bottom ul li {

@@ -64,15 +64,14 @@
     }
 
     @media only screen and (max-width: 360px) {
-        padding: 0px !important;
+        padding: 0px 0px 0px 0px !important;
         padding-top: 60px !important;
 		padding-bottom: 60px !important;
 		margin-top: -90px;
     }
 
-  //   @media only screen and (max-width: 320px) {
-  //       padding-right: 0px !important;
-  //       padding-left: 0px !important;
+  //  @media only screen and (max-width: 320px) {
+  //       padding: 0px 0px 0px 0px !important;
   //       padding-top: 60px !important;
 		// padding-bottom: 60px !important;
 		// margin-top: -90px;
@@ -157,6 +156,10 @@
 
 			img {
 				width: 100%;
+				
+				// @media only screen and (max-width: 321px) {
+				// 	width: 87%;
+	   //  		}
 			}
 			
 			@media only screen and (max-width: 768px) {
@@ -227,6 +230,12 @@
 			        width: 100%;
 			    }
 
+			  //   @media only screen and (max-width: 321px) {
+					// position: relative;
+					// margin-top: -30px;
+			  //       width: 87%;
+			  //   }
+
 				p {
 					font-family: $font-primary;
 					font-style: normal;
@@ -276,33 +285,57 @@
 	        	padding: 100px 30px 30px 60px;
 		    }
 
-			@media only screen and (max-width: 767px) {
-	        	padding: 40px;
+			// @media only screen and (max-width: 767px) {
+	  //       	padding: 40px;
+		 //    }
+
+		 //  	@media only screen and (max-width: 661px) {
+		 //        padding: 40px;
+		 //    }
+
+		 //  	@media only screen and (max-width: 600px) {
+		 //       	padding: 40px;
+		 //    }
+
+		 //  	@media only screen and (max-width: 575px) {
+		 //       	padding: 40px;
+		 //    }
+
+		 //  	@media only screen and (max-width: 526px) {
+		 //        padding: 40px;
+		 //    }
+
+		 //  	@media only screen and (max-width: 485px) {
+		 //        padding: 40px;
+		 //    }
+		    @media only screen and (max-width: 767px) {
+				padding: 150px 40px 40px 40px;
 		    }
 
-		  	@media only screen and (max-width: 661px) {
-		        padding: 40px;
+		    @media only screen and (max-width: 540px) {
+				padding: 120px 40px 40px 40px;
 		    }
 
-		  	@media only screen and (max-width: 600px) {
-		       	padding: 40px;
+		    @media only screen and (max-width: 440px) {
+				padding: 100px 40px 40px 40px;
 		    }
 
-		  	@media only screen and (max-width: 575px) {
-		       	padding: 40px;
+		    @media only screen and (max-width: 430px) {
+				padding: 90px 40px 40px 40px;
 		    }
 
-		  	@media only screen and (max-width: 526px) {
-		        padding: 40px;
-		    }
-
-		  	@media only screen and (max-width: 485px) {
-		        padding: 40px;
+		    @media only screen and (max-width: 414px) {
+				padding: 90px 40px 40px 40px;
 		    }
 
 			@media only screen and (max-width: 411px) {
 				padding: 40px;
 		    }
+
+		  //   @media only screen and (max-width: 321px) {
+		  //   	width: 63%;
+				// padding: 40px;
+		  //   }
 
 			h2 {
 				font-family: $font-primary;
@@ -373,6 +406,9 @@
 					line-height: 23px;
 					color: $color-white;
 					margin-top: 10px;
+					@media only screen and (max-width: 320px) {
+						word-break: break-all;
+				    }
 				}
 			}
 		}

@@ -55,6 +55,27 @@
 		padding-bottom: 60px !important;
 		margin-top: -90px;
     }
+    
+    @media only screen and (max-width: 390px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+		padding-bottom: 100px !important;
+		margin-top: -90px;
+    }
+
+    @media only screen and (max-width: 375px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+		padding-bottom: 100px !important;
+		margin-top: -90px;
+    }
+
+    @media only screen and (max-width: 370px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+		padding-bottom: 120px !important;
+		margin-top: -90px;
+    }
 
     @media only screen and (max-width: 360px) {
         padding: 10px !important;
@@ -63,10 +84,17 @@
 		margin-top: -90px;
     }
 
+    @media only screen and (max-width: 330px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+		padding-bottom: 160px !important;
+		margin-top: -90px;
+    }
+
     @media only screen and (max-width: 320px) {
         padding: 10px !important;
         padding-top: 60px !important;
-		padding-bottom: 150px !important;
+		padding-bottom: 160px !important;
 		margin-top: -90px;
     }
 
@@ -211,7 +239,8 @@
 	                font-weight: normal;
 	                font-size: 16px;
 	                line-height: 155%;
-	                color: #1B3349;
+					color: #1B3349;
+					width: 90%;
 	            }
 	        }
 	    }
@@ -343,7 +372,7 @@
 
 		.text-wrap {
 			background: #0F63A7;
-			padding: 56px;
+			padding: 70px;
 
 			@media only screen and (max-width: 767px) {
 		        height: 100%;
@@ -400,7 +429,7 @@
 		}
 
 		.img-wrap {
-			height: 446px;
+			// height: 100%;
 			width: 100%;
 			display: grid;
 			grid-auto-rows: minmax(100px, auto);
@@ -434,7 +463,7 @@
 		    }
 
 			img {
-				height: 446px;
+				height: 100%;
 
 				@media only screen and (max-width: 767px) {
 			        height: auto;
@@ -562,7 +591,7 @@
 		}
 
 		.img-wrap {
-			height: 446px;
+			// height: 100%;
 			width: 100%;
 			display: grid;
 			grid-auto-rows: minmax(100px, auto);

@@ -76,6 +76,14 @@
         padding: 10px 0;
         position: relative;
         font-weight: 300;
+
+        @media screen 
+            and (min-device-width: 400px) 
+            and (max-device-width: 700px) 
+            and (-webkit-min-device-pixel-ratio: 1) { 
+
+                margin-left: -33px;
+        }
     }
     .timeline:before {
         top: 0;
@@ -244,6 +252,14 @@
             left: 28px;
             margin-left: 0;
             top: 16px;
+
+            @media screen 
+                and (min-device-width: 400px) 
+                and (max-device-width: 700px) 
+                and (-webkit-min-device-pixel-ratio: 1) { 
+
+                    left: 31px;
+            }
         }
         ul.timeline > li > .timeline-panel {
             float: right;
@@ -268,6 +284,14 @@
         }
         .timeline > li.timeline-inverted > .timeline-badge {
             left: 28px;
+
+            @media screen 
+                and (min-device-width: 400px) 
+                and (max-device-width: 700px) 
+                and (-webkit-min-device-pixel-ratio: 1) { 
+
+                    left: 31px;
+            }
         }
     }
 
@@ -364,6 +388,14 @@
             background: $color-white;
             padding: 56px;
 
+            @media screen 
+				and (min-device-width: 400px) 
+				and (max-device-width: 700px) 
+				and (-webkit-min-device-pixel-ratio: 1) { 
+
+					padding: 35px;
+			}
+
             h2 {
                 font-family: $font-primary;
                 font-style: normal;
@@ -401,6 +433,14 @@
             .content-wrap {
                 background: #0F63A7;
                 padding: 60px;
+
+                @media screen 
+                    and (min-device-width: 400px) 
+                    and (max-device-width: 700px) 
+                    and (-webkit-min-device-pixel-ratio: 1) { 
+
+                        padding: 35px;
+                }
 
                 .text-area {
                    width: 100%;
