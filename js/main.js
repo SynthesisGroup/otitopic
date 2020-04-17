@@ -179,12 +179,16 @@
     loop: true,
     responsiveClass: true,
     items: 4,
+    margin: 0,
     autoplay: false,
     dots: true,
 
     responsive:{
       0:{
           items:1
+      },
+      768:{
+          items:4
       },
       600:{
           items:2

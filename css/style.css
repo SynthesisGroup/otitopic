@@ -1408,7 +1408,7 @@ h4 {
         padding: 30px 40px 40px;
         width: 100%;
         height: auto;
-        margin-top: -155px; } }
+        margin-top: -100px; } }
     @media only screen and (max-width: 767px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
@@ -1416,52 +1416,10 @@ h4 {
         width: 100%;
         height: auto;
         margin-top: -195px; } }
-    @media only screen and (max-width: 661px) {
+    @media only screen and (max-width: 767px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -195px; } }
-    @media only screen and (max-width: 640px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -195px; } }
-    @media only screen and (max-width: 600px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -195px; } }
-    @media only screen and (max-width: 575px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -276px; } }
-    @media only screen and (max-width: 526px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -235px; } }
-    @media only screen and (max-width: 485px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
-        width: 100%;
-        height: auto;
-        margin-top: -276px; } }
-    @media only screen and (max-width: 415px) {
-      .otitopic-header-info .banner-tag-head {
-        position: relative;
-        padding: 30px 40px 40px;
+        padding: 30px 43px 40px 40px;
         width: 78%;
         height: auto;
         margin-top: -155px; } }
@@ -1501,27 +1459,7 @@ h4 {
       line-height: 60px;
       color: #ffffff;
       text-align: left; }
-      @media only screen and (max-width: 575px) {
-        .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
-          font-size: 23px;
-          line-height: 44px; } }
-      @media only screen and (max-width: 526px) {
-        .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
-          font-size: 35px;
-          line-height: 44px; } }
-      @media only screen and (max-width: 485px) {
-        .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
-          font-size: 35px;
-          line-height: 44px; } }
-      @media only screen and (max-width: 414px) {
-        .otitopic-header-info .banner-tag-head h2 .text-orange {
-          color: #ffa000;
-          width: 50%;
-          text-transform: uppercase; } }
-      @media only screen and (max-width: 411px) {
+      @media only screen and (max-width: 768px) {
         .otitopic-header-info .banner-tag-head h2 {
           font-family: "Nunito", sans-serif;
           font-size: 30px;
@@ -1675,7 +1613,7 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .about-us-banner {
       height: 300px; } }
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 767px) {
     .about-us-banner {
       height: 300px; } }
   @media only screen and (max-width: 411px) {
@@ -1816,6 +1754,9 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .therapies-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .therapies-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .therapies-banner {
       height: 300px; } }
@@ -1849,6 +1790,9 @@ h4 {
   /* Landscape */
   /* Declare the same value for min- and max-width to avoid colliding with desktops */
   /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (max-width: 767px) {
+    .research-banner {
+      height: 300px; } }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .research-banner {
       height: 300px; } }
@@ -1921,6 +1865,9 @@ h4 {
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .technology-banner {
       height: 300px; } }
+  @media only screen and (max-device-width: 414px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .technology-banner {
+      height: 300px; } }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .technology-banner {
       height: 300px; } }
@@ -1990,6 +1937,9 @@ h4 {
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .careers-banner {
       height: 300px; } }
+  @media only screen and (max-device-width: 414px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .careers-banner {
+      height: 300px; } }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .careers-banner {
       height: 300px; } }
@@ -2057,6 +2007,9 @@ h4 {
   /* Declare the same value for min- and max-width to avoid colliding with desktops */
   /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (max-device-width: 414px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     .contact-us-banner {
       height: 300px; } }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
@@ -2589,25 +2542,10 @@ h4 {
       padding-left: 25px; } }
   @media only screen and (max-width: 767px) {
     .dope-navbar .nav-brand {
-      margin-left: -28px; } }
-  @media only screen and (max-width: 661px) {
-    .dope-navbar .nav-brand {
-      margin-left: -28px; } }
-  @media only screen and (max-width: 600px) {
-    .dope-navbar .nav-brand {
-      margin-left: -28px; } }
+      margin-left: -38px; } }
   @media only screen and (max-width: 575px) {
     .dope-navbar .nav-brand {
       margin-left: -28px; } }
-  @media only screen and (max-width: 526px) {
-    .dope-navbar .nav-brand {
-      margin-left: -28px; } }
-  @media only screen and (max-width: 485px) {
-    .dope-navbar .nav-brand {
-      margin-left: -28px; } }
-  @media only screen and (max-width: 414px) {
-    .dope-navbar .nav-brand {
-      margin-left: -32px; } }
   @media only screen and (max-width: 411px) {
     .dope-navbar .nav-brand {
       margin-left: -28px; } }
@@ -4418,6 +4356,15 @@ h4 {
       @media only screen and (max-width: 414px) {
         .contact-form-section .contact-details-wrap .contact-wrap {
           padding: 40px; } }
+      @media only screen and (max-width: 375px) {
+        .contact-form-section .contact-details-wrap .contact-wrap {
+          padding: 40px 20px 30px 53px; } }
+      @media only screen and (max-width: 360px) {
+        .contact-form-section .contact-details-wrap .contact-wrap {
+          padding: 40px 20px 30px 62px; } }
+      @media only screen and (max-width: 320px) {
+        .contact-form-section .contact-details-wrap .contact-wrap {
+          padding: 40px 20px 30px 80px; } }
       .contact-form-section .contact-details-wrap .contact-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -4482,6 +4429,11 @@ h4 {
       padding: 10px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 414px) {
+    .home-page-banner {
+      padding: 0px 10px 0px 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   @media only screen and (max-width: 411px) {
     .home-page-banner {
       padding: 10px !important;
@@ -4494,6 +4446,11 @@ h4 {
     font-size: 60px;
     line-height: 60px;
     color: #ffffff; }
+    @media only screen and (max-width: 414px) {
+      .home-page-banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: -60px; } }
     @media only screen and (max-width: 25.8em) {
       .home-page-banner h1 {
         font-size: 40px;
@@ -5238,7 +5195,7 @@ h4 {
       margin-top: -90px; } }
   @media only screen and (max-width: 360px) {
     .company-overview-section {
-      padding: 0px !important;
+      padding: 0px 0px 0px 0px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important;
       margin-top: -90px; } }
@@ -5396,22 +5353,19 @@ h4 {
           padding: 100px 30px 30px 60px; } }
       @media only screen and (max-width: 767px) {
         .company-overview-section .img-wrap .contact-card {
-          padding: 40px; } }
-      @media only screen and (max-width: 661px) {
+          padding: 150px 40px 40px 40px; } }
+      @media only screen and (max-width: 540px) {
         .company-overview-section .img-wrap .contact-card {
-          padding: 40px; } }
-      @media only screen and (max-width: 600px) {
+          padding: 120px 40px 40px 40px; } }
+      @media only screen and (max-width: 440px) {
         .company-overview-section .img-wrap .contact-card {
-          padding: 40px; } }
-      @media only screen and (max-width: 575px) {
+          padding: 100px 40px 40px 40px; } }
+      @media only screen and (max-width: 430px) {
         .company-overview-section .img-wrap .contact-card {
-          padding: 40px; } }
-      @media only screen and (max-width: 526px) {
+          padding: 90px 40px 40px 40px; } }
+      @media only screen and (max-width: 414px) {
         .company-overview-section .img-wrap .contact-card {
-          padding: 40px; } }
-      @media only screen and (max-width: 485px) {
-        .company-overview-section .img-wrap .contact-card {
-          padding: 40px; } }
+          padding: 90px 40px 40px 40px; } }
       @media only screen and (max-width: 411px) {
         .company-overview-section .img-wrap .contact-card {
           padding: 40px; } }
@@ -5470,6 +5424,9 @@ h4 {
           line-height: 23px;
           color: #ffffff;
           margin-top: 10px; }
+          @media only screen and (max-width: 320px) {
+            .company-overview-section .img-wrap .contact-card .contact p {
+              word-break: break-all; } }
   .company-overview-section .press-rel-down {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -5791,17 +5748,41 @@ h4 {
       padding-top: 60px !important;
       padding-bottom: 60px !important;
       margin-top: -90px; } }
+  @media only screen and (max-width: 390px) {
+    .myocardial-infarction-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 100px !important;
+      margin-top: -90px; } }
+  @media only screen and (max-width: 375px) {
+    .myocardial-infarction-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 100px !important;
+      margin-top: -90px; } }
+  @media only screen and (max-width: 370px) {
+    .myocardial-infarction-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 120px !important;
+      margin-top: -90px; } }
   @media only screen and (max-width: 360px) {
     .myocardial-infarction-section {
       padding: 10px !important;
       padding-top: 60px !important;
       padding-bottom: 120px !important;
       margin-top: -90px; } }
+  @media only screen and (max-width: 330px) {
+    .myocardial-infarction-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 160px !important;
+      margin-top: -90px; } }
   @media only screen and (max-width: 320px) {
     .myocardial-infarction-section {
       padding: 10px !important;
       padding-top: 60px !important;
-      padding-bottom: 150px !important;
+      padding-bottom: 160px !important;
       margin-top: -90px; } }
   .myocardial-infarction-section .col-md-myocardial {
     display: grid;
@@ -6044,7 +6025,6 @@ h4 {
       line-height: 155%;
       color: #ffffff; }
   .otitopic-research-tech-trials-section .col-md-rev .img-wrap {
-    height: 100%;
     width: 100%;
     display: grid;
     grid-auto-rows: minmax(100px, auto); }
@@ -6166,7 +6146,6 @@ h4 {
           align-items: center;
           padding: 20px 40px 20px; }
   .otitopic-research-tech-trials-section .col-md-rev-trials .img-wrap {
-    height: 100%;
     width: 100%;
     display: grid;
     grid-auto-rows: minmax(100px, auto); }

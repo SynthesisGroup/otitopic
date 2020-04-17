@@ -48,6 +48,13 @@
         padding-bottom: 60px !important;
     }
 
+    
+    @media only screen and (max-width: 414px) {
+        padding: 0px 10px 0px 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
     @media only screen and (max-width: 411px) {
         padding: 10px !important;
         padding-top: 60px !important;
@@ -61,6 +68,12 @@
 	    font-size: 60px;
 	    line-height: 60px;
 	    color: $color-white;
+
+        @media only screen and (max-width: 414px) {
+            font-size: 50px;
+            line-height: 50px;
+            margin-top: -60px;
+        }
 
 	    @media only screen and (max-width: $bp-mobile-sm) {
 	        font-size: 40px;
@@ -84,7 +97,6 @@
 	    font-size: 26px;
 	    line-height: 145%;
 	    color: $color-white;
-
 
         @media only screen and (max-width: 411px) {
             font-size: 18px;
