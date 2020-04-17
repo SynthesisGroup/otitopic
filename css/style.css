@@ -3638,9 +3638,9 @@ h4 {
     padding: 10px 0;
     position: relative;
     font-weight: 300; }
-    @media screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+    @media screen and (min-device-width: 300px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
       .recovering-hearts-section .timeline {
-        margin-left: -33px; } }
+        margin-left: -33px !important; } }
   .recovering-hearts-section .timeline:before {
     top: 0;
     bottom: 0;
@@ -3879,9 +3879,9 @@ h4 {
     .our-mission-section .col-md-rev-mission .text-wrap {
       background: #ffffff;
       padding: 56px; }
-      @media screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+      @media screen and (min-device-width: 300px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
         .our-mission-section .col-md-rev-mission .text-wrap {
-          padding: 35px; } }
+          padding: 35px !important; } }
       .our-mission-section .col-md-rev-mission .text-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -3910,9 +3910,9 @@ h4 {
       .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
         background: #0F63A7;
         padding: 60px; }
-        @media screen and (min-device-width: 400px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
+        @media screen and (min-device-width: 300px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
-            padding: 35px; } }
+            padding: 35px !important; } }
         .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area {
           width: 100%; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area h2 {
