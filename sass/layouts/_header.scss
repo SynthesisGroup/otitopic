@@ -258,7 +258,7 @@
   margin-left: -29px;
 
   @media only screen and (max-width: 768px) {
-    padding-left: 30px;
+    padding-left: 25px;
   }
 
   @media only screen and (max-width: 767px) {
@@ -285,8 +285,12 @@
       margin-left: 0;
   }
 
+  @media only screen and (max-width: 414px) {
+    margin-left: -32px;
+  }
+
   @media only screen and (max-width: 411px) {
-    margin-left: 0;
+    margin-left: -32px;
   }
 }
 

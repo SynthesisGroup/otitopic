@@ -42,6 +42,11 @@
         padding-top: 60px !important;
         padding-bottom: 60px !important;
     }
+    
+    @media only screen and (max-width: 414px) {
+        padding: 10px !important;
+        padding-bottom: 60px !important;
+    }
 
 	@media only screen and (max-width: 411px) {
         padding: 10px !important;
@@ -64,9 +69,29 @@
 	        padding:30px;
 	    } 
 
+	    @media only screen and (max-width: 414px) {
+			padding: 37px;
+			margin-top: 0;
+	    }
+
 	    @media only screen and (max-width: 411px) {
-			padding:30px;
-			margin-top: -70px;
+			padding:42px;
+			margin-top: 0;
+	    }
+
+	    @media only screen and (max-width: 375px) {
+			padding: 55px;
+			margin-top: 0;
+	    }
+
+	    @media only screen and (max-width: 360px) {
+			padding: 61px;
+			margin-top: 0;
+	    }
+
+	    @media only screen and (max-width: 320px) {
+			padding: 81px;
+			margin-top: 0;
 	    } 
 
 		h2 {
@@ -136,6 +161,10 @@
 			background: #0F63A7;
 			padding: 30px;
 			width: 85%;
+
+			@media only screen and (max-width: 414px) {
+		        padding: 40px;
+		    }
 
 			h2 {
 				font-family: $font-primary;
