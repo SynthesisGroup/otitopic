@@ -1330,8 +1330,8 @@ h4 {
   margin-bottom: 100px !important; }
   @media only screen and (max-width: 768px) {
     .otitopic-header-info {
-      padding-left: 50px;
-      padding-right: 120px; } }
+      padding-left: 30px;
+      padding-right: 110px; } }
   @media only screen and (max-width: 767px) {
     .otitopic-header-info {
       padding: 20px !important;
@@ -1367,9 +1367,14 @@ h4 {
       padding: 20px !important;
       padding-left: 0;
       padding-right: 0; } }
+  @media only screen and (max-width: 414px) {
+    .otitopic-header-info {
+      padding: 10px !important;
+      padding-left: 0;
+      padding-right: 0; } }
   @media only screen and (max-width: 411px) {
     .otitopic-header-info {
-      padding: 20px !important;
+      padding: 10px !important;
       padding-left: 0;
       padding-right: 0; } }
   .otitopic-header-info .banner-tag-head {
@@ -1378,7 +1383,8 @@ h4 {
     padding: 40px 80px 40px;
     margin-top: -135px;
     z-index: 9;
-    width: 400px; }
+    width: 400px;
+    /* Portrait and Landscape */ }
     @media only screen and (max-width: 990px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
@@ -1393,6 +1399,13 @@ h4 {
         width: 100%;
         height: auto;
         margin-top: -140px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto;
+        margin-top: -155px; } }
     @media only screen and (max-width: 767px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
@@ -1442,11 +1455,39 @@ h4 {
         width: 100%;
         height: auto;
         margin-top: -276px; } }
+    @media only screen and (max-width: 415px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 78%;
+        height: auto;
+        margin-top: -155px; } }
+    @media only screen and (max-width: 414px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 78%;
+        height: auto;
+        margin-top: -155px; } }
     @media only screen and (max-width: 411px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
         padding: 30px 40px 40px;
-        width: 73%;
+        width: 78%;
+        height: auto;
+        margin-top: -155px; } }
+    @media only screen and (max-width: 375px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 35px 40px;
+        width: 78%;
+        height: auto;
+        margin-top: -155px; } }
+    @media only screen and (max-width: 320px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 30px 40px;
+        width: 78%;
         height: auto;
         margin-top: -155px; } }
     .otitopic-header-info .banner-tag-head h2 {
@@ -1472,11 +1513,21 @@ h4 {
           font-family: "Nunito", sans-serif;
           font-size: 35px;
           line-height: 44px; } }
+      @media only screen and (max-width: 414px) {
+        .otitopic-header-info .banner-tag-head h2 .text-orange {
+          color: #ffa000;
+          width: 50%;
+          text-transform: uppercase; } }
       @media only screen and (max-width: 411px) {
         .otitopic-header-info .banner-tag-head h2 {
           font-family: "Nunito", sans-serif;
           font-size: 30px;
-          line-height: 44px; } }
+          line-height: 44px;
+          width: 50%; }
+          .otitopic-header-info .banner-tag-head h2 .text-orange {
+            color: #ffa000;
+            width: 50%;
+            text-transform: uppercase; } }
     .otitopic-header-info .banner-tag-head ul {
       margin-top: 20px; }
       .otitopic-header-info .banner-tag-head ul li {
@@ -1560,43 +1611,487 @@ h4 {
   background: url("../img/banners/about-us-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px; }
+  height: 550px;
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad Pro 10.5" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* ----------- iPad Pro 12.9" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 415px) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 411px) {
+    .about-us-banner {
+      height: 300px; } }
 
 .press-releases-banner {
   background: url("../img/banners/press-releases-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px; }
+  height: 550px;
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad Pro 10.5" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* ----------- iPad Pro 12.9" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 411px) {
+    .press-releases-banner {
+      height: 300px; } }
 
 .therapies-banner {
   background: url("../img/banners/therapies-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px; }
+  height: 550px;
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad Pro 10.5" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* ----------- iPad Pro 12.9" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 411px) {
+    .therapies-banner {
+      height: 300px; } }
 
 .research-banner {
   background: url("../img/banners/research-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px; }
+  height: 550px;
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad Pro 10.5" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* ----------- iPad Pro 12.9" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 411px) {
+    .research-banner {
+      height: 300px; } }
 
 .technology-banner {
   background: url("../img/banners/technology-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px; }
+  height: 550px;
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad Pro 10.5" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* ----------- iPad Pro 12.9" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 411px) {
+    .technology-banner {
+      height: 300px; } }
 
 .careers-banner {
   background: url("../img/banners/careers-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px; }
+  height: 550px;
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad Pro 10.5" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* ----------- iPad Pro 12.9" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 411px) {
+    .careers-banner {
+      height: 300px; } }
 
 .contact-us-banner {
   background: url("../img/banners/contact-us-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px; }
+  height: 550px;
+  /* ----------- iPad 1, 2, Mini and Air ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Landscape */
+  /* ----------- iPad Pro 10.5" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* ----------- iPad Pro 12.9" ----------- */
+  /* Portrait and Landscape */
+  /* Portrait */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+  /* Landscape */
+  /* Declare the same value for min- and max-width to avoid colliding with desktops */
+  /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/ }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 411px) {
+    .contact-us-banner {
+      height: 300px; } }
 
 .testimonials-section {
   background: #081D31 !important; }
@@ -1672,6 +2167,9 @@ h4 {
   @media only screen and (width: 768px) {
     .testimonials-section .item {
       padding: 10px 30px 10px 45px; } }
+  @media only screen and (max-width: 414px) {
+    .testimonials-section .item {
+      padding: 0px 20px 10px 30px; } }
 
 .footer-section {
   background: #081D31; }
@@ -2085,7 +2583,7 @@ h4 {
   margin-left: -29px; }
   @media only screen and (max-width: 768px) {
     .dope-navbar .nav-brand {
-      padding-left: 30px; } }
+      padding-left: 25px; } }
   @media only screen and (max-width: 767px) {
     .dope-navbar .nav-brand {
       margin-left: -28px; } }
@@ -2104,6 +2602,9 @@ h4 {
   @media only screen and (max-width: 485px) {
     .dope-navbar .nav-brand {
       margin-left: -28px; } }
+  @media only screen and (max-width: 414px) {
+    .dope-navbar .nav-brand {
+      margin-left: -32px; } }
   @media only screen and (max-width: 411px) {
     .dope-navbar .nav-brand {
       margin-left: -28px; } }
@@ -2922,7 +3423,7 @@ h4 {
       display: flex; } }
 
 /* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 996px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media screen and (min-device-width: 996px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .nav-brand-side {
     margin-top: 30px;
     margin-left: 10px;
@@ -3817,6 +4318,10 @@ h4 {
       padding: 10px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 414px) {
+    .contact-form-section {
+      padding: 10px !important;
+      padding-bottom: 60px !important; } }
   @media only screen and (max-width: 411px) {
     .contact-form-section {
       padding: 10px !important;
@@ -3833,10 +4338,26 @@ h4 {
     @media only screen and (max-width: 40em) {
       .contact-form-section .form-wrap {
         padding: 30px; } }
+    @media only screen and (max-width: 414px) {
+      .contact-form-section .form-wrap {
+        padding: 37px;
+        margin-top: 0; } }
     @media only screen and (max-width: 411px) {
       .contact-form-section .form-wrap {
-        padding: 30px;
-        margin-top: -70px; } }
+        padding: 42px;
+        margin-top: 0; } }
+    @media only screen and (max-width: 375px) {
+      .contact-form-section .form-wrap {
+        padding: 55px;
+        margin-top: 0; } }
+    @media only screen and (max-width: 360px) {
+      .contact-form-section .form-wrap {
+        padding: 61px;
+        margin-top: 0; } }
+    @media only screen and (max-width: 320px) {
+      .contact-form-section .form-wrap {
+        padding: 81px;
+        margin-top: 0; } }
     .contact-form-section .form-wrap h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -3887,6 +4408,9 @@ h4 {
       background: #0F63A7;
       padding: 30px;
       width: 85%; }
+      @media only screen and (max-width: 414px) {
+        .contact-form-section .contact-details-wrap .contact-wrap {
+          padding: 40px; } }
       .contact-form-section .contact-details-wrap .contact-wrap h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -4605,7 +5129,7 @@ h4 {
   margin-top: -70px; }
   @media only screen and (max-width: 768px) {
     .company-overview-section {
-      padding: 50px !important;
+      padding: 30px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 767px) {
@@ -4647,6 +5171,18 @@ h4 {
   @media only screen and (max-width: 411px) {
     .company-overview-section {
       padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+      margin-top: -90px; } }
+  @media only screen and (max-width: 375px) {
+    .company-overview-section {
+      padding: 0px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+      margin-top: -90px; } }
+  @media only screen and (max-width: 360px) {
+    .company-overview-section {
+      padding: 0px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important;
       margin-top: -90px; } }
@@ -4700,6 +5236,14 @@ h4 {
       .company-overview-section .img-wrap {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
+    @media only screen and (max-width: 360px) {
+      .company-overview-section .img-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
+    @media only screen and (max-width: 320px) {
+      .company-overview-section .img-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
     .company-overview-section .img-wrap .img-cap img {
       width: 100%; }
     @media only screen and (max-width: 768px) {
@@ -4710,11 +5254,12 @@ h4 {
       background: #FFA000;
       width: 487px;
       height: auto;
-      margin-top: 203px;
+      margin-top: -73px;
       z-index: 9; }
       @media only screen and (max-width: 768px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
+          margin-top: -160px;
           margin-bottom: 0;
           width: 100%; } }
       @media only screen and (max-width: 767px) {
@@ -4750,7 +5295,12 @@ h4 {
       @media only screen and (max-width: 411px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: 0;
+          margin-top: -30px;
+          width: 100%; } }
+      @media only screen and (max-width: 360px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
           width: 100%; } }
       .company-overview-section .img-wrap .img-cap .text-content p {
         font-family: "Nunito", sans-serif;
@@ -5142,7 +5692,7 @@ h4 {
     .myocardial-infarction-section {
       padding: 30px !important;
       padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 0px !important; } }
   @media only screen and (max-width: 767px) {
     .myocardial-infarction-section {
       padding: 10px !important;
@@ -5184,6 +5734,18 @@ h4 {
       padding: 10px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important;
+      margin-top: -90px; } }
+  @media only screen and (max-width: 360px) {
+    .myocardial-infarction-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 120px !important;
+      margin-top: -90px; } }
+  @media only screen and (max-width: 320px) {
+    .myocardial-infarction-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 150px !important;
       margin-top: -90px; } }
   .myocardial-infarction-section .col-md-myocardial {
     display: grid;
@@ -5623,6 +6185,12 @@ h4 {
 
 .recovering-hearts-section {
   margin-top: -70px; }
+  @media only screen and (max-width: 768px) {
+    .recovering-hearts-section {
+      padding: 30px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+      margin-top: -90px; } }
   @media only screen and (max-width: 767px) {
     .recovering-hearts-section {
       padding: 10px !important;
