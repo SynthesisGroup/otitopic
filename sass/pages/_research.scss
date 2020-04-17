@@ -1,5 +1,11 @@
 .myocardial-infarction-section {
 	margin-top: -70px;
+	
+	@media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
 	@media only screen and (max-width: 767px) {
         padding: 10px !important;
@@ -56,6 +62,10 @@
 		grid-gap: 4rem;
 		grid-auto-rows: minmax(100px, auto);
 
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
 		@media only screen and (max-width: 767px) {
 	        grid-template-columns: repeat(1, 1fr);
 	    }
@@ -99,6 +109,10 @@
 				line-height: 45px;
 				color: #081D31;
 				width: 538px !important;
+
+				@media only screen and (max-width: 768px) {
+			        width: 100% !important;
+			    }
 
 				@media only screen and (max-width: 767px) {
 			        width: 100% !important;
@@ -281,6 +295,10 @@
 		grid-template-columns: repeat(2, 1fr);
 		grid-auto-rows: minmax(100px, auto);
 
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
 		@media only screen and (max-width: 767px) {
 	        grid-template-columns: repeat(1, 1fr);
 	    }
@@ -440,6 +458,10 @@
 		grid-template-columns: repeat(2, 1fr);
 		grid-auto-rows: minmax(100px, auto);
 		grid-gap: 2rem;
+
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
 
 		@media only screen and (max-width: 767px) {
 	        grid-template-columns: repeat(1, 1fr);

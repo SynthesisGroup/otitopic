@@ -1,5 +1,11 @@
 .innovative-options-section {
 	margin-top: -70px;
+	
+	@media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
 	@media only screen and (max-width: 767px) {
         padding: 10px !important;
@@ -55,6 +61,12 @@
 .why-work-otitopic-section {
 	background: #EBE9E8;
 
+	@media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
   	@media only screen and (max-width: 767px) {
         padding: 10px !important;
         padding-top: 60px !important;
@@ -107,6 +119,10 @@
 	        line-height: 49px;
 	        color: #081D31;
 
+	        @media only screen and (max-width: 768px) {
+		        text-align: left;
+		    }
+
 	        @media only screen and (max-width: 767px) {
 		        text-align: left;
 		    }
@@ -144,6 +160,10 @@
 	        line-height: 155%;
 	        text-align: center;
 	        color: #1B3349;
+	        
+	        @media only screen and (max-width: 768px) {
+		        text-align: left;
+		    }
 
 	        @media only screen and (max-width: 767px) {
 		        text-align: left;
@@ -211,6 +231,10 @@
 		grid-template-columns: 2fr 1fr;
 		grid-gap: 1rem;
 
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
 		@media only screen and (max-width: 767px) {
 	        grid-template-columns: repeat(1, 1fr);
 	    }
@@ -243,6 +267,11 @@
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
 			grid-gap: 1rem;
+
+			@media only screen and (max-width: 768px) {
+	        	grid-template-columns: repeat(2, 1fr);
+	        	 grid-gap: 0;
+		    }
 
 			@media only screen and (max-width: 767px) {
 	        	grid-template-columns: repeat(1, 1fr);
@@ -284,7 +313,6 @@
 
 				.text-details {
 					padding: 40px;
-					width: 100%;
 
 					h2 {
 						font-family: $font-primary;

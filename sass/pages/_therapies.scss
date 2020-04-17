@@ -13,6 +13,12 @@
 
 .therapies-section {
 	background: #EBE9E8;
+	
+	@media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
 	@media only screen and (max-width: 767px) {
         padding: 10px !important;
@@ -60,6 +66,10 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-auto-rows: minmax(100px, auto);
+
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
 
 		@media only screen and (max-width: 767px) {
 	        grid-template-columns: repeat(1, 1fr);
@@ -115,6 +125,10 @@
 		.img-wrap {
 			width: 100%;
 			height: 100%;
+			
+			@media only screen and (max-width: 768px){
+				height: 400px;
+			}
 		}
 	}
 
@@ -125,6 +139,11 @@
 		grid-gap: 3rem;
 		margin-top: 3rem;
 		justify-items: center;
+		
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	        grid-gap: 1rem;
+	    }
 
 		@media only screen and (max-width: 767px) {
 	        grid-template-columns: repeat(1, 1fr);
@@ -167,6 +186,10 @@
 			grid-auto-rows: minmax(100px, auto);
 			border-left: 2px solid $color-orange;
 			height: 121px;
+
+			@media only screen and (max-width: 768px) {
+		        height: 100%;
+		    }
 
 			@media only screen and (max-width: 767px) {
 		         height: 100%;

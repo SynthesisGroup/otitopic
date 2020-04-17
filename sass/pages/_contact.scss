@@ -1,5 +1,11 @@
 .contact-form-section {
 	margin-top: -70px;
+	
+	@media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
 
     @media only screen and (max-width: 767px) {
         padding: 10px !important;

@@ -158,3 +158,10 @@
 	-o-transition:all 0.3s ease;
 	transition:all 0.3s ease;
 }
+
+.spcl-btn
+{
+	@media only screen and (max-width: 768px) {
+        width: 70%;
+    }
+}

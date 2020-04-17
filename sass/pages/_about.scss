@@ -54,6 +54,9 @@
         }
     }
 
+    @media only screen and (width: 768px) {
+        padding: 30px !important;
+    }
     p.footer {
         font-family: $font-primary;
         font-style: normal;
@@ -273,6 +276,11 @@
 .our-mission-section {
     background: #EBE9E8;
 
+    @media only screen and (width: 768px) {
+        padding: 30px !important;
+        padding-bottom: 80px !important;
+    }
+
     @media only screen and (max-width: 767px) {
         padding: 10px !important;
         padding-top: 60px !important;
@@ -319,6 +327,10 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-auto-rows: minmax(100px, auto);
+
+        @media only screen and (max-width: 768px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
 
         @media only screen and (max-width: 767px) {
             grid-template-columns: repeat(1, 1fr);
@@ -410,6 +422,11 @@
                         line-height: 155%;
                         color: #E6ECF0;
                     }
+                }
+
+                @media only screen and (width: 768px) {
+                    height: 140px;
+                    margin-top: 10%;
                 }
             }
         }

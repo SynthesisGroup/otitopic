@@ -7,6 +7,11 @@
     padding-right: 100px;
     margin-bottom: 100px !important;
 
+    @media only screen and (max-width: 768px) {
+        padding-left: 50px;
+        padding-right: 120px;
+    }
+
     @media only screen and (max-width: 767px) {
         padding: 20px !important;
         padding-left: 0;
