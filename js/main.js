@@ -176,11 +176,11 @@
   // ------------------------------------------------------------------------------ //
 
   $(".what-we-offer-carousel").owlCarousel({
-    loop: false,
+    loop: true,
     responsiveClass: true,
     items: 4,
     autoplay: false,
-    dots: false,
+    dots: true,
 
     responsive:{
       0:{

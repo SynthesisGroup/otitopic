@@ -3493,7 +3493,7 @@ h4 {
 
 .grid-row-footer {
   display: grid;
-  grid-template-columns: 25rem 1fr 1fr 1fr;
+  grid-template-columns: 35rem 1fr;
   grid-gap: 1rem; }
   @media only screen and (max-width: 64em) {
     .grid-row-footer {
@@ -3505,6 +3505,10 @@ h4 {
   @media only screen and (max-width: 40em) {
     .grid-row-footer {
       grid-template-columns: repeat(1, 1fr); } }
+  .grid-row-footer .grid-footer-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 2rem; }
 
 .grid-container-flex-two {
   display: grid;
@@ -4844,6 +4848,46 @@ h4 {
 .featured-project-section {
   padding-bottom: 0;
   margin-top: -50px; }
+  @media only screen and (max-width: 768px) {
+    .featured-project-section {
+      padding: 30px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 767px) {
+    .featured-project-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 661px) {
+    .featured-project-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 600px) {
+    .featured-project-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 575px) {
+    .featured-project-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 526px) {
+    .featured-project-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 485px) {
+    .featured-project-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 411px) {
+    .featured-project-section {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
 
 .featured-project-section .project-grids .grid {
   width: 100%;
@@ -4899,9 +4943,12 @@ h4 {
   display: flex;
   flex-direction: row;
   padding: 15px 56px; }
-  @media only screen and (max-width: 411px) {
+  @media screen and (min-device-width: 1200px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
     .featured-project-section .project-grids .tag-area {
       left: 20px; } }
+  @media only screen and (max-width: 411px) {
+    .featured-project-section .project-grids .tag-area {
+      left: 16px; } }
 
 .featured-project-section .project-grids .tag-icon {
   position: absolute;
@@ -5127,6 +5174,9 @@ h4 {
 
 .fadeIn-bottom {
   top: 80%; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 25px !important; }
 
 .company-overview-section {
   margin-top: -70px; }
