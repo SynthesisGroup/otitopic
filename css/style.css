@@ -3348,7 +3348,7 @@ h4 {
     display: flex; }
 
 /* ----------- Non-Retina Screens ----------- */
-@media screen and (min-device-width: 996px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 996px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 1) {
   .nav-brand-side {
     margin-top: 30px;
     margin-left: 10px;
@@ -3364,7 +3364,7 @@ h4 {
       display: flex; } }
 
 /* ----------- Retina Screens ----------- */
-@media screen and (min-device-width: 996px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media screen and (min-device-width: 996px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .nav-brand-side {
     margin-top: 30px;
     margin-left: 10px;
