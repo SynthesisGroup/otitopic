@@ -96,6 +96,15 @@
     {
         border-radius: 0px 0px 6px 6px !important;
     }
+
+    .play-icon {
+        position: absolute; 
+        padding: 100px; 
+        margin-top: -40px; 
+        justify-content: center; 
+        align-items: center; 
+        cursor: pointer;
+    }
 }
 
 

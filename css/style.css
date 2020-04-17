@@ -3984,6 +3984,13 @@ h4 {
         height: 100%; } }
   .home-page-banner .spcl-btn {
     border-radius: 0px 0px 6px 6px !important; }
+  .home-page-banner .play-icon {
+    position: absolute;
+    padding: 100px;
+    margin-top: -40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; }
 
 .about-otitopic-section {
   background-color: #081D31; }
