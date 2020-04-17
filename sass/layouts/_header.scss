@@ -257,6 +257,16 @@
   display: inline-block;
   margin-left: -29px;
 
+  /* ----------- Retina Screens ----------- */
+  @media screen 
+    and (min-device-width: 996px) 
+    and (max-device-width: 4000px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (min-resolution: 192dpi) { 
+      // margin-left: -352px !important;
+  }
+
+
   @media only screen and (max-width: 768px) {
     padding-left: 25px;
   }

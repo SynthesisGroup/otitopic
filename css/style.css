@@ -2536,7 +2536,8 @@ h4 {
   font-weight: 500;
   color: #565656;
   display: inline-block;
-  margin-left: -29px; }
+  margin-left: -29px;
+  /* ----------- Retina Screens ----------- */ }
   @media only screen and (max-width: 768px) {
     .dope-navbar .nav-brand {
       padding-left: 25px; } }
