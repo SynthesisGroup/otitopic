@@ -3,15 +3,14 @@
 .grid-row-footer {
 	display: grid;
 	grid-template-columns: 35rem 1fr;
-	grid-gap: 1rem;
-
-	@media only screen and (max-width: $bp-tab-lg) {
-        grid-template-columns: 20rem 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    
+    @media only screen and (max-width: 1024px) {
+		grid-template-columns: 30rem 1fr;
     }
 
-	@media only screen and (max-width: 767px) {
-		display: grid;
-        grid-template-columns: repeat(1, 1fr);
+	@media only screen and (max-width: 768px) {
+        grid-template-columns: 20rem 1fr;
     }
 
 	@media only screen and (max-width: $bp-mobile-lg) {
@@ -22,6 +21,10 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-gap: 2rem;
+
+        @media only screen and (max-width: $bp-tab-lg) {
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
     }
 }
 

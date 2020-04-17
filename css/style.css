@@ -3451,13 +3451,12 @@ h4 {
   display: grid;
   grid-template-columns: 35rem 1fr;
   grid-gap: 1rem; }
-  @media only screen and (max-width: 64em) {
+  @media only screen and (max-width: 1024px) {
     .grid-row-footer {
-      grid-template-columns: 20rem 1fr 1fr 1fr; } }
-  @media only screen and (max-width: 767px) {
+      grid-template-columns: 30rem 1fr; } }
+  @media only screen and (max-width: 768px) {
     .grid-row-footer {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: 20rem 1fr; } }
   @media only screen and (max-width: 40em) {
     .grid-row-footer {
       grid-template-columns: repeat(1, 1fr); } }
@@ -3465,6 +3464,9 @@ h4 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     grid-gap: 2rem; }
+    @media only screen and (max-width: 64em) {
+      .grid-row-footer .grid-footer-2 {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } }
 
 .grid-container-flex-two {
   display: grid;
