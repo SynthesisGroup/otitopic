@@ -59,7 +59,7 @@
         position: absolute;
         background: $color-primary;
         padding: 40px 80px 40px;
-        margin-top: -110px;
+        margin-top: -135px;
         z-index: 9;
         width: 400px;
 
@@ -148,14 +148,14 @@
             font-family: $font-primary;
             font-style: normal;
             font-weight: 600;
-            font-size: 45px;
+            font-size: 44px;
             line-height: 60px;
             color: $color-white;
             text-align: left;
 
             @media only screen and (max-width: 575px) {
                 font-family: $font-primary;
-                font-size: 45px;
+                font-size: 23px;
                 line-height: 44px;
             }
 
@@ -185,7 +185,7 @@
                 font-style: normal;
                 font-weight: normal;
                 font-size: 20px;
-                line-height: 145%;
+                line-height: 23px;
                 color: #E6ECF0;
 
                 @media only screen and (max-width: 411px) {
@@ -199,7 +199,7 @@
             font-style: normal;
             font-weight: normal;
             font-size: 21px;
-            line-height: 145%;
+            line-height: 23px;
             color: #E6ECF0;
             width: 100%;
         }
@@ -287,47 +287,47 @@
   	background: url('../img/banners/about-us-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 440px;
+  	height: 550px;
 }
 
 .press-releases-banner {
     background: url('../img/banners/press-releases-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 440px;
+    height: 550px;
 }
 
 .therapies-banner {
   	background: url('../img/banners/therapies-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 440px;
+  	height: 550px;
 }
 
 .research-banner {
   	background: url('../img/banners/research-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 440px;
+  	height: 550px;
 }
 
 .technology-banner {
   	background: url('../img/banners/technology-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 440px;
+  	height: 550px;
 }
 
 .careers-banner {
   	background: url('../img/banners/careers-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 440px;
+  	height: 550px;
 }
 
 .contact-us-banner {
   	background: url('../img/banners/contact-us-banner.jpg');
   	background-size: cover;
   	background-repeat: no-repeat;
-  	height: 440px;
+  	height: 550px;
 }

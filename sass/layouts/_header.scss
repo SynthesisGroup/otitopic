@@ -438,7 +438,7 @@
   width: 100%;
   height: 2px;
   border-radius: 6px;
-  background: #232323;
+  background: $color-white;
 }
 
 .dopecloseIcon .cross-wrap span.top {
@@ -728,7 +728,7 @@
 }
 
 .breakpoint-on .dope-navbar .dope-menu {
-  background-color: #ffffff;
+  background-color: $color-primary;
   position: fixed;
   top: 0;
   left: -310px;
@@ -737,7 +737,7 @@
   height: 100%;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  padding: 0;
+  padding: 10px;
   -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   display: block;
@@ -818,16 +818,16 @@
 }
 
 .breakpoint-on .dopenav > ul > li > a {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  color: #000 !important;
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: $color-white !important;
 }
 
 .breakpoint-on .dopenav > ul > li > a:after {
-  color: #000 !important;
+  color: $color-white !important;
 }
 
 .breakpoint-on .dopenav ul li:hover > a::after {
-  color: #000 !important;
+  color: $color-white !important;
 }
 
 .breakpoint-on .dopenav ul li ul.sub-menu li ul li {
@@ -1261,3 +1261,72 @@
       margin-top: -110px !important;
     }
 }
+
+
+.nav-brand-side {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.footer-widgets-aside {
+  margin-top: 64px;
+
+  .social-lists {
+    display: flex;
+  }
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 996px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .nav-brand-side {
+      margin-top: 30px;
+      margin-left: 10px;
+      display: none;
+      clear: both;
+      visibility: hidden;
+    }
+    
+    .footer-widgets-aside {
+      margin-top: 64px;
+      display: none;
+      clear: both;
+      visibility: hidden;
+    
+      .social-lists {
+        display: flex;
+      }
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 996px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .nav-brand-side {
+      margin-top: 30px;
+      margin-left: 10px;
+      display: none;
+      clear: both;
+      visibility: hidden;
+    }
+    
+    .footer-widgets-aside {
+      margin-top: 64px;
+      display: none;
+      clear: both;
+      visibility: hidden;
+    
+      .social-lists {
+        display: flex;
+      }
+    }
+}
+
