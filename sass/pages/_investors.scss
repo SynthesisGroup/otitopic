@@ -101,6 +101,11 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 2rem;
+		
+		@media only screen and (width: 1024px) {
+        	grid-template-columns: repeat(2, 1fr);
+			grid-gap: 2rem;
+	    }
 
 		@media only screen and (max-width: 768px) {
         	grid-template-columns: repeat(1, 1fr);
@@ -174,6 +179,13 @@
 				// margin-top: 203px;
 				margin-top: -73px;
 				z-index: 9;
+
+				@media only screen and (min-width: 769px) and (max-width: 1024px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 100%;
+			    }
 
 				@media only screen and (max-width: 768px) {
 		        	position: relative;
@@ -281,6 +293,11 @@
 			background: #1B3349;
 			padding: 50px;
 			
+			@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	        	padding: 30px 30px 0px 30px;
+	        	height: 89%;
+		    }
+
 			@media only screen and (max-width: 768px) {
 	        	padding: 100px 30px 30px 60px;
 		    }
@@ -344,6 +361,11 @@
 				font-size: 28px;
 				line-height: 15px;
 				color: #FFA000;
+				
+				@media only screen and (min-width: 768px) and (max-width: 1024px) {
+		        	font-size: 26px;
+					line-height: 30px;
+			    }
 
 				@media only screen and (max-width: 767px) {
 		        	font-size: 26px;
