@@ -223,6 +223,14 @@
 
 .footer-section .copyright-bottom p {
   margin-bottom: 0px;
+
+  @media screen 
+    and (min-device-width: 300px) 
+    and (max-device-width: 600px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+      text-align: left !important;
+  }
+
 }
 
 .footer-section .copyright-bottom ul {

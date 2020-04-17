@@ -279,5 +279,38 @@
 
 // Sticky Header
 
+var stickyOffset = $('.dope-nav-container').offset().top;
+
+$(window).scroll(function(){
+  var sticky = $('.dope-nav-container'),
+      scroll = $(window).scrollTop();
+
+  if (scroll !== stickyOffset) { 
+    sticky.addClass('fixed');
+    sticky.addClass('fade-in');
+    sticky.addClass('custom-dope-navbar');
+    sticky.addClass('headerStickyArea');
+  }
+  else { 
+    sticky.removeClass('fixed');
+    sticky.removeClass('custom-dope-navbar');
+    sticky.removeClass('headerStickyArea');
+  }
+});
+
+var customMenuColor = $('.about-us-list-nav').offset().top;
+
+$(window).scroll(function(){
+  var stickyMenuColor = $('.about-us-list-nav'),
+      scrollX = $(window).scrollTop();
+
+  if (scrollX !== stickyOffset) { 
+    stickyMenuColor.addClass('customMenuColorNav');
+  }
+  else { 
+    stickyMenuColor.removeClass('customMenuColorNav');
+  }
+});
+
 
 
