@@ -22,8 +22,8 @@
     <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
     <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
     <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#555555","text":"#ffffff"}},"position":"bottom","content":{"href":"https://synthesisgroup.github.io/otitopic/privacy-policy.html"}})});</script>
-
-    <style type="text/css">
+    <style>
+        
         header {
             position: relative;
             background-color: black;
@@ -48,19 +48,39 @@
         }
 
         header .container {
-          position: relative;
-          z-index: 2;
+            position: relative;
+            z-index: 2;
         }
 
         header .overlay {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 100%;
-          width: 100%;
-          background-color: black;
-          opacity: 0.5;
-          z-index: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.5;
+            z-index: 1;
+        }
+
+        .modal-dialog {
+            max-width: 800px;
+            margin: 30px auto;
+        }
+
+        .modal-body {
+            position: relative;
+            padding: 0px;
+        }
+        .close {
+            position: absolute;
+            right: -30px;
+            top: 0;
+            z-index: 999;
+            font-size: 2rem;
+            font-weight: normal;
+            color: #fff;
+            opacity: 1;
         }
 
     </style>
@@ -151,9 +171,11 @@
                         <p>Our mission is to provide patients with a faster alternative for management of suspected myocardial infarction (MI).</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-xs-5">
-                        <img src="img/icons/play.png" alt="icon" class="play-icon" data-toggle="modal" data-target="#view-our-video">
+                        <img src="img/icons/play.png" alt="icon" class="play-icon video-btn" data-toggle="modal"
+                        data-src="https://player.vimeo.com/video/236684402?badge=0" data-target="#myModal">
                         <img src="img/img-home-sm.jpg" alt="" width="223">
-                        <a href="#" class="theme-btn btn-style-primary spcl-btn" data-toggle="modal" data-target="#view-our-video">
+                        <a href="#" class="theme-btn btn-style-primary spcl-btn video-btn" data-toggle="modal"
+                        data-src="https://player.vimeo.com/video/236684402?badge=0" data-target="#myModal">
                             <span class="txt">View our video</span>
                         </a>
                     </div>
@@ -170,18 +192,27 @@
     <!-- Start Main Page Wrapper -->
     <main class="page-wrapper">
 
-        <!-- Modal Video for View our video -->
-        <div class="modal fade" id="view-our-video" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <!-- Modal Video-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/236684402" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>             
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-       <!-- start about otitopic -->
+        <!-- End Modal Video -->
+          
+        <!-- start about otitopic -->
         <section class="about-otitopic-section section-gap section-gap-top section-gap-bottom clear-fix">
             <div class="container">
                 <div class="content-area clearfix">
@@ -190,22 +221,11 @@
                         <div class="ugb-video-popup" style="background: url('img/home-about.jpg') no-repeat;">
                            
                             <div class="ugb-video-wrapper">
-                                <a href="#" data-toggle="modal" data-target="#about-otitopic-video">
+                                <a href="#" class="video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/236684402?badge=0" data-target="#myModal">
                                     <span class="ugb-play-button">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 34 34"><path d="M17 34C7.6 34 0 26.4 0 17S7.6 0 17 0s17 7.6 17 17-7.6 17-17 17zm0-32C8.7 2 2 8.7 2 17s6.7 15 15 15 15-6.7 15-15S25.3 2 17 2z"/><path d="M12 25.7V8.3L27 17l-15 8.7zm2-14v10.5l9-5.3-9-5.2z"/></svg>
                                     </span>
                                 </a>
-                            </div>
-    
-                            <!-- Modal Video for About Otitopic -->
-                            <div class="modal fade" id="about-otitopic-video" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-body">
-                                            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/236684402" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-                                        </div>
-                                    </div>  
-                                </div>
                             </div>
     
                         </div>
@@ -264,26 +284,15 @@
                         <img src="img/heart-attack.jpg" alt="">
 
                         <div class="btn-overlay">
-                            <a href="javascript:void(0);" data-toggle="modal" data-target="#video-make-difference">
+                            <a href="javascript:void(0);" class="video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/236684402?badge=0" data-target="#myModal">
                                 <div class="play-btn">
                                     <img src="img/icons/play.png" alt="img">
                                 </div>
                             </a>
                             <p>See how we make a difference</p>
                         </div>
-
-                 
-                        <div class="modal fade" id="video-make-difference" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/236684402" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
+
                     <div class="text-content">
                         <h2>Management of Suspected Heart Attack</h2>
 
@@ -566,8 +575,35 @@
     <script src="js/odometer.js"></script>
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://player.vimeo.com/api/player.js"></script>
     <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+    <script>
+        $(document).ready(function() {
+            // Gets the video src from the data-src on each button
+            var $videoSrc;
+            $(".video-btn").click(function() {
+                $videoSrc = $(this).attr("data-src");
+                console.log("button clicked" + $videoSrc);
+            });
+
+            // when the modal is opened autoplay it
+            $("#myModal").on("shown.bs.modal", function(e) {
+                console.log("modal opened" + $videoSrc);
+                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+                $("#video").attr(
+                "src",
+                $videoSrc + "?amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1"
+                );
+            });
+
+            // stop playing the youtube video when I close the modal
+            $("#myModal").on("hide.bs.modal", function(e) {
+                // a poor man's stop video
+                $("#video").attr("src", $videoSrc);
+            });
+
+            // document ready
+        });
+    </script>
 </body>
 
 </html>

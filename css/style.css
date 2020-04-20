@@ -3466,27 +3466,24 @@ h4 {
     grid-gap: 2rem; }
     @media only screen and (max-width: 64em) {
       .grid-row-footer .grid-footer-2 {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } }
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        margin-top: 40px; } }
 
 .grid-container-flex-two {
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
   grid-template-columns: repeat(2, auto); }
   @media only screen and (max-width: 64em) {
     .grid-container-flex-two {
-      display: grid;
       grid-template-columns: repeat(2, 1fr); } }
   @media only screen and (max-width: 61.9em) {
     .grid-container-flex-two {
-      display: grid;
       grid-template-columns: repeat(2, 1fr); } }
   @media only screen and (max-width: 53.75em) {
     .grid-container-flex-two {
-      display: grid;
       grid-template-columns: repeat(1, 1fr); } }
   @media only screen and (max-width: 40em) {
     .grid-container-flex-two {
-      display: grid;
       grid-template-columns: repeat(1, 1fr); } }
 
 .grid-row-form {
@@ -5016,7 +5013,7 @@ h4 {
       left: -1px; } }
   @media only screen and (max-width: 411px) {
     .featured-project-section .project-grids .tag-area {
-      left: 16px; } }
+      left: 2px; } }
 
 .featured-project-section .project-grids .tag-icon {
   position: absolute;
@@ -5469,9 +5466,6 @@ h4 {
         @media only screen and (max-width: 485px) {
           .company-overview-section .img-wrap .img-cap .text-content p {
             padding: 40px; } }
-        @media only screen and (max-width: 411px) {
-          .company-overview-section .img-wrap .img-cap .text-content p {
-            padding: 40px; } }
     .company-overview-section .img-wrap .contact-card {
       background: #1B3349;
       padding: 50px; }
@@ -5497,9 +5491,6 @@ h4 {
       @media only screen and (max-width: 414px) {
         .company-overview-section .img-wrap .contact-card {
           padding: 90px 40px 40px 40px; } }
-      @media only screen and (max-width: 411px) {
-        .company-overview-section .img-wrap .contact-card {
-          padding: 40px; } }
       .company-overview-section .img-wrap .contact-card h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -5841,6 +5832,24 @@ h4 {
     line-height: 155%;
     color: #1B3349; }
 
+.modal-dialog {
+  max-width: 800px;
+  margin: 30px auto; }
+
+.modal-body {
+  position: relative;
+  padding: 0px; }
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1; }
+
 .myocardial-infarction-section {
   margin-top: -70px; }
   @media only screen and (max-width: 768px) {
@@ -6165,8 +6174,7 @@ h4 {
         padding: 60px 35px 0px 35px; } }
     @media only screen and (max-width: 411px) {
       .otitopic-research-tech-trials-section .col-md-rev .text-wrap {
-        height: 100%;
-        padding: 35px; } }
+        height: 100%; } }
     .otitopic-research-tech-trials-section .col-md-rev .text-wrap h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -6262,7 +6270,8 @@ h4 {
       grid-template-columns: repeat(1, 1fr); } }
   .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
     background: #ffffff;
-    height: 446px; }
+    height: 446px;
+    padding-bottom: 60px; }
     .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -6281,7 +6290,8 @@ h4 {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-      justify-items: center; }
+      justify-items: center;
+      grid-gap: 1rem; }
       .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials .col-md-clinical-trials-grid .card-wrap {
         background: #E6ECF0;
         display: grid;
@@ -6434,6 +6444,9 @@ h4 {
     font-size: 36px;
     line-height: 45px;
     color: #081D31; }
+    @media only screen and (max-width: 411px) {
+      .recovering-hearts-section .text-wrap h2 {
+        margin-top: 35px; } }
   .recovering-hearts-section .text-wrap p {
     font-family: "Nunito", sans-serif;
     font-style: normal;
