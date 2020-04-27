@@ -4418,7 +4418,7 @@ h4 {
         color: #ffffff; }
 
 .home-page-banner {
-  margin-top: 4rem; }
+  margin-top: 2rem; }
   @media only screen and (max-width: 768px) {
     .home-page-banner {
       padding: 10px 30px 10px 30px;
@@ -4468,8 +4468,9 @@ h4 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 55px;
+    line-height: 50px;
+    width: 80%;
     color: #ffffff; }
     @media only screen and (max-width: 460px) {
       .home-page-banner h1 {
@@ -4484,8 +4485,8 @@ h4 {
     @media only screen and (max-width: 25.8em) {
       .home-page-banner h1 {
         font-size: 40px;
-        line-height: 50px;
-        margin-top: -60px; } }
+        line-height: 40px;
+        margin-top: -80px !important; } }
     @media screen and (min-device-width: 1440px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 1) {
       .home-page-banner h1 {
         margin-top: 100px; } }
@@ -4493,18 +4494,29 @@ h4 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 23px;
     line-height: 145%;
-    color: #ffffff; }
+    color: #ffffff;
+    width: 70%; }
+    @media only screen and (max-width: 414px) {
+      .home-page-banner p {
+        font-size: 18px;
+        width: 100%; } }
+    @media only screen and (max-width: 25.8em) {
+      .home-page-banner p {
+        font-size: 18px;
+        width: 100%; } }
     @media only screen and (max-width: 411px) {
       .home-page-banner p {
         font-size: 18px;
         height: 100%; } }
   .home-page-banner .spcl-btn {
-    border-radius: 0px 0px 6px 6px !important; }
+    width: 120px;
+    border-radius: 0px 0px 6px 6px !important;
+    padding: 5px 30px; }
   .home-page-banner .play-icon {
     position: absolute;
-    padding: 100px;
+    padding: 90px;
     margin-top: -40px;
     justify-content: center;
     align-items: center;
