@@ -277,7 +277,7 @@
 
 	.col-md-rev-otitopic-research {
 		position: relative;
-		background: url("../img/otitopic-research.jpg");
+		background: url("../img/iStock-956478224.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		display: grid;
@@ -361,6 +361,7 @@
 					font-size: 16px;
 					line-height: 155%;
 					color: $color-white;
+					z-index: 99;
 				}
 			}
 
@@ -545,7 +546,6 @@
 			display: grid;
 			grid-auto-rows: minmax(100px, auto);
 			border-left: 2px solid #0F63A7;
-			// height: 75px;
 			height: 80%;
 			width: 100%;
 
@@ -558,7 +558,7 @@
 				font-family: $font-primary;
 				font-style: normal;
 				font-weight: 600;
-				font-size: 13px;
+				font-size: 16px;
 				line-height: 155%;
 				color: #1B3349;
 				justify-items: center;
