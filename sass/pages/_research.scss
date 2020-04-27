@@ -473,6 +473,10 @@
 			display: grid;
 			grid-auto-rows: minmax(100px, auto);
 
+			@media only screen and (max-width: 768px) {
+		        height: 400px;
+		    }
+
 			@media only screen and (max-width: 767px) {
 		        height: auto;
 		    }
@@ -569,6 +573,7 @@
 
 		@media only screen and (max-width: 768px) {
 	        grid-template-columns: repeat(1, 1fr);
+	    	margin-bottom: 30px;
 	    }
 
 		@media only screen and (max-width: 767px) {
@@ -656,6 +661,18 @@
 					}
 				}
 			}
+			
+			@media only screen and (max-width: 768px) {
+		        height: 65%;
+		    }
+
+			@media only screen and (max-width: 414px) {
+		        height: 65%;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		        height: 75%;
+		    }
 		}
 
 		.img-wrap {
@@ -663,6 +680,10 @@
 			width: 100%;
 			display: grid;
 			grid-auto-rows: minmax(100px, auto);
+			
+			@media only screen and (max-width: 768px) {
+		        height: 400px;
+		    }
 
 			@media only screen and (max-width: 767px) {
 		        height: auto;
