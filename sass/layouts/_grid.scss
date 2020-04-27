@@ -24,32 +24,29 @@
 
         @media only screen and (max-width: $bp-tab-lg) {
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            margin-top: 40px;
         }
     }
 }
 
 .grid-container-flex-two {
 	display: grid;
-	grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+	grid-template-rows: repeat(auto-fit, minmax(auto, 1fr));
     grid-template-columns: repeat(2, auto);
 
 	@media only screen and (max-width: $bp-tab-lg) {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
     @media only screen and (max-width: $bp-tab-md) {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
 	@media only screen and (max-width: $bp-tab-pt) {
-		display: grid;
-        grid-template-columns: repeat(1, 1fr);
+	    grid-template-columns: repeat(1, 1fr);
     }
 
 	@media only screen and (max-width: $bp-mobile-lg) {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 }

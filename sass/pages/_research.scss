@@ -1,3 +1,23 @@
+.modal-dialog {
+	max-width: 800px;
+	margin: 30px auto;
+}
+
+.modal-body {
+	position: relative;
+	padding: 0px;
+}
+.close {
+	position: absolute;
+	right: -30px;
+	top: 0;
+	z-index: 999;
+	font-size: 2rem;
+	font-weight: normal;
+	color: #fff;
+	opacity: 1;
+}
+
 .myocardial-infarction-section {
 	margin-top: -70px;
 	
@@ -267,6 +287,11 @@
 		.text-wrap {
 			padding: 56px;
 
+			@media only screen and (max-width: 414px) {
+				padding: 40px 35px 30px 35px;
+		        height: 100%;
+			}
+			
 			@media only screen and (max-width: 411px) {
 				padding: 35px;
 		        height: 100%;
@@ -284,6 +309,11 @@
 				text-transform: uppercase;
 				padding: 15px 0px;
 
+				@media only screen and (max-width: 414px) {
+					width: 100%;
+					padding: 60px 0px 0px 0px;
+				}
+				
 				@media only screen and (max-width: 411px) {
 			        width: 100%;
 			    }
@@ -408,9 +438,13 @@
 		        padding: 35px;
 		    }
 
+			@media only screen and (max-width: 414px) {
+		        height: 100%;
+		        padding: 60px 35px 0px 35px;
+			}
+			
 			@media only screen and (max-width: 411px) {
 		        height: 100%;
-		        padding: 35px;
 		    }
 
 			h2 {
@@ -568,6 +602,7 @@
 		.text-wrap-trials {
 			background: $color-white;
 			height: 446px;
+			padding-bottom: 60px;
 
 			h2 {
 				font-family: $font-primary;
@@ -592,6 +627,7 @@
 				grid-template-columns: repeat(1, 1fr);
 				grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
 				justify-items: center;
+				grid-gap: 1rem;
 
 				.card-wrap {
 					background: #E6ECF0;

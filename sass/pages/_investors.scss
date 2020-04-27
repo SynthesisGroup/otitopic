@@ -281,10 +281,6 @@
 				  	@media only screen and (max-width: 485px) {
 				        padding: 40px;
 				    }
-
-					@media only screen and (max-width: 411px) {
-						padding: 40px;
-				    }
 				}
 			}
 		}
@@ -345,9 +341,9 @@
 				padding: 90px 40px 40px 40px;
 		    }
 
-			@media only screen and (max-width: 411px) {
-				padding: 40px;
-		    }
+			// @media only screen and (max-width: 411px) {
+			// 	padding: 40px;
+		    // }
 
 		  //   @media only screen and (max-width: 321px) {
 		  //   	width: 63%;
