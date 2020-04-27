@@ -23,6 +23,16 @@
     <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
     <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#555555","text":"#ffffff"}},"position":"bottom","content":{"href":"https://synthesisgroup.github.io/otitopic/privacy-policy.html"}})});</script>
 
+    <!-- <style type="text/css">
+        html{overflow-y:scroll}
+        body{animation: fadeIn 1s}
+        @keyframes fadeIn{
+            0%{opacity:0;background:#000}
+            90%{opacity:0}
+            100%{opacity:1;background:#fff}
+        }
+    </style> -->
+
 </head>
 
 <body id="no-scroll">
@@ -150,12 +160,18 @@
                     <div class="text-wrap">
                         <h2>Therapies</h2>
                         <br>
-                        <p>Asprihale® is a portable, single-use therapy for the treatment of MI, also known as a heart attack. The
+                        <p>Asprihale indication is to "Reduce the risk of vascular mortality in patients with suspected acute myocardial infarction (MI)"
+                        </p>
+
+                        <p>A patient administered, portable single use device and capsules that enables oral inhalation of aspirin upon onset of MI symptoms** ( not for daily use)</p>
+
+                        <p>Kit containing Dry powder inhaler device and drug is small enough to be carried comfortably in a pocket (smaller than an EpiPen)</p>
+                        <!-- <p>Asprihale® is a portable, single-use therapy for the treatment of MI, also known as a heart attack. The
                         concept is simple – at-risk patients will administer Asprihale® when they suspect they are experiencing
                         MI symptoms.</p>
 
                         <p>Administration is easy – patients simply load a capsule, activate the device and inhale.
-                        Asprihale® reaches maximum absorption in two minutes.</p>
+                        Asprihale® reaches maximum absorption in two minutes.</p> -->
                     </div>
                     <!-- <div class="img-wrap" style="background: url('img/therapies-img.jpg') no-repeat;"></div> -->
                     <img src="img/therapies-img.jpg" class="img-wrap">
@@ -168,6 +184,38 @@
 
                     <div class="card-wrap">
                         <p>The effects of Asprihale® are a distinctly more prompt, potent, and predictable PD response than the current standard-of-care.</p>
+                    </div>
+
+                    <div class="card-wrap">
+                        <p>Inhalation via the Asprihale delivery device improves speed of aspirin bioavailability, due to bypassing first pass metabolism and the proximity of the lungs to the heart.</p>
+                    </div>
+
+                    <div class="card-wrap">
+                        <p>Inhaled aspirin reaches peak bioavailability in ~2 minutes, which has been shown to consistently and dramatically reduce thromboxane B 2 levels, and inhibit platelet aggregation resulting in a more potent, prompt, and predictable pharmacodynamic (PD) response.</p>
+                    </div>
+
+                    <div class="card-wrap ">
+                        <p>A 1.5 fold greater maximum serum concentration (Cmax) of aspirin within ~2 minutes when delivered with Asprihale, which is similar to IV administration.</p>
+                    </div>
+
+                    <div class="card-wrap ">
+                        <p>No serious adverse events were reported during clinical trials.</p>
+                    </div>
+
+                    <div class="card-wrap ">
+                        <p>Asprihale cannot be used in patients with a history of asthma.</p>
+                    </div>
+                    <!-- truncate -->
+                    <div class="card-wrap">
+                        <p>A 1.5 fold greater maximum serum concentration (Cmax) of acetylsalicylic acid (ASA) is achieved within 2 minutes when delivered with ASPRIHALE Arachidonic acid induced platelet aggregation is completely and irreversibly inhibited with ASPRIHALE within ~2 minutes post dose, and maintained for 24 hours post treatment.</p>
+                    </div>
+
+                    <div class="card-wrap">
+                        <p>Mean serum thromboxane B2 (TxB2) levels are dramatically reduced over the first ~2 minutes post dose with ASPRIHALE, and maintained for 24 hours post treatment.</p>
+                    </div>
+
+                    <div class="card-wrap">
+                        <p>The immediate anti platelet and inhibitory effects of ASPRIHALE is expected to translate to meaningful clinical benefits for patients at risk for MI.</p>
                     </div>
                 </div>
             </div>
@@ -323,9 +371,7 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
             </div>
 
             <div class="copyright-bottom d-flex">
@@ -359,6 +405,49 @@
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+    <!-- <script type="text/javascript">
+        $(document).ready(function() {
+          (function() {
+            var showChar = 200;
+            var ellipsestext = "...";
+
+            $(".truncate").each(function() {
+              var content = $(this).html();
+              if (content.length > showChar) {
+                var c = content.substr(0, showChar);
+                var h = content;
+                var html =
+                  '<div class="truncate-text" style="display:block">' +
+                  c +
+                  '<span class="moreellipses">' +
+                  ellipsestext +
+                  '&nbsp;&nbsp;<a href="" class="moreless more">more</a></span></span></div><div class="truncate-text" style="display:none">' +
+                  h +
+                  '<a href="" class="moreless less">Less</a></span></div>';
+
+                $(this).html(html);
+              }
+            });
+
+            $(".moreless").click(function() {
+              var thisEl = $(this);
+              var cT = thisEl.closest(".truncate-text");
+              var tX = ".truncate-text";
+
+              if (thisEl.hasClass("less")) {
+                cT.prev(tX).toggle();
+                cT.slideToggle();
+              } else {
+                cT.toggle();
+                cT.next(tX).fadeToggle();
+              }
+              return false;
+            });
+            
+          })();
+
+        });
+    </script> -->
 
 </body>
 
