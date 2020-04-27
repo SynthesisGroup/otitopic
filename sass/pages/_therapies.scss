@@ -144,7 +144,7 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-auto-rows: minmax(100px, auto);
-		grid-gap: 1rem;
+		grid-gap: 1.3rem;
 		justify-items: center;
 		
 		@media only screen and (max-width: 768px) {
@@ -235,8 +235,6 @@
 				line-height: 155%;
 				color: #1B3349;
 				padding: 30px;
-				justify-items: center;
-				align-items: center;
 			}
 		}
 	}
