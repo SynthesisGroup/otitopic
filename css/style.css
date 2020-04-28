@@ -3525,12 +3525,6 @@ h4 {
     position: relative;
     margin-top: 10px; } }
 
-@media only screen and (max-width: 25.8em) {
-  .home-page-banner h1 {
-    font-size: 40px;
-    line-height: 50px;
-    margin-top: -110px !important; } }
-
 .nav-brand-side {
   margin-top: 30px;
   margin-left: 10px; }
@@ -4763,121 +4757,128 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
 .img-mask {
   width: 100%; }
 
-.home-page-banner {
-  margin-top: 2rem; }
-  @media only screen and (max-width: 768px) {
-    .home-page-banner {
-      padding: 10px 30px 10px 30px;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+@media only screen and (max-width: 768px) {
+  .home-page-banner {
+    padding: 10px 30px 10px 30px;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 767px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 661px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 600px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 575px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 526px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 485px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 414px) {
+  .home-page-banner {
+    padding: 0px 10px 0px 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 411px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+.home-page-banner h1 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 50px;
+  width: 80%;
+  color: #ffffff; }
   @media only screen and (max-width: 767px) {
-    .home-page-banner {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
-  @media only screen and (max-width: 661px) {
-    .home-page-banner {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
-  @media only screen and (max-width: 600px) {
-    .home-page-banner {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
-  @media only screen and (max-width: 575px) {
-    .home-page-banner {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
-  @media only screen and (max-width: 526px) {
-    .home-page-banner {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
-  @media only screen and (max-width: 485px) {
-    .home-page-banner {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+    .home-page-banner h1 {
+      font-size: 50px;
+      line-height: 50px;
+      margin-top: -60px;
+      width: 100%; } }
+  @media only screen and (max-width: 460px) {
+    .home-page-banner h1 {
+      font-size: 50px;
+      line-height: 50px;
+      margin-top: -60px; } }
   @media only screen and (max-width: 414px) {
-    .home-page-banner {
-      padding: 0px 10px 0px 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+    .home-page-banner h1 {
+      font-size: 50px;
+      line-height: 50px;
+      margin-top: -60px; } }
+  @media only screen and (max-width: 25.8em) {
+    .home-page-banner h1 {
+      font-size: 40px;
+      line-height: 40px;
+      margin-top: -80px !important; } }
+
+.home-page-banner p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 145%;
+  color: #ffffff;
+  width: 70%; }
+  @media only screen and (max-width: 767px) {
+    .home-page-banner p {
+      font-size: 18px;
+      width: 100%; } }
+  @media only screen and (max-width: 414px) {
+    .home-page-banner p {
+      font-size: 18px;
+      width: 100%; } }
+  @media only screen and (max-width: 25.8em) {
+    .home-page-banner p {
+      font-size: 18px;
+      width: 100%; } }
   @media only screen and (max-width: 411px) {
-    .home-page-banner {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
-  .home-page-banner h1 {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 50px;
-    width: 80%;
-    color: #ffffff; }
-    @media only screen and (max-width: 767px) {
-      .home-page-banner h1 {
-        font-size: 50px;
-        line-height: 50px;
-        margin-top: -60px;
-        width: 100%; } }
-    @media only screen and (max-width: 460px) {
-      .home-page-banner h1 {
-        font-size: 50px;
-        line-height: 50px;
-        margin-top: -60px; } }
-    @media only screen and (max-width: 414px) {
-      .home-page-banner h1 {
-        font-size: 50px;
-        line-height: 50px;
-        margin-top: -60px; } }
-    @media only screen and (max-width: 25.8em) {
-      .home-page-banner h1 {
-        font-size: 40px;
-        line-height: 40px;
-        margin-top: -80px !important; } }
-    @media screen and (min-device-width: 1440px) and (max-device-width: 2000px) and (-webkit-min-device-pixel-ratio: 1) {
-      .home-page-banner h1 {
-        margin-top: 100px; } }
-  .home-page-banner p {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 145%;
-    color: #ffffff;
-    width: 70%; }
-    @media only screen and (max-width: 767px) {
-      .home-page-banner p {
-        font-size: 18px;
-        width: 100%; } }
-    @media only screen and (max-width: 414px) {
-      .home-page-banner p {
-        font-size: 18px;
-        width: 100%; } }
-    @media only screen and (max-width: 25.8em) {
-      .home-page-banner p {
-        font-size: 18px;
-        width: 100%; } }
-    @media only screen and (max-width: 411px) {
-      .home-page-banner p {
-        font-size: 18px;
-        height: 100%; } }
-  .home-page-banner .spcl-btn {
-    width: 120px;
-    border-radius: 0px 0px 6px 6px !important;
-    padding: 5px 30px; }
-  .home-page-banner .play-icon {
-    position: absolute;
-    padding: 90px;
-    margin-top: -40px;
-    margin-left: -10px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer; }
+    .home-page-banner p {
+      font-size: 18px;
+      height: 100%; } }
+
+.home-page-banner .spcl-btn {
+  width: 120px;
+  border-radius: 0px 0px 6px 6px !important;
+  padding: 5px 30px; }
+
+.home-page-banner .play-icon {
+  position: absolute;
+  padding: 90px;
+  margin-top: -40px;
+  margin-left: -10px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
 
 .about-otitopic-section {
   background-color: #081D31; }
@@ -5683,6 +5684,46 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
       padding-top: 60px !important;
       padding-bottom: 60px !important;
       margin-top: -90px; } }
+  @media only screen and (max-width: 768px) {
+    .company-overview-section .text-wrap {
+      padding: 30px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 767px) {
+    .company-overview-section .text-wrap {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 661px) {
+    .company-overview-section .text-wrap {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 600px) {
+    .company-overview-section .text-wrap {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 575px) {
+    .company-overview-section .text-wrap {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 526px) {
+    .company-overview-section .text-wrap {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 485px) {
+    .company-overview-section .text-wrap {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 411px) {
+    .company-overview-section .text-wrap {
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   .company-overview-section .text-wrap h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
@@ -5861,6 +5902,9 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
       @media only screen and (max-width: 414px) {
         .company-overview-section .img-wrap .contact-card {
           padding: 90px 40px 40px 40px; } }
+      @media only screen and (max-width: 360px) {
+        .company-overview-section .img-wrap .contact-card {
+          padding: 10px !important; } }
       .company-overview-section .img-wrap .contact-card h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -5955,6 +5999,48 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
       .company-overview-section .press-rel-down {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
+    @media only screen and (max-width: 767px) {
+      .company-overview-section .press-rel-down .press-releases {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        margin-top: -110px; } }
+    @media only screen and (max-width: 661px) {
+      .company-overview-section .press-rel-down .press-releases {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        margin-top: -110px; } }
+    @media only screen and (max-width: 600px) {
+      .company-overview-section .press-rel-down .press-releases {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        margin-top: -110px; } }
+    @media only screen and (max-width: 575px) {
+      .company-overview-section .press-rel-down .press-releases {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        margin-top: -110px; } }
+    @media only screen and (max-width: 526px) {
+      .company-overview-section .press-rel-down .press-releases {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        margin-top: -110px; } }
+    @media only screen and (max-width: 485px) {
+      .company-overview-section .press-rel-down .press-releases {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        margin-top: -110px; } }
+    @media only screen and (max-width: 411px) {
+      .company-overview-section .press-rel-down .press-releases {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        margin-top: -110px; } }
     .company-overview-section .press-rel-down .press-releases h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -5996,7 +6082,7 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
       .company-overview-section .press-rel-down .press-releases .press-content span {
         font-family: "Nunito", sans-serif;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 800;
         font-size: 16px;
         line-height: 20px;
         color: #7E7E7E; }

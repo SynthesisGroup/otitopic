@@ -78,6 +78,54 @@
   //   }
 
 	.text-wrap {
+		@media only screen and (max-width: 768px) {
+			padding: 30px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
+		@media only screen and (max-width: 767px) {
+			padding: 10px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
+		  @media only screen and (max-width: 661px) {
+			padding: 10px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
+		  @media only screen and (max-width: 600px) {
+			padding: 10px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
+		  @media only screen and (max-width: 575px) {
+			padding: 10px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
+		  @media only screen and (max-width: 526px) {
+			padding: 10px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
+		  @media only screen and (max-width: 485px) {
+			padding: 10px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
+		@media only screen and (max-width: 411px) {
+			padding: 10px !important;
+			padding-top: 60px !important;
+			padding-bottom: 60px !important;
+		}
+	
 		h2 {
 			font-family: $font-primary;
 			font-style: normal;
@@ -155,7 +203,9 @@
 	    @media only screen and (max-width: 320px) {
 	        grid-template-columns: repeat(1, 1fr);
 	       grid-gap: 0;
-	    }
+		}
+		
+		
 
 		.img-cap {
 
@@ -350,6 +400,10 @@
 				// padding: 40px;
 		  //   }
 
+			@media only screen and (max-width: 360px) {
+				padding: 10px !important;
+			}
+
 			h2 {
 				font-family: $font-primary;
 				font-style: normal;
@@ -473,6 +527,54 @@
 	    }
 
 		.press-releases {
+			@media only screen and (max-width: 767px) {
+				padding: 10px !important;
+				padding-top: 60px !important;
+				padding-bottom: 60px !important;
+				margin-top: -110px;
+			}
+		
+			  @media only screen and (max-width: 661px) {
+				padding: 10px !important;
+				padding-top: 60px !important;
+				padding-bottom: 60px !important;
+				margin-top: -110px;
+			}
+		
+			  @media only screen and (max-width: 600px) {
+				padding: 10px !important;
+				padding-top: 60px !important;
+				padding-bottom: 60px !important;
+				margin-top: -110px;
+			}
+		
+			  @media only screen and (max-width: 575px) {
+				padding: 10px !important;
+				padding-top: 60px !important;
+				padding-bottom: 60px !important;
+				margin-top: -110px;
+			}
+		
+			  @media only screen and (max-width: 526px) {
+				padding: 10px !important;
+				padding-top: 60px !important;
+				padding-bottom: 60px !important;
+				margin-top: -110px;
+			}
+		
+			  @media only screen and (max-width: 485px) {
+				padding: 10px !important;
+				padding-top: 60px !important;
+				padding-bottom: 60px !important;
+				margin-top: -110px;
+			}
+		
+			  @media only screen and (max-width: 411px) {
+				padding: 10px !important;
+				padding-top: 60px !important;
+				padding-bottom: 60px !important;
+				margin-top: -110px;
+			}
 			h2 {
 				font-family: $font-primary;
 				font-style: normal;
@@ -524,7 +626,7 @@
 				span {
 					font-family: $font-primary;
 					font-style: normal;
-					font-weight: 600;
+					font-weight: 800;
 					font-size: 16px;
 					line-height: 20px;
 					color: #7E7E7E;
