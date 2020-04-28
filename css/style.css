@@ -4903,6 +4903,9 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
         padding: 10px !important;
         padding-top: 60px !important;
         padding-bottom: 60px !important; } }
+    @media screen and (min-device-width: 300px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+      .about-otitopic-section .left-col .about-otitopic-thumbnail {
+        width: 100%; } }
   .about-otitopic-section .right-col {
     margin-top: -50px;
     float: right; }

@@ -302,6 +302,16 @@
             padding-top: 60px !important;
             padding-bottom: 60px !important;
         }
+
+        .about-otitopic-thumbnail {
+            @media screen 
+                and (min-device-width: 300px) 
+                and (max-device-width: 4000px) 
+                and (-webkit-min-device-pixel-ratio: 2)
+                and (min-resolution: 192dpi) { 
+                width: 100%;
+            }
+        }
     }
 
     .right-col {
