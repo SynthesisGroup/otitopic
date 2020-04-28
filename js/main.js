@@ -291,7 +291,7 @@ $(window).scroll(function(){
 
   if (scroll !== stickyOffset) { 
     sticky.addClass('fixed');
-    sticky.addClass('fade-in');
+    sticky.addClass('bounceIn');
     sticky.addClass('custom-dope-navbar');
     sticky.addClass('headerStickyArea');
   }

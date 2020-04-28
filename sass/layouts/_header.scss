@@ -1388,18 +1388,18 @@
 }
 
 .fade-in {
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
+  animation: bounceIn ease 3s;
+  -webkit-animation: bounceIn ease 3s;
+  -moz-animation: bounceIn ease 3s;
+  -o-animation: bounceIn ease 3s;
+  -ms-animation: bounceIn ease 3s;
 }
 
 .custom-dope-navbar {
   margin-top: -30px;
 }
 
-@keyframes fadeIn{
+@keyframes bounceIn{
   0% {
     opacity:0;
   }
@@ -1408,7 +1408,7 @@
   }
 }
 
-@-moz-keyframes fadeIn {
+@-moz-keyframes bounceIn {
   0% {
     opacity:0;
   }
@@ -1417,7 +1417,7 @@
   }
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes bounceIn {
   0% {
     opacity:0;
   }
@@ -1426,7 +1426,7 @@
   }
 }
 
-@-o-keyframes fadeIn {
+@-o-keyframes bounceIn {
   0% {
     opacity:0;
   }
@@ -1435,13 +1435,54 @@
   }
 }
 
-@-ms-keyframes fadeIn {
+@-ms-keyframes bounceIn {
   0% {
     opacity:0;
   }
   100% {
     opacity:1;
   }
+}
+
+
+
+@-webkit-keyframes bounceIn {
+  0% {
+     opacity: 0;
+     -webkit-transform: scale(.3);
+  }
+  50% {
+     opacity: 1;
+     -webkit-transform: scale(1.05);
+  }
+  70% {
+     -webkit-transform: scale(.9);
+  }
+  100% {
+     -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn {
+  0% {
+     opacity: 0;
+     transform: scale(.3);
+  }
+  50% {
+     opacity: 1; 
+     transform: scale(1.05);
+  }
+  70% {
+     transform: scale(.9);
+  }
+  100% {
+     transform: scale(1);
+  }
+}
+
+.bounceIn {
+  -webkit-animation-name: bounceIn; 
+  animation-name: bounceIn;
 }
 
 
