@@ -121,7 +121,7 @@
 		}
 	
 		@media only screen and (max-width: 411px) {
-			padding: 10px !important;
+			padding: 30px !important;
 			padding-top: 60px !important;
 			padding-bottom: 60px !important;
 		}
@@ -197,7 +197,7 @@
 
 	    @media only screen and (max-width: 360px) {
 	        grid-template-columns: repeat(1, 1fr);
-	       grid-gap: 0;
+			   grid-gap: 0;
 	    }
 
 	    @media only screen and (max-width: 320px) {
@@ -208,6 +208,7 @@
 		
 
 		.img-cap {
+
 
 			img {
 				width: 100%;
@@ -400,9 +401,6 @@
 				// padding: 40px;
 		  //   }
 
-			@media only screen and (max-width: 360px) {
-				padding: 10px !important;
-			}
 
 			h2 {
 				font-family: $font-primary;
@@ -524,6 +522,11 @@
 		@media only screen and (max-width: 411px) {
 	        grid-template-columns: repeat(1, 1fr);
 	       grid-gap: 0;
+		}
+		
+		@media only screen and (max-width: 360px) {
+	        grid-template-columns: repeat(1, 1fr);
+		   grid-gap: 0;
 	    }
 
 		.press-releases {
@@ -570,7 +573,7 @@
 			}
 		
 			  @media only screen and (max-width: 411px) {
-				padding: 10px !important;
+				padding: 20px !important;
 				padding-top: 60px !important;
 				padding-bottom: 60px !important;
 				margin-top: -110px;

@@ -5721,7 +5721,7 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 411px) {
     .company-overview-section .text-wrap {
-      padding: 10px !important;
+      padding: 30px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   .company-overview-section .text-wrap h2 {
@@ -5902,9 +5902,6 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
       @media only screen and (max-width: 414px) {
         .company-overview-section .img-wrap .contact-card {
           padding: 90px 40px 40px 40px; } }
-      @media only screen and (max-width: 360px) {
-        .company-overview-section .img-wrap .contact-card {
-          padding: 10px !important; } }
       .company-overview-section .img-wrap .contact-card h2 {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -5999,6 +5996,10 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
       .company-overview-section .press-rel-down {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
+    @media only screen and (max-width: 360px) {
+      .company-overview-section .press-rel-down {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0; } }
     @media only screen and (max-width: 767px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
@@ -6037,7 +6038,7 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
         margin-top: -110px; } }
     @media only screen and (max-width: 411px) {
       .company-overview-section .press-rel-down .press-releases {
-        padding: 10px !important;
+        padding: 20px !important;
         padding-top: 60px !important;
         padding-bottom: 60px !important;
         margin-top: -110px; } }
