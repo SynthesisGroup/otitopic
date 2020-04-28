@@ -1620,9 +1620,24 @@ h4 {
   @media only screen and (max-width: 767px) {
     .about-us-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .about-us-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .about-us-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .about-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .about-us-banner {
+      height: 290px; } }
 
 .press-releases-banner {
   background: url("../img/banners/iStock-461209029.jpg");
@@ -1689,9 +1704,24 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .press-releases-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .press-releases-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .press-releases-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .press-releases-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .press-releases-banner {
+      height: 290px; } }
 
 .therapies-banner {
   background: url("../img/banners/therapies-banner.jpg");
@@ -1761,9 +1791,21 @@ h4 {
   @media only screen and (max-width: 767px) {
     .therapies-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .therapies-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .therapies-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .therapies-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .therapies-banner {
+      height: 290px; } }
 
 .research-banner {
   background: url("../img/banners/research-banner.jpg");
@@ -1833,9 +1875,21 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .research-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .research-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .research-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .research-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .research-banner {
+      height: 290px; } }
 
 .technology-banner {
   background: url("../img/banners/research-banner.jpg");
@@ -1905,9 +1959,21 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .technology-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .technology-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .technology-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .technology-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .technology-banner {
+      height: 290px; } }
 
 .investor-relations-banner {
   background: url("../img/banners/iStock-1168937338.jpg");
@@ -1977,9 +2043,21 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .investor-relations-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .investor-relations-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .investor-relations-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .investor-relations-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .investor-relations-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .investor-relations-banner {
+      height: 290px; } }
 
 .careers-banner {
   background: url("../img/banners/careers-banner.jpg");
@@ -2049,9 +2127,21 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .careers-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .careers-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .careers-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .careers-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .careers-banner {
+      height: 290px; } }
 
 .contact-us-banner {
   background: url("../img/banners/iStock-1135346370.jpg");
@@ -2121,9 +2211,21 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .contact-us-banner {
       height: 300px; } }
+  @media only screen and (max-width: 767px) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 485px) {
+    .contact-us-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .contact-us-banner {
       height: 300px; } }
+  @media only screen and (max-width: 400px) {
+    .contact-us-banner {
+      height: 300px; } }
+  @media only screen and (max-width: 360px) {
+    .contact-us-banner {
+      height: 290px; } }
 
 .testimonials-section {
   background: #081D31 !important; }
