@@ -328,7 +328,27 @@
                     <!--  -->
                     <!-- graph -->
                     <div class="tab-pane fade" id="graph" role="tabpanel" aria-labelledby="profile-tab">
-                       <img src="img/table-graph.jpg" alt="graph-img" width="100%" class="mt-50">
+
+                       <img src="img/table-graph.jpg" alt="graph-img" width="100%" class="mt-50" data-toggle="modal" data-target="#modalGraph">
+
+                        <!-- Trigger the Modal -->
+                        <div class="modal fade modal-fullscreen" id="modalGraph" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                
+                                <div class="modal-content" style="width: 200%;">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="modal-body">
+                                
+                                        <img src="img/table-graph.jpg" alt="img" width="100%">
+                                      
+                                   </div>
+                                </div>      
+                            </div>
+                        </div>
+                        
                     </div>
                     
                     <!--  -->
@@ -336,7 +356,7 @@
                 <!--  -->
             </div>
         </section>
-        <!-- End regulatory pathway section -->
+        <!-- End regulatory pathway section --> 
 
         <!-- Start our mission section -->
         <section class="our-mission-section section-gap section-gap-bottom clear-fix">
