@@ -265,7 +265,10 @@
                 font-family: $font-primary;
                 font-size: 30px;
                 line-height: 44px;
-                width: 50%;
+
+                .about-tag {
+                    width: 50% !important;
+                }
                 .text-orange{
                     color: $color-orange;
                     width: 50%;
@@ -273,6 +276,14 @@
                 }
             }
         }
+
+        .about-tag {
+            @media only screen and (max-width: 360px) {
+                width: 50%;
+            }
+        }
+
+        
 
         ul {
             margin-top: 20px;

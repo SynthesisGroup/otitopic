@@ -1470,12 +1470,16 @@ h4 {
         .otitopic-header-info .banner-tag-head h2 {
           font-family: "Nunito", sans-serif;
           font-size: 30px;
-          line-height: 44px;
-          width: 50%; }
+          line-height: 44px; }
+          .otitopic-header-info .banner-tag-head h2 .about-tag {
+            width: 50% !important; }
           .otitopic-header-info .banner-tag-head h2 .text-orange {
             color: #ffa000;
             width: 50%;
             text-transform: uppercase; } }
+    @media only screen and (max-width: 360px) {
+      .otitopic-header-info .banner-tag-head .about-tag {
+        width: 50%; } }
     .otitopic-header-info .banner-tag-head ul {
       margin-top: 20px; }
       .otitopic-header-info .banner-tag-head ul li {
