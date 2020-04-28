@@ -51,7 +51,7 @@
 	@media only screen and (max-width: 411px) {
         padding: 10px !important;
         padding-bottom: 60px !important;
-    }
+	}
 
 	.form-wrap {
 		background: #E6ECF0;
@@ -86,12 +86,12 @@
 	    }
 
 	    @media only screen and (max-width: 360px) {
-			padding: 61px;
+			padding: 25px;
 			margin-top: 0;
 	    }
 
 	    @media only screen and (max-width: 320px) {
-			padding: 81px;
+			padding: 25px;
 			margin-top: 0;
 	    } 
 
@@ -183,11 +183,11 @@
 		}
 
 		@media only screen and (max-width: 360px) {
-			padding: 40px 20px 30px 62px;
+			padding: 40px 20px 0px 25px;
 		}
 
 		@media only screen and (max-width: 320px) {
-			padding: 40px 20px 30px 80px;
+			padding: 40px 20px 0px 20px;
 		}
 		
 

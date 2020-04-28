@@ -549,6 +549,10 @@
 		grid-auto-rows: minmax(100px, auto);
 		grid-gap: 2rem;
 
+		@media only screen and (max-width: 360px) {
+			padding-top: 80px;
+		}
+
 		.card-wrap {
 			background: #E6ECF0;
 			display: grid;
@@ -560,7 +564,7 @@
 			@media only screen and (max-width: 411px) {
 		        height: 100%;
 		        width: 100%;
-		    }
+			}
 
 			p {
 				font-family: $font-primary;
