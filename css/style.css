@@ -2626,11 +2626,20 @@ h4 {
       padding-left: 25px; } }
   @media only screen and (max-width: 767px) {
     .dope-navbar .nav-brand {
+      margin-left: -50px; } }
+  @media only screen and (max-width: 600px) {
+    .dope-navbar .nav-brand {
+      margin-left: -42px; } }
+  @media only screen and (max-width: 590px) {
+    .dope-navbar .nav-brand {
+      margin-left: -39px; } }
+  @media only screen and (max-width: 582px) {
+    .dope-navbar .nav-brand {
       margin-left: -38px; } }
   @media only screen and (max-width: 575px) {
     .dope-navbar .nav-brand {
       margin-left: -28px; } }
-  @media only screen and (max-width: 411px) {
+  @media only screen and (max-width: 414px) {
     .dope-navbar .nav-brand {
       margin-left: -28px; } }
 
@@ -4700,6 +4709,12 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
     line-height: 50px;
     width: 80%;
     color: #ffffff; }
+    @media only screen and (max-width: 767px) {
+      .home-page-banner h1 {
+        font-size: 50px;
+        line-height: 50px;
+        margin-top: -60px;
+        width: 100%; } }
     @media only screen and (max-width: 460px) {
       .home-page-banner h1 {
         font-size: 50px;
@@ -4726,6 +4741,10 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
     line-height: 145%;
     color: #ffffff;
     width: 70%; }
+    @media only screen and (max-width: 767px) {
+      .home-page-banner p {
+        font-size: 18px;
+        width: 100%; } }
     @media only screen and (max-width: 414px) {
       .home-page-banner p {
         font-size: 18px;
@@ -5003,6 +5022,9 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
     color: #ffffff;
     margin-top: 2em;
     width: 90%; }
+    @media (max-width: 768px) {
+      .about-otitopic-section .details p {
+        width: 100%; } }
   .about-otitopic-section .right-col {
     background-image: url("../img/img-overlay-about.jpg") center center/cover no-repeat local;
     position: relative; }

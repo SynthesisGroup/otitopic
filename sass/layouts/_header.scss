@@ -272,10 +272,26 @@
   }
 
   @media only screen and (max-width: 767px) {
+    margin-left: -50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    margin-left: -42px;
+  }
+
+  @media only screen and (max-width: 590px) {
+    margin-left: -39px;
+  }
+
+  @media only screen and (max-width: 582px) {
     margin-left: -38px;
   }
 
   @media only screen and (max-width: 575px) {
+    margin-left: -28px;
+  }
+
+  @media only screen and (max-width: 414px) {
 
     margin-left: -28px;
   }
@@ -307,9 +323,9 @@
   // @media only screen and (max-width: 411px) {
   //   margin-left: -32px;
   // }
-  @media only screen and (max-width: 411px) {
-    margin-left: -28px;
-  }
+  // @media only screen and (max-width: 411px) {
+  //   margin-left: -28px;
+  // }
 }
 
 .dope-navbar .nav-brand:focus,

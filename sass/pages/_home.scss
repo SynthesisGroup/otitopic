@@ -68,6 +68,13 @@
 	    line-height: 50px;
         width: 80%;
 	    color: $color-white;
+        
+        @media only screen and (max-width: 767px) {
+            font-size: 50px;
+            line-height: 50px;
+            margin-top: -60px;
+            width: 100%;
+        }
 
         @media only screen and (max-width: 460px) {
             font-size: 50px;
@@ -105,6 +112,11 @@
 	    color: $color-white;
         width: 70%;
         
+        @media only screen and (max-width: 767px) {
+            font-size: 18px;
+            width: 100%;
+        }
+
         @media only screen and (max-width: 414px) {
             font-size: 18px;
             width: 100%;
@@ -413,7 +425,6 @@
                         margin: 40px;
                         padding-bottom: 0px;
 
-
                         .title {
                             font-family: $font-primary;
                             font-style: normal;
@@ -422,6 +433,10 @@
                             line-height: 23px;
                             color: $color-white;
                             width: 80%;
+                            
+                            // @media only screen and (max-width: 768px) {
+                            //     width: 100%;
+                            // }
                         }
 
                         a {
@@ -467,6 +482,10 @@
         color: $color-white;
         margin-top: 2em;
         width: 90%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
     }
 
    .right-col {
@@ -1028,6 +1047,10 @@
     max-width: 400px;
     margin: auto;
     overflow: hidden;
+
+    // @media only screen and (max-width: 768px) {
+    //     max-width: 590px;
+    // }
 
     .content-overlay {
         background: #0F63A7;
