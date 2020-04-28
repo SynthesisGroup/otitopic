@@ -2121,6 +2121,9 @@ h4 {
   @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     .contact-us-banner {
       height: 300px; } }
+  @media only screen and (min-device-width: 414px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-us-banner {
+      height: 300px; } }
   @media only screen and (max-width: 411px) {
     .contact-us-banner {
       height: 300px; } }
@@ -3476,6 +3479,19 @@ h4 {
     .footer-widgets-aside .social-lists {
       display: flex; } }
 
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: -1024px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .nav-brand-side {
+    display: none;
+    clear: both;
+    visibility: hidden; }
+  .footer-widgets-aside {
+    display: none;
+    clear: both;
+    visibility: hidden; }
+    .footer-widgets-aside .social-lists {
+      display: flex; } }
+
 .fixed {
   position: fixed;
   background-color: #081D31;
@@ -4175,7 +4191,7 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 49px;
+    line-height: 45px;
     color: #081D31; }
 
 .why-work-otitopic-section {
@@ -6864,7 +6880,8 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
         grid-template-columns: repeat(1, 1fr); } }
     @media only screen and (max-width: 411px) {
       .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem; } }
     .recovering-hearts-section .asprihale-area .asprihale-grid .content img {
       width: 100%; }
     .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
@@ -6906,6 +6923,9 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
         height: 34px;
         width: 28%;
         padding: 11px; }
+        @media only screen and (max-width: 411px) {
+          .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
+            font-size: 17px; } }
       .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -6917,6 +6937,10 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
         color: #081D31;
         margin-left: -40px;
         margin-top: 10px; }
+        @media only screen and (max-width: 411px) {
+          .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
+            font-size: 12px;
+            margin-left: 0; } }
 
 .terms-conditions-section {
   margin-top: -70px; }
