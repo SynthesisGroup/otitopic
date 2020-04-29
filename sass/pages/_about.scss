@@ -639,22 +639,3 @@
         }
     }
 }
-
-
-input[type=checkbox] {
-    display: none;
-}
-
-.container .zoomgGraph {
-    transition: transform 0.25s ease;
-    cursor: zoom-in;
-    overflow: scroll;
-}
-
-input[type=checkbox]:checked ~ label > .zoomgGraph {
-    transform: scale(1.5);
-    cursor: zoom-out;
-    overflow: scroll;
-}
-
-  

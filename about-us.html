@@ -22,6 +22,12 @@
     <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
     <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
     <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#555555","text":"#ffffff"}},"position":"bottom","content":{"href":"https://synthesisgroup.github.io/otitopic/privacy-policy.html"}})});</script>
+    <!-- 1. Add latest jQuery and fancybox files -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 </head>
 
@@ -307,38 +313,17 @@
                         </ul>
                         <p class="footer pt-4">2022 Commercial Launch of ASPRIHALE®</p>
                     </div>
-                    <!--  -->
+
                     <!-- graph -->
                     <div class="tab-pane fade" id="graph" role="tabpanel" aria-labelledby="profile-tab">
-
-                       <img src="img/table-graph.jpg" alt="graph-img" width="100%" class="mt-50" data-toggle="modal" data-target="#modalGraph">
-
-                        <!-- Trigger the Modal -->
-                        <div class="modal fade modal-fullscreen" id="modalGraph" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                
-                                <div class="modal-content" style="width: 200%;">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    <div class="modal-body">
-                                        <div class="container">
-                                            <input type="checkbox" id="zoomCheck">
-                                            <label for="zoomCheck">
-                                              <img src="img/table-graph.jpg" class="zoomgGraph" alt="img" width="100%">
-                                            </label>
-                                        </div>
-                                   </div>
-                                </div>      
-                            </div>
-                        </div>
+                       
+                        <a data-fancybox="gallery" href="img/table-graph.jpg">
+                            <img src="img/table-graph.jpg" width="100%" class="mt-50">
+                        </a>
 
                     </div>
-                    
-                    <!--  -->
+
                 </div>
-                <!--  -->
             </div>
         </section>
         <!-- End regulatory pathway section --> 
