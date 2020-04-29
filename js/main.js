@@ -293,6 +293,8 @@ $(window).scroll(function() {
   }
 });
 
+// smoothscroll page animation
+
 $(function() {
 
 	$(this).impulse();
