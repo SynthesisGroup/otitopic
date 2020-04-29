@@ -3589,61 +3589,9 @@ h4 {
   -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3); }
 
-.fade-in {
-  animation: bounceIn ease 3s;
-  -webkit-animation: bounceIn ease 3s;
-  -moz-animation: bounceIn ease 3s;
-  -o-animation: bounceIn ease 3s;
-  -ms-animation: bounceIn ease 3s; }
-
 .custom-dope-navbar {
-  margin-top: -30px; }
-
-@keyframes bounceIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@-moz-keyframes bounceIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@-webkit-keyframes bounceIn {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-@-webkit-keyframes bounceIn {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0.3); }
-  50% {
-    opacity: 1;
-    -webkit-transform: scale(1.05); }
-  70% {
-    -webkit-transform: scale(0.9); }
-  100% {
-    -webkit-transform: scale(1); } }
-
-@keyframes bounceIn {
-  0% {
-    opacity: 0;
-    transform: scale(0.3); }
-  50% {
-    opacity: 1;
-    transform: scale(1.05); }
-  70% {
-    transform: scale(0.9); }
-  100% {
-    transform: scale(1); } }
-
-.bounceIn {
-  -webkit-animation-name: bounceIn;
-  animation-name: bounceIn; }
+  margin-top: -30px;
+  transition: all 500ms cubic-bezier(0.55, 0, 0.1, 1); }
 
 .grid-row-footer {
   display: grid;

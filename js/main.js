@@ -283,22 +283,13 @@
 
 // Sticky Header
 
-var stickyOffset = $('.dope-nav-container').offset().top;
-
-$(window).scroll(function(){
-  var sticky = $('.dope-nav-container'),
-      scroll = $(window).scrollTop();
-
-  if (scroll !== stickyOffset) { 
-    sticky.addClass('fixed');
-    sticky.addClass('bounceIn');
-    sticky.addClass('custom-dope-navbar');
-    sticky.addClass('headerStickyArea');
-  }
-  else { 
-    sticky.removeClass('fixed');
-    sticky.removeClass('custom-dope-navbar');
-    sticky.removeClass('headerStickyArea');
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 400) {
+    $('.dope-nav-container').addClass('fixed');
+    $('.dope-nav-container').addClass('custom-dope-navbar');
+  } else {
+    $('.dope-nav-container').removeClass('fixed');
+    $('.dope-nav-container').removeClass('custom-dope-navbar');
   }
 });
 

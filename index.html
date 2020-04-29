@@ -56,10 +56,10 @@
 
         header .container {
             position: relative;
-            z-index: 2;
+            z-index: 9;
         }
 
-        header .overlay {
+        .overlay {
             position: absolute;
             top: 0;
             left: 0;
@@ -70,25 +70,6 @@
             z-index: 1;
         }
 
-        .modal-dialog {
-            max-width: 800px;
-            margin: 30px auto;
-        }
-
-        .modal-body {
-            position: relative;
-            padding: 0px;
-        }
-        .close {
-            position: absolute;
-            right: -30px;
-            top: 0;
-            z-index: 999;
-            font-size: 2rem;
-            font-weight: normal;
-            color: #fff;
-            opacity: 1;
-        }
 
     </style>
 
@@ -106,9 +87,9 @@
     <!-- End Pre-loader -->
 
     <!-- Start header section -->
-    <header class="header-area">
+    <header class="header-area page-banner">
         <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <video autoplay="autoplay" muted="muted" loop="loop">
             <source src="img/videos/home-otitopic-video.mp4" type="video/mp4">
         </video>
 
@@ -128,7 +109,7 @@
                         <!-- Menu -->
                         <div class="dope-menu" style="float: right;">
                             <!-- aside logo -->
-                            <a class="nav-brand-side" href="index.html"><img src="img/otitopic-logo-header.svg" alt="" width="100"></a>
+                            <a class="nav-brand-side" href="index.html"><img src="img/otitopic-logo-header.svg" alt="logo-brand" width="100"></a>
                             
                             <!-- close btn -->
                             <div class="dopecloseIcon">
