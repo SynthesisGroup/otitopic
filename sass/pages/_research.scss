@@ -586,7 +586,8 @@
 
 		@media only screen and (max-width: 768px) {
 	        grid-template-columns: repeat(1, 1fr);
-	    	margin-bottom: 30px;
+			margin-bottom: 30px;
+			// margin-top: 75px;
 	    }
 
 		@media only screen and (max-width: 767px) {
@@ -621,6 +622,10 @@
 			background: $color-white;
 			height: 446px;
 
+			@media only screen and (max-width: 768px) {
+		        height: auto;
+		    }
+
 			h2 {
 				font-family: $font-primary;
 				font-style: normal;
@@ -651,7 +656,6 @@
 					display: grid;
 					grid-auto-rows: minmax(100px, auto);
 					border-left: 2px solid #0F63A7;
-					// height: 75px;
 					height: 80%;
 					width: 100%;
 
@@ -673,10 +677,6 @@
 					}
 				}
 			}
-			
-			@media only screen and (max-width: 768px) {
-		        height: 65%;
-		    }
 
 			@media only screen and (max-width: 414px) {
 		        height: 65%;

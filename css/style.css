@@ -6128,6 +6128,9 @@ h4 {
     .company-overview-section .press-rel-down .press-releases .press-content {
       display: grid;
       grid-template-columns: 12% 90%; }
+      @media only screen and (max-width: 768px) {
+        .company-overview-section .press-rel-down .press-releases .press-content {
+          grid-template-columns: 20% 90%; } }
       @media only screen and (max-width: 767px) {
         .company-overview-section .press-rel-down .press-releases .press-content {
           grid-template-columns: repeat(1, 1fr);
@@ -6840,6 +6843,9 @@ h4 {
   .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
     background: #ffffff;
     height: 446px; }
+    @media only screen and (max-width: 768px) {
+      .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
+        height: auto; } }
     .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials h2 {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -6881,9 +6887,6 @@ h4 {
           justify-items: center;
           align-items: center;
           padding: 20px 40px 20px; }
-    @media only screen and (max-width: 768px) {
-      .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
-        height: 65%; } }
     @media only screen and (max-width: 414px) {
       .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
         height: 65%; } }
