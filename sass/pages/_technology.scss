@@ -67,6 +67,10 @@
 			line-height: 45px;
 			color: #081D31;
 
+			@media only screen and (max-width: 768px) {
+				margin-top: 35px;
+			}
+
 			@media only screen and (max-width: 411px) {
 				margin-top: 35px;
 			}
@@ -197,11 +201,12 @@
 
 		.asprihale-grid {
 			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+			grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 			margin-top: 4rem;
 
 			@media only screen and (max-width: 768px) {
-		        grid-template-columns: repeat(1, 1fr);
+		        grid-template-columns: repeat(2, 1fr);
+		    	grid-gap: 10px;
 		    }
 
 			@media only screen and (max-width: 767px) {
@@ -241,6 +246,11 @@
 				.content-wrap {
 					display: grid;
 					grid-template-columns: repeat(2, 1fr);
+
+					@media only screen and (max-width: 1024px) {
+				        grid-template-columns: 50% 50%;
+				        margin-bottom: 20px;
+				    }
 
 					@media only screen and (max-width: 768px) {
 				        grid-template-columns: 40% 70%;
