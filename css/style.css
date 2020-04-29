@@ -3712,6 +3712,12 @@ h4 {
     @media only screen and (min-width: 300px) and (max-width: 600px) {
       .recovering-hearts-section .thumbnail-about-us {
         width: 100%; } }
+  @media only screen and (min-width: 601px) and (max-width: 4000px) {
+    .recovering-hearts-section .time-is-muscle-mobile {
+      display: none; } }
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+    .recovering-hearts-section .muscle-is-time-desktop {
+      display: none; } }
   .recovering-hearts-section .card-wrap {
     background: #E6ECF0;
     display: grid;
