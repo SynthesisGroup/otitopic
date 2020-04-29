@@ -50,13 +50,31 @@
     
     @media only screen and (max-width: 414px) {
         padding: 0px 10px 0px 10px !important;
-        padding-top: 60px !important;
+        padding-top: 70px !important;
         padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 411px) {
         padding: 10px !important;
-        padding-top: 60px !important;
+        padding-top: 70px !important;
+        padding-bottom: 60px !important;
+    }
+    
+    @media only screen and (max-width: 375px) {
+        padding: 10px !important;
+        padding-top: 70px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 360px) {
+        padding: 10px !important;
+        padding-top: 70px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 320px) {
+        padding: 10px !important;
+        padding-top: 50px !important;
         padding-bottom: 60px !important;
     }
 
@@ -83,15 +101,39 @@
         }
 
         @media only screen and (max-width: 414px) {
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 40px;
+            line-height: 40px;
             margin-top: -60px;
         }
 
-	    @media only screen and (max-width: $bp-mobile-sm) {
-	        font-size: 40px;
-            line-height: 40px;
-            margin-top: -80px !important;
+        @media only screen and (max-width: 411px) {
+            font-size: 40px;
+            line-height: 38px;
+            margin-top: -60px;
+        }
+
+	    // @media only screen and (max-width: $bp-mobile-sm) {
+	    //     font-size: 40px;
+     //        line-height: 40px;
+     //        margin-top: -80px !important;
+     //    }
+
+        @media only screen and (max-width: 375px) {
+            font-size: 30px;
+            line-height: 30px;
+            margin-top: -60px;
+        }
+
+        @media only screen and (max-width: 360px) {
+            font-size: 30px;
+            line-height: 30px;
+            margin-top: -60px;
+        }
+
+        @media only screen and (max-width: 320px) {
+            font-size: 25px;
+            line-height: 30px;
+            margin-top: -60px;
         }
         
         // @media screen 
@@ -129,6 +171,16 @@
 
         @media only screen and (max-width: 411px) {
             font-size: 18px;
+            height: 100%;
+        }
+
+        @media only screen and (max-width: 360px) {
+            font-size: 15px;
+            height: 100%;
+        }
+
+        @media only screen and (max-width: 320px) {
+            font-size: 12px;
             height: 100%;
         }
 	}
