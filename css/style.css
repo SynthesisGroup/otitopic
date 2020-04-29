@@ -4745,13 +4745,31 @@ h4 {
 @media only screen and (max-width: 414px) {
   .home-page-banner {
     padding: 0px 10px 0px 10px !important;
-    padding-top: 60px !important;
+    padding-top: 70px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 411px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 60px !important;
+    padding-top: 70px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 375px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 70px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 360px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 70px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 320px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 50px !important;
     padding-bottom: 60px !important; } }
 
 .home-page-banner h1 {
@@ -4775,14 +4793,29 @@ h4 {
       margin-top: -60px; } }
   @media only screen and (max-width: 414px) {
     .home-page-banner h1 {
-      font-size: 50px;
-      line-height: 50px;
-      margin-top: -60px; } }
-  @media only screen and (max-width: 25.8em) {
-    .home-page-banner h1 {
       font-size: 40px;
       line-height: 40px;
-      margin-top: -80px !important; } }
+      margin-top: -60px; } }
+  @media only screen and (max-width: 411px) {
+    .home-page-banner h1 {
+      font-size: 40px;
+      line-height: 38px;
+      margin-top: -60px; } }
+  @media only screen and (max-width: 375px) {
+    .home-page-banner h1 {
+      font-size: 30px;
+      line-height: 30px;
+      margin-top: -60px; } }
+  @media only screen and (max-width: 360px) {
+    .home-page-banner h1 {
+      font-size: 30px;
+      line-height: 30px;
+      margin-top: -60px; } }
+  @media only screen and (max-width: 320px) {
+    .home-page-banner h1 {
+      font-size: 25px;
+      line-height: 30px;
+      margin-top: -60px; } }
 
 .home-page-banner p {
   font-family: "Nunito", sans-serif;
@@ -4807,6 +4840,14 @@ h4 {
   @media only screen and (max-width: 411px) {
     .home-page-banner p {
       font-size: 18px;
+      height: 100%; } }
+  @media only screen and (max-width: 360px) {
+    .home-page-banner p {
+      font-size: 15px;
+      height: 100%; } }
+  @media only screen and (max-width: 320px) {
+    .home-page-banner p {
+      font-size: 12px;
       height: 100%; } }
 
 .home-page-banner .spcl-btn {
