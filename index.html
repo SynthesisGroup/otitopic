@@ -22,6 +22,12 @@
     <link rel="stylesheet" type="text/css" href="//wpcc.io/lib/1.0.2/cookieconsent.min.css"/>
     <script src="//wpcc.io/lib/1.0.2/cookieconsent.min.js"></script>
     <script>window.addEventListener("load", function(){window.wpcc.init({"border":"thin","corners":"small","colors":{"popup":{"background":"#f6f6f6","text":"#000000","border":"#555555"},"button":{"background":"#555555","text":"#ffffff"}},"position":"bottom","content":{"href":"https://synthesisgroup.github.io/otitopic/privacy-policy.html"}})});</script>
+    
+    <!-- Add latest jQuery and fancybox files -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <style>
         
         header {
@@ -171,11 +177,11 @@
                         <p class="mt-3">Our mission is to provide patients with a faster alternative for management of suspected myocardial infarction (MI).</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5 col-4 mt-3">
-                        <img src="img/icons/play.png" alt="icon" class="play-icon video-btn" data-toggle="modal"
-                        data-src="https://player.vimeo.com/video/236684402?badge=0" data-target="#myModal">
-                        <img src="img/img-home-sm.jpg" alt="" width="180">
-                        <a href="#" class="theme-btn btn-style-primary spcl-btn video-btn" data-toggle="modal"
-                        data-src="https://player.vimeo.com/video/236684402?badge=0" data-target="#myModal">
+                        <a data-fancybox href="https://player.vimeo.com/video/236684402?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1">
+                            <img src="img/icons/play.png" alt="icon" class="play-icon">
+                            <img src="img/img-home-sm.jpg" alt="" width="180">
+                        </a>
+                        <a class="theme-btn btn-style-primary spcl-btn" data-fancybox href="https://player.vimeo.com/video/236684402?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1">
                             <span class="txt text-width">View our video</span>
                         </a>
                     </div>
@@ -192,25 +198,7 @@
     <!-- Start Main Page Wrapper -->
     <main class="page-wrapper">
 
-        <!-- Modal Video-->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <!-- 16:9 aspect ratio -->
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="" id="video"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Modal Video -->
+
           
         <!-- start about otitopic -->
         <section class="about-otitopic-section section-gap section-gap-top section-gap-bottom clear-fix">
@@ -288,7 +276,7 @@
                         <img src="img/heart-attack.jpg" alt="">
 
                         <div class="btn-overlay">
-                            <a href="javascript:void(0);" class="video-btn" data-toggle="modal" data-src="https://player.vimeo.com/video/236684402?badge=0" data-target="#myModal">
+                            <a data-fancybox href="https://player.vimeo.com/video/236684402?autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1">
                                 <div class="play-btn">
                                     <img src="img/icons/play.png" alt="img">
                                 </div>
@@ -580,34 +568,7 @@
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
-    <script>
-        $(document).ready(function() {
-            // Gets the video src from the data-src on each button
-            var $videoSrc;
-            $(".video-btn").click(function() {
-                $videoSrc = $(this).attr("data-src");
-                console.log("button clicked" + $videoSrc);
-            });
 
-            // when the modal is opened autoplay it
-            $("#myModal").on("shown.bs.modal", function(e) {
-                console.log("modal opened" + $videoSrc);
-                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-                $("#video").attr(
-                "src",
-                $videoSrc + "?amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1"
-                );
-            });
-
-            // stop playing the youtube video when I close the modal
-            $("#myModal").on("hide.bs.modal", function(e) {
-                // a poor man's stop video
-                $("#video").attr("src", $videoSrc);
-            });
-
-            // document ready
-        });
-    </script>
 </body>
 
 </html>
