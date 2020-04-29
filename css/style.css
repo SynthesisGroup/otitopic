@@ -7023,6 +7023,9 @@ h4 {
     font-size: 36px;
     line-height: 45px;
     color: #081D31; }
+    @media only screen and (max-width: 768px) {
+      .recovering-hearts-section .text-wrap h2 {
+        margin-top: 35px; } }
     @media only screen and (max-width: 411px) {
       .recovering-hearts-section .text-wrap h2 {
         margin-top: 35px; } }
@@ -7118,7 +7121,8 @@ h4 {
     margin-top: 4rem; }
     @media only screen and (max-width: 768px) {
       .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px; } }
     @media only screen and (max-width: 767px) {
       .recovering-hearts-section .asprihale-area .asprihale-grid {
         grid-template-columns: repeat(1, 1fr); } }
