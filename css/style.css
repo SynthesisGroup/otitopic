@@ -4634,7 +4634,8 @@ h4 {
       background: #ffffff;
       border: none;
       border-radius: 1px !important;
-      width: 90%; }
+      width: 90%;
+      height: 95px; }
       .contact-form-section .form-wrap textarea:focus {
         -webkit-box-shadow: none;
         box-shadow: none; }
