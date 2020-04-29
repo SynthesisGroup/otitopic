@@ -26,6 +26,15 @@
 .recovering-hearts-section {
     margin-top: 70px;
 
+    .thumbnail-about-us {
+        float: right;
+        width: 50%;
+        shape-outside: url('/img/lung-image-thumbnail.JPG');
+        shape-margin: 30px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
     .card-wrap {
         background: #E6ECF0;
         display: grid;
@@ -585,6 +594,7 @@
                 line-height: 155%;
                 color: $color-primary;
             }
+
         }
 
         .img-wrap {

@@ -3702,6 +3702,13 @@ h4 {
   /* -----------------------------------------------
     * Timeline
     * --------------------------------------------- */ }
+  .recovering-hearts-section .thumbnail-about-us {
+    float: right;
+    width: 50%;
+    shape-outside: url("/img/lung-image-thumbnail.JPG");
+    shape-margin: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px; }
   .recovering-hearts-section .card-wrap {
     background: #E6ECF0;
     display: grid;
@@ -6120,7 +6127,7 @@ h4 {
       color: #081D31; }
     .company-overview-section .press-rel-down .press-releases .press-content {
       display: grid;
-      grid-template-columns: 20% 90%; }
+      grid-template-columns: 12% 90%; }
       @media only screen and (max-width: 767px) {
         .company-overview-section .press-rel-down .press-releases .press-content {
           grid-template-columns: repeat(1, 1fr);
