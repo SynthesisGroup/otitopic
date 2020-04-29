@@ -5808,43 +5808,118 @@ h4 {
       @media only screen and (max-width: 767px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: 0;
-          width: 100%; } }
+          margin-top: -72px;
+          width: 71vw; } }
+      @media only screen and (max-width: 760px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -75px;
+          width: 75vw; } }
+      @media only screen and (max-width: 719px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -72px;
+          width: 81.9vw; } }
       @media only screen and (max-width: 661px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: 0;
-          width: 100%; } }
+          margin-top: -72px;
+          width: 82vw; } }
+      @media only screen and (max-width: 658px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -60px;
+          width: 85vw; } }
+      @media only screen and (max-width: 640px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -60px;
+          width: 85vw; } }
+      @media only screen and (max-width: 637px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -60px;
+          width: 89vw; } }
+      @media only screen and (max-width: 620px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -50px;
+          width: 89vw; } }
       @media only screen and (max-width: 600px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: 0;
-          width: 100%; } }
+          margin-top: -40px;
+          width: 91vw; } }
+      @media only screen and (max-width: 585px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -40px;
+          width: 91.5vw; } }
       @media only screen and (max-width: 575px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: 0;
-          width: 100%; } }
+          margin-top: -33px;
+          width: 91vw; } }
       @media only screen and (max-width: 526px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: 0;
-          width: 100%; } }
+          margin-top: -30px;
+          width: 91vw; } }
       @media only screen and (max-width: 485px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: 0;
-          width: 100%; } }
+          margin-top: -30px;
+          width: 90vw; } }
+      @media only screen and (max-width: 484px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 90vw; } }
+      @media only screen and (max-width: 450px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 89vw; } }
+      @media only screen and (max-width: 420px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 88vw; } }
+      @media only screen and (max-width: 415px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 88.1vw; } }
       @media only screen and (max-width: 411px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
           margin-top: -30px;
-          width: 100%; } }
+          width: 87.9vw; } }
+      @media only screen and (max-width: 385px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 89.5vw; } }
+      @media only screen and (max-width: 375px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 92.5vw; } }
       @media only screen and (max-width: 360px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
           margin-top: -30px;
-          width: 100%; } }
+          width: 93.2vw; } }
+      @media only screen and (max-width: 340px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 91.5vw; } }
+      @media only screen and (max-width: 320px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 91.5vw; } }
       .company-overview-section .img-wrap .img-cap .text-content p {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -5907,32 +5982,83 @@ h4 {
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px; } }
+            line-height: 30px;
+            margin-top: 90px; } }
         @media only screen and (max-width: 767px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px; } }
+            line-height: 30px;
+            margin-top: 30px; } }
         @media only screen and (max-width: 661px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px; } }
+            line-height: 30px;
+            margin-top: 30px; } }
         @media only screen and (max-width: 600px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px; } }
+            line-height: 30px;
+            margin-top: 25px; } }
         @media only screen and (max-width: 575px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px; } }
+            line-height: 30px;
+            margin-top: 25px; } }
+        @media only screen and (max-width: 560px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 20px; } }
+        @media only screen and (max-width: 550px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 10px; } }
+        @media only screen and (max-width: 540px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 35px; } }
         @media only screen and (max-width: 526px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px; } }
+            line-height: 30px;
+            margin-top: 25px; } }
+        @media only screen and (max-width: 500px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 20px; } }
         @media only screen and (max-width: 485px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
             line-height: 30px; } }
+        @media only screen and (max-width: 482px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 30px; } }
+        @media only screen and (max-width: 465px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 30px; } }
+        @media only screen and (max-width: 450px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 20px; } }
+        @media only screen and (max-width: 414px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 20px; } }
         @media only screen and (max-width: 411px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            margin-top: 20px; } }
+        @media only screen and (max-width: 360px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
             line-height: 30px; } }
