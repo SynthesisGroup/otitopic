@@ -5074,10 +5074,18 @@ input[type=checkbox]:checked ~ label > .zoomgGraph {
             font-size: 24px;
             line-height: 30px;
             color: #ffffff; }
-          @media only screen and (max-width: 360px) {
+          @media only screen and (min-width: 412px) and (max-width: 433px) {
             .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
               font-size: 14px !important;
               padding: 8px 30px !important; } }
+          @media only screen and (min-width: 361px) and (max-width: 404px) {
+            .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
+              font-size: 14px !important;
+              padding: 8px 30px !important; } }
+          @media only screen and (min-width: 300px) and (max-width: 360px) {
+            .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
+              font-size: 12px !important;
+              padding: 8px 16px !important; } }
         .about-otitopic-section .right-col .timeline .timeline-body .timeline-item {
           position: relative;
           height: 100%; }
