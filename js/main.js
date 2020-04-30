@@ -284,7 +284,7 @@
 // Sticky Header
 
 $(window).scroll(function() {
-  if ($(document).scrollTop() > 400) {
+  if ($(document).scrollTop() > 50) {
     $('.dope-nav-container').addClass('fixed');
     $('.dope-nav-container').addClass('custom-dope-navbar');
   } else {
