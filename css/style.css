@@ -4754,31 +4754,31 @@ h4 {
 @media only screen and (max-width: 414px) {
   .home-page-banner {
     padding: 0px 10px 0px 10px !important;
-    padding-top: 70px !important;
+    padding-top: 60px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 411px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 70px !important;
+    padding-top: 60px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 375px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 70px !important;
+    padding-top: 50px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 360px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 70px !important;
+    padding-top: 40px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 320px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 50px !important;
+    padding-top: 20px !important;
     padding-bottom: 60px !important; } }
 
 .home-page-banner h1 {
