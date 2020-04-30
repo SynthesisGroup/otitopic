@@ -5621,9 +5621,6 @@ h4 {
 .fadeIn-bottom {
   top: 80%; }
 
-.owl-theme .owl-nav.disabled + .owl-dots {
-  margin-top: 25px !important; }
-
 .company-overview-section {
   margin-top: -70px; }
   @media only screen and (max-width: 768px) {
