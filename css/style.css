@@ -5682,30 +5682,6 @@ h4 {
       padding-top: 30px !important;
       padding-bottom: 60px !important;
       margin-top: -90px; } }
-  @media only screen and (max-width: 768px) {
-    .company-overview-section .text-wrap {
-      padding: 30px !important; } }
-  @media only screen and (max-width: 767px) {
-    .company-overview-section .text-wrap {
-      padding: 10px !important; } }
-  @media only screen and (max-width: 661px) {
-    .company-overview-section .text-wrap {
-      padding: 10px !important; } }
-  @media only screen and (max-width: 600px) {
-    .company-overview-section .text-wrap {
-      padding: 10px !important; } }
-  @media only screen and (max-width: 575px) {
-    .company-overview-section .text-wrap {
-      padding: 10px !important; } }
-  @media only screen and (max-width: 526px) {
-    .company-overview-section .text-wrap {
-      padding: 10px !important; } }
-  @media only screen and (max-width: 485px) {
-    .company-overview-section .text-wrap {
-      padding: 10px !important; } }
-  @media only screen and (max-width: 411px) {
-    .company-overview-section .text-wrap {
-      padding: 30px !important; } }
   .company-overview-section .text-wrap h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
