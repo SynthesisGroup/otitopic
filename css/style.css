@@ -3705,7 +3705,7 @@ h4 {
   .recovering-hearts-section .thumbnail-about-us {
     float: right;
     width: 50%;
-    shape-outside: url("/img/lung-image-thumbnail.JPG");
+    shape-outside: url("/img/is_muscle.png");
     shape-margin: 30px;
     margin-left: 30px;
     margin-bottom: 20px; }
