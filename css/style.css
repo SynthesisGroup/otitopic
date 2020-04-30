@@ -4587,17 +4587,33 @@ h4 {
     @media only screen and (max-width: 40em) {
       .contact-form-section .form-wrap {
         padding: 30px; } }
+    @media only screen and (max-width: 767px) {
+      .contact-form-section .form-wrap {
+        padding: 30px 30px 0px 30px;
+        margin-bottom: 80px; } }
+    @media only screen and (max-width: 553px) {
+      .contact-form-section .form-wrap {
+        padding: 30px 30px 20px 30px;
+        margin-bottom: 80px; } }
+    @media only screen and (max-width: 497px) {
+      .contact-form-section .form-wrap {
+        padding: 30px 30px 60px 30px;
+        margin-bottom: 80px; } }
+    @media only screen and (max-width: 485px) {
+      .contact-form-section .form-wrap {
+        padding: 30px 30px 60px 30px;
+        margin-bottom: 80px; } }
     @media only screen and (max-width: 414px) {
       .contact-form-section .form-wrap {
-        padding: 37px;
-        margin-top: 0; } }
+        padding: 30px 30px 60px 30px;
+        margin-bottom: 80px; } }
     @media only screen and (max-width: 411px) {
       .contact-form-section .form-wrap {
         padding: 42px;
         margin-top: 0; } }
     @media only screen and (max-width: 375px) {
       .contact-form-section .form-wrap {
-        padding: 55px;
+        padding: 25px;
         margin-top: 0; } }
     @media only screen and (max-width: 360px) {
       .contact-form-section .form-wrap {
@@ -4605,7 +4621,7 @@ h4 {
         margin-top: 0; } }
     @media only screen and (max-width: 320px) {
       .contact-form-section .form-wrap {
-        padding: 25px;
+        padding: 20px;
         margin-top: 0; } }
     .contact-form-section .form-wrap h2 {
       font-family: "Nunito", sans-serif;
@@ -4709,6 +4725,12 @@ h4 {
 .img-mask {
   width: 100%; }
 
+@media only screen and (width: 1600px) {
+  .home-page-banner {
+    padding: 10px 30px 10px 30px !important;
+    padding-top: 90px !important;
+    padding-bottom: 60px !important; } }
+
 @media only screen and (max-width: 768px) {
   .home-page-banner {
     padding: 10px 30px 10px 30px;
@@ -4760,7 +4782,7 @@ h4 {
 @media only screen and (max-width: 411px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 60px !important;
+    padding-top: 40px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 375px) {
