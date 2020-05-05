@@ -374,55 +374,54 @@
     }
 
     .right-col {
-        margin-top: -50px;
-        float: right;
+        // float: right;
 
-        @media (max-width: 991px) {
-            width: 100%;
-            float: none;
-        }
+        // @media (max-width: 991px) {
+        //     width: 100%;
+        //     float: none;
+        // }
 
-        @media only screen and (max-width: 767px) {
-            padding: 10px !important;
-            padding-top: 60px !important;
-            padding-bottom: 60px !important;
-        }
+        // @media only screen and (max-width: 767px) {
+        //     padding: 10px !important;
+        //     padding-top: 60px !important;
+        //     padding-bottom: 60px !important;
+        // }
     
-        @media only screen and (max-width: 661px) {
-            padding: 10px !important;
-            padding-top: 60px !important;
-            padding-bottom: 60px !important;
-        }
+        // @media only screen and (max-width: 661px) {
+        //     padding: 10px !important;
+        //     padding-top: 60px !important;
+        //     padding-bottom: 60px !important;
+        // }
     
-        @media only screen and (max-width: 600px) {
-            padding: 10px !important;
-            padding-top: 60px !important;
-            padding-bottom: 60px !important;
-        }
+        // @media only screen and (max-width: 600px) {
+        //     padding: 10px !important;
+        //     padding-top: 60px !important;
+        //     padding-bottom: 60px !important;
+        // }
     
-        @media only screen and (max-width: 575px) {
-            padding: 10px !important;
-            padding-top: 60px !important;
-            padding-bottom: 60px !important;
-        }
+        // @media only screen and (max-width: 575px) {
+        //     padding: 10px !important;
+        //     padding-top: 60px !important;
+        //     padding-bottom: 60px !important;
+        // }
     
-        @media only screen and (max-width: 526px) {
-            padding: 10px !important;
-            padding-top: 60px !important;
-            padding-bottom: 60px !important;
-        }
+        // @media only screen and (max-width: 526px) {
+        //     padding: 10px !important;
+        //     padding-top: 60px !important;
+        //     padding-bottom: 60px !important;
+        // }
     
-        @media only screen and (max-width: 485px) {
-            padding: 10px !important;
-            padding-top: 60px !important;
-            padding-bottom: 60px !important;
-        }
+        // @media only screen and (max-width: 485px) {
+        //     padding: 10px !important;
+        //     padding-top: 60px !important;
+        //     padding-bottom: 60px !important;
+        // }
     
-        @media only screen and (max-width: 411px) {
-            padding: 10px !important;
-            padding-top: 60px !important;
-            padding-bottom: 60px !important;
-        }
+        // @media only screen and (max-width: 411px) {
+        //     padding: 10px !important;
+        //     padding-top: 60px !important;
+        //     padding-bottom: 60px !important;
+        // }
 
         .timeline {
             max-width: 100%;
@@ -539,7 +538,6 @@
         font-size: 36px;
         line-height: 49px;
         color: $color-white;
-        margin-top: 2rem;
 
         @media (max-width: 1199px) {
             font-size: 33px;
@@ -565,11 +563,6 @@
         @media (max-width: 768px) {
             width: 100%;
         }
-    }
-
-   .right-col {
-        background-image: url("../img/img-overlay-about.jpg") center center/cover no-repeat local;
-        position: relative;
     }
 
 }

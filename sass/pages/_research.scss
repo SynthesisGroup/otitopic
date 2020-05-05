@@ -222,7 +222,7 @@
 
 	.info-section {
 	    overflow: hidden;
-	    margin-top: 100px;
+	    margin-top: 55px;
 
 	    .info-left ul li {
 	        display: flex;
@@ -547,7 +547,7 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-auto-rows: minmax(100px, auto);
-		grid-gap: 2rem;
+		grid-gap: 1.5rem;
 
 		@media only screen and (max-width: 360px) {
 			padding-top: 80px;
@@ -620,7 +620,7 @@
 
 		.text-wrap-trials {
 			background: $color-white;
-			height: 446px;
+			// height: 446px;
 
 			@media only screen and (max-width: 768px) {
 		        height: auto;
@@ -678,13 +678,13 @@
 				}
 			}
 
-			@media only screen and (max-width: 414px) {
-		        height: 65%;
-		    }
+			// @media only screen and (max-width: 414px) {
+		    //     height: 65%;
+		    // }
 
-			@media only screen and (max-width: 411px) {
-		        height: 75%;
-		    }
+			// @media only screen and (max-width: 411px) {
+		    //     height: 75%;
+		    // }
 		}
 
 		.img-wrap {

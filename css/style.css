@@ -2508,13 +2508,13 @@ h4 {
   border-left: 1px solid #fff; }
 
 .section-gap {
-  padding: 100px 100px 100px 100px !important; }
+  padding: 55px 55px 55px 55px !important; }
 
 .section-gap-top {
-  padding-top: 100px !important; }
+  padding-top: 55px !important; }
 
 .section-gap-bottom {
-  padding-bottom: 100px !important; }
+  padding-bottom: 55px !important; }
 
 .section-title {
   text-align: center;
@@ -3698,7 +3698,6 @@ h4 {
   color: #ffa000 !important; }
 
 .recovering-hearts-section {
-  margin-top: 70px;
   /* -----------------------------------------------
     * Timeline
     * --------------------------------------------- */ }
@@ -4667,22 +4666,15 @@ h4 {
 
 .contact-details-wrap {
   width: 100%;
-  height: 100%;
   background: #0F63A7; }
-  @media only screen and (max-width: 411px) {
-    .contact-details-wrap {
-      margin-top: 70px !important;
-      padding: 0px !important; } }
   .contact-details-wrap .contact-wrap {
     padding: 30px; }
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
       .contact-details-wrap .contact-wrap {
-        padding: 40px;
-        width: 90%; } }
+        padding: 40px; } }
     @media only screen and (max-width: 768px) {
       .contact-details-wrap .contact-wrap {
-        padding: 40px;
-        width: 88%; } }
+        padding: 40px; } }
     @media only screen and (max-width: 414px) {
       .contact-details-wrap .contact-wrap {
         padding: 40px; } }
@@ -4703,7 +4695,7 @@ h4 {
       line-height: 49px;
       color: #ffffff; }
     .contact-details-wrap .contact-wrap .contact .img-icon {
-      margin-top: 1.3rem;
+      margin-top: 0.7rem;
       margin-bottom: 1rem; }
       .contact-details-wrap .contact-wrap .contact .img-icon img {
         max-width: 30px; }
@@ -4719,7 +4711,7 @@ h4 {
       font-style: normal;
       font-weight: 600;
       font-size: 14px;
-      line-height: 33px;
+      line-height: 23px;
       color: #ffffff; }
 
 .img-mask {
@@ -5015,132 +5007,89 @@ h4 {
     @media screen and (min-device-width: 300px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
       .about-otitopic-section .left-col .about-otitopic-thumbnail {
         width: 100%; } }
-  .about-otitopic-section .right-col {
-    margin-top: -50px;
-    float: right; }
-    @media (max-width: 991px) {
-      .about-otitopic-section .right-col {
-        width: 100%;
-        float: none; } }
-    @media only screen and (max-width: 767px) {
-      .about-otitopic-section .right-col {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important; } }
-    @media only screen and (max-width: 661px) {
-      .about-otitopic-section .right-col {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important; } }
-    @media only screen and (max-width: 600px) {
-      .about-otitopic-section .right-col {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important; } }
-    @media only screen and (max-width: 575px) {
-      .about-otitopic-section .right-col {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important; } }
-    @media only screen and (max-width: 526px) {
-      .about-otitopic-section .right-col {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important; } }
-    @media only screen and (max-width: 485px) {
-      .about-otitopic-section .right-col {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important; } }
-    @media only screen and (max-width: 411px) {
-      .about-otitopic-section .right-col {
-        padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important; } }
-    .about-otitopic-section .right-col .timeline {
-      max-width: 100%;
-      margin: 0 auto; }
-      .about-otitopic-section .right-col .timeline .timeline-body {
+  .about-otitopic-section .right-col .timeline {
+    max-width: 100%;
+    margin: 0 auto; }
+    .about-otitopic-section .right-col .timeline .timeline-body {
+      position: relative;
+      border-radius: 0px 8px 8px 0;
+      margin-left: 30px; }
+      @media only screen and (width: 768px) {
+        .about-otitopic-section .right-col .timeline .timeline-body {
+          margin-top: 110px;
+          margin-left: 30px; } }
+      @media only screen and (max-width: 411px) {
+        .about-otitopic-section .right-col .timeline .timeline-body {
+          margin-left: 2px; } }
+      .about-otitopic-section .right-col .timeline .timeline-body:after {
+        content: '';
+        width: 1px;
+        height: 100%;
+        background-color: #ffffff;
+        position: absolute;
+        left: -2px;
+        top: 0; }
+      .about-otitopic-section .right-col .timeline .timeline-body .content-head {
+        margin: 40px;
+        padding-bottom: 0px; }
+        .about-otitopic-section .right-col .timeline .timeline-body .content-head .title-head {
+          font-family: "Nunito", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 30px;
+          color: #ffffff; }
+        @media only screen and (min-width: 412px) and (max-width: 433px) {
+          .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
+            font-size: 14px !important;
+            padding: 8px 30px !important; } }
+        @media only screen and (min-width: 361px) and (max-width: 404px) {
+          .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
+            font-size: 14px !important;
+            padding: 8px 30px !important; } }
+        @media only screen and (min-width: 300px) and (max-width: 360px) {
+          .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
+            font-size: 12px !important;
+            padding: 8px 16px !important; } }
+      .about-otitopic-section .right-col .timeline .timeline-body .timeline-item {
         position: relative;
-        border-radius: 0px 8px 8px 0;
-        margin-left: 30px; }
-        @media only screen and (width: 768px) {
-          .about-otitopic-section .right-col .timeline .timeline-body {
-            margin-top: 110px;
-            margin-left: 30px; } }
-        @media only screen and (max-width: 411px) {
-          .about-otitopic-section .right-col .timeline .timeline-body {
-            margin-left: 2px; } }
-        .about-otitopic-section .right-col .timeline .timeline-body:after {
+        height: 100%; }
+        .about-otitopic-section .right-col .timeline .timeline-body .timeline-item:after {
           content: '';
-          width: 1px;
-          height: 100%;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          border: 2px solid #ffffff;
           background-color: #ffffff;
           position: absolute;
-          left: -2px;
-          top: 0; }
-        .about-otitopic-section .right-col .timeline .timeline-body .content-head {
+          left: -8px;
+          top: 0px;
+          z-index: 9; }
+        .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content {
           margin: 40px;
           padding-bottom: 0px; }
-          .about-otitopic-section .right-col .timeline .timeline-body .content-head .title-head {
+          .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content .title {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            color: #ffffff;
+            width: 80%; }
+          .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content a {
             font-family: "Nunito", sans-serif;
             font-style: normal;
             font-weight: 600;
-            font-size: 24px;
-            line-height: 30px;
-            color: #ffffff; }
-          @media only screen and (min-width: 412px) and (max-width: 433px) {
-            .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
-              font-size: 14px !important;
-              padding: 8px 30px !important; } }
-          @media only screen and (min-width: 361px) and (max-width: 404px) {
-            .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
-              font-size: 14px !important;
-              padding: 8px 30px !important; } }
-          @media only screen and (min-width: 300px) and (max-width: 360px) {
-            .about-otitopic-section .right-col .timeline .timeline-body .content-head .custom-width {
-              font-size: 12px !important;
-              padding: 8px 16px !important; } }
-        .about-otitopic-section .right-col .timeline .timeline-body .timeline-item {
-          position: relative;
-          height: 100%; }
-          .about-otitopic-section .right-col .timeline .timeline-body .timeline-item:after {
-            content: '';
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            border: 2px solid #ffffff;
-            background-color: #ffffff;
-            position: absolute;
-            left: -8px;
-            top: 0px;
-            z-index: 9; }
-          .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content {
-            margin: 40px;
-            padding-bottom: 0px; }
-            .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content .title {
-              font-family: "Nunito", sans-serif;
-              font-style: normal;
-              font-weight: normal;
-              font-size: 18px;
-              line-height: 23px;
-              color: #ffffff;
-              width: 80%; }
-            .about-otitopic-section .right-col .timeline .timeline-body .timeline-item .content a {
-              font-family: "Nunito", sans-serif;
-              font-style: normal;
-              font-weight: 600;
-              font-size: 16px;
-              line-height: 20px;
-              color: #93B6D2; }
+            font-size: 16px;
+            line-height: 20px;
+            color: #93B6D2; }
   .about-otitopic-section .left-col h2 {
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 49px;
-    color: #ffffff;
-    margin-top: 2rem; }
+    color: #ffffff; }
     @media (max-width: 1199px) {
       .about-otitopic-section .left-col h2 {
         font-size: 33px;
@@ -5161,9 +5110,6 @@ h4 {
     @media (max-width: 768px) {
       .about-otitopic-section .details p {
         width: 100%; } }
-  .about-otitopic-section .right-col {
-    background-image: url("../img/img-overlay-about.jpg") center center/cover no-repeat local;
-    position: relative; }
 
 @media only screen and (max-width: 768px) {
   .push-the-boundaries-section {
@@ -6203,7 +6149,8 @@ h4 {
         font-size: 16px;
         line-height: 20px;
         color: #081D31;
-        width: 85%; }
+        width: 85%;
+        text-decoration: underline; }
         @media only screen and (max-width: 767px) {
           .company-overview-section .press-rel-down .press-releases .press-content p {
             width: 100%;
@@ -6576,7 +6523,7 @@ h4 {
       color: #1B3349; }
   .myocardial-infarction-section .info-section {
     overflow: hidden;
-    margin-top: 100px; }
+    margin-top: 55px; }
     .myocardial-infarction-section .info-section .info-left ul li {
       display: flex; }
       .myocardial-infarction-section .info-section .info-left ul li .list-number {
@@ -6816,7 +6763,7 @@ h4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(100px, auto);
-  grid-gap: 2rem; }
+  grid-gap: 1.5rem; }
   @media only screen and (max-width: 360px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
       padding-top: 80px; } }
@@ -6871,8 +6818,7 @@ h4 {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
       grid-template-columns: repeat(1, 1fr); } }
   .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
-    background: #ffffff;
-    height: 446px; }
+    background: #ffffff; }
     @media only screen and (max-width: 768px) {
       .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
         height: auto; } }
@@ -6917,12 +6863,6 @@ h4 {
           justify-items: center;
           align-items: center;
           padding: 20px 40px 20px; }
-    @media only screen and (max-width: 414px) {
-      .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
-        height: 65%; } }
-    @media only screen and (max-width: 411px) {
-      .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
-        height: 75%; } }
   .otitopic-research-tech-trials-section .col-md-rev-trials .img-wrap {
     width: 100%;
     display: grid;
@@ -6999,240 +6939,252 @@ h4 {
       justify-items: center;
       align-items: center; }
 
-.recovering-hearts-section {
-  margin-top: -70px; }
+@media only screen and (max-width: 768px) {
+  .recovering-hearts-section {
+    padding: 30px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+@media only screen and (max-width: 767px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+@media only screen and (max-width: 661px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+@media only screen and (max-width: 600px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+@media only screen and (max-width: 575px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+@media only screen and (max-width: 526px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+@media only screen and (max-width: 485px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+@media only screen and (max-width: 411px) {
+  .recovering-hearts-section {
+    padding: 10px !important;
+    padding-bottom: 60px !important;
+    margin-top: -90px; } }
+
+.recovering-hearts-section .text-wrap h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #081D31; }
   @media only screen and (max-width: 768px) {
-    .recovering-hearts-section {
-      padding: 30px !important;
-      padding-bottom: 60px !important;
-      margin-top: -90px; } }
-  @media only screen and (max-width: 767px) {
-    .recovering-hearts-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important;
-      margin-top: -90px; } }
-  @media only screen and (max-width: 661px) {
-    .recovering-hearts-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important;
-      margin-top: -90px; } }
-  @media only screen and (max-width: 600px) {
-    .recovering-hearts-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important;
-      margin-top: -90px; } }
-  @media only screen and (max-width: 575px) {
-    .recovering-hearts-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important;
-      margin-top: -90px; } }
-  @media only screen and (max-width: 526px) {
-    .recovering-hearts-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important;
-      margin-top: -90px; } }
-  @media only screen and (max-width: 485px) {
-    .recovering-hearts-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important;
-      margin-top: -90px; } }
+    .recovering-hearts-section .text-wrap h2 {
+      margin-top: 35px; } }
   @media only screen and (max-width: 411px) {
-    .recovering-hearts-section {
+    .recovering-hearts-section .text-wrap h2 {
+      margin-top: 35px; } }
+
+.recovering-hearts-section .text-wrap p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  color: #1B3349; }
+
+.recovering-hearts-section .infraction-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+  @media only screen and (max-width: 768px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 767px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 661px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 600px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 575px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 526px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 485px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 411px) {
+    .recovering-hearts-section .infraction-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 411px) {
+    .recovering-hearts-section .infraction-grid {
       padding: 10px !important;
+      padding-top: 60px !important;
       padding-bottom: 60px !important;
-      margin-top: -90px; } }
-  .recovering-hearts-section .text-wrap h2 {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    color: #081D31; }
-    @media only screen and (max-width: 768px) {
-      .recovering-hearts-section .text-wrap h2 {
-        margin-top: 35px; } }
+      width: 100%; } }
+  .recovering-hearts-section .infraction-grid video {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+    z-index: 999; }
     @media only screen and (max-width: 411px) {
-      .recovering-hearts-section .text-wrap h2 {
-        margin-top: 35px; } }
-  .recovering-hearts-section .text-wrap p {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 155%;
-    color: #1B3349; }
-  .recovering-hearts-section .infraction-grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr; }
-    @media only screen and (max-width: 768px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 767px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 661px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 600px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 575px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 526px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 485px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 411px) {
-      .recovering-hearts-section .infraction-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 411px) {
-      .recovering-hearts-section .infraction-grid {
+      .recovering-hearts-section .infraction-grid video {
         padding: 10px !important;
         padding-top: 60px !important;
         padding-bottom: 60px !important;
-        width: 100%; } }
-    .recovering-hearts-section .infraction-grid video {
-      position: relative;
-      width: 100%;
-      margin-top: 1rem;
-      z-index: 999; }
-      @media only screen and (max-width: 411px) {
-        .recovering-hearts-section .infraction-grid video {
-          padding: 10px !important;
-          padding-top: 60px !important;
-          padding-bottom: 60px !important;
-          width: 100%;
-          height: 100%; } }
-    .recovering-hearts-section .infraction-grid .img-wrap {
-      margin-top: -100px; }
-      @media only screen and (max-width: 411px) {
-        .recovering-hearts-section .infraction-grid .img-wrap {
-          position: absolute;
-          margin-top: 0;
-          height: 700px;
-          width: 260px;
-          margin-left: 100px; } }
-      .recovering-hearts-section .infraction-grid .img-wrap img {
         width: 100%;
-        height: 50%; }
-  .recovering-hearts-section .our-technology .text-wrap h2 {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    color: #081D31; }
-  .recovering-hearts-section .our-technology .text-wrap p {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 155%;
-    color: #1B3349; }
-  .recovering-hearts-section .asprihale-area .text-wrap h2 {
-    font-family: "Nunito", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    color: #0F63A7;
-    text-align: center; }
-  .recovering-hearts-section .asprihale-area .asprihale-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    margin-top: 4rem; }
-    @media only screen and (max-width: 768px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px; } }
-    @media only screen and (max-width: 767px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 661px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 600px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 575px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 526px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
-    @media only screen and (max-width: 485px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(1, 1fr); } }
+        height: 100%; } }
+  .recovering-hearts-section .infraction-grid .img-wrap {
+    margin-top: -100px; }
     @media only screen and (max-width: 411px) {
-      .recovering-hearts-section .asprihale-area .asprihale-grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1rem; } }
-    .recovering-hearts-section .asprihale-area .asprihale-grid .content img {
-      width: 100%; }
-    .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); }
-      @media only screen and (max-width: 1024px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 50% 50%;
-          margin-bottom: 20px; } }
-      @media only screen and (max-width: 768px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 40% 70%;
-          margin-bottom: 20px; } }
-      @media only screen and (max-width: 767px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 30% 70%; } }
-      @media only screen and (max-width: 661px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 30% 70%; } }
-      @media only screen and (max-width: 600px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 30% 70%; } }
-      @media only screen and (max-width: 575px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 30% 70%; } }
-      @media only screen and (max-width: 526px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 30% 70%; } }
-      @media only screen and (max-width: 485px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 30% 70%; } }
+      .recovering-hearts-section .infraction-grid .img-wrap {
+        position: absolute;
+        margin-top: 0;
+        height: 700px;
+        width: 260px;
+        margin-left: 100px; } }
+    .recovering-hearts-section .infraction-grid .img-wrap img {
+      width: 100%;
+      height: 50%; }
+
+.recovering-hearts-section .our-technology .text-wrap h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #081D31; }
+
+.recovering-hearts-section .our-technology .text-wrap p {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155%;
+  color: #1B3349; }
+
+.recovering-hearts-section .asprihale-area .text-wrap h2 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0F63A7;
+  text-align: center; }
+
+.recovering-hearts-section .asprihale-area .asprihale-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  margin-top: 4rem; }
+  @media only screen and (max-width: 768px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px; } }
+  @media only screen and (max-width: 767px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 661px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 600px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 575px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 526px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 485px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(1, 1fr); } }
+  @media only screen and (max-width: 411px) {
+    .recovering-hearts-section .asprihale-area .asprihale-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem; } }
+  .recovering-hearts-section .asprihale-area .asprihale-grid .content img {
+    width: 100%; }
+  .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    @media only screen and (max-width: 1024px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 50% 50%;
+        margin-bottom: 20px; } }
+    @media only screen and (max-width: 768px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 40% 70%;
+        margin-bottom: 20px; } }
+    @media only screen and (max-width: 767px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 661px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 600px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 575px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 526px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 485px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    @media only screen and (max-width: 411px) {
+      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
+        grid-template-columns: 30% 70%; } }
+    .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 130%;
+      color: #ffa000;
+      background: #E6ECF0;
+      height: 34px;
+      width: 28%;
+      padding: 11px; }
       @media only screen and (max-width: 411px) {
-        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap {
-          grid-template-columns: 30% 70%; } }
-      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
-        font-family: "Nunito", sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 25px;
-        line-height: 130%;
-        color: #ffa000;
-        background: #E6ECF0;
-        height: 34px;
-        width: 28%;
-        padding: 11px; }
-        @media only screen and (max-width: 411px) {
-          .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
-            font-size: 17px; } }
-      .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
-        font-family: "Nunito", sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 130%;
-        display: flex;
-        align-items: center;
-        color: #081D31;
-        margin-left: -40px;
-        margin-top: 10px; }
-        @media only screen and (max-width: 411px) {
-          .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
-            font-size: 12px;
-            margin-left: 0; } }
+        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap .number {
+          font-size: 17px; } }
+    .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
+      font-family: "Nunito", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 130%;
+      display: flex;
+      align-items: center;
+      color: #081D31;
+      margin-left: -40px;
+      margin-top: 10px; }
+      @media only screen and (max-width: 411px) {
+        .recovering-hearts-section .asprihale-area .asprihale-grid .content .content-wrap p {
+          font-size: 12px;
+          margin-left: 0; } }
 
 .terms-conditions-section {
   margin-top: -70px; }
