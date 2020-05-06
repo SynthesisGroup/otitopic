@@ -287,8 +287,10 @@ $(window).scroll(function() {
   if ($(document).scrollTop() > 50) {
     $('.dope-nav-container').addClass('fixed');
     $('.dope-nav-container').addClass('custom-dope-navbar');
+    $('.home-page-banner').addClass('add-space');
   } else {
     $('.dope-nav-container').removeClass('fixed');
     $('.dope-nav-container').removeClass('custom-dope-navbar');
+    $('.home-page-banner').removeClass('add-space');
   }
 });
