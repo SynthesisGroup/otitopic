@@ -4679,15 +4679,6 @@ h4 {
     @media only screen and (max-width: 414px) {
       .contact-details-wrap .contact-wrap {
         padding: 40px; } }
-    @media only screen and (max-width: 375px) {
-      .contact-details-wrap .contact-wrap {
-        padding: 40px 20px 30px 53px; } }
-    @media only screen and (max-width: 360px) {
-      .contact-details-wrap .contact-wrap {
-        padding: 40px 20px 0px 25px; } }
-    @media only screen and (max-width: 320px) {
-      .contact-details-wrap .contact-wrap {
-        padding: 40px 20px 0px 20px; } }
     .contact-details-wrap .contact-wrap h2 {
       font-family: "DIN", sans-serif;
       font-style: normal;
@@ -6337,38 +6328,26 @@ h4 {
   @media only screen and (max-width: 390px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 100px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 375px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 100px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 370px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 120px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 360px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 120px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 330px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 160px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 320px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 160px !important;
       margin-top: -90px; } }
   .myocardial-infarction-section .col-md-myocardial {
     display: grid;
@@ -6686,9 +6665,6 @@ h4 {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(100px, auto);
   grid-gap: 1.5rem; }
-  @media only screen and (max-width: 360px) {
-    .otitopic-research-tech-trials-section .col-md-rev-trials {
-      padding-top: 80px; } }
   .otitopic-research-tech-trials-section .col-md-rev-trials .card-wrap {
     background: #E6ECF0;
     display: grid;
@@ -7167,6 +7143,13 @@ h4 {
   line-height: 155%;
   color: #1B3349;
   top: 1023.5px; }
+
+.innovative-options-section .container .img-wrap {
+  display: flex;
+  justify-content: space-between; }
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+    .innovative-options-section .container .img-wrap .img-fluid {
+      width: 50%; } }
 
 .therapies-section {
   background: #EBE9E8; }

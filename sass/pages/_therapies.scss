@@ -9,6 +9,17 @@
 		color: #1B3349;
 		top: 1023.5px;
 	}
+
+	.img-wrap {
+		display: flex; 
+		justify-content: space-between;
+
+		.img-fluid {
+			@media only screen and (min-width: 300px) and (max-width: 600px) {
+				width: 50%;
+			}
+		}
+	}
 }
 
 .therapies-section {
