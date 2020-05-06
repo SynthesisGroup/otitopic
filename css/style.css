@@ -3590,7 +3590,7 @@ h4 {
 .fixed {
   position: fixed;
   background-color: #081D31;
-  height: 120px;
+  height: 100px;
   width: 100%;
   z-index: 999;
   -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
@@ -4866,8 +4866,8 @@ h4 {
       margin-top: -60px; } }
   @media only screen and (max-width: 360px) {
     .home-page-banner h1 {
-      font-size: 30px;
-      line-height: 28px;
+      font-size: 40px;
+      line-height: 40px;
       margin-top: -60px; } }
   @media only screen and (max-width: 320px) {
     .home-page-banner h1 {
