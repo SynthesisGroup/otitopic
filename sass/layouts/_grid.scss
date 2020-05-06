@@ -10,7 +10,7 @@
     }
 
 	@media only screen and (max-width: 768px) {
-        grid-template-columns: 20rem 1fr;
+        grid-template-columns: 19rem 1fr;
     }
 
 	@media only screen and (max-width: $bp-mobile-lg) {
@@ -24,7 +24,6 @@
 
         @media only screen and (max-width: $bp-tab-lg) {
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            margin-top: 40px;
         }
     }
 }

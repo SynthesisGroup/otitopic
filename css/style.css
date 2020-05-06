@@ -3616,7 +3616,7 @@ h4 {
       grid-template-columns: 23rem 1fr; } }
   @media only screen and (max-width: 768px) {
     .grid-row-footer {
-      grid-template-columns: 20rem 1fr; } }
+      grid-template-columns: 19rem 1fr; } }
   @media only screen and (max-width: 40em) {
     .grid-row-footer {
       grid-template-columns: repeat(1, 1fr); } }
@@ -3626,8 +3626,7 @@ h4 {
     grid-gap: 2rem; }
     @media only screen and (max-width: 64em) {
       .grid-row-footer .grid-footer-2 {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        margin-top: 40px; } }
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } }
 
 .grid-container-flex-two {
   display: grid;
