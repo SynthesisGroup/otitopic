@@ -2,3 +2,14 @@
 	background: $color-primary !important;
 }
 
+.is-mobile {
+	@media only screen and (min-width: 1025px) and (max-width: 4000px) {
+		display: none;
+	 }
+}
+
+.is-desktop {
+	@media only screen and (min-width: 300px) and (max-width: 1026px) {
+	   display: none;
+	}
+}

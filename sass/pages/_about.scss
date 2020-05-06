@@ -38,18 +38,6 @@
         }
     }
 
-    .time-is-muscle-mobile {
-        @media only screen and (min-width: 601px) and (max-width: 4000px) {
-            display: none;
-         }
-    }
-
-    .muscle-is-time-desktop {
-        @media only screen and (min-width: 300px) and (max-width: 600px) {
-           display: none;
-        }
-    }
-
     .card-wrap {
         background: #E6ECF0;
         display: grid;
@@ -583,7 +571,7 @@
 			}
 
             h2 {
-                font-family: $font-primary;
+                font-family: $font-secondary;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 36px;
@@ -592,7 +580,7 @@
             }
 
             h4 {
-                font-family: $font-primary;
+                font-family: $font-secondary;
                 font-style: normal;
                 font-weight: 600;
                 font-size: 16px;
@@ -613,13 +601,13 @@
         }
 
         .img-wrap {
-            height: 566px;
+            // height: 566px;
             display: grid;
             grid-auto-rows: minmax(100px, auto);
 
             .content-wrap {
                 background: #0F63A7;
-                padding: 60px;
+                padding: 35px;
 
                 @media screen 
                     and (min-device-width: 300px) 
@@ -633,7 +621,7 @@
                    width: 100%;
 
                     h2 {
-                        font-family: $font-primary;
+                        font-family: $font-secondary;
                         font-style: normal;
                         font-weight: 600;
                         font-size: 36px;

@@ -111,7 +111,7 @@
 		// }
 	
 		h2 {
-			font-family: $font-primary;
+			font-family: $font-secondary;
 			font-style: normal;
 			font-weight: 600;
 			font-size: 36px;
@@ -477,7 +477,7 @@
 
 
 			h2 {
-				font-family: $font-primary;
+				font-family: $font-secondary;
 				font-style: normal;
 				font-weight: 600;
 				font-size: 28px;
@@ -708,13 +708,12 @@
 			}
 		
 			  @media only screen and (max-width: 411px) {
-				padding: 20px !important;
-				padding-top: 60px !important;
-				padding-bottom: 60px !important;
+				padding: 10px !important;
+				padding-top: 140px !important;
 				margin-top: -110px;
 			}
 			h2 {
-				font-family: $font-primary;
+				font-family: $font-secondary;
 				font-style: normal;
 				font-weight: 600;
 				font-size: 36px;

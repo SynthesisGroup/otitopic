@@ -81,7 +81,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif; }
+  font-family: "DIN", sans-serif; }
 
 h4 {
   font-size: 24px;
@@ -89,6 +89,14 @@ h4 {
 
 .bg-primary {
   background: #081D31 !important; }
+
+@media only screen and (min-width: 1025px) and (max-width: 4000px) {
+  .is-mobile {
+    display: none; } }
+
+@media only screen and (min-width: 300px) and (max-width: 1026px) {
+  .is-desktop {
+    display: none; } }
 
 .blog-section {
   padding: 60px; }
@@ -1015,7 +1023,7 @@ h4 {
   margin-top: -0.2em; }
 
 .section-title h2, .section-title-s2 h2, .section-title-s3 h2, .section-title-s4 h2, .section-title-s5 h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "DIN", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -1459,7 +1467,7 @@ h4 {
         height: auto;
         margin-top: -155px; } }
     .otitopic-header-info .banner-tag-head h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 44px;
@@ -2511,10 +2519,10 @@ h4 {
   padding: 55px 55px 55px 55px !important; }
 
 .section-gap-top {
-  padding-top: 55px !important; }
+  padding-top: 30px !important; }
 
 .section-gap-bottom {
-  padding-bottom: 55px !important; }
+  padding-bottom: 30px !important; }
 
 .section-title {
   text-align: center;
@@ -3711,12 +3719,6 @@ h4 {
     @media only screen and (min-width: 300px) and (max-width: 600px) {
       .recovering-hearts-section .thumbnail-about-us {
         width: 100%; } }
-  @media only screen and (min-width: 601px) and (max-width: 4000px) {
-    .recovering-hearts-section .time-is-muscle-mobile {
-      display: none; } }
-  @media only screen and (min-width: 300px) and (max-width: 600px) {
-    .recovering-hearts-section .muscle-is-time-desktop {
-      display: none; } }
   .recovering-hearts-section .card-wrap {
     background: #E6ECF0;
     display: grid;
@@ -4119,14 +4121,14 @@ h4 {
         .our-mission-section .col-md-rev-mission .text-wrap {
           padding: 35px !important; } }
       .our-mission-section .col-md-rev-mission .text-wrap h2 {
-        font-family: "Nunito", sans-serif;
+        font-family: "DIN", sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
         line-height: 45px;
         color: #081D31; }
       .our-mission-section .col-md-rev-mission .text-wrap h4 {
-        font-family: "Nunito", sans-serif;
+        font-family: "DIN", sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -4140,19 +4142,18 @@ h4 {
         line-height: 155%;
         color: #081D31; }
     .our-mission-section .col-md-rev-mission .img-wrap {
-      height: 566px;
       display: grid;
       grid-auto-rows: minmax(100px, auto); }
       .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
         background: #0F63A7;
-        padding: 60px; }
+        padding: 35px; }
         @media screen and (min-device-width: 300px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap {
             padding: 35px !important; } }
         .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area {
           width: 100%; }
           .our-mission-section .col-md-rev-mission .img-wrap .content-wrap .text-area h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "DIN", sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 36px;
@@ -4224,7 +4225,7 @@ h4 {
       padding-bottom: 60px !important;
       margin-top: -90px; } }
   .innovative-options-section h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "DIN", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -4274,7 +4275,7 @@ h4 {
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   .why-work-otitopic-section .section-title-s3 h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "DIN", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -4342,7 +4343,7 @@ h4 {
     .why-work-otitopic-section .push-the-boundaries-grids .grid img {
       max-width: 80px; }
     .why-work-otitopic-section .push-the-boundaries-grids .grid h3 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 26px;
@@ -4428,7 +4429,7 @@ h4 {
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-mission .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "DIN", sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
@@ -4448,7 +4449,7 @@ h4 {
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-vision .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "DIN", sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
@@ -4468,7 +4469,7 @@ h4 {
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-benefits .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "DIN", sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
@@ -4488,7 +4489,7 @@ h4 {
         .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details {
           padding: 40px; }
           .why-work-otitopic-section .col-md-why-work-grid .grid-box .our-culture .text-details h2 {
-            font-family: "Nunito", sans-serif;
+            font-family: "DIN", sans-serif;
             font-style: normal;
             font-weight: 600;
             font-size: 28px;
@@ -4623,7 +4624,7 @@ h4 {
         padding: 20px;
         margin-top: 0; } }
     .contact-form-section .form-wrap h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 32px;
@@ -4688,7 +4689,7 @@ h4 {
       .contact-details-wrap .contact-wrap {
         padding: 40px 20px 0px 20px; } }
     .contact-details-wrap .contact-wrap h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 28px;
@@ -4796,10 +4797,10 @@ h4 {
     padding-bottom: 60px !important; } }
 
 .home-page-banner h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: "DIN", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 50px;
   line-height: 50px;
   width: 80%;
   color: #ffffff; }
@@ -4891,47 +4892,34 @@ h4 {
   background-color: #081D31; }
   @media only screen and (max-width: 768px) {
     .about-otitopic-section {
-      padding: 30px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .about-otitopic-section {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 661px) {
     .about-otitopic-section {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 600px) {
     .about-otitopic-section {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 575px) {
     .about-otitopic-section {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 526px) {
     .about-otitopic-section {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 485px) {
     .about-otitopic-section {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 411px) {
     .about-otitopic-section {
-      padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   .about-otitopic-section .content-area {
     display: grid;
     grid-template-columns: 58% 50%; }
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
     @media only screen and (max-width: 768px) {
       .about-otitopic-section .content-area {
         grid-template-columns: repeat(1, 1fr); } }
@@ -4958,14 +4946,6 @@ h4 {
         grid-template-columns: repeat(1, 1fr); } }
   .about-otitopic-section .left-col {
     float: left; }
-    @media (max-width: 1199px) {
-      .about-otitopic-section .left-col {
-        padding: 120px 185px 120px 60px; } }
-    @media (max-width: 991px) {
-      .about-otitopic-section .left-col {
-        float: none;
-        padding: 80px 50px 80px 50px;
-        height: auto !important; } }
     @media (max-width: 768px) {
       .about-otitopic-section .left-col {
         padding: 0px 30px; } }
@@ -5006,7 +4986,8 @@ h4 {
         padding-bottom: 60px !important; } }
     @media screen and (min-device-width: 300px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
       .about-otitopic-section .left-col .about-otitopic-thumbnail {
-        width: 100%; } }
+        width: 100%;
+        padding-bottom: 20px; } }
   .about-otitopic-section .right-col .timeline {
     max-width: 100%;
     margin: 0 auto; }
@@ -5084,7 +5065,7 @@ h4 {
             line-height: 20px;
             color: #93B6D2; }
   .about-otitopic-section .left-col h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "DIN", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -5182,7 +5163,7 @@ h4 {
   .push-the-boundaries-section .push-the-boundaries-grids .grid img {
     max-width: 80px; }
   .push-the-boundaries-section .push-the-boundaries-grids .grid h3 {
-    font-family: "Nunito", sans-serif;
+    font-family: "DIN", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -5231,7 +5212,7 @@ h4 {
   .heart-attack-grid-2 .img-holder img {
     width: 100%; }
   .heart-attack-grid-2 .text-content h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "DIN", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -5287,7 +5268,6 @@ h4 {
   @media only screen and (max-width: 411px) {
     .featured-project-section {
       padding: 10px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
 
 .featured-project-section .project-grids .grid {
@@ -5374,7 +5354,7 @@ h4 {
     font-size: 1.875rem; } }
 
 .featured-project-section .project-grids h3 {
-  font-family: "Nunito", sans-serif;
+  font-family: "DIN", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -5440,43 +5420,6 @@ h4 {
 
 .featured-project-section .project-grids .grid:hover .overlay > a {
   top: 0; }
-
-.ugb-video-popup {
-  position: relative;
-  width: 100%;
-  max-width: 600px; }
-  .ugb-video-popup .ugb-video-preview, .ugb-video-popup a, .ugb-video-popup .ugb-play-button {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; }
-  .ugb-video-popup .ugb-video-preview {
-    background-size: cover;
-    background-position: center;
-    opacity: .4;
-    transition: all .3s ease-in-out;
-    z-index: 1;
-    object-fit: fill;
-    width: 100%; }
-  .ugb-video-popup:hover .ugb-video-preview {
-    opacity: .5; }
-  .ugb-video-popup .ugb-video-wrapper {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; }
-  .ugb-video-popup a {
-    z-index: 3;
-    box-shadow: none !important;
-    background: transparent !important;
-    display: block !important; }
-  .ugb-video-popup .ugb-play-button {
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .ugb-video-popup svg {
-    fill: #fff !important; }
 
 .img-fluid {
   display: grid;
@@ -5651,7 +5594,7 @@ h4 {
       padding-bottom: 60px !important;
       margin-top: -90px; } }
   .company-overview-section .text-wrap h2 {
-    font-family: "Nunito", sans-serif;
+    font-family: "DIN", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -5904,7 +5847,7 @@ h4 {
         .company-overview-section .img-wrap .contact-card {
           padding: 90px 40px 40px 40px; } }
       .company-overview-section .img-wrap .contact-card h2 {
-        font-family: "Nunito", sans-serif;
+        font-family: "DIN", sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 28px;
@@ -6090,12 +6033,11 @@ h4 {
         margin-top: -110px; } }
     @media only screen and (max-width: 411px) {
       .company-overview-section .press-rel-down .press-releases {
-        padding: 20px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
+        padding: 10px !important;
+        padding-top: 140px !important;
         margin-top: -110px; } }
     .company-overview-section .press-rel-down .press-releases h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -6345,24 +6287,6 @@ h4 {
     line-height: 155%;
     color: #1B3349; }
 
-.modal-dialog {
-  max-width: 800px;
-  margin: 30px auto; }
-
-.modal-body {
-  position: relative;
-  padding: 0px; }
-
-.close {
-  position: absolute;
-  right: -30px;
-  top: 0;
-  z-index: 999;
-  font-size: 2rem;
-  font-weight: normal;
-  color: #fff;
-  opacity: 1; }
-
 .myocardial-infarction-section {
   margin-top: -70px; }
   @media only screen and (max-width: 768px) {
@@ -6409,8 +6333,6 @@ h4 {
   @media only screen and (max-width: 411px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 390px) {
     .myocardial-infarction-section {
@@ -6483,7 +6405,7 @@ h4 {
     .myocardial-infarction-section .col-md-myocardial .img-wrap img {
       width: 100%; }
     .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -6540,7 +6462,7 @@ h4 {
             .myocardial-infarction-section .info-section .info-left ul li .list-number img {
               width: 200px; } }
       .myocardial-infarction-section .info-section .info-left ul li .details h4 {
-        font-family: "Nunito", sans-serif;
+        font-family: "DIN", sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
@@ -6574,7 +6496,7 @@ h4 {
         padding: 35px;
         height: 100%; } }
     .otitopic-research-tech-trials-section .col-md-rev-otitopic-research .text-wrap h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -6694,7 +6616,7 @@ h4 {
       .otitopic-research-tech-trials-section .col-md-rev .text-wrap {
         height: 100%; } }
     .otitopic-research-tech-trials-section .col-md-rev .text-wrap h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -6823,7 +6745,7 @@ h4 {
       .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
         height: auto; } }
     .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials h2 {
-      font-family: "Nunito", sans-serif;
+      font-family: "DIN", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 36px;
@@ -6984,11 +6906,10 @@ h4 {
 @media only screen and (max-width: 411px) {
   .recovering-hearts-section {
     padding: 10px !important;
-    padding-bottom: 60px !important;
     margin-top: -90px; } }
 
 .recovering-hearts-section .text-wrap h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "DIN", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -7068,7 +6989,7 @@ h4 {
       height: 50%; }
 
 .recovering-hearts-section .our-technology .text-wrap h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "DIN", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -7084,7 +7005,7 @@ h4 {
   color: #1B3349; }
 
 .recovering-hearts-section .asprihale-area .text-wrap h2 {
-  font-family: "Nunito", sans-serif;
+  font-family: "DIN", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -7330,7 +7251,7 @@ h4 {
         .therapies-section .col-md-rev .text-wrap {
           padding: 35px !important; } }
       .therapies-section .col-md-rev .text-wrap h2 {
-        font-family: "Nunito", sans-serif;
+        font-family: "DIN", sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -7432,3 +7353,9 @@ h4 {
         line-height: 155%;
         color: #1B3349;
         padding: 30px; }
+
+@font-face {
+  font-family: 'DIN';
+  src: url("../fonts/FF_DIN_Pro_Regular_Italic.otf");
+  font-weight: 400;
+  font-style: normal; }

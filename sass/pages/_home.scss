@@ -86,10 +86,10 @@
     }
 
 	h1 {
-	    font-family: $font-primary;
+	    font-family: $font-secondary;
 	    font-style: normal;
 	    font-weight: 600;
-	    font-size: 55px;
+	    font-size: 50px;
 	    line-height: 50px;
         width: 80%;
 	    color: $color-white;
@@ -219,55 +219,43 @@
     
     @media only screen and (max-width: 768px) {
         padding: 30px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 767px) {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 661px) {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 600px) {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 575px) {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 526px) {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 485px) {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 411px) {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
     }
 
     .content-area {
     	display: grid;
-    	grid-template-columns: 58% 50%;
+        grid-template-columns: 58% 50%;
+        
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
 
         @media only screen and (max-width: 768px) {
             grid-template-columns: repeat(1, 1fr);
@@ -305,15 +293,15 @@
         float: left;
         
 
-        @media (max-width: 1199px) {
-            padding: 120px 185px 120px 60px;
-        }
+        // @media (max-width: 1199px) {
+        //     padding: 120px 185px 120px 60px;
+        // }
 
-        @media (max-width: 991px) {
-            float: none;
-            padding: 80px 50px 80px 50px;
-            height: auto !important;
-        }
+        // @media (max-width: 991px) {
+        //     float: none;
+        //     padding: 80px 50px 80px 50px;
+        //     height: auto !important;
+        // }
 
         @media (max-width: 768px) {
             padding: 0px 30px;
@@ -369,6 +357,7 @@
                 and (-webkit-min-device-pixel-ratio: 2)
                 and (min-resolution: 192dpi) { 
                 width: 100%;
+                padding-bottom: 20px;
             }
         }
     }
@@ -532,7 +521,7 @@
     }
 
     .left-col h2 {
-        font-family: $font-primary;
+        font-family: $font-secondary;
         font-style: normal;
         font-weight: 600;
         font-size: 36px;
@@ -652,7 +641,7 @@
 	  	}
 
 		h3 {
-		    font-family: $font-primary;
+		    font-family: $font-secondary;
 		    font-style: normal;
 		    font-weight: bold;
 		    font-size: 26px;
@@ -722,7 +711,7 @@
     .text-content {
 
         h2 {
-            font-family: $font-primary;
+            font-family: $font-secondary;
             font-style: normal;
             font-weight: 600;
             font-size: 36px;
@@ -792,7 +781,6 @@
 
     @media only screen and (max-width: 411px) {
         padding: 10px !important;
-        padding-top: 60px !important;
         padding-bottom: 60px !important;
     }
 }
@@ -909,7 +897,7 @@
 }
 
 .featured-project-section .project-grids h3 {
-    font-family: $font-primary;
+    font-family: $font-secondary;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -993,57 +981,6 @@
 .featured-project-section .project-grids .grid:hover .overlay > a {
   top: 0;
 }
-
-
-
-
-// Essential Styles
-.ugb-video-popup {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    .ugb-video-preview, a, .ugb-play-button {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
-    .ugb-video-preview {
-        background-size: cover;
-        background-position: center;
-        opacity: .4;
-        transition: all .3s ease-in-out;
-        z-index: 1;
-        object-fit: fill;
-        width: 100%;
-    }
-    &:hover .ugb-video-preview {
-        opacity: .5;
-    }
-    .ugb-video-wrapper {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-    }
-    a {
-        z-index: 3;
-        box-shadow: none !important;
-        background: transparent !important;
-        display: block !important;
-    }
-    .ugb-play-button {
-        z-index: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    svg {
-        fill: #fff !important;
-    }
-}
-
-
 
 .img-fluid {
     display: grid;
