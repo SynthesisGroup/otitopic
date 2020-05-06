@@ -4775,7 +4775,7 @@ h4 {
 @media only screen and (max-width: 485px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 60px !important;
+    padding-top: 40px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 414px) {
@@ -4834,10 +4834,20 @@ h4 {
       line-height: 50px;
       margin-top: -60px;
       width: 100%; } }
+  @media only screen and (max-width: 550px) {
+    .home-page-banner h1 {
+      font-size: 40px;
+      line-height: 40px;
+      margin-top: -60px; } }
+  @media only screen and (max-width: 500px) {
+    .home-page-banner h1 {
+      font-size: 40px;
+      line-height: 40px;
+      margin-top: -60px; } }
   @media only screen and (max-width: 460px) {
     .home-page-banner h1 {
-      font-size: 50px;
-      line-height: 50px;
+      font-size: 40px;
+      line-height: 40px;
       margin-top: -60px; } }
   @media only screen and (max-width: 414px) {
     .home-page-banner h1 {
@@ -4908,6 +4918,26 @@ h4 {
   border-radius: 0px 0px 6px 6px !important;
   padding: 5px 30px;
   text-align: center; }
+  @media only screen and (max-width: 991px) {
+    .home-page-banner .spcl-btn {
+      width: 120px;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 5px 30px; } }
+  @media only screen and (max-width: 768px) {
+    .home-page-banner .spcl-btn {
+      width: 120px;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 5px 30px; } }
+  @media only screen and (max-width: 500px) {
+    .home-page-banner .spcl-btn {
+      width: 120px;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 5px 30px; } }
+  @media only screen and (max-width: 485px) {
+    .home-page-banner .spcl-btn {
+      width: 120px;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 5px 30px; } }
   @media only screen and (max-width: 414px) {
     .home-page-banner .spcl-btn {
       width: 120px;
@@ -5623,6 +5653,21 @@ h4 {
 
 .view-video {
   width: 280px; }
+  @media only screen and (max-width: 991px) {
+    .view-video {
+      width: 180px; } }
+  @media only screen and (max-width: 768px) {
+    .view-video {
+      width: 180px; } }
+  @media only screen and (max-width: 500px) {
+    .view-video {
+      width: 180px; } }
+  @media only screen and (max-width: 485px) {
+    .view-video {
+      width: 180px; } }
+  @media only screen and (max-width: 460px) {
+    .view-video {
+      width: 180px; } }
   @media only screen and (max-width: 414px) {
     .view-video {
       width: 180px; } }
