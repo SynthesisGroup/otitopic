@@ -5537,61 +5537,51 @@ h4 {
   @media only screen and (max-width: 768px) {
     .company-overview-section {
       padding: 30px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important; } }
+      padding-top: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .company-overview-section {
       padding: 10px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 661px) {
     .company-overview-section {
       padding: 10px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 600px) {
     .company-overview-section {
       padding: 10px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 575px) {
     .company-overview-section {
       padding: 10px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 526px) {
     .company-overview-section {
       padding: 10px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 485px) {
     .company-overview-section {
       padding: 10px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 411px) {
     .company-overview-section {
       padding: 10px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 375px) {
     .company-overview-section {
       padding: 0px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 360px) {
     .company-overview-section {
       padding: 0px 0px 0px 0px !important;
       padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -122px; } }
   .company-overview-section .text-wrap h2 {
     font-family: "DIN", sans-serif;
@@ -6034,7 +6024,7 @@ h4 {
     @media only screen and (max-width: 411px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 140px !important;
+        padding-top: 187px !important;
         margin-top: -110px; } }
     .company-overview-section .press-rel-down .press-releases h2 {
       font-family: "DIN", sans-serif;
