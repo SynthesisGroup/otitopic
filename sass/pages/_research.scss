@@ -555,41 +555,49 @@
 
 		@media only screen and (max-width: 991px) {
 	        grid-template-columns: repeat(1, 1fr);
-	    	margin-bottom: 30px;
+			margin-bottom: 30px;
+			margin-top: -55px;
 	    }
 
 		@media only screen and (max-width: 768px) {
 	        grid-template-columns: repeat(1, 1fr);
 			margin-bottom: 30px;
-			// margin-top: 75px;
+			margin-top: -55px;
 	    }
 
 		@media only screen and (max-width: 767px) {
-	        grid-template-columns: repeat(1, 1fr);
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
 	    }
 
 	  	@media only screen and (max-width: 661px) {
-	        grid-template-columns: repeat(1, 1fr);
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
 	    }
 
 	  	@media only screen and (max-width: 600px) {
-	       	grid-template-columns: repeat(1, 1fr);
+			   grid-template-columns: repeat(1, 1fr);
+			   margin-top: -55px;
 	    }
 
 	  	@media only screen and (max-width: 575px) {
-	       	grid-template-columns: repeat(1, 1fr);
+			   grid-template-columns: repeat(1, 1fr);
+			   margin-top: -55px;
 	    }
 
 	  	@media only screen and (max-width: 526px) {
-	        grid-template-columns: repeat(1, 1fr);
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
 	    }
 
 	  	@media only screen and (max-width: 485px) {
-	        grid-template-columns: repeat(1, 1fr);
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
 	    }
 
 		@media only screen and (max-width: 411px) {
-	        grid-template-columns: repeat(1, 1fr);
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
 	    }
 
 		.text-wrap-trials {

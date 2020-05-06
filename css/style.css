@@ -5985,6 +5985,9 @@ h4 {
       .company-overview-section .press-rel-down {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
+    @media only screen and (min-width: 300px) and (max-width: 1024px) {
+      .company-overview-section .press-rel-down .custom-height-press-rel {
+        margin-top: -200px !important; } }
     @media only screen and (max-width: 767px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
@@ -6696,32 +6699,41 @@ h4 {
   @media only screen and (max-width: 991px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
       grid-template-columns: repeat(1, 1fr);
-      margin-bottom: 30px; } }
+      margin-bottom: 30px;
+      margin-top: -55px; } }
   @media only screen and (max-width: 768px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
       grid-template-columns: repeat(1, 1fr);
-      margin-bottom: 30px; } }
+      margin-bottom: 30px;
+      margin-top: -55px; } }
   @media only screen and (max-width: 767px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: -55px; } }
   @media only screen and (max-width: 661px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: -55px; } }
   @media only screen and (max-width: 600px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: -55px; } }
   @media only screen and (max-width: 575px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: -55px; } }
   @media only screen and (max-width: 526px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: -55px; } }
   @media only screen and (max-width: 485px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: -55px; } }
   @media only screen and (max-width: 411px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
-      grid-template-columns: repeat(1, 1fr); } }
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: -55px; } }
   .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
     background: #ffffff; }
     @media only screen and (max-width: 768px) {
