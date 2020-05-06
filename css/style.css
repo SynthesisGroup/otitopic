@@ -3601,6 +3601,12 @@ h4 {
   margin-top: -30px;
   transition: all 500ms cubic-bezier(0.55, 0, 0.1, 1); }
 
+.add-space {
+  margin-top: 150px; }
+  @media screen and (max-width: 400px) {
+    .add-space {
+      margin-top: 145px; } }
+
 .grid-row-footer {
   display: grid;
   grid-template-columns: 35rem 1fr;
@@ -4724,6 +4730,12 @@ h4 {
     padding-top: 90px !important;
     padding-bottom: 60px !important; } }
 
+@media only screen and (width: 1024px) {
+  .home-page-banner {
+    padding: 10px 30px 10px 30px !important;
+    padding-top: 100px !important;
+    padding-bottom: 60px !important; } }
+
 @media only screen and (max-width: 768px) {
   .home-page-banner {
     padding: 10px 30px 10px 30px;
@@ -4769,25 +4781,31 @@ h4 {
 @media only screen and (max-width: 414px) {
   .home-page-banner {
     padding: 0px 10px 0px 10px !important;
-    padding-top: 60px !important;
+    padding-top: 30px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 411px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 40px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 400px) {
+  .home-page-banner {
+    padding: 10px !important;
+    padding-top: 30px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 375px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 50px !important;
+    padding-top: 30px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 360px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 40px !important;
+    padding-top: 30px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 320px) {
@@ -4804,6 +4822,12 @@ h4 {
   line-height: 50px;
   width: 80%;
   color: #ffffff; }
+  @media only screen and (max-width: 768px) {
+    .home-page-banner h1 {
+      font-size: 50px;
+      line-height: 50px;
+      margin-top: -60px;
+      width: 100%; } }
   @media only screen and (max-width: 767px) {
     .home-page-banner h1 {
       font-size: 50px;
@@ -4822,8 +4846,8 @@ h4 {
       margin-top: -60px; } }
   @media only screen and (max-width: 411px) {
     .home-page-banner h1 {
-      font-size: 40px;
-      line-height: 38px;
+      font-size: 32px;
+      line-height: 34px;
       margin-top: -60px; } }
   @media only screen and (max-width: 375px) {
     .home-page-banner h1 {
@@ -4833,12 +4857,12 @@ h4 {
   @media only screen and (max-width: 360px) {
     .home-page-banner h1 {
       font-size: 30px;
-      line-height: 30px;
+      line-height: 28px;
       margin-top: -60px; } }
   @media only screen and (max-width: 320px) {
     .home-page-banner h1 {
-      font-size: 25px;
-      line-height: 30px;
+      font-size: 24px;
+      line-height: 27px;
       margin-top: -60px; } }
 
 .home-page-banner p {
@@ -4849,6 +4873,10 @@ h4 {
   line-height: 145%;
   color: #ffffff;
   width: 70%; }
+  @media only screen and (max-width: 768px) {
+    .home-page-banner p {
+      font-size: 18px;
+      width: 100%; } }
   @media only screen and (max-width: 767px) {
     .home-page-banner p {
       font-size: 18px;
@@ -4872,21 +4900,65 @@ h4 {
   @media only screen and (max-width: 320px) {
     .home-page-banner p {
       font-size: 12px;
+      line-height: 15px;
       height: 100%; } }
 
 .home-page-banner .spcl-btn {
-  width: 120px;
+  width: 220.4px;
   border-radius: 0px 0px 6px 6px !important;
-  padding: 5px 30px; }
+  padding: 5px 30px;
+  text-align: center; }
+  @media only screen and (max-width: 414px) {
+    .home-page-banner .spcl-btn {
+      width: 120px;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 5px 30px; } }
+  @media only screen and (max-width: 411px) {
+    .home-page-banner .spcl-btn {
+      width: 120px;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 5px 30px; } }
+  @media only screen and (max-width: 400px) {
+    .home-page-banner .spcl-btn {
+      width: 120px;
+      border-radius: 0px 0px 6px 6px !important;
+      padding: 5px 30px; } }
 
 .home-page-banner .play-icon {
   position: absolute;
-  padding: 90px;
-  margin-top: -40px;
-  margin-left: -10px;
+  padding: 100px;
+  margin-top: -20px;
+  margin-left: 37px;
   justify-content: center;
   align-items: center;
   cursor: pointer; }
+  @media only screen and (max-width: 414px) {
+    .home-page-banner .play-icon {
+      position: absolute;
+      padding: 90px;
+      margin-top: -40px;
+      margin-left: -10px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; } }
+  @media only screen and (max-width: 411px) {
+    .home-page-banner .play-icon {
+      position: absolute;
+      padding: 90px;
+      margin-top: -40px;
+      margin-left: -10px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; } }
+  @media only screen and (max-width: 400px) {
+    .home-page-banner .play-icon {
+      position: absolute;
+      padding: 90px;
+      margin-top: -40px;
+      margin-left: -10px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; } }
 
 .about-otitopic-section {
   background-color: #081D31; }
@@ -4912,6 +4984,9 @@ h4 {
     .about-otitopic-section {
       padding: 10px !important; } }
   @media only screen and (max-width: 411px) {
+    .about-otitopic-section {
+      padding: 10px !important; } }
+  @media only screen and (max-width: 400px) {
     .about-otitopic-section {
       padding: 10px !important; } }
   .about-otitopic-section .content-area {
@@ -4944,11 +5019,11 @@ h4 {
     @media only screen and (max-width: 411px) {
       .about-otitopic-section .content-area {
         grid-template-columns: repeat(1, 1fr); } }
+    @media only screen and (max-width: 400px) {
+      .about-otitopic-section .content-area {
+        grid-template-columns: repeat(1, 1fr); } }
   .about-otitopic-section .left-col {
     float: left; }
-    @media (max-width: 768px) {
-      .about-otitopic-section .left-col {
-        padding: 0px 30px; } }
     @media only screen and (max-width: 767px) {
       .about-otitopic-section .left-col {
         padding: 10px !important;
@@ -4976,15 +5051,29 @@ h4 {
         padding-bottom: 60px !important; } }
     @media only screen and (max-width: 485px) {
       .about-otitopic-section .left-col {
-        padding: 10px !important;
+        padding: 0px !important;
         padding-top: 60px !important;
         padding-bottom: 60px !important; } }
     @media only screen and (max-width: 411px) {
       .about-otitopic-section .left-col {
-        padding: 10px !important;
+        padding: 0px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important; } }
+    @media only screen and (max-width: 400px) {
+      .about-otitopic-section .left-col {
+        padding: 0px !important;
         padding-top: 60px !important;
         padding-bottom: 60px !important; } }
     @media screen and (min-device-width: 300px) and (max-device-width: 4000px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+      .about-otitopic-section .left-col .about-otitopic-thumbnail {
+        width: 100%;
+        padding-bottom: 20px; } }
+    @media screen and (max-width: 768px) {
+      .about-otitopic-section .left-col .about-otitopic-thumbnail {
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 30px; } }
+    @media screen and (max-width: 400px) {
       .about-otitopic-section .left-col .about-otitopic-thumbnail {
         width: 100%;
         padding-bottom: 20px; } }
@@ -5531,6 +5620,46 @@ h4 {
 
 .fadeIn-bottom {
   top: 80%; }
+
+.view-video {
+  width: 280px; }
+  @media only screen and (max-width: 414px) {
+    .view-video {
+      width: 180px; } }
+  @media only screen and (max-width: 411px) {
+    .view-video {
+      width: 180px; } }
+  @media only screen and (max-width: 400px) {
+    .view-video {
+      width: 180px; } }
+
+header {
+  position: relative;
+  background-color: black;
+  height: 65vh;
+  width: 100%;
+  overflow: hidden; }
+  @media only screen and (max-width: 414px) {
+    header {
+      position: relative;
+      background-color: black;
+      height: 80vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 411px) {
+    header {
+      position: relative;
+      background-color: black;
+      height: 80vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 400px) {
+    header {
+      position: relative;
+      background-color: black;
+      height: 80vh;
+      width: 100%;
+      overflow: hidden; } }
 
 .company-overview-section {
   margin-top: -70px; }
