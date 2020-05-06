@@ -14,7 +14,7 @@
     @media only screen and (width: 1024px) {
         // padding: 20px !important;
         padding: 10px 30px 10px 30px !important;
-        padding-top: 100px !important;
+        padding-top: 60px !important;
         padding-bottom: 60px !important;
     }
 
@@ -282,6 +282,26 @@
         justify-content: center; 
         align-items: center; 
         cursor: pointer;
+        
+        @media only screen and (max-width: 991px) {
+            position: absolute; 
+            padding: 90px; 
+            margin-top: -40px; 
+            margin-left: -10px;
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width: 768px) {
+            position: absolute; 
+            padding: 90px; 
+            margin-top: -40px; 
+            margin-left: -10px;
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+        }
 
         @media only screen and (max-width: 414px) {
             position: absolute; 
@@ -1302,15 +1322,40 @@
 
 header {
     position: relative;
-    background-color: black;
     height: 65vh;
     width: 100%;
     overflow: hidden;
     
+    @media only screen and (width: 1600px) {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 1024px) {
+        position: relative;
+        height: 55vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 991px) {
+        position: relative;
+        height: 75vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 768px) {
+        position: relative;
+        height: 65vh;
+        width: 100%;
+        overflow: hidden;
+    }
 
     @media only screen and (max-width: 414px) {
         position: relative;
-        background-color: black;
         height: 80vh;
         width: 100%;
         overflow: hidden;
@@ -1326,7 +1371,6 @@ header {
 
     @media only screen and (max-width: 400px) {
         position: relative;
-        background-color: black;
         height: 80vh;
         width: 100%;
         overflow: hidden;

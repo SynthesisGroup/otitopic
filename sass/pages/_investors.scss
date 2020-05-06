@@ -214,19 +214,99 @@
 				// margin-top: 203px;
 				margin-top: -116px;
 				z-index: 9;
+				@media only screen and (max-width: 1400px) {
+			        width: 487px;
+			    }
 
-				@media only screen and (min-width: 769px) and (max-width: 1024px) {
+				@media only screen and (max-width: 1300px) {
 		        	position: relative;
 					margin-top: 0;
 					margin-bottom: 0;
-			        width: 100%;
+			        width: 61vh;
+			    }
+
+				@media only screen and (max-width: 1200px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 56.3vh;
+			    }
+
+				@media only screen and (max-width: 1100px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 51vh;
+			    }
+
+			    @media only screen and (max-width: 1024px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 47vh;
+			    }
+
+				@media only screen and (width: 1024px) and (height: 1366px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 32.3vh;
+			    }
+
+			    @media only screen and (max-width: 1000px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 45.6vh;
+			    }
+
+			    @media only screen and (max-width: 991px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 37vh;
+			    }
+			    
+			    @media only screen and (max-width: 900px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 37vh;
+			    }
+
+			    @media only screen and (max-width: 847px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 36vh;
+			    }
+
+			    @media only screen and (max-width: 800px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 33vh;
+			    }
+
+			    @media only screen and (max-width: 788px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 31vh;
+			    }
+
+			    @media only screen and (max-width: 778px) {
+		        	position: relative;
+					margin-top: 0;
+					margin-bottom: 0;
+			        width: 29.9vh;
 			    }
 
 				@media only screen and (max-width: 768px) {
 		        	position: relative;
 					margin-top: -160px;
 					margin-bottom: 0;
-			        width: 100%;
+			        width: 88.6vw;
 			    }
 
 				@media only screen and (max-width: 767px) {
@@ -487,7 +567,7 @@
 				@media only screen and (min-width: 768px) and (max-width: 1024px) {
 		        	font-size: 26px;
 					line-height: 30px;
-			    	margin-top: 90px;
+			    	margin-top: 45px;
 			    }
 
 				@media only screen and (max-width: 767px) {

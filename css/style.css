@@ -4733,7 +4733,7 @@ h4 {
 @media only screen and (width: 1024px) {
   .home-page-banner {
     padding: 10px 30px 10px 30px !important;
-    padding-top: 100px !important;
+    padding-top: 60px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 768px) {
@@ -4962,6 +4962,24 @@ h4 {
   justify-content: center;
   align-items: center;
   cursor: pointer; }
+  @media only screen and (max-width: 991px) {
+    .home-page-banner .play-icon {
+      position: absolute;
+      padding: 90px;
+      margin-top: -40px;
+      margin-left: -10px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; } }
+  @media only screen and (max-width: 768px) {
+    .home-page-banner .play-icon {
+      position: absolute;
+      padding: 90px;
+      margin-top: -40px;
+      margin-left: -10px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer; } }
   @media only screen and (max-width: 414px) {
     .home-page-banner .play-icon {
       position: absolute;
@@ -5680,14 +5698,36 @@ h4 {
 
 header {
   position: relative;
-  background-color: black;
   height: 65vh;
   width: 100%;
   overflow: hidden; }
+  @media only screen and (width: 1600px) {
+    header {
+      position: relative;
+      height: 80vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 1024px) {
+    header {
+      position: relative;
+      height: 55vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 991px) {
+    header {
+      position: relative;
+      height: 75vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 768px) {
+    header {
+      position: relative;
+      height: 65vh;
+      width: 100%;
+      overflow: hidden; } }
   @media only screen and (max-width: 414px) {
     header {
       position: relative;
-      background-color: black;
       height: 80vh;
       width: 100%;
       overflow: hidden; } }
@@ -5701,7 +5741,6 @@ header {
   @media only screen and (max-width: 400px) {
     header {
       position: relative;
-      background-color: black;
       height: 80vh;
       width: 100%;
       overflow: hidden; } }
@@ -5841,18 +5880,87 @@ header {
       height: auto;
       margin-top: -116px;
       z-index: 9; }
-      @media only screen and (min-width: 769px) and (max-width: 1024px) {
+      @media only screen and (max-width: 1400px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          width: 487px; } }
+      @media only screen and (max-width: 1300px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
           margin-top: 0;
           margin-bottom: 0;
-          width: 100%; } }
+          width: 61vh; } }
+      @media only screen and (max-width: 1200px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 56.3vh; } }
+      @media only screen and (max-width: 1100px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 51vh; } }
+      @media only screen and (max-width: 1024px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 47vh; } }
+      @media only screen and (width: 1024px) and (height: 1366px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 32.3vh; } }
+      @media only screen and (max-width: 1000px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 45.6vh; } }
+      @media only screen and (max-width: 991px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 37vh; } }
+      @media only screen and (max-width: 900px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 37vh; } }
+      @media only screen and (max-width: 847px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 36vh; } }
+      @media only screen and (max-width: 800px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 33vh; } }
+      @media only screen and (max-width: 788px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 31vh; } }
+      @media only screen and (max-width: 778px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          width: 29.9vh; } }
       @media only screen and (max-width: 768px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
           margin-top: -160px;
           margin-bottom: 0;
-          width: 100%; } }
+          width: 88.6vw; } }
       @media only screen and (max-width: 767px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
@@ -6031,7 +6139,7 @@ header {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
             line-height: 30px;
-            margin-top: 90px; } }
+            margin-top: 45px; } }
         @media only screen and (max-width: 767px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
