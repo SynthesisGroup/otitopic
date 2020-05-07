@@ -158,8 +158,8 @@
         }
 
         @media only screen and (max-width: 360px) {
-            font-size: 40px;
-            line-height: 40px;
+            font-size: 36px;
+            line-height: 36px;
             margin-top: -60px;
         }
 
@@ -1297,22 +1297,57 @@ header {
         width: 100%;
         overflow: hidden;
     }
+    
+    // @media only screen and (max-width: 1500px) {
+    //     position: relative;
+    //     height: 65vh;
+    //     width: 100%;
+    //     overflow: hidden;
+    // }
 
-    @media only screen and (width: 1024px) {
+    // @media only screen and (max-width: 1400px) {
+    //     position: relative;
+    //     height: 65vh;
+    //     width: 100%;
+    //     overflow: hidden;
+    // }
+
+    @media only screen and (max-width: 1300px) {
         position: relative;
-        height: 55vh;
+        height: 65vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 1024px) and (height: 1366px) {
+        position: relative;
+        height: 45vh;
         width: 100%;
         overflow: hidden;
     }
 
     @media only screen and (max-width: 991px) {
         position: relative;
-        height: 75vh;
+        height: 90vh;
         width: 100%;
         overflow: hidden;
     }
 
     @media only screen and (max-width: 768px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 768px) and (height: 1024px) {
         position: relative;
         height: 65vh;
         width: 100%;
@@ -1321,12 +1356,33 @@ header {
 
     @media only screen and (max-width: 414px) {
         position: relative;
-        height: 80vh;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 414px) and (height: 736px) {
+        position: relative;
+        height: 90vh;
         width: 100%;
         overflow: hidden;
     }
 
     @media only screen and (max-width: 411px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 411px) and (height: 823px) {
+        position: relative;
+        height: 70vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 411px) and (height: 731px) {
         position: relative;
         height: 80vh;
         width: 100%;
@@ -1335,7 +1391,56 @@ header {
 
     @media only screen and (max-width: 400px) {
         position: relative;
+        height: 85vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 400px) and (height: 700px) {
+        position: relative;
         height: 80vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 385px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 375px) and (height: 812px) {
+        position: relative;
+        height: 70vh !important;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 375px) and (height: 667px) {
+        position: relative;
+        height: 85vh;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    @media only screen and (max-width: 375px) {
+        position: relative;
+        height: 85vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 360px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 320px) {
+        position: relative;
+        height: 100vh;
         width: 100%;
         overflow: hidden;
     }

@@ -1421,13 +1421,25 @@ h4 {
         width: 100%;
         height: auto;
         margin-top: -100px; } }
-    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    @media only screen and (max-width: 991px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
-        padding: 30px 45px 40px;
-        width: 100%;
+        padding: 30px 40px 40px;
+        width: 88%;
         height: auto;
         margin-top: -100px; } }
+    @media only screen and (max-width: 800px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 88%;
+        height: auto; } }
+    @media only screen and (max-width: 768px) {
+      .otitopic-header-info .banner-tag-head {
+        position: relative;
+        padding: 30px 40px 40px;
+        width: 100%;
+        height: auto; } }
     @media only screen and (max-width: 767px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
@@ -4858,8 +4870,8 @@ h4 {
       margin-top: -60px; } }
   @media only screen and (max-width: 360px) {
     .home-page-banner h1 {
-      font-size: 40px;
-      line-height: 40px;
+      font-size: 36px;
+      line-height: 36px;
       margin-top: -60px; } }
   @media only screen and (max-width: 320px) {
     .home-page-banner h1 {
@@ -5664,19 +5676,37 @@ header {
       height: 80vh;
       width: 100%;
       overflow: hidden; } }
-  @media only screen and (width: 1024px) {
+  @media only screen and (max-width: 1300px) {
     header {
       position: relative;
-      height: 55vh;
+      height: 65vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 1024px) {
+    header {
+      position: relative;
+      height: 80vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 1024px) and (height: 1366px) {
+    header {
+      position: relative;
+      height: 45vh;
       width: 100%;
       overflow: hidden; } }
   @media only screen and (max-width: 991px) {
     header {
       position: relative;
-      height: 75vh;
+      height: 90vh;
       width: 100%;
       overflow: hidden; } }
   @media only screen and (max-width: 768px) {
+    header {
+      position: relative;
+      height: 90vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 768px) and (height: 1024px) {
     header {
       position: relative;
       height: 65vh;
@@ -5685,10 +5715,28 @@ header {
   @media only screen and (max-width: 414px) {
     header {
       position: relative;
-      height: 80vh;
+      height: 90vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 414px) and (height: 736px) {
+    header {
+      position: relative;
+      height: 90vh;
       width: 100%;
       overflow: hidden; } }
   @media only screen and (max-width: 411px) {
+    header {
+      position: relative;
+      height: 90vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 411px) and (height: 823px) {
+    header {
+      position: relative;
+      height: 70vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 411px) and (height: 731px) {
     header {
       position: relative;
       height: 80vh;
@@ -5697,7 +5745,49 @@ header {
   @media only screen and (max-width: 400px) {
     header {
       position: relative;
+      height: 85vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 400px) and (height: 700px) {
+    header {
+      position: relative;
       height: 80vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 385px) {
+    header {
+      position: relative;
+      height: 90vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 375px) and (height: 812px) {
+    header {
+      position: relative;
+      height: 70vh !important;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (width: 375px) and (height: 667px) {
+    header {
+      position: relative;
+      height: 85vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 375px) {
+    header {
+      position: relative;
+      height: 85vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 360px) {
+    header {
+      position: relative;
+      height: 90vh;
+      width: 100%;
+      overflow: hidden; } }
+  @media only screen and (max-width: 320px) {
+    header {
+      position: relative;
+      height: 100vh;
       width: 100%;
       overflow: hidden; } }
 
@@ -5886,7 +5976,7 @@ header .container {
           position: relative;
           margin-top: 0;
           margin-bottom: 0;
-          width: 32.3vh; } }
+          width: 35vh; } }
       @media only screen and (max-width: 1000px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
@@ -5928,7 +6018,7 @@ header .container {
           position: relative;
           margin-top: 0;
           margin-bottom: 0;
-          width: 29.9vh; } }
+          width: 32vh; } }
       @media only screen and (max-width: 768px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
@@ -6257,44 +6347,43 @@ header .container {
     @media only screen and (max-width: 767px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
+        padding-top: 100px !important;
         padding-bottom: 60px !important;
         margin-top: -110px; } }
     @media only screen and (max-width: 661px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
+        padding-top: 100px !important;
         padding-bottom: 60px !important;
         margin-top: -110px; } }
     @media only screen and (max-width: 600px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
+        padding-top: 187px !important;
         padding-bottom: 60px !important;
         margin-top: -110px; } }
     @media only screen and (max-width: 575px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
+        padding-top: 187px !important;
         padding-bottom: 60px !important;
         margin-top: -110px; } }
     @media only screen and (max-width: 526px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
+        padding-top: 187px !important;
         padding-bottom: 60px !important;
         margin-top: -110px; } }
     @media only screen and (max-width: 485px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
+        padding-top: 187px !important;
         padding-bottom: 60px !important;
         margin-top: -110px; } }
     @media only screen and (max-width: 411px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 187px !important;
-        margin-top: -110px; } }
+        padding-top: 187px !important; } }
     @media only screen and (max-width: 375px) {
       .company-overview-section .press-rel-down .press-releases {
         margin-top: -76px; } }
