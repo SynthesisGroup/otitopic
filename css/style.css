@@ -5729,52 +5729,42 @@ header .container {
   margin-top: -95px; }
   @media only screen and (max-width: 768px) {
     .company-overview-section {
-      padding: 30px !important;
-      padding-top: 30px !important; } }
+      padding: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 661px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 600px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 575px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 526px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 485px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 411px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 375px) {
     .company-overview-section {
       padding: 0px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 360px) {
     .company-overview-section {
       padding: 0px 0px 0px 0px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   .company-overview-section .text-wrap h2 {
     font-family: "DIN", sans-serif;
@@ -6247,9 +6237,6 @@ header .container {
       .company-overview-section .press-rel-down {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
-    @media only screen and (min-width: 300px) and (max-width: 1024px) {
-      .company-overview-section .press-rel-down .custom-height-press-rel {
-        margin-top: -200px !important; } }
     @media only screen and (max-width: 767px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
