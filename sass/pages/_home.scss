@@ -182,13 +182,13 @@
 	    font-family: $font-primary;
 	    font-style: normal;
 	    font-weight: normal;
-	    font-size: 23px;
+	    font-size: 18px;
 	    line-height: 145%;
 	    color: $color-white;
         width: 70%;
         
         @media only screen and (max-width: 768px) {
-            font-size: 23px;
+            font-size: 18px;
             width: 100%;
         }
 
@@ -226,7 +226,7 @@
 
     .spcl-btn
     {
-        width: 220.4px;
+        width: 161px;
         border-radius: 0px 0px 6px 6px !important;
         padding: 5px 30px;
         text-align: center;
@@ -277,8 +277,8 @@
     .play-icon {
         position: absolute; 
         padding: 100px; 
-        margin-top: -20px; 
-        margin-left: 37px;
+        margin-top: -30px; 
+        margin-left: -1px;
         justify-content: center; 
         align-items: center; 
         cursor: pointer;
@@ -1270,7 +1270,7 @@
 
 .view-video
 {
-    width: 280px;
+    width: 220px;
     
     @media only screen and (max-width: 991px) {
         width: 180px;

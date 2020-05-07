@@ -115,7 +115,7 @@ h4 {
   .blog-section .blog-grid-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-    grid-gap: 2.5rem; }
+    grid-gap: 2rem; }
 
 .blog-section .entry-media {
   margin-bottom: 25px; }
@@ -2234,7 +2234,8 @@ h4 {
       height: 290px; } }
 
 .testimonials-section {
-  background: #081D31 !important; }
+  background: #081D31 !important;
+  padding-top: 70px !important; }
   @media only screen and (width: 1024px) {
     .testimonials-section {
       margin-top: 50px;
@@ -4891,13 +4892,13 @@ h4 {
   font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 145%;
   color: #ffffff;
   width: 70%; }
   @media only screen and (max-width: 768px) {
     .home-page-banner p {
-      font-size: 23px;
+      font-size: 18px;
       width: 100%; } }
   @media only screen and (max-width: 767px) {
     .home-page-banner p {
@@ -4926,7 +4927,7 @@ h4 {
       height: 100%; } }
 
 .home-page-banner .spcl-btn {
-  width: 220.4px;
+  width: 161px;
   border-radius: 0px 0px 6px 6px !important;
   padding: 5px 30px;
   text-align: center; }
@@ -4969,8 +4970,8 @@ h4 {
 .home-page-banner .play-icon {
   position: absolute;
   padding: 100px;
-  margin-top: -20px;
-  margin-left: 37px;
+  margin-top: -30px;
+  margin-left: -1px;
   justify-content: center;
   align-items: center;
   cursor: pointer; }
@@ -5668,7 +5669,7 @@ h4 {
   top: 80%; }
 
 .view-video {
-  width: 280px; }
+  width: 220px; }
   @media only screen and (max-width: 991px) {
     .view-video {
       width: 180px; } }
@@ -6741,7 +6742,7 @@ header .container {
       color: #1B3349; }
   .myocardial-infarction-section .info-section {
     overflow: hidden;
-    margin-top: 55px; }
+    margin-top: 25px; }
     .myocardial-infarction-section .info-section .info-left ul li {
       display: flex; }
       .myocardial-infarction-section .info-section .info-left ul li .list-number {
@@ -6879,7 +6880,7 @@ header .container {
   .otitopic-research-tech-trials-section .col-md-rev .text-wrap {
     background: #0F63A7;
     padding: 50px;
-    height: 275px; }
+    height: 280px; }
     @media only screen and (max-width: 767px) {
       .otitopic-research-tech-trials-section .col-md-rev .text-wrap {
         height: 100%;
