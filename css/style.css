@@ -4192,53 +4192,37 @@ h4 {
             height: 140px; } }
 
 .innovative-options-section {
-  margin-top: -70px; }
+  margin-top: -95px; }
   @media only screen and (max-width: 768px) {
     .innovative-options-section {
-      padding: 30px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important; } }
+      padding: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .innovative-options-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 661px) {
     .innovative-options-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 600px) {
     .innovative-options-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 575px) {
     .innovative-options-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 526px) {
     .innovative-options-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 485px) {
     .innovative-options-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   @media only screen and (max-width: 411px) {
     .innovative-options-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -90px; } }
   .innovative-options-section h2 {
     font-family: "DIN", sans-serif;
@@ -5350,39 +5334,31 @@ h4 {
 
 .featured-project-section {
   padding-bottom: 0;
-  margin-top: -50px; }
+  margin-top: -70px; }
   @media only screen and (max-width: 768px) {
     .featured-project-section {
-      padding: 30px !important;
-      padding-bottom: 60px !important; } }
+      padding: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .featured-project-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 661px) {
     .featured-project-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 600px) {
     .featured-project-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 575px) {
     .featured-project-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 526px) {
     .featured-project-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 485px) {
     .featured-project-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
   @media only screen and (max-width: 411px) {
     .featured-project-section {
-      padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding: 10px !important; } }
 
 .featured-project-section .project-grids .grid {
   width: 100%;
@@ -5750,55 +5726,45 @@ header .container {
   z-index: 1; }
 
 .company-overview-section {
-  margin-top: -70px; }
+  margin-top: -95px; }
   @media only screen and (max-width: 768px) {
     .company-overview-section {
-      padding: 30px !important;
-      padding-top: 30px !important; } }
+      padding: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 661px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 600px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 575px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 526px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 485px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 411px) {
     .company-overview-section {
       padding: 10px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 375px) {
     .company-overview-section {
       padding: 0px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 360px) {
     .company-overview-section {
       padding: 0px 0px 0px 0px !important;
-      padding-top: 30px !important;
       margin-top: -122px; } }
   .company-overview-section .text-wrap h2 {
     font-family: "DIN", sans-serif;
@@ -7198,10 +7164,10 @@ header .container {
   color: #081D31; }
   @media only screen and (max-width: 768px) {
     .recovering-hearts-section .text-wrap h2 {
-      margin-top: 35px; } }
+      margin-top: 30px; } }
   @media only screen and (max-width: 411px) {
     .recovering-hearts-section .text-wrap h2 {
-      margin-top: 35px; } }
+      margin-top: 30px; } }
 
 .recovering-hearts-section .text-wrap p {
   font-family: "Nunito", sans-serif;
