@@ -6294,48 +6294,34 @@ header .container {
         grid-gap: 0; } }
     @media only screen and (min-width: 300px) and (max-width: 1024px) {
       .company-overview-section .press-rel-down .custom-height-press-rel {
-        margin-top: -200px !important; } }
+        margin-top: 0px !important; } }
     @media only screen and (max-width: 767px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-        margin-top: -110px; } }
+        padding-bottom: 60px !important; } }
     @media only screen and (max-width: 661px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-        margin-top: -110px; } }
+        padding-bottom: 60px !important; } }
     @media only screen and (max-width: 600px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-        margin-top: -110px; } }
+        padding-bottom: 60px !important; } }
     @media only screen and (max-width: 575px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-        margin-top: -110px; } }
+        padding-bottom: 60px !important; } }
     @media only screen and (max-width: 526px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-        margin-top: -110px; } }
+        padding-bottom: 60px !important; } }
     @media only screen and (max-width: 485px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
-        padding-top: 60px !important;
-        padding-bottom: 60px !important;
-        margin-top: -110px; } }
+        padding-bottom: 60px !important; } }
     @media only screen and (max-width: 411px) {
       .company-overview-section .press-rel-down .press-releases {
-        padding: 10px !important;
-        padding-top: 187px !important;
-        margin-top: -110px; } }
+        padding: 10px !important; } }
     .company-overview-section .press-rel-down .press-releases h2 {
       font-family: "DIN", sans-serif;
       font-style: normal;
