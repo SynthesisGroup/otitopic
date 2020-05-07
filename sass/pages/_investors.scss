@@ -788,6 +788,11 @@
 				padding-top: 187px !important;
 				margin-top: -110px;
 			}
+
+			@media only screen and (max-width: 375px) {
+				margin-top: -76px;
+			}
+
 			h2 {
 				font-family: $font-secondary;
 				font-style: normal;

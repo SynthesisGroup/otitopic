@@ -61,7 +61,7 @@
 
     @media only screen and (max-width: 375px) {
         padding: 10px !important;
-		margin-top: -90px;
+		margin-top: -67px;
     }
 
     @media only screen and (max-width: 370px) {
@@ -257,6 +257,11 @@
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		grid-auto-rows: minmax(100px, auto);
+
+		@media only screen and (max-width: 375px) {
+			background: url("../img/research-thumbnail-mobile.jpg") !important;
+			background-size: contain;
+		}
 
 		.text-wrap {
 			padding: 56px;

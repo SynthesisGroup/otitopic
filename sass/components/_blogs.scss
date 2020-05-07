@@ -37,7 +37,7 @@
 .blog-section .cats {
   font-size: 14px;
   font-size: 0.875rem;
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-section .entry-body h4 {
@@ -59,7 +59,7 @@
 }
 
 .blog-section .entry-body h4 a:hover {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-section .date {
@@ -75,7 +75,7 @@
 }
 
 .blog-section .read-more:hover {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-section .read-more .fi:before {
@@ -169,7 +169,7 @@
 }
 
 .blog-pg-section .entry-meta li a:hover {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-pg-section .entry-meta li:last-child i {
@@ -203,7 +203,7 @@
 }
 
 .blog-pg-section .post h3 a:hover {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-pg-section .post p {
@@ -248,7 +248,7 @@
 }
 
 .blog-pg-section .format-gallery .owl-controls .owl-nav [class*=owl-]:hover {
-  background: #fd5f17;
+  background: $color-orange;
 }
 
 .blog-pg-section .format-gallery .owl-controls .owl-nav [class*=owl-] {
@@ -454,7 +454,7 @@
 }
 
 .blog-single-section .entry-meta li a:hover {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-single-section .entry-meta li:last-child i {
@@ -509,7 +509,7 @@
 }
 
 .blog-single-section .post blockquote {
-  background-color: #fd5f17;
+  background-color: $color-orange;
   color: #fff;
   line-height: 1.6em;
   padding: 120px 45px 50px;
@@ -630,7 +630,7 @@
 }
 
 .blog-single-section .tag-share .tag a:hover {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-single-section .tag-share .share {
@@ -688,8 +688,8 @@
 }
 
 .blog-single-section .tag-share .share a:hover {
-  background: #fd5f17;
-  border-color: #fd5f17;
+  background: $color-orange;
+  border-color: $color-orange;
   color: #fff !important;
 }
 
@@ -785,7 +785,7 @@
 }
 
 .blog-single-section .author-box .social-link a:hover {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-single-section .more-posts {
@@ -919,7 +919,7 @@
 }
 
 .blog-single-section .more-posts a:hover .post-control-link {
-  color: #fd5f17;
+  color: $color-orange;
 }
 
 .blog-single-section .comments-area {
@@ -1043,7 +1043,7 @@
 }
 
 .blog-single-section .comments-area .comment-reply-link:hover {
-  background-color: #fd5f17;
+  background-color: $color-orange;
 }
 
 .blog-single-section .comment-respond {
@@ -1086,7 +1086,7 @@
 .blog-single-section .comment-respond form textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #fd5f17;
+  border-color: $color-orange;
 }
 
 @media (max-width: 991px) {
@@ -1137,7 +1137,7 @@
 
 .blog-single-section .comment-respond .form-submit input {
   max-width: 180px;
-  background-color: #fd5f17;
+  background-color: $color-orange;
   color: #fff;
   margin-bottom: 0;
   border: 0;
@@ -1173,7 +1173,7 @@
   font-size: 15px;
   font-size: 0.9375rem;
   font-weight: 500;
-  color: #fd5f17;
+  color: $color-orange;
   text-transform: capitalize;
   display: block;
   margin-top: -0.2em;

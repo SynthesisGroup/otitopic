@@ -178,6 +178,15 @@
 	}
 
 	.asprihale-area {
+
+		@media only screen and (max-width: 768px) {
+			margin-top: -23px;
+		}
+
+		@media only screen and (max-width: 375px) {
+			margin-top: -23px;
+		}
+
 		.text-wrap {
 			h2 {
 				font-family: $font-secondary;
@@ -197,7 +206,8 @@
 
 			@media only screen and (max-width: 768px) {
 		        grid-template-columns: repeat(2, 1fr);
-		    	grid-gap: 10px;
+				grid-gap: 10px;
+				margin-top: 23px;
 		    }
 
 			@media only screen and (max-width: 767px) {
@@ -227,6 +237,7 @@
 			@media only screen and (max-width: 411px) {
 				grid-template-columns: repeat(2, 1fr);
 				grid-gap: 1rem;
+				margin-top: 23px;
 		    }
 
 			.content {
