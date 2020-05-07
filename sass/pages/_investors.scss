@@ -740,6 +740,12 @@
 			}
 		}
 
+		.custom-press-height {
+			@media only screen and (max-width: 768px) {
+				margin-top: 35px;
+			}
+		}
+
 		.press-releases {
 			@media only screen and (max-width: 767px) {
 				padding: 10px !important;
@@ -799,6 +805,10 @@
 				font-size: 36px;
 				line-height: 45px;
 				color: #081D31;
+
+				// @media only screen and (max-width: 768px) {
+				// 	margin-top: 35px;
+				// }
 			}
 
 			.press-content {

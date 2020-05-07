@@ -98,6 +98,10 @@ h4 {
   .is-desktop {
     display: none; } }
 
+@media only screen and (max-width: 768px) {
+  .clear-margin-top-ipad {
+    margin-top: -32px !important; } }
+
 .blog-section {
   padding: 60px; }
   @media only screen and (max-width: 61.9em) {
@@ -1398,8 +1402,7 @@ h4 {
     padding: 40px 80px 40px;
     margin-top: -135px;
     z-index: 9;
-    width: 400px;
-    /* Portrait and Landscape */ }
+    width: 400px; }
     @media only screen and (max-width: 990px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
@@ -1437,7 +1440,7 @@ h4 {
     @media only screen and (max-width: 768px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
-        padding: 30px 40px 40px;
+        padding: 30px 47px 40px;
         width: 100%;
         height: auto; } }
     @media only screen and (max-width: 767px) {
@@ -4078,8 +4081,7 @@ h4 {
   background: #EBE9E8; }
   @media only screen and (width: 768px) {
     .our-mission-section {
-      padding: 30px !important;
-      padding-bottom: 80px !important; } }
+      padding: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .our-mission-section {
       padding: 10px !important;
@@ -4113,8 +4115,8 @@ h4 {
   @media only screen and (max-width: 411px) {
     .our-mission-section {
       padding: 10px !important;
-      padding-top: 60px !important;
-      padding-bottom: 60px !important; } }
+      padding-top: 40px !important;
+      padding-bottom: 40px !important; } }
   .our-mission-section .col-md-rev-mission {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -4586,7 +4588,7 @@ h4 {
   @media only screen and (max-width: 411px) {
     .contact-form-section {
       padding: 10px !important;
-      padding-bottom: 60px !important; } }
+      padding-bottom: 32px !important; } }
   .contact-form-section .form-wrap {
     background: #E6ECF0;
     padding: 50px;
@@ -4867,7 +4869,7 @@ h4 {
     .home-page-banner h1 {
       font-size: 30px;
       line-height: 30px;
-      margin-top: -60px; } }
+      margin-top: -37px; } }
   @media only screen and (max-width: 360px) {
     .home-page-banner h1 {
       font-size: 36px;
@@ -6344,6 +6346,9 @@ header .container {
     @media only screen and (min-width: 300px) and (max-width: 600px) {
       .company-overview-section .press-rel-down .custom-height-press-rel {
         margin-top: -200px !important; } }
+    @media only screen and (max-width: 768px) {
+      .company-overview-section .press-rel-down .custom-press-height {
+        margin-top: 35px; } }
     @media only screen and (max-width: 767px) {
       .company-overview-section .press-rel-down .press-releases {
         padding: 10px !important;
@@ -6642,9 +6647,7 @@ header .container {
   margin-top: -70px; }
   @media only screen and (max-width: 768px) {
     .myocardial-infarction-section {
-      padding: 30px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important; } }
+      padding: 30px !important; } }
   @media only screen and (max-width: 767px) {
     .myocardial-infarction-section {
       padding: 10px !important;
@@ -7221,7 +7224,6 @@ header .container {
 @media only screen and (max-width: 768px) {
   .recovering-hearts-section {
     padding: 30px !important;
-    padding-bottom: 60px !important;
     margin-top: -122px; } }
 
 @media only screen and (max-width: 767px) {
