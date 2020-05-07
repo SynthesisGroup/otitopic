@@ -2460,32 +2460,25 @@ h4 {
   width: 100%; }
   @media only screen and (max-width: 768px) {
     .footer-section .copyright-bottom {
-      display: inline-flex;
-      justify-content: center; } }
+      display: inline-flex; } }
   @media only screen and (max-width: 767px) {
     .footer-section .copyright-bottom {
-      display: inline-flex;
-      justify-content: center; } }
+      display: inline-flex; } }
   @media only screen and (max-width: 661px) {
     .footer-section .copyright-bottom {
-      display: inline;
-      justify-content: center; } }
+      display: inline; } }
   @media only screen and (max-width: 600px) {
     .footer-section .copyright-bottom {
-      display: inline;
-      justify-content: center; } }
+      display: inline; } }
   @media only screen and (max-width: 575px) {
     .footer-section .copyright-bottom {
-      display: inline;
-      justify-content: center; } }
+      display: inline; } }
   @media only screen and (max-width: 526px) {
     .footer-section .copyright-bottom {
-      display: inline-flex;
-      justify-content: center; } }
+      display: inline-flex; } }
   @media only screen and (max-width: 485px) {
     .footer-section .copyright-bottom {
-      display: inline;
-      justify-content: center; } }
+      display: inline; } }
   @media only screen and (max-width: 411px) {
     .footer-section .copyright-bottom {
       display: grid !important;
@@ -5231,50 +5224,42 @@ h4 {
 @media only screen and (max-width: 768px) {
   .push-the-boundaries-section {
     padding: 30px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 @media only screen and (max-width: 767px) {
   .push-the-boundaries-section {
     padding: 10px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 @media only screen and (max-width: 661px) {
   .push-the-boundaries-section {
     padding: 10px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 @media only screen and (max-width: 600px) {
   .push-the-boundaries-section {
     padding: 10px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 @media only screen and (max-width: 575px) {
   .push-the-boundaries-section {
     padding: 10px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 @media only screen and (max-width: 526px) {
   .push-the-boundaries-section {
     padding: 10px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 @media only screen and (max-width: 485px) {
   .push-the-boundaries-section {
     padding: 10px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 @media only screen and (max-width: 411px) {
   .push-the-boundaries-section {
     padding: 10px !important;
-    padding-top: 60px !important;
-    padding-bottom: 60px !important; } }
+    padding-top: 60px !important; } }
 
 .push-the-boundaries-section .section-title-s3 h2 {
   font-family: "Nunito", sans-serif;
@@ -5369,37 +5354,30 @@ h4 {
   @media only screen and (max-width: 768px) {
     .featured-project-section {
       padding: 30px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 767px) {
     .featured-project-section {
       padding: 10px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 661px) {
     .featured-project-section {
       padding: 10px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 600px) {
     .featured-project-section {
       padding: 10px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 575px) {
     .featured-project-section {
       padding: 10px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 526px) {
     .featured-project-section {
       padding: 10px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 485px) {
     .featured-project-section {
       padding: 10px !important;
-      padding-top: 60px !important;
       padding-bottom: 60px !important; } }
   @media only screen and (max-width: 411px) {
     .featured-project-section {
