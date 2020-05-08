@@ -2,24 +2,19 @@
 
 .home-page-banner {
 
-	// margin-top: 2rem;
-    
     @media only screen and (width: 1600px) {
-        // padding: 20px !important;
         padding: 10px 30px 10px 30px !important;
         padding-top: 90px !important;
         padding-bottom: 60px !important;
     }
 
     @media only screen and (width: 1024px) {
-        // padding: 20px !important;
         padding: 10px 30px 10px 30px !important;
         padding-top: 60px !important;
         padding-bottom: 60px !important;
     }
 
     @media only screen and (max-width: 768px) {
-        // padding: 20px !important;
         padding: 10px 30px 10px 30px;
         padding-top: 60px !important;
         padding-bottom: 60px !important;
@@ -168,14 +163,6 @@
             line-height: 40px;
             margin-top: -14px;
         }
-        
-        // @media screen 
-        //     and (min-device-width: 1440px) 
-        //     and (max-device-width: 2000px) 
-        //     and (-webkit-min-device-pixel-ratio: 1) { 
-
-        //         margin-top: 100px;
-        // }
 	}
 
 	p {
@@ -408,22 +395,6 @@
 
     .left-col {
         float: left;
-        
-
-        // @media (max-width: 1199px) {
-        //     padding: 120px 185px 120px 60px;
-        // }
-
-        // @media (max-width: 991px) {
-        //     float: none;
-        //     padding: 80px 50px 80px 50px;
-        //     height: auto !important;
-        // }
-
-        @media (max-width: 768px) {
-            // padding: 0px 30px;
-
-        }
 
         @media only screen and (max-width: 767px) {
             padding: 10px !important;
@@ -496,55 +467,7 @@
     }
 
     .right-col {
-        // float: right;
-
-        // @media (max-width: 991px) {
-        //     width: 100%;
-        //     float: none;
-        // }
-
-        // @media only screen and (max-width: 767px) {
-        //     padding: 10px !important;
-        //     padding-top: 60px !important;
-        //     padding-bottom: 60px !important;
-        // }
     
-        // @media only screen and (max-width: 661px) {
-        //     padding: 10px !important;
-        //     padding-top: 60px !important;
-        //     padding-bottom: 60px !important;
-        // }
-    
-        // @media only screen and (max-width: 600px) {
-        //     padding: 10px !important;
-        //     padding-top: 60px !important;
-        //     padding-bottom: 60px !important;
-        // }
-    
-        // @media only screen and (max-width: 575px) {
-        //     padding: 10px !important;
-        //     padding-top: 60px !important;
-        //     padding-bottom: 60px !important;
-        // }
-    
-        // @media only screen and (max-width: 526px) {
-        //     padding: 10px !important;
-        //     padding-top: 60px !important;
-        //     padding-bottom: 60px !important;
-        // }
-    
-        // @media only screen and (max-width: 485px) {
-        //     padding: 10px !important;
-        //     padding-top: 60px !important;
-        //     padding-bottom: 60px !important;
-        // }
-    
-        // @media only screen and (max-width: 411px) {
-        //     padding: 10px !important;
-        //     padding-top: 60px !important;
-        //     padding-bottom: 60px !important;
-        // }
-
         .timeline {
             max-width: 100%;
             margin: 0 auto;
@@ -633,10 +556,6 @@
                             line-height: 23px;
                             color: $color-white;
                             width: 80%;
-                            
-                            // @media only screen and (max-width: 768px) {
-                            //     width: 100%;
-                            // }
                         }
 
                         a {
@@ -1171,10 +1090,6 @@
     margin: auto;
     overflow: hidden;
 
-    // @media only screen and (max-width: 768px) {
-    //     max-width: 590px;
-    // }
-
     .content-overlay {
         background: #0F63A7;
         position: absolute;
@@ -1297,20 +1212,6 @@ header {
         width: 100%;
         overflow: hidden;
     }
-    
-    // @media only screen and (max-width: 1500px) {
-    //     position: relative;
-    //     height: 65vh;
-    //     width: 100%;
-    //     overflow: hidden;
-    // }
-
-    // @media only screen and (max-width: 1400px) {
-    //     position: relative;
-    //     height: 65vh;
-    //     width: 100%;
-    //     overflow: hidden;
-    // }
 
     @media only screen and (max-width: 1300px) {
         position: relative;

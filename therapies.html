@@ -344,7 +344,6 @@
                             <h4 class="wiget-title">Company</h4>
                             <ul class="list-style">
                                 <li><a href="about-us.html">About us</a></li>
-                                <!-- <li><a href="careers.html">Careers</a></li> -->
                                 <li><a href="contact-us.html">Contact Us</a></li>
                                 <li><a href="privacy-policy.html">Privacy Policy</a></li>
                             </ul>
@@ -355,9 +354,9 @@
                         <div class="single-widget">
                             <h4 class="wiget-title">Our Science</h4>
                             <ul class="list-style">
-                                <li><a href="#">Therapies</a></li>
-                                <li><a href="#">Research</a></li>
-                                <li><a href="#">Technology</a></li>
+                                <li><a href="therapies.html">Therapies</a></li>
+                                <li><a href="research.html">Research</a></li>
+                                <li><a href="technology.html">Technology</a></li>
                             </ul>
                         </div>
                     </div>
@@ -377,12 +376,6 @@
             <div class="copyright-bottom d-flex">
                 <div class="text-left">
                     <p>&copy; Copyright OtiTopic <span id="year"></span>. All Rights Reserved.</p>
-                </div>
-                <div class="text-right">
-                    <ul>
-                        <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
-                        <!-- <li><a href="terms-conditions.html">Terms & Conditions</a></li> -->
-                    </ul>
                 </div>
             </div>
         </div>
@@ -405,49 +398,6 @@
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
-    <!-- <script type="text/javascript">
-        $(document).ready(function() {
-          (function() {
-            var showChar = 200;
-            var ellipsestext = "...";
-
-            $(".truncate").each(function() {
-              var content = $(this).html();
-              if (content.length > showChar) {
-                var c = content.substr(0, showChar);
-                var h = content;
-                var html =
-                  '<div class="truncate-text" style="display:block">' +
-                  c +
-                  '<span class="moreellipses">' +
-                  ellipsestext +
-                  '&nbsp;&nbsp;<a href="" class="moreless more">more</a></span></span></div><div class="truncate-text" style="display:none">' +
-                  h +
-                  '<a href="" class="moreless less">Less</a></span></div>';
-
-                $(this).html(html);
-              }
-            });
-
-            $(".moreless").click(function() {
-              var thisEl = $(this);
-              var cT = thisEl.closest(".truncate-text");
-              var tX = ".truncate-text";
-
-              if (thisEl.hasClass("less")) {
-                cT.prev(tX).toggle();
-                cT.slideToggle();
-              } else {
-                cT.toggle();
-                cT.next(tX).fadeToggle();
-              }
-              return false;
-            });
-            
-          })();
-
-        });
-    </script> -->
 
 </body>
 

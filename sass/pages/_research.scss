@@ -552,10 +552,6 @@
 		grid-auto-rows: minmax(100px, auto);
 		grid-gap: 1.5rem;
 
-		// @media only screen and (max-width: 360px) {
-		// 	padding-top: 80px;
-		// }
-
 		.card-wrap {
 			background: #E6ECF0;
 			display: grid;
@@ -633,7 +629,6 @@
 
 		.text-wrap-trials {
 			background: $color-white;
-			// height: 446px;
 
 			@media only screen and (max-width: 768px) {
 		        height: auto;
@@ -690,14 +685,6 @@
 					}
 				}
 			}
-
-			// @media only screen and (max-width: 414px) {
-		    //     height: 65%;
-		    // }
-
-			// @media only screen and (max-width: 411px) {
-		    //     height: 75%;
-		    // }
 		}
 
 		.img-wrap {

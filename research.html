@@ -406,7 +406,6 @@
                             <h4 class="wiget-title">Company</h4>
                             <ul class="list-style">
                                 <li><a href="about-us.html">About us</a></li>
-                                <!-- <li><a href="careers.html">Careers</a></li> -->
                                 <li><a href="contact-us.html">Contact Us</a></li>
                                 <li><a href="privacy-policy.html">Privacy Policy</a></li>
                             </ul>
@@ -417,9 +416,9 @@
                         <div class="single-widget">
                             <h4 class="wiget-title">Our Science</h4>
                             <ul class="list-style">
-                                <li><a href="#">Therapies</a></li>
-                                <li><a href="#">Research</a></li>
-                                <li><a href="#">Technology</a></li>
+                                <li><a href="therapies.html">Therapies</a></li>
+                                <li><a href="research.html">Research</a></li>
+                                <li><a href="technology.html">Technology</a></li>
                             </ul>
                         </div>
                     </div>
@@ -442,12 +441,6 @@
                 <div class="text-left">
                     <p>&copy; Copyright OtiTopic <span id="year"></span>. All Rights Reserved.</p>
                 </div>
-                <div class="text-right">
-                    <ul>
-                        <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
-                        <!-- <li><a href="terms-conditions.html">Terms & Conditions</a></li> -->
-                    </ul>
-                </div>
             </div>
         </div>
     </footer>
@@ -469,34 +462,6 @@
     <script src="js/tilt.jquery.min.js"></script>
     <script src="js/main.js"></script>
     <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
-    <script>
-        $(document).ready(function() {
-            // Gets the video src from the data-src on each button
-            var $videoSrc;
-            $(".video-btn").click(function() {
-                $videoSrc = $(this).attr("data-src");
-                console.log("button clicked" + $videoSrc);
-            });
-
-            // when the modal is opened autoplay it
-            $("#myModal").on("shown.bs.modal", function(e) {
-                console.log("modal opened" + $videoSrc);
-                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-                $("#video").attr(
-                "src",
-                $videoSrc + "?amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1"
-                );
-            });
-
-            // stop playing the youtube video when I close the modal
-            $("#myModal").on("hide.bs.modal", function(e) {
-                // a poor man's stop video
-                $("#video").attr("src", $videoSrc);
-            });
-
-            // document ready
-        });
-    </script>
 </body>
 
 </html>
