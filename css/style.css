@@ -4718,6 +4718,9 @@ h4 {
       font-size: 28px;
       line-height: 49px;
       color: #ffffff; }
+    .contact-details-wrap .contact-wrap .contact-details-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
     .contact-details-wrap .contact-wrap .contact .img-icon {
       margin-top: 0.7rem;
       margin-bottom: 1rem; }
@@ -5899,12 +5902,10 @@ header .container {
     color: #1B3349; }
   .company-overview-section .img-wrap {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem; }
+    grid-template-columns: repeat(2, 1fr); }
     @media only screen and (width: 1024px) {
       .company-overview-section .img-wrap {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem; } }
+        grid-template-columns: repeat(2, 1fr); } }
     @media only screen and (max-width: 768px) {
       .company-overview-section .img-wrap {
         grid-template-columns: repeat(1, 1fr);
@@ -5966,8 +5967,7 @@ header .container {
       position: absolute;
       background: #FFA000;
       width: 487px;
-      height: auto;
-      margin-top: -116px;
+      margin-top: -130px;
       z-index: 9; }
       @media only screen and (max-width: 1400px) {
         .company-overview-section .img-wrap .img-cap .text-content {
@@ -7604,7 +7604,7 @@ header .container {
 
 .innovative-options-section .container .img-wrap {
   display: flex;
-  justify-content: space-between; }
+  justify-content: center; }
   @media only screen and (min-width: 300px) and (max-width: 600px) {
     .innovative-options-section .container .img-wrap .img-fluid {
       width: 50%; } }

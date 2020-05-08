@@ -226,6 +226,11 @@
 			color: $color-white;
 		}
 
+		.contact-details-info {
+			display: grid; 
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		}
+
 		.contact {
 
 			.img-icon {
