@@ -4824,7 +4824,7 @@ h4 {
   font-family: "DIN", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 50px;
   width: 80%;
   color: #ffffff; }
@@ -4920,7 +4920,7 @@ h4 {
       height: 100%; } }
 
 .home-page-banner .spcl-btn {
-  width: 161px;
+  width: 131px;
   border-radius: 0px 0px 6px 6px !important;
   padding: 5px 30px;
   text-align: center; }
@@ -4963,8 +4963,8 @@ h4 {
 .home-page-banner .play-icon {
   position: absolute;
   padding: 100px;
-  margin-top: -30px;
-  margin-left: -1px;
+  margin-top: -47px;
+  margin-left: -16px;
   justify-content: center;
   align-items: center;
   cursor: pointer; }
@@ -5641,7 +5641,7 @@ h4 {
   top: 80%; }
 
 .view-video {
-  width: 220px; }
+  width: 190px; }
   @media only screen and (max-width: 991px) {
     .view-video {
       width: 180px; } }
