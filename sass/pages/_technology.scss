@@ -3,7 +3,7 @@
 	
 	@media only screen and (max-width: 768px) {
         padding: 30px !important;
-		margin-top: -122px;
+		margin-top: -122px !important;
     }
 
 	@media only screen and (max-width: 767px) {
@@ -44,7 +44,7 @@
 
   	@media only screen and (max-width: 411px) {
         padding: 10px !important;
-		margin-top: -122px;
+		margin-top: -122px !important;
     }
 
     .text-wrap {
@@ -61,9 +61,9 @@
 				margin-top: 30px;
 			}
 
-			@media only screen and (max-width: 411px) {
-				margin-top: 30px;
-			}
+			// @media only screen and (max-width: 411px) {
+			// 	margin-top: -89px;
+			// }
 
 		}
 
@@ -183,7 +183,11 @@
 		}
 
 		@media only screen and (max-width: 375px) {
-			margin-top: -23px;
+			margin-top: -13px !important;
+		}
+
+		@media only screen and (max-width: 360px) {
+			margin-top: -10px !important;
 		}
 
 		.text-wrap {
