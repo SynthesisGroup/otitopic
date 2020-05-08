@@ -110,6 +110,9 @@ h4 {
   .section-mobile-gutter {
     margin-top: -40px !important; } }
 
+.custom-myocardial-therapies {
+  background: #EBE9E8; }
+
 .blog-section {
   padding: 60px; }
   @media only screen and (max-width: 61.9em) {
@@ -6744,6 +6747,10 @@ header .container {
       padding-top: 30px !important;
       padding-bottom: 60px !important;
       margin-top: -90px; } }
+  @media only screen and (max-width: 414px) {
+    .myocardial-infarction-section {
+      padding: 10px !important;
+      margin-top: -90px; } }
   @media only screen and (max-width: 411px) {
     .myocardial-infarction-section {
       padding: 10px !important;
@@ -6755,7 +6762,7 @@ header .container {
   @media only screen and (max-width: 375px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      margin-top: -63px !important; } }
+      margin-top: -90px !important; } }
   @media only screen and (max-width: 370px) {
     .myocardial-infarction-section {
       padding: 10px !important;
@@ -6763,7 +6770,7 @@ header .container {
   @media only screen and (max-width: 360px) {
     .myocardial-infarction-section {
       padding: 10px !important;
-      margin-top: -90px; } }
+      margin-top: -90px !important; } }
   @media only screen and (max-width: 330px) {
     .myocardial-infarction-section {
       padding: 10px !important;
@@ -6856,6 +6863,15 @@ header .container {
   .myocardial-infarction-section .info-section {
     overflow: hidden;
     margin-top: 25px; }
+    @media only screen and (max-width: 414px) {
+      .myocardial-infarction-section .info-section {
+        margin-top: 45px; } }
+    @media only screen and (max-width: 375px) {
+      .myocardial-infarction-section .info-section {
+        margin-top: 45px; } }
+    @media only screen and (max-width: 360px) {
+      .myocardial-infarction-section .info-section {
+        margin-top: 45px; } }
     .myocardial-infarction-section .info-section .info-left ul li {
       display: flex; }
       .myocardial-infarction-section .info-section .info-left ul li .list-number {
