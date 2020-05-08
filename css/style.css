@@ -5930,18 +5930,30 @@ header .container {
       .company-overview-section .img-wrap {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
+    @media only screen and (max-width: 414px) {
+      .company-overview-section .img-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0;
+        padding: 10px !important; } }
     @media only screen and (max-width: 411px) {
       .company-overview-section .img-wrap {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0; } }
+    @media only screen and (max-width: 375px) {
+      .company-overview-section .img-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0;
+        padding: 10px !important; } }
     @media only screen and (max-width: 360px) {
       .company-overview-section .img-wrap {
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 0; } }
+        grid-gap: 0;
+        padding: 10px !important; } }
     @media only screen and (max-width: 320px) {
       .company-overview-section .img-wrap {
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 0; } }
+        grid-gap: 0;
+        padding: 10px !important; } }
     .company-overview-section .img-wrap .img-cap img {
       width: 100%; }
     @media only screen and (max-width: 768px) {
@@ -6034,7 +6046,7 @@ header .container {
           position: relative;
           margin-top: -160px;
           margin-bottom: 0;
-          width: 88.6vw; } }
+          width: 100%; } }
       @media only screen and (max-width: 767px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
@@ -6119,31 +6131,42 @@ header .container {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
           margin-top: -30px;
-          width: 88.1vw; } }
+          width: 100%; } }
+      @media only screen and (max-width: 414px) {
+        .company-overview-section .img-wrap .img-cap .text-content {
+          position: relative;
+          margin-top: -30px;
+          width: 100%; } }
       @media only screen and (max-width: 411px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px; } }
+          margin-top: -30px;
+          width: 100%; } }
       @media only screen and (max-width: 385px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px; } }
+          margin-top: -30px;
+          width: 100%; } }
       @media only screen and (max-width: 375px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px; } }
+          margin-top: -30px;
+          width: 100%; } }
       @media only screen and (max-width: 360px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px; } }
+          margin-top: -30px;
+          width: 100%; } }
       @media only screen and (max-width: 340px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px; } }
+          margin-top: -30px;
+          width: 100%; } }
       @media only screen and (max-width: 320px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px; } }
+          margin-top: -30px;
+          width: 100%; } }
       .company-overview-section .img-wrap .img-cap .text-content p {
         font-family: "Nunito", sans-serif;
         font-style: normal;
