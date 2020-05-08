@@ -4554,7 +4554,7 @@ h4 {
         display: none; } }
 
 .contact-form-section {
-  margin-top: -70px; }
+  margin-top: -90px; }
   @media only screen and (max-width: 768px) {
     .contact-form-section {
       padding: 30px !important;
@@ -5872,12 +5872,12 @@ header .container {
       margin-top: -122px; } }
   @media only screen and (max-width: 375px) {
     .company-overview-section {
-      padding: 0px !important;
+      padding: 10px !important;
       padding-top: 30px !important;
       margin-top: -122px; } }
   @media only screen and (max-width: 360px) {
     .company-overview-section {
-      padding: 0px 0px 0px 0px !important;
+      padding: 10px !important;
       padding-top: 30px !important;
       margin-top: -122px; } }
   .company-overview-section .text-wrap h2 {
@@ -6123,33 +6123,27 @@ header .container {
       @media only screen and (max-width: 411px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px;
-          width: 87.9vw; } }
+          margin-top: -30px; } }
       @media only screen and (max-width: 385px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px;
-          width: 89.5vw; } }
+          margin-top: -30px; } }
       @media only screen and (max-width: 375px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px;
-          width: 92.5vw; } }
+          margin-top: -30px; } }
       @media only screen and (max-width: 360px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px;
-          width: 93.2vw; } }
+          margin-top: -30px; } }
       @media only screen and (max-width: 340px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px;
-          width: 91.5vw; } }
+          margin-top: -30px; } }
       @media only screen and (max-width: 320px) {
         .company-overview-section .img-wrap .img-cap .text-content {
           position: relative;
-          margin-top: -30px;
-          width: 91.5vw; } }
+          margin-top: -30px; } }
       .company-overview-section .img-wrap .img-cap .text-content p {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -6201,7 +6195,7 @@ header .container {
           padding: 90px 40px 40px 40px; } }
       @media only screen and (max-width: 414px) {
         .company-overview-section .img-wrap .contact-card {
-          padding: 90px 40px 40px 40px; } }
+          padding: 10px; } }
       .company-overview-section .img-wrap .contact-card h2 {
         font-family: "DIN", sans-serif;
         font-style: normal;
@@ -6282,16 +6276,28 @@ header .container {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
             line-height: 30px;
-            margin-top: 20px; } }
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 60px; } }
         @media only screen and (max-width: 411px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
             line-height: 30px;
             margin-top: 20px; } }
+        @media only screen and (max-width: 375px) {
+          .company-overview-section .img-wrap .contact-card h2 {
+            font-size: 26px;
+            line-height: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 50px; } }
         @media only screen and (max-width: 360px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px; } }
+            line-height: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 60px; } }
       .company-overview-section .img-wrap .contact-card p {
         font-family: "Nunito", sans-serif;
         font-style: normal;
@@ -6300,10 +6306,26 @@ header .container {
         line-height: 33px;
         color: #ffffff;
         margin-bottom: 40px; }
+        @media only screen and (max-width: 414px) {
+          .company-overview-section .img-wrap .contact-card p {
+            padding-left: 20px;
+            padding-right: 20px; } }
+        @media only screen and (max-width: 375px) {
+          .company-overview-section .img-wrap .contact-card p {
+            padding-left: 20px;
+            padding-right: 20px; } }
       .company-overview-section .img-wrap .contact-card .contact {
         margin-top: 20px; }
         .company-overview-section .img-wrap .contact-card .contact img {
           max-width: 30px; }
+          @media only screen and (max-width: 414px) {
+            .company-overview-section .img-wrap .contact-card .contact img {
+              padding-left: 20px;
+              padding-right: 20px; } }
+          @media only screen and (max-width: 375px) {
+            .company-overview-section .img-wrap .contact-card .contact img {
+              padding-left: 20px;
+              padding-right: 20px; } }
         .company-overview-section .img-wrap .contact-card .contact p {
           font-family: "Nunito", sans-serif;
           font-style: normal;

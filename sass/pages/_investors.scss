@@ -49,13 +49,13 @@
     }
     
     @media only screen and (max-width: 375px) {
-        padding: 0px !important;
+        padding: 10px !important;
         padding-top: 30px !important;
 		margin-top: -122px;
     }
 
     @media only screen and (max-width: 360px) {
-        padding: 0px 0px 0px 0px !important;
+        padding: 10px !important;
         padding-top: 30px !important;
 		margin-top: -122px;
     }
@@ -405,37 +405,31 @@
 				@media only screen and (max-width: 411px) {
 					position: relative;
 					margin-top: -30px;
-			        width: 87.9vw;
 			    }
 
 			    @media only screen and (max-width: 385px) {
 					position: relative;
 					margin-top: -30px;
-			        width: 89.5vw;
 			    }
 
 			    @media only screen and (max-width: 375px) {
 					position: relative;
 					margin-top: -30px;
-			        width: 92.5vw;
 			    }
 
 			    @media only screen and (max-width: 360px) {
 					position: relative;
 					margin-top: -30px;
-			        width: 93.2vw;
 			    }
 
 			    @media only screen and (max-width: 340px) {
 					position: relative;
 					margin-top: -30px;
-			        width: 91.5vw;
 			    }
 
 			    @media only screen and (max-width: 320px) {
 					position: relative;
 					margin-top: -30px;
-			        width: 91.5vw;
 			    }
 
 			  //   @media only screen and (max-width: 321px) {
@@ -534,7 +528,7 @@
 		    }
 
 		    @media only screen and (max-width: 414px) {
-				padding: 90px 40px 40px 40px;
+				padding: 10px;
 		    }
 
 			// @media only screen and (max-width: 411px) {
@@ -641,19 +635,31 @@
 			    @media only screen and (max-width: 414px) {
 					font-size: 26px;
 					line-height: 30px;
-					margin-top: 20px;
+					padding-left: 20px; 
+					padding-right: 20px; 
+					padding-top: 60px;
 			    }
 
 				@media only screen and (max-width: 411px) {
 					font-size: 26px;
 					line-height: 30px;
 					margin-top: 20px;
+				}
+				
+				@media only screen and (max-width: 375px) {
+					font-size: 26px;
+					line-height: 30px;
+					padding-left: 20px; 
+					padding-right: 20px; 
+					padding-top: 50px;
 			    }
 
 			    @media only screen and (max-width: 360px) {
 					font-size: 26px;
 					line-height: 30px;
-					// margin-top: 20px;
+					padding-left: 20px; 
+					padding-right: 20px; 
+					padding-top: 60px;
 			    }
 			}
 
@@ -665,6 +671,16 @@
 				line-height: 33px;
 				color: $color-white;
 				margin-bottom: 40px;
+
+				@media only screen and (max-width: 414px) {
+					padding-left: 20px; 
+					padding-right: 20px; 
+			    }
+
+				@media only screen and (max-width: 375px) {
+					padding-left: 20px; 
+					padding-right: 20px; 
+			    }
 			}
 
 			.contact {
@@ -672,6 +688,16 @@
 
 				img {
 					max-width: 30px;
+
+					@media only screen and (max-width: 414px) {
+						padding-left: 20px; 
+						padding-right: 20px; 
+					}
+
+					@media only screen and (max-width: 375px) {
+						padding-left: 20px; 
+						padding-right: 20px; 
+					}
 				}
 
 				p {
