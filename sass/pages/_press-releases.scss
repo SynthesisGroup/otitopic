@@ -1,6 +1,10 @@
 .blog-section {
 	margin-top: -110px;
 
+	@media only screen and (max-width: 768px) {
+        margin-bottom: 45px !important;
+    }
+
 	@media only screen and (max-width: 767px) {
         padding: 10px !important;
         padding-top: 30px !important;
@@ -45,8 +49,6 @@
 
   	@media only screen and (max-width: 411px) {
         padding: 10px !important;
-        padding-top: 30px !important;
-		padding-bottom: 60px !important;
 		margin-top: -110px;
     }
 

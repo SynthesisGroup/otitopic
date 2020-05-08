@@ -102,6 +102,14 @@ h4 {
   .clear-margin-top-ipad {
     margin-top: -32px !important; } }
 
+@media only screen and (max-width: 768px) {
+  .section-mobile-gutter {
+    margin-top: -50px !important; } }
+
+@media only screen and (max-width: 375px) {
+  .section-mobile-gutter {
+    margin-top: -40px !important; } }
+
 .blog-section {
   padding: 60px; }
   @media only screen and (max-width: 61.9em) {
@@ -6525,6 +6533,9 @@ header .container {
 
 .blog-section {
   margin-top: -110px; }
+  @media only screen and (max-width: 768px) {
+    .blog-section {
+      margin-bottom: 45px !important; } }
   @media only screen and (max-width: 767px) {
     .blog-section {
       padding: 10px !important;
@@ -6564,8 +6575,6 @@ header .container {
   @media only screen and (max-width: 411px) {
     .blog-section {
       padding: 10px !important;
-      padding-top: 30px !important;
-      padding-bottom: 60px !important;
       margin-top: -110px; } }
   @media only screen and (max-width: 767px) {
     .blog-section .grid {
@@ -7076,7 +7085,8 @@ header .container {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
       grid-template-columns: repeat(1, 1fr);
       margin-bottom: 30px;
-      margin-top: -55px; } }
+      margin-top: -55px;
+      grid-gap: 3px; } }
   @media only screen and (max-width: 767px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
       grid-template-columns: repeat(1, 1fr);
@@ -7104,7 +7114,8 @@ header .container {
   @media only screen and (max-width: 411px) {
     .otitopic-research-tech-trials-section .col-md-rev-trials {
       grid-template-columns: repeat(1, 1fr);
-      margin-top: -55px; } }
+      margin-top: -55px;
+      grid-gap: 12px !important; } }
   .otitopic-research-tech-trials-section .col-md-rev-trials .text-wrap-trials {
     background: #ffffff; }
     @media only screen and (max-width: 768px) {
@@ -7157,7 +7168,8 @@ header .container {
     grid-auto-rows: minmax(100px, auto); }
     @media only screen and (max-width: 768px) {
       .otitopic-research-tech-trials-section .col-md-rev-trials .img-wrap {
-        height: 400px; } }
+        height: 400px;
+        margin-bottom: 12px; } }
     @media only screen and (max-width: 767px) {
       .otitopic-research-tech-trials-section .col-md-rev-trials .img-wrap {
         height: auto; } }
