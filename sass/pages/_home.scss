@@ -1303,12 +1303,12 @@ header {
         overflow: hidden;
     }
 
-    @media only screen and (width: 400px) and (height: 700px) {
-        position: relative;
-        height: 80vh;
-        width: 100%;
-        overflow: hidden;
-    }
+    // @media only screen and (width: 400px) and (height: 700px) {
+    //     position: relative;
+    //     height: 80vh;
+    //     width: 100%;
+    //     overflow: hidden;
+    // }
 
     @media only screen and (max-width: 393px) {
         position: relative;
