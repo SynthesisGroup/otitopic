@@ -815,12 +815,24 @@
         padding: 10px !important;
     }
 
+    @media only screen and (max-width: 414px) {
+        padding: 60px 10px 10px 10px !important;
+    }
+
     @media only screen and (max-width: 411px) {
-        padding: 10px !important;
+        padding: 60px 10px 10px 10px !important;
+    }
+
+    @media only screen and (max-width: 400px) {
+        padding: 60px 10px 10px 10px !important;
     }
 
     @media only screen and (max-width: 375px) {
-        margin-top: -18px !important;
+        padding: 60px 10px 10px 10px !important;
+    }
+
+    @media only screen and (max-width: 360px) {
+        padding: 60px 10px 10px 10px !important;
     }
 }
 
