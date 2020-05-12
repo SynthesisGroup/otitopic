@@ -34,3 +34,9 @@
 .custom-myocardial-therapies {
 	background: #EBE9E8;
 }
+
+.section-title-s5 {
+	@media only screen and (max-width: 411px) {
+		margin-top: 45px !important;
+	}
+}
