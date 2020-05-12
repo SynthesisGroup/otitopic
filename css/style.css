@@ -5273,12 +5273,21 @@ h4 {
   @media only screen and (max-width: 485px) {
     .featured-project-section {
       padding: 10px !important; } }
+  @media only screen and (max-width: 414px) {
+    .featured-project-section {
+      padding: 60px 10px 10px 10px !important; } }
   @media only screen and (max-width: 411px) {
     .featured-project-section {
-      padding: 10px !important; } }
+      padding: 60px 10px 10px 10px !important; } }
+  @media only screen and (max-width: 400px) {
+    .featured-project-section {
+      padding: 60px 10px 10px 10px !important; } }
   @media only screen and (max-width: 375px) {
     .featured-project-section {
-      margin-top: -18px !important; } }
+      padding: 60px 10px 10px 10px !important; } }
+  @media only screen and (max-width: 360px) {
+    .featured-project-section {
+      padding: 60px 10px 10px 10px !important; } }
 
 .featured-project-section .project-grids .grid {
   width: 100%;
