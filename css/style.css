@@ -4713,7 +4713,7 @@ h4 {
 @media only screen and (max-width: 360px) {
   .home-page-banner {
     padding: 10px !important;
-    padding-top: 30px !important;
+    padding-top: 1px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 320px) {
@@ -4776,12 +4776,12 @@ h4 {
     .home-page-banner h1 {
       font-size: 40px;
       line-height: 40px;
-      margin-top: -14px; } }
+      margin-top: -30px; } }
   @media only screen and (max-width: 320px) {
     .home-page-banner h1 {
-      font-size: 40px;
-      line-height: 40px;
-      margin-top: -14px; } }
+      font-size: 32px;
+      line-height: 30px;
+      margin-top: -40px; } }
 
 .home-page-banner p {
   font-family: "Nunito", sans-serif;
@@ -5691,7 +5691,7 @@ header {
   @media only screen and (max-width: 360px) {
     header {
       position: relative;
-      height: 90vh !important;
+      height: 95vh !important;
       width: 100%;
       overflow: hidden; } }
   @media only screen and (max-width: 320px) {
