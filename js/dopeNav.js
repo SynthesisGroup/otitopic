@@ -54,6 +54,7 @@
             closeIcon.on('click', function () {
                 dopeMenu.removeClass('menu-on');
                 navToggler.removeClass('active');
+                document.getElementById("no-scroll").style.overflow = 'scroll';
                 $('.overlay').removeClass("overlay-show");
             });
 
