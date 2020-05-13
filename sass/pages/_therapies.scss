@@ -120,7 +120,9 @@
 
 		.text-wrap {
 			background: #081D31;
-			padding: 60px;
+			padding: 14px;
+			padding-left: 40px;
+			padding-right: 40px;
 
 			@media screen 
 				and (min-device-width: 300px) 

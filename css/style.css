@@ -7618,7 +7618,9 @@ header .container {
         grid-template-columns: repeat(1, 1fr); } }
     .therapies-section .col-md-rev .text-wrap {
       background: #081D31;
-      padding: 60px; }
+      padding: 14px;
+      padding-left: 40px;
+      padding-right: 40px; }
       @media screen and (min-device-width: 300px) and (max-device-width: 700px) and (-webkit-min-device-pixel-ratio: 1) {
         .therapies-section .col-md-rev .text-wrap {
           padding: 35px !important; } }
