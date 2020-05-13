@@ -117,6 +117,10 @@ h4 {
   .section-title-s5 {
     margin-top: 45px !important; } }
 
+@media only screen and (max-width: 411px) {
+  .img-investor {
+    height: auto !important; } }
+
 .blog-section {
   padding: 60px; }
   @media only screen and (max-width: 61.9em) {
@@ -5861,9 +5865,6 @@ header .container {
         padding: 10px !important; } }
     .company-overview-section .img-wrap .img-cap img {
       width: 100%; }
-    @media only screen and (max-width: 768px) {
-      .company-overview-section .img-wrap .img-cap {
-        height: 320px; } }
     .company-overview-section .img-wrap .img-cap .text-content {
       position: absolute;
       background: #FFA000;
@@ -6107,7 +6108,7 @@ header .container {
           height: 89%; } }
       @media only screen and (max-width: 768px) {
         .company-overview-section .img-wrap .contact-card {
-          padding: 100px 30px 30px 60px; } }
+          padding: 60px 30px 30px 60px; } }
       @media only screen and (max-width: 767px) {
         .company-overview-section .img-wrap .contact-card {
           padding: 150px 40px 40px 40px; } }
@@ -6133,8 +6134,7 @@ header .container {
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
-            line-height: 30px;
-            margin-top: 45px; } }
+            line-height: 30px; } }
         @media only screen and (max-width: 767px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
@@ -6204,8 +6204,7 @@ header .container {
             font-size: 26px;
             line-height: 30px;
             padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 60px; } }
+            padding-right: 20px; } }
         @media only screen and (max-width: 411px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
@@ -6216,15 +6215,13 @@ header .container {
             font-size: 26px;
             line-height: 30px;
             padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 50px; } }
+            padding-right: 20px; } }
         @media only screen and (max-width: 360px) {
           .company-overview-section .img-wrap .contact-card h2 {
             font-size: 26px;
             line-height: 30px;
             padding-left: 20px;
-            padding-right: 20px;
-            padding-top: 60px; } }
+            padding-right: 20px; } }
       .company-overview-section .img-wrap .contact-card p {
         font-family: "Nunito", sans-serif;
         font-style: normal;

@@ -160,9 +160,9 @@
 				width: 100%;
 			}
 			
-			@media only screen and (max-width: 768px) {
-				height: 320px;
-	    	}
+			// @media only screen and (max-width: 768px) {
+			// 	height: 320px;
+	    	// }
 
 			.text-content {
 				position: absolute;
@@ -457,7 +457,7 @@
 		    }
 
 			@media only screen and (max-width: 768px) {
-	        	padding: 100px 30px 30px 60px;
+	        	padding: 60px 30px 30px 60px;
 		    }
 
 		    @media only screen and (max-width: 767px) {
@@ -491,7 +491,6 @@
 				@media only screen and (min-width: 768px) and (max-width: 1024px) {
 		        	font-size: 26px;
 					line-height: 30px;
-			    	margin-top: 45px;
 			    }
 
 				@media only screen and (max-width: 767px) {
@@ -576,7 +575,6 @@
 					line-height: 30px;
 					padding-left: 20px; 
 					padding-right: 20px; 
-					padding-top: 60px;
 			    }
 
 				@media only screen and (max-width: 411px) {
@@ -590,7 +588,6 @@
 					line-height: 30px;
 					padding-left: 20px; 
 					padding-right: 20px; 
-					padding-top: 50px;
 			    }
 
 			    @media only screen and (max-width: 360px) {
@@ -598,7 +595,6 @@
 					line-height: 30px;
 					padding-left: 20px; 
 					padding-right: 20px; 
-					padding-top: 60px;
 			    }
 			}
 

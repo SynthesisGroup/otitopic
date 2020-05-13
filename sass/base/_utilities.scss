@@ -40,3 +40,9 @@
 		margin-top: 45px !important;
 	}
 }
+
+.img-investor {
+	@media only screen and (max-width: 411px) {
+		height: auto !important;
+	}
+}
