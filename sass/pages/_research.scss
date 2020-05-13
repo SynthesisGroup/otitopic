@@ -190,8 +190,19 @@
 			    }
 
 				@media only screen and (max-width: 411px) {
+					font-size: 35px;
 					width: 100% !important;
 					margin-top: -38px;
+				}
+
+				@media only screen and (max-width: 360px) {
+					font-size: 33px;
+					line-height: 35px;
+			    }
+				
+				@media only screen and (max-width: 320px) {
+					font-size: 29px;
+					line-height: 35px;
 			    }
 			}
 

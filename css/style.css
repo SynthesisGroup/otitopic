@@ -1121,6 +1121,12 @@ h4 {
 
 .section-title-s5 h2 {
   margin-bottom: 0.4em; }
+  @media only screen and (max-width: 411px) {
+    .section-title-s5 h2 {
+      margin-top: -40px; } }
+  @media only screen and (max-width: 375px) {
+    .section-title-s5 h2 {
+      margin-top: -40px; } }
 
 .pagination-wrapper {
   text-align: center;
@@ -2362,10 +2368,10 @@ h4 {
       padding: 20px; } }
   @media only screen and (max-width: 40em) {
     .footer-section {
-      padding: 20px; } }
+      padding: 10px; } }
   @media only screen and (max-width: 25.8em) {
     .footer-section {
-      padding: 20px; } }
+      padding: 10px; } }
   .footer-section .list-style {
     position: relative;
     top: 27.51%;
@@ -6749,8 +6755,17 @@ header .container {
           margin-top: -38px; } }
       @media only screen and (max-width: 411px) {
         .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
+          font-size: 35px;
           width: 100% !important;
           margin-top: -38px; } }
+      @media only screen and (max-width: 360px) {
+        .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
+          font-size: 33px;
+          line-height: 35px; } }
+      @media only screen and (max-width: 320px) {
+        .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
+          font-size: 29px;
+          line-height: 35px; } }
     .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial p {
       font-family: "Nunito", sans-serif;
       font-style: normal;

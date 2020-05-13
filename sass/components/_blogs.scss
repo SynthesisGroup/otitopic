@@ -1283,6 +1283,14 @@
 
 .section-title-s5 h2 {
   margin-bottom: 0.4em;
+
+  @media only screen and (max-width: 411px) {
+    margin-top: -40px;
+  }
+
+  @media only screen and (max-width: 375px) {
+    margin-top: -40px;
+  }
 }
 
 
