@@ -1514,7 +1514,7 @@ h4 {
       text-align: left; }
       @media only screen and (max-width: 768px) {
         .otitopic-header-info .banner-tag-head h2 {
-          font-family: "Nunito", sans-serif;
+          font-family: "DIN", sans-serif;
           font-size: 30px;
           line-height: 44px; }
           .otitopic-header-info .banner-tag-head h2 .about-tag {
