@@ -1315,7 +1315,7 @@ h4 {
   transition: all 0.3s ease; }
 
 .cta-section {
-  background: url("../img/cta.jpg");
+  background: url("../img/cta3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right; }
@@ -4648,6 +4648,30 @@ h4 {
 .img-mask {
   width: 100%; }
 
+@media only screen and (max-width: 2000px) {
+  .home-page-banner {
+    padding: 10px 30px 10px 30px !important;
+    padding-top: 50px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 1900px) {
+  .home-page-banner {
+    padding: 10px 30px 10px 30px !important;
+    padding-top: 50px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 1800px) {
+  .home-page-banner {
+    padding: 10px 30px 10px 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
+@media only screen and (max-width: 1700px) {
+  .home-page-banner {
+    padding: 10px 30px 10px 30px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important; } }
+
 @media only screen and (width: 1600px) {
   .home-page-banner {
     padding: 10px 30px 10px 30px !important;
@@ -5750,7 +5774,6 @@ header .container {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
   opacity: 0.5;
   z-index: 1; }
 
