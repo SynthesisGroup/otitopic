@@ -587,7 +587,7 @@
 		@media only screen and (max-width: 768px) {
 	        grid-template-columns: repeat(1, 1fr);
 			margin-bottom: 30px;
-			margin-top: -55px;
+			margin-top: 5px;
 			grid-gap: 3px;
 	    }
 
@@ -619,11 +619,15 @@
 	  	@media only screen and (max-width: 485px) {
 			grid-template-columns: repeat(1, 1fr);
 			margin-top: -55px;
+		}
+		
+		@media only screen and (max-width: 414px) {
+			margin-top: 5px;
 	    }
 
 		@media only screen and (max-width: 411px) {
 			grid-template-columns: repeat(1, 1fr);
-			margin-top: -55px;
+			margin-top: 5px;
 			grid-gap: 12px !important;
 	    }
 
