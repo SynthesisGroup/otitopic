@@ -32,6 +32,18 @@
         padding-bottom: 60px !important;
     }
 
+    @media only screen and (max-width: 1500px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 10px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 1400px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 50px !important;
+        padding-bottom: 60px !important;
+    }
+
     @media only screen and (width: 1024px) {
         padding: 10px 30px 10px 30px !important;
         padding-top: 30px !important;
