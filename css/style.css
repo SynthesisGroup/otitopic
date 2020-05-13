@@ -3671,8 +3671,7 @@ h4 {
     grid-gap: 2rem; }
     @media only screen and (max-width: 64em) {
       .grid-row-footer .grid-footer-2 {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        grid-gap: 0; } }
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } }
 
 .grid-container-flex-two {
   display: grid;
