@@ -4681,7 +4681,7 @@ h4 {
 @media only screen and (width: 1024px) {
   .home-page-banner {
     padding: 10px 30px 10px 30px !important;
-    padding-top: 60px !important;
+    padding-top: 30px !important;
     padding-bottom: 60px !important; } }
 
 @media only screen and (max-width: 768px) {
