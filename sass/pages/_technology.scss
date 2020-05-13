@@ -60,6 +60,15 @@
 			@media only screen and (max-width: 768px) {
 				margin-top: 30px;
 			}
+
+			@media only screen and (max-width: 375px) {
+				font-size: 35px;
+			}
+
+			@media only screen and (max-width: 320px) {
+				font-size: 29px;
+				line-height: 40px;
+			}
 		}
 
 		p {

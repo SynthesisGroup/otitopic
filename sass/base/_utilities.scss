@@ -46,3 +46,13 @@
 		height: auto !important;
 	}
 }
+
+.img-auto {
+	@media only screen and (max-width: 414px) {
+		height: auto !important;
+	}
+
+	@media only screen and (max-width: 411px) {
+		height: auto !important;
+	}
+}

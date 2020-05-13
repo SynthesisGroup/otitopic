@@ -121,6 +121,14 @@ h4 {
   .img-investor {
     height: auto !important; } }
 
+@media only screen and (max-width: 414px) {
+  .img-auto {
+    height: auto !important; } }
+
+@media only screen and (max-width: 411px) {
+  .img-auto {
+    height: auto !important; } }
+
 .blog-section {
   padding: 60px; }
   @media only screen and (max-width: 61.9em) {
@@ -1375,7 +1383,7 @@ h4 {
   @media only screen and (max-width: 768px) {
     .otitopic-header-info {
       padding-left: 30px !important;
-      padding-right: 120px !important; } }
+      padding-right: 110px !important; } }
   @media only screen and (max-width: 767px) {
     .otitopic-header-info {
       padding: 20px !important;
@@ -1478,7 +1486,7 @@ h4 {
     @media only screen and (max-width: 767px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
-        padding: 40px 40px 40px 40px;
+        padding: 40px 4px 40px 40px;
         width: 78%;
         height: auto;
         margin-top: -155px; } }
@@ -1493,21 +1501,21 @@ h4 {
       .otitopic-header-info .banner-tag-head {
         position: relative;
         padding: 40px 40px 40px;
-        width: 78%;
+        width: 77%;
         height: auto;
         margin-top: -155px; } }
     @media only screen and (max-width: 375px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
         padding: 40px 40px 40px;
-        width: 78%;
+        width: 75%;
         height: auto;
         margin-top: -155px; } }
     @media only screen and (max-width: 320px) {
       .otitopic-header-info .banner-tag-head {
         position: relative;
         padding: 40px 40px 40px;
-        width: 78%;
+        width: 70%;
         height: auto;
         margin-top: -155px; } }
     .otitopic-header-info .banner-tag-head h2 {
@@ -3663,7 +3671,8 @@ h4 {
     grid-gap: 2rem; }
     @media only screen and (max-width: 64em) {
       .grid-row-footer .grid-footer-2 {
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); } }
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 0; } }
 
 .grid-container-flex-two {
   display: grid;
@@ -6761,11 +6770,11 @@ header .container {
       @media only screen and (max-width: 360px) {
         .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
           font-size: 33px;
-          line-height: 35px; } }
+          line-height: 40px; } }
       @media only screen and (max-width: 320px) {
         .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial h2 {
           font-size: 29px;
-          line-height: 35px; } }
+          line-height: 40px; } }
     .myocardial-infarction-section .col-md-myocardial .text-wrap-myocardial p {
       font-family: "Nunito", sans-serif;
       font-style: normal;
@@ -7266,6 +7275,13 @@ header .container {
     @media only screen and (max-width: 768px) {
       .recovering-hearts-section .text-wrap h2 {
         margin-top: 30px; } }
+    @media only screen and (max-width: 375px) {
+      .recovering-hearts-section .text-wrap h2 {
+        font-size: 35px; } }
+    @media only screen and (max-width: 320px) {
+      .recovering-hearts-section .text-wrap h2 {
+        font-size: 29px;
+        line-height: 40px; } }
   .recovering-hearts-section .text-wrap p {
     font-family: "Nunito", sans-serif;
     font-style: normal;
