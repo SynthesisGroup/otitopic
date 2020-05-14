@@ -1354,8 +1354,21 @@ h4 {
       padding: 10px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 414px) {
+    .cta-section {
+      background: url("../img/cta3-mobile.png");
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
   @media only screen and (max-width: 411px) {
     .cta-section {
+      background: url("../img/cta3-mobile.png");
+      padding: 10px !important;
+      padding-top: 60px !important;
+      padding-bottom: 60px !important; } }
+  @media only screen and (max-width: 360px) {
+    .cta-section {
+      background: url("../img/cta3-mobile.png");
       padding: 10px !important;
       padding-top: 60px !important;
       padding-bottom: 60px !important; } }

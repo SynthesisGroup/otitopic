@@ -46,7 +46,22 @@
         padding-bottom: 60px !important;
     }
 
+    @media only screen and (max-width: 414px) {
+        background: url('../img/cta3-mobile.png');
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
     @media only screen and (max-width: 411px) {
+        background: url('../img/cta3-mobile.png');
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 360px) {
+        background: url('../img/cta3-mobile.png');
         padding: 10px !important;
         padding-top: 60px !important;
         padding-bottom: 60px !important;
