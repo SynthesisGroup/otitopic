@@ -1,0 +1,805 @@
+.custom-height-myocardial {
+	@media only screen and (max-width: 375px) {
+        padding: 10px !important;
+		margin-top: -90px !important;
+    }
+}
+
+.myocardial-infarction-section {
+	margin-top: -70px;
+	
+	@media only screen and (max-width: 768px) {
+		padding: 30px !important;
+		margin-bottom: 30px;
+    }
+
+	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -90px;
+	}
+	
+	@media only screen and (max-width: 414px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+		margin-top: -65px;
+    }
+    
+    @media only screen and (max-width: 390px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+    @media only screen and (max-width: 375px) {
+        padding: 10px !important;
+		margin-top: -90px !important;
+    }
+
+    @media only screen and (max-width: 370px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+    @media only screen and (max-width: 360px) {
+        padding: 10px !important;
+		margin-top: -90px !important;
+    }
+
+    @media only screen and (max-width: 330px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+    @media only screen and (max-width: 320px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+	.col-md-myocardial {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 4rem;
+		grid-auto-rows: minmax(100px, auto);
+		
+		@media only screen and (width: 1024px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 767px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        grid-template-columns: repeat(1, 1fr);
+		}
+
+		.img-wrap {
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.text-wrap-myocardial {
+			h2 {
+				font-family: $font-secondary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: #081D31;
+				width: 538px !important;
+
+				@media only screen and (max-width: 768px) {
+					width: 100% !important;
+					margin-top: -38px;
+			    }
+
+				@media only screen and (max-width: 767px) {
+					width: 100% !important;
+					margin-top: -38px;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+					width: 100% !important;
+					margin-top: -38px;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+					   width: 100% !important;
+					   margin-top: -38px;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+					width: 100% !important;
+					margin-top: -38px;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+					width: 100% !important;
+					margin-top: -38px;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+					width: 100% !important;
+					margin-top: -38px;
+			    }
+
+				@media only screen and (max-width: 411px) {
+					font-size: 35px;
+					width: 100% !important;
+					margin-top: -38px;
+				}
+
+				@media only screen and (max-width: 360px) {
+					font-size: 33px;
+					line-height: 40px;
+			    }
+				
+				@media only screen and (max-width: 320px) {
+					font-size: 29px;
+					line-height: 40px;
+			    }
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: #1B3349;
+			}
+		}
+	}
+
+	.info-section {
+	    overflow: hidden;
+		margin-top: 25px;
+
+		@media only screen and (max-width: 414px) {
+			margin-top: 45px;
+		} 
+
+		@media only screen and (max-width: 375px) {
+			margin-top: 45px;
+		} 
+		
+		@media only screen and (max-width: 360px) {
+			margin-top: 45px;
+		} 
+
+	    .info-left ul li {
+	        display: flex;
+
+	        .list-number {
+	            margin-right: 30px;
+
+	            img {
+	                width: 40px !important; 
+
+	                @media only screen and (max-width: $bp-tab-md) {
+	                    width: 200px;
+	                } 
+
+	                @media only screen and (max-width: $bp-tab-pt) {
+	                    width: 130px;
+	                } 
+
+	                @media only screen and (max-width: $bp-mobile-lg) {
+	                    width: 200px;
+	                } 
+	            }
+	        }
+
+	        .details {
+	            h4 {
+	                font-family: $font-secondary;
+	                font-style: normal;
+	                font-weight: bold;
+	                font-size: 18px;
+	                line-height: 155%;
+	                color: #0F63A7;
+	            }
+
+	            p {
+	                font-family: $font-primary;
+	                font-style: normal;
+	                font-weight: normal;
+	                font-size: 16px;
+	                line-height: 155%;
+					color: #1B3349;
+					width: 90%;
+	            }
+	        }
+	    }
+	}
+
+}
+
+
+.otitopic-research-tech-trials-section {
+
+	.col-md-rev-otitopic-research {
+		position: relative;
+		background: url("../img/otitopic-research.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+
+		@media only screen and (max-width: 375px) {
+			background: url("../img/research-thumbnail-mobile.jpg") !important;
+			background-size: contain;
+		}
+
+		.text-wrap {
+			padding: 56px;
+
+			@media only screen and (max-width: 414px) {
+				padding: 40px 35px 30px 35px;
+		        height: 100%;
+			}
+			
+			@media only screen and (max-width: 411px) {
+				padding: 35px;
+		        height: 100%;
+		    }
+
+			h2 {
+				font-family: $font-secondary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: $color-white;
+				border-bottom: 2px solid $color-orange;
+				width: 374px;
+				text-transform: uppercase;
+				padding: 15px 0px;
+
+				@media only screen and (max-width: 414px) {
+					width: 100%;
+					padding: 60px 0px 0px 0px;
+				}
+				
+				@media only screen and (max-width: 411px) {
+			        width: 100%;
+			    }
+			}
+
+			.col-grid-text {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-auto-rows: minmax(100px, auto);
+				grid-gap: 3rem;
+				margin-top: 4.5rem;
+
+				@media only screen and (max-width: 767px) {
+			        grid-template-columns: repeat(1, 1fr);
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        grid-template-columns: repeat(1, 1fr);
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	grid-template-columns: repeat(1, 1fr);
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	grid-template-columns: repeat(1, 1fr);
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        grid-template-columns: repeat(1, 1fr);
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        grid-template-columns: repeat(1, 1fr);
+			    }
+
+				@media only screen and (max-width: 411px) {
+			        grid-template-columns: repeat(1, 1fr);
+			    }
+
+				p {
+					font-family: $font-primary;
+					font-style: normal;
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 155%;
+					color: $color-white;
+					z-index: 99;
+				}
+			}
+
+		}
+	}
+
+	.col-md-rev {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+
+		@media only screen and (max-width: 991px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 767px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		.text-wrap {
+			background: #0F63A7;
+			padding: 50px;
+			height: 280px;
+
+			@media only screen and (max-width: 767px) {
+		        height: 100%;
+		        padding: 35px;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        height: 100%;
+		        padding: 35px;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	height: 100%;
+		       	padding: 35px;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	height: 100%;
+		       	padding: 35px;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        height: 100%;
+		        padding: 35px;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        height: 100%;
+		        padding: 35px;
+		    }
+
+			@media only screen and (max-width: 414px) {
+		        height: 100%;
+		        padding: 60px 35px 0px 35px;
+			}
+			
+			@media only screen and (max-width: 411px) {
+		        height: 100%;
+		    }
+
+			h2 {
+				font-family: $font-secondary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: $color-white
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: $color-white;
+			}
+		}
+
+		.img-wrap {
+			width: 100%;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+
+			@media only screen and (max-width: 768px) {
+		        height: 400px;
+		    }
+
+			@media only screen and (max-width: 767px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        height: auto;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		       height: auto;
+		    }
+
+			img {
+				height: 100%;
+
+				@media only screen and (max-width: 767px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        height: auto;
+			    }
+
+				@media only screen and (max-width: 411px) {
+			       height: auto;
+			    }
+			}
+		}
+	}
+
+	.col-md-rev-trials {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 1.5rem;
+
+		.card-wrap {
+			background: #E6ECF0;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+			border-left: 2px solid #0F63A7;
+			height: 90%;
+			width: 100%;
+
+			@media only screen and (max-width: 411px) {
+		        height: 100%;
+		        width: 100%;
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 155%;
+				color: #1B3349;
+				justify-items: center;
+				align-items: center;
+				padding: 20px 40px 20px;
+			}
+		}
+
+		@media only screen and (max-width: 991px) {
+	        grid-template-columns: repeat(1, 1fr);
+			margin-bottom: 30px;
+			margin-top: -55px;
+	    }
+
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+			margin-bottom: 30px;
+			margin-top: 5px;
+			grid-gap: 3px;
+	    }
+
+		@media only screen and (max-width: 767px) {
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+			   grid-template-columns: repeat(1, 1fr);
+			   margin-top: -55px;
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+			   grid-template-columns: repeat(1, 1fr);
+			   margin-top: -55px;
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: -55px;
+		}
+		
+		@media only screen and (max-width: 414px) {
+			margin-top: 5px;
+	    }
+
+		@media only screen and (max-width: 411px) {
+			grid-template-columns: repeat(1, 1fr);
+			margin-top: 5px;
+			grid-gap: 12px !important;
+	    }
+
+		.text-wrap-trials {
+			background: $color-white;
+
+			@media only screen and (max-width: 768px) {
+		        height: auto;
+		    }
+
+			h2 {
+				font-family: $font-secondary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 36px;
+				line-height: 45px;
+				color: #081D31
+			}
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 155%;
+				color: #1B3349;
+			}
+
+			.col-md-clinical-trials-grid {
+				display: grid;
+				grid-template-columns: repeat(1, 1fr);
+				grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+				justify-items: center;
+				grid-gap: 1rem;
+
+				.card-wrap {
+					background: #E6ECF0;
+					display: grid;
+					grid-auto-rows: minmax(100px, auto);
+					border-left: 2px solid #0F63A7;
+					height: 80%;
+					width: 100%;
+
+					@media only screen and (max-width: 411px) {
+				        height: 80%;
+				        width: 100%;
+				    }
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 13px;
+						line-height: 155%;
+						color: #1B3349;
+						justify-items: center;
+						align-items: center;
+						padding: 20px 40px 20px;
+					}
+				}
+			}
+		}
+
+		.img-wrap {
+			width: 100%;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+			
+			@media only screen and (max-width: 768px) {
+				height: 400px;
+				margin-bottom: 12px;
+		    }
+
+			@media only screen and (max-width: 767px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	height: auto;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        height: auto;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        height: auto;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		       height: auto;
+		    }
+
+			img {
+				height: 446px;
+
+				@media only screen and (max-width: 767px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 661px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 600px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 575px) {
+			       	height: auto;
+			    }
+
+			  	@media only screen and (max-width: 526px) {
+			        height: auto;
+			    }
+
+			  	@media only screen and (max-width: 485px) {
+			        height: auto;
+			    }
+
+				@media only screen and (max-width: 411px) {
+			       height: auto;
+			    }
+			}
+		}
+	}
+
+	.col-md-bottom-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: minmax(100px, auto);
+		grid-gap: 2rem;
+		margin-top: 3rem;
+		justify-items: center;
+
+		.card-wrap {
+			background: $color-white;
+			display: grid;
+			grid-auto-rows: minmax(100px, auto);
+			border-left: 2px solid $color-orange;
+			height: 100% !important;
+
+			p {
+				font-family: $font-primary;
+				font-style: normal;
+				font-weight: 600;
+				font-size: 13px;
+				line-height: 155%;
+				color: #1B3349;
+				padding: 30px;
+				justify-items: center;
+				align-items: center;
+			}
+		}
+	}
+}

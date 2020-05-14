@@ -1,0 +1,88 @@
+.blog-section {
+	margin-top: -110px;
+
+	@media only screen and (max-width: 768px) {
+        margin-bottom: 45px !important;
+    }
+
+	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -110px;
+    }
+
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -110px;
+    }
+
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -110px;
+    }
+
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -110px;
+    }
+
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -110px;
+    }
+
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+		padding-bottom: 60px !important;
+		margin-top: -110px;
+    }
+
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+		margin-top: -110px;
+    }
+
+    .grid {
+    	@media only screen and (max-width: 767px) {
+	         margin-top: 30px;
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	         margin-top: 30px;
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	         margin-top: 30px;
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	         margin-top: 30px;
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	         margin-top: 30px;
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	         margin-top: 30px;
+	    }
+
+	  	@media only screen and (max-width: 411px) {
+	         margin-top: 30px;
+	    }
+
+    	@media only screen and (max-width: 411px) {
+	       margin-top: 30px;
+	    }
+    }
+}

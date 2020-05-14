@@ -1,0 +1,45 @@
+	
+// Abstracts 
+
+@import "abstracts/variables";
+
+// Base
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// Components
+
+@import "components/blogs";
+@import "components/buttons";
+@import "components/cta";
+@import "components/hero";
+@import "components/testimonials";
+
+// Layouts
+
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/grid";
+
+// Pages
+
+@import "pages/about";
+@import "pages/careers";
+@import "pages/contact";
+@import "pages/home";
+@import "pages/investors";
+@import "pages/press-releases";
+@import "pages/privacy-policy";
+@import "pages/research";
+@import "pages/technology";
+@import "pages/terms-conditions";
+@import "pages/therapies";
+
+@font-face {
+    font-family: 'DIN';
+    src: url("../fonts/FF_DIN_Pro_Regular_Italic.otf");
+    font-weight: 400;
+    font-style: normal; 
+}

@@ -1,0 +1,1446 @@
+// OTITOPIC HOME PAGE 
+
+.home-page-banner {
+    
+    @media only screen and (max-width: 2000px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 50px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 1900px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 50px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 1800px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 1700px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (width: 1600px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 90px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 1500px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 30px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 1400px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 5px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 50px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (width: 1024px) {
+        padding: 10px 30px 10px 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 768px) {
+        padding: 10px 30px 10px 30px;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 40px !important;
+        padding-bottom: 60px !important;
+    }
+
+    
+    @media only screen and (max-width: 414px) {
+        padding: 0px 10px 0px 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 50px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 400px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 393px) {
+        padding: 10px !important;
+        padding-top: 70px !important;
+        padding-bottom: 60px !important;
+    }
+    
+    @media only screen and (max-width: 375px) {
+        padding: 10px !important;
+        padding-top: 30px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 360px) {
+        padding: 10px !important;
+        padding-top: 1px !important;
+        padding-bottom: 60px !important;
+    }
+
+    @media only screen and (max-width: 320px) {
+        padding: 10px !important;
+        padding-top: 20px !important;
+        padding-bottom: 60px !important;
+    }
+
+	h1 {
+	    font-family: $font-secondary;
+	    font-style: normal;
+	    font-weight: 600;
+	    font-size: 45px;
+	    line-height: 50px;
+        width: 80%;
+	    color: $color-white;
+        
+        @media only screen and (max-width: 768px) {
+            font-size: 58px;
+            line-height: 56px;
+            margin-top: -47px;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            font-size: 50px;
+            line-height: 50px;
+            margin-top: -60px;
+            width: 100%;
+        }
+        
+        @media only screen and (max-width: 550px) {
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: -60px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: -60px;
+        }
+
+        @media only screen and (max-width: 460px) {
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: -60px;
+        }
+
+        @media only screen and (max-width: 414px) {
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: -60px;
+        }
+
+        @media only screen and (max-width: 411px) {
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: -68px;
+        }
+
+        @media only screen and (max-width: 375px) {
+            font-size: 31px;
+            line-height: 37px;
+            margin-top: -43px;
+        }
+
+        @media only screen and (max-width: 360px) {
+            font-size: 40px;
+            line-height: 40px;
+            margin-top: -30px;
+        }
+
+        @media only screen and (max-width: 320px) {
+            font-size: 32px;
+            line-height: 30px;
+            margin-top: -40px;
+        }
+	}
+
+	p {
+	    font-family: $font-primary;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 18px;
+	    line-height: 145%;
+	    color: $color-white;
+        width: 70%;
+        
+        @media only screen and (max-width: 768px) {
+            font-size: 18px;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 767px) {
+            font-size: 18px;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 414px) {
+            font-size: 18px;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: $bp-mobile-sm) {
+            font-size: 18px;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 411px) {
+            font-size: 16px;
+            height: 100%;
+        }
+
+        @media only screen and (max-width: 360px) {
+            font-size: 16px;
+            height: 100%;
+        }
+
+        @media only screen and (max-width: 320px) {
+            font-size: 14px;
+            line-height: 19px;
+            height: 100%;
+        }
+	}
+
+    .spcl-btn
+    {
+        width: 131px;
+        border-radius: 0px 0px 6px 6px !important;
+        padding: 5px 30px;
+        text-align: center;
+
+        @media only screen and (max-width: 991px) {
+            width: 120px;
+            border-radius: 0px 0px 6px 6px !important;
+            padding: 5px 30px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            width: 120px;
+            border-radius: 0px 0px 6px 6px !important;
+            padding: 5px 30px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            width: 120px;
+            border-radius: 0px 0px 6px 6px !important;
+            padding: 5px 30px;
+        }
+
+        @media only screen and (max-width: 485px) {
+            width: 120px;
+            border-radius: 0px 0px 6px 6px !important;
+            padding: 5px 30px;
+        }
+
+        @media only screen and (max-width: 414px) {
+            width: 120px;
+            border-radius: 0px 0px 6px 6px !important;
+            padding: 5px 30px;
+        }
+
+        @media only screen and (max-width: 411px) {
+            width: 120px;
+            border-radius: 0px 0px 6px 6px !important;
+            padding: 5px 30px;
+        }
+
+        @media only screen and (max-width: 400px) {
+            width: 120px;
+            border-radius: 0px 0px 6px 6px !important;
+            padding: 5px 30px;
+        }
+    }
+
+    .play-icon {
+        position: absolute; 
+        padding: 100px; 
+        margin-top: -47px; 
+        margin-left: -16px;
+        justify-content: center; 
+        align-items: center; 
+        cursor: pointer;
+        
+        @media only screen and (max-width: 768px) {
+            margin-top: -46px; 
+            margin-left: -19px;
+        }
+
+        @media only screen and (max-width: 414px) {
+            position: absolute; 
+            padding: 90px; 
+            margin-top: -40px; 
+            margin-left: -10px;
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width: 411px) {
+            position: absolute; 
+            padding: 90px; 
+            margin-top: -40px; 
+            margin-left: -10px;
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width: 400px) {
+            position: absolute; 
+            padding: 90px; 
+            margin-top: -40px; 
+            margin-left: -10px;
+            justify-content: center; 
+            align-items: center; 
+            cursor: pointer;
+        }
+    }
+}
+
+
+// ABOUT OTITOPIC
+
+.about-otitopic-section {
+    background-color: $color-primary;
+    
+    @media only screen and (max-width: 768px) {
+        padding: 30px !important;
+    }
+
+    @media only screen and (max-width: 767px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 661px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 575px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 526px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 485px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 411px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 400px) {
+        padding: 10px !important;
+    }
+
+    .content-area {
+    	display: grid;
+        grid-template-columns: 58% 50%;
+        
+        @media only screen and (min-width: 769px) and (max-width: 1024px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 768px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        @media only screen and (max-width: 767px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 661px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 600px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 575px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 526px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 485px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 411px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media only screen and (max-width: 400px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .left-col {
+        float: left;
+
+        @media only screen and (max-width: 767px) {
+            padding: 10px !important;
+            padding-top: 60px !important;
+            padding-bottom: 60px !important;
+        }
+    
+        @media only screen and (max-width: 661px) {
+            padding: 10px !important;
+            padding-top: 60px !important;
+            padding-bottom: 60px !important;
+        }
+    
+        @media only screen and (max-width: 600px) {
+            padding: 10px !important;
+            padding-top: 60px !important;
+            padding-bottom: 60px !important;
+        }
+    
+        @media only screen and (max-width: 575px) {
+            padding: 10px !important;
+            padding-top: 60px !important;
+            padding-bottom: 60px !important;
+        }
+    
+        @media only screen and (max-width: 526px) {
+            padding: 10px !important;
+            padding-top: 60px !important;
+            padding-bottom: 60px !important;
+        }
+    
+        @media only screen and (max-width: 485px) {
+            padding: 0px !important;
+            padding-top: 60px !important;
+            padding-bottom: 60px !important;
+        }
+    
+        @media only screen and (max-width: 411px) {
+            padding: 0px !important;
+            padding-top: 60px !important;
+            padding-bottom: 60px !important;
+        }
+
+        @media only screen and (max-width: 400px) {
+            padding: 0px !important;
+            padding-bottom: 25px !important;
+        }
+
+        .about-otitopic-thumbnail {
+            @media screen 
+                and (min-device-width: 300px) 
+                and (max-device-width: 4000px) 
+                and (-webkit-min-device-pixel-ratio: 2)
+                and (min-resolution: 192dpi) { 
+                width: 100%;
+                padding-bottom: 20px;
+            }
+            @media screen 
+                and (max-width: 768px){ 
+                width: 100%;
+                padding-bottom: 20px;
+                padding-top: 30px;
+            }
+            @media screen 
+                and (max-width: 400px){ 
+                width: 100%;
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    .right-col {
+    
+        .timeline {
+            max-width: 100%;
+            margin: 0 auto;
+
+            .timeline-body {
+                position: relative;
+                border-radius: 0px 8px 8px 0;
+                margin-left: 30px;
+
+                @media only screen and (width: 768px) {
+                    margin-top: 110px;
+                    margin-left: 30px;
+                }
+
+                @media only screen and (max-width: 411px) {
+                    margin-left: 2px;
+                }
+
+                &:after {
+                    content: '';
+                    width: 1px;
+                    height: 100%;
+                    background-color: $color-white;
+                    position: absolute;
+                    left: -2px;
+                    top: 0; 
+                }
+
+                .content-head {
+                     margin: 40px;
+                    padding-bottom: 0px;
+
+                    .title-head {
+                        font-family: $font-primary;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 30px;
+                        color: $color-white;
+                    }
+
+                    .custom-width {
+                        @media only screen and (min-width: 412px) and (max-width: 433px){
+                            font-size: 14px !important;
+                            padding: 8px 30px !important;
+                        }
+
+                        @media only screen and (min-width: 361px) and (max-width: 404px){
+                            font-size: 14px !important;
+                            padding: 8px 30px !important;
+                        }
+
+                        @media only screen and (min-width: 300px) and (max-width: 360px) {
+                            font-size: 12px !important;
+                            padding: 8px 16px !important;
+                        }
+                    }
+                }
+
+                .timeline-item {
+                    position: relative;
+                    height: 100%;
+
+                    &:after {
+                        content: '';
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        border: 2px solid $color-white;
+                        background-color: $color-white;
+                        position: absolute;
+                        left: -8px;
+                        top: 0px;
+                        z-index: 9;
+                    }
+
+                    .content {
+                        margin: 40px;
+                        padding-bottom: 0px;
+
+                        .title {
+                            font-family: $font-primary;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 18px;
+                            line-height: 23px;
+                            color: $color-white;
+                            width: 80%;
+                        }
+
+                        a {
+                            font-family: $font-primary;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #93B6D2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .left-col h2 {
+        font-family: $font-secondary;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 49px;
+        color: $color-white;
+
+        @media (max-width: 1199px) {
+            font-size: 33px;
+            font-size: 2.0625rem;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 25px;
+            font-size: 1.5625rem;
+        }
+    }
+
+    .details p {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 155%;
+        color: $color-white;
+        margin-top: 2em;
+        width: 90%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+
+}
+
+
+// Push the Boundaries
+
+.push-the-boundaries-section {
+    
+    @media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+    }
+
+  	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+    }
+
+    @media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+    }
+
+    @media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+    }
+
+    @media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+    }
+
+    @media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+    }
+
+    @media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 40px !important;
+    }
+
+
+  	.section-title-s3 {
+
+      	h2 {
+	        font-family: $font-primary;
+	        font-style: normal;
+	        font-weight: 600;
+	        font-size: 36px;
+	        line-height: 49px;
+	        color: #081D31;
+      	}
+
+      	p {
+	        font-family: $font-primary;
+	        font-style: normal;
+	        font-weight: normal;
+	        font-size: 18px;
+	        line-height: 155%;
+	        text-align: center;
+	        color: #1B3349;
+      	}
+  	}
+
+	.push-the-boundaries-grids .grid {
+	  	text-align: center;
+	  	margin-top: 2rem;
+
+	  	img {
+	  		max-width: 80px;
+	  	}
+
+		h3 {
+		    font-family: $font-secondary;
+		    font-style: normal;
+		    font-weight: bold;
+		    font-size: 26px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #0F63A7;
+		    margin: 0.8em 0 0.7em;
+		}
+
+		p {
+		    font-family: $font-primary;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-size: 16px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #1B3349;
+		    margin: 0;
+		}
+	}
+}
+
+.heart-attack-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+
+    @media only screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    @media only screen and (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media only screen and (max-width: 661px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media only screen and (max-width: 575px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media only screen and (max-width: 526px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media only screen and (max-width: 485px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media only screen and (max-width: 411px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-holder {
+        
+        img {
+        	width: 100%;
+        }
+    }
+
+
+    .text-content {
+
+        h2 {
+            font-family: $font-secondary;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 49px;
+            color: #081D31;
+            width: 100%;
+        }
+
+        p {
+            font-family: $font-primary;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 155%;
+            color: #1B3349;
+        }
+    }
+}
+
+
+
+.featured-project-section {
+  padding-bottom: 0;
+  margin-top: -70px;
+
+    @media only screen and (max-width: 768px) {
+        padding: 30px !important;
+    }
+
+    @media only screen and (max-width: 767px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 661px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 575px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 526px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 485px) {
+        padding: 10px !important;
+    }
+
+    @media only screen and (max-width: 414px) {
+        padding: 60px 10px 10px 10px !important;
+    }
+
+    @media only screen and (max-width: 411px) {
+        padding: 60px 10px 10px 10px !important;
+    }
+
+    @media only screen and (max-width: 400px) {
+        padding: 60px 10px 10px 10px !important;
+    }
+
+    @media only screen and (max-width: 375px) {
+        padding: 60px 10px 10px 10px !important;
+    }
+
+    @media only screen and (max-width: 360px) {
+        padding: 60px 10px 10px 10px !important;
+    }
+}
+
+.featured-project-section .project-grids .grid {
+  width: 100%;
+  float: left;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;
+  overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+  .featured-project-section .project-grids .grid {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 600px) {
+  .featured-project-section .project-grids .grid {
+    width: 100%;
+    float: none;
+  }
+}
+
+.featured-project-section .project-grids .overlay {
+  padding: 10px 30px 60px;
+  position: relative;
+  top: 20px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay {
+    padding: 80px 30px 50px;
+    top: 0;
+  }
+}
+
+.featured-project-section .project-grids .grid:hover .overlay {
+  background-color: #0F63A7;
+  opacity: 0.9;
+  top: 0;
+}
+
+.featured-project-section .project-grids .tag-area {
+    position: absolute;
+    top: 464px;
+    left: 0px;
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145%;
+    color: $color-white;
+    background: #0F63A7;
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px 56px;
+
+    @media screen 
+        and (min-device-width: 1200px) 
+        and (max-device-width: 2000px) 
+        and (-webkit-min-device-pixel-ratio: 2)
+        and (min-resolution: 192dpi) { 
+            left: 20px;
+    }
+
+    @media screen 
+        and (min-device-width: 1400px) 
+        and (max-device-width: 2000px) 
+        and (-webkit-min-device-pixel-ratio: 2)
+        and (min-resolution: 192dpi) { 
+            left: -1px;
+    }
+
+    @media only screen and (max-width: 411px) {
+        left: 2px;
+    }
+
+}
+
+.featured-project-section .project-grids .tag-icon {
+    position: absolute;
+    top: 21px;
+    left: -12px;
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 145%;
+
+    display: flex;
+    flex-direction: row;
+    padding: 15px 56px;
+
+}
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .count {
+    font-size: 30px;
+    font-size: 1.875rem;
+  }
+}
+
+.featured-project-section .project-grids h3 {
+    font-family: $font-secondary;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 145%;
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+ 
+.featured-project-section .project-grids p {
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 155%;
+    color: $color-white;
+  margin-bottom: 0;
+  padding-bottom: 2em;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids p {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+.featured-project-section .project-grids .overlay > h3 {
+  position: relative;
+  top: 1000px;
+}
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay > h3 {
+    top: 0;
+  }
+}
+
+.featured-project-section .project-grids .grid:hover .overlay > h3 {
+  top: 0;
+}
+
+.featured-project-section .project-grids .overlay > p {
+  position: relative;
+  top: 1000px;
+}
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay > p {
+    top: 0;
+  }
+}
+
+.featured-project-section .project-grids .grid:hover .overlay > p {
+  top: 0;
+}
+
+.featured-project-section .project-grids .overlay > a {
+  position: relative;
+  top: 1000px;
+}
+
+@media (max-width: 991px) {
+  .featured-project-section .project-grids .overlay > a {
+    top: 0;
+  }
+}
+
+.featured-project-section .project-grids .grid:hover .overlay > a {
+  top: 0;
+}
+
+.img-fluid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.play-icon-btn {
+    position: relative;
+    width: 32.31px;
+    height: 30px;
+    left: 253px;
+    bottom: 4112px;
+
+}
+
+
+
+.btn-overlay {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-gap: 1rem;
+    margin-top: -85px;
+    margin-left: 26px;
+
+    .play-btn {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+
+        background: $color-white;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+
+        cursor: pointer;
+
+        img {
+            max-width: 23px;
+            margin-left: 21px;
+            margin-top: 16px;
+        }
+    }
+
+    p {
+        font-family: $font-primary;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 145%;
+        color: $color-white;
+        text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+        width: 146px;
+        margin-top: 8px;
+
+        @media only screen and (max-width: 768px) {
+            margin-top: 8px;
+            margin-left: -5px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            margin-top: 8px;
+            margin-left: 20px;
+        }
+    }
+}
+
+
+// What we can offer hover animation
+
+  
+.content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+
+    .content-overlay {
+        background: #0F63A7;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        -webkit-transition: all 0.4s ease-in-out 0s;
+        -moz-transition: all 0.4s ease-in-out 0s;
+        transition: all 0.4s ease-in-out 0s;
+    }
+
+    &:hover .content-overlay{
+        opacity: 1;
+    }
+    
+    &:hover .tag-area{
+        display: none;
+    }
+
+    &:hover .tag-icon{
+        display: none;
+    }
+}
+  
+.content-image{
+    width: 100%;
+}
+  
+.content-details {
+    position: absolute;
+    text-align: left;
+    width: 75%;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+
+    img {
+        max-width: 40px;
+    }
+}
+  
+.content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+  
+.content-details h3{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+  
+.content-details p{
+    color: #fff;
+    font-size: 0.8em;
+}
+  
+.fadeIn-bottom{
+    top: 80%;
+}
+
+.view-video
+{
+    width: 190px;
+    
+    @media only screen and (max-width: 991px) {
+        width: 180px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        width: 180px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        width: 180px;
+    }
+
+    @media only screen and (max-width: 485px) {
+        width: 180px;
+    }
+
+    @media only screen and (max-width: 460px) {
+        width: 180px;
+    }
+
+    @media only screen and (max-width: 414px) {
+        width: 180px;
+    }
+
+    @media only screen and (max-width: 411px) {
+        width: 180px;
+    }
+
+    @media only screen and (max-width: 400px) {
+        width: 180px;
+    }
+}
+
+header {
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    overflow: hidden;
+    
+    @media only screen and (width: 1600px) {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 1300px) {
+        position: relative;
+        height: 65vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 1024px) {
+        position: relative;
+        height: 80vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 1024px) and (height: 1366px) {
+        position: relative;
+        height: 45vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 991px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 768px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 768px) and (height: 1024px) {
+        position: relative;
+        height: 65vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 414px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 414px) and (height: 736px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 411px) {
+        position: relative;
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 411px) and (height: 823px) {
+        position: relative;
+        height: 75vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 411px) and (height: 731px) {
+        position: relative;
+        height: 83vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 400px) {
+        position: relative;
+        height: 85vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    // @media only screen and (width: 400px) and (height: 700px) {
+    //     position: relative;
+    //     height: 80vh;
+    //     width: 100%;
+    //     overflow: hidden;
+    // }
+
+    @media only screen and (max-width: 393px) {
+        position: relative;
+        height: 80vh !important;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 385px) {
+        position: relative;
+        height: 90vh !important;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 375px) and (height: 812px) {
+        position: relative;
+        height: 75vh !important;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (width: 375px) and (height: 667px) {
+        position: relative;
+        height: 90vh !important;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    @media only screen and (max-width: 375px) {
+        position: relative;
+        height: 85vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 360px) {
+        position: relative;
+        height: 95vh !important;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 320px) {
+        position: relative;
+        height: 100vh !important;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 9;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    // background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}

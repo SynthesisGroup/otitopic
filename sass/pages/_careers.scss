@@ -1,0 +1,455 @@
+.innovative-options-section {
+	margin-top: -95px;
+	
+	@media only screen and (max-width: 768px) {
+        padding: 30px !important;
+    }
+
+	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+		margin-top: -90px;
+    }
+
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+		margin-top: -90px;
+	}
+	
+	h2 {
+		font-family: $font-secondary;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 36px;
+		line-height: 45px;
+		color: #081D31;
+
+	}
+}
+
+
+.why-work-otitopic-section {
+	background: #EBE9E8;
+
+	@media only screen and (max-width: 768px) {
+        padding: 30px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 767px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 661px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 600px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 575px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 526px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 485px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	@media only screen and (max-width: 411px) {
+        padding: 10px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+  	.section-title-s3 {
+
+      	h2 {
+	        font-family: $font-secondary;
+	        font-style: normal;
+	        font-weight: 600;
+	        font-size: 36px;
+	        line-height: 49px;
+	        color: #081D31;
+
+	        @media only screen and (max-width: 768px) {
+		        text-align: left;
+		    }
+
+	        @media only screen and (max-width: 767px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        text-align: left;
+		    }
+
+	        @media only screen and (max-width: 411px) {
+	       		text-align: left;
+	    	}
+      	}
+
+      	p {
+	        font-family: $font-primary;
+	        font-style: normal;
+	        font-weight: normal;
+	        font-size: 18px;
+	        line-height: 155%;
+	        text-align: center;
+	        color: #1B3349;
+	        
+	        @media only screen and (max-width: 768px) {
+		        text-align: left;
+		    }
+
+	        @media only screen and (max-width: 767px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        text-align: left;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        text-align: left;
+		    }
+
+	        @media only screen and (max-width: 411px) {
+	       		text-align: left;
+	    	}
+      	}
+  	}
+
+	.push-the-boundaries-grids .grid {
+	  	text-align: center;
+	  	margin-top: 2rem;
+
+	  	img {
+	  		max-width: 80px;
+	  	}
+
+		h3 {
+		    font-family: $font-secondary;
+		    font-style: normal;
+		    font-weight: bold;
+		    font-size: 26px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #0F63A7;
+		    margin: 0.8em 0 0.7em;
+		}
+
+		p {
+		    font-family: $font-primary;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-size: 16px;
+		    line-height: 155%;
+		    text-align: center;
+		    color: #1B3349;
+		    margin: 0;
+		}
+	}
+
+	.col-md-why-work-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-gap: 1rem;
+
+		@media only screen and (max-width: 768px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 767px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        grid-template-columns: repeat(1, 1fr);
+	    }
+
+		.grid-box {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 1rem;
+
+			@media only screen and (max-width: 768px) {
+	        	grid-template-columns: repeat(2, 1fr);
+	        	 grid-gap: 0;
+		    }
+
+			@media only screen and (max-width: 767px) {
+	        	grid-template-columns: repeat(1, 1fr);
+	        	 grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 661px) {
+		        grid-template-columns: repeat(1, 1fr);
+		         grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 600px) {
+		       	grid-template-columns: repeat(1, 1fr);
+		       	 grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 575px) {
+		       	grid-template-columns: repeat(1, 1fr);
+		       	 grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 526px) {
+		        grid-template-columns: repeat(1, 1fr);
+		         grid-gap: 0;
+		    }
+
+		  	@media only screen and (max-width: 485px) {
+		        grid-template-columns: repeat(1, 1fr);
+		         grid-gap: 0;
+		    }
+
+			@media only screen and (max-width: 411px) {
+		        grid-template-columns: repeat(1, 1fr);
+		        grid-gap: 0;
+		    }
+
+			.our-mission {
+				background: url("../img/our-mission.jpg") center/cover no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-secondary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+
+			.our-vision {
+				background: url("../img/our-vision.jpg") center/cover no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-secondary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+
+			.our-benefits {
+				background: url("../img/our-benefits.jpg") center/cover no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-secondary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+
+			.our-culture {
+				background: url("../img/our-culture.jpg") center/cover no-repeat;
+
+				.text-details {
+					padding: 40px;
+
+					h2 {
+						font-family: $font-secondary;
+						font-style: normal;
+						font-weight: 600;
+						font-size: 28px;
+						line-height: 35px;
+						color: $color-white;
+					}
+
+					p {
+						font-family: $font-primary;
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 20px;
+						color: $color-white;
+						width: 100%;
+						margin-top: 2rem;
+					}
+				}
+
+			}
+		}
+	}
+
+	img {
+		width: 323px;
+		height: 100%;
+
+		@media only screen and (max-width: 767px) {
+	        display: none;
+	    }
+
+	  	@media only screen and (max-width: 661px) {
+	        display: none;
+	    }
+
+	  	@media only screen and (max-width: 600px) {
+	       	display: none;
+	    }
+
+	  	@media only screen and (max-width: 575px) {
+	       	display: none;
+	    }
+
+	  	@media only screen and (max-width: 526px) {
+	        display: none;
+	    }
+
+	  	@media only screen and (max-width: 485px) {
+	        display: none;
+	    }
+
+		@media only screen and (max-width: 411px) {
+	        display: none;
+	    }
+	}
+}

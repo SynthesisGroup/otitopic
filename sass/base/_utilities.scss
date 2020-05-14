@@ -1,0 +1,58 @@
+.bg-primary {
+	background: $color-primary !important;
+}
+
+.is-mobile {
+	@media only screen and (min-width: 1025px) and (max-width: 4000px) {
+		display: none;
+	 }
+}
+
+.is-desktop {
+	@media only screen and (min-width: 300px) and (max-width: 1026px) {
+	   display: none;
+	}
+}
+
+.clear-margin-top-ipad {
+	@media only screen and (max-width: 768px) {
+		margin-top: -32px !important;
+	}
+}
+
+.section-mobile-gutter {
+
+	@media only screen and (max-width: 768px) {
+		margin-top: -50px !important;
+	}
+
+	@media only screen and (max-width: 375px) {
+		margin-top: -40px !important;
+	}
+}
+
+.custom-myocardial-therapies {
+	background: #EBE9E8;
+}
+
+.section-title-s5 {
+	@media only screen and (max-width: 411px) {
+		margin-top: 45px !important;
+	}
+}
+
+.img-investor {
+	@media only screen and (max-width: 411px) {
+		height: auto !important;
+	}
+}
+
+.img-auto {
+	@media only screen and (max-width: 414px) {
+		height: auto !important;
+	}
+
+	@media only screen and (max-width: 411px) {
+		height: auto !important;
+	}
+}

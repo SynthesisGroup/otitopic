@@ -1,0 +1,160 @@
+//  OTITOPIC BUTTONS
+
+.btn-view-video {
+
+	position: static;
+	width: 111px;
+	height: 22px;
+	left: 34px;
+	bottom: 12px;
+
+	font-family: $font-primary;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #FFFFFF;
+
+	flex: none;
+	order: 0;
+	align-self: center;
+
+	display: flex;
+	flex-direction: row;
+	padding: 12px 34px;
+
+	width: 179px;
+	height: 46px;
+	left: 149px;
+	bottom: 4036px;
+
+	background: #FFA000;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 0px 0px 6px 6px;
+
+}
+
+
+
+/*Btn Style Primary*/
+
+.btn-style-primary{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	color: $color-white;
+	padding: 8px 56px;
+	font-weight: bold;
+	font-style: normal;
+	overflow: hidden;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	background-color: $color-orange;
+	font-family: $font-primary;
+
+	.txt{
+		position:relative;
+		z-index:1;
+	}
+
+	&:hover {
+		background-color: $color-white;
+		color: $color-primary;
+	}
+}
+
+/*Btn Style Secondary*/
+
+.btn-style-secondary{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	color: $color-white;
+	padding: 8px 47px;
+	font-weight: bold;
+	font-style: normal;
+	overflow: hidden;
+	border-radius: 6px;
+	border: 1px solid $color-white;
+	background-color: transparent;
+	font-family: $font-primary;
+
+	.txt{
+		position:relative;
+		z-index:1;
+	}
+
+	&:hover {
+		border: 1px solid $color-orange;
+		background-color: $color-orange;
+		color: $color-white;
+	}
+}
+
+/*Btn Style Default*/
+
+.btn-style-default{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	color: $color-primary;
+	padding: 8px 47px;
+	font-weight: bold;
+	font-style: normal;
+	overflow: hidden;
+	border-radius: 6px;
+	background-color: $color-white;
+	font-family: $font-primary;
+
+	.txt{
+		position:relative;
+		z-index:1;
+	}
+
+	&:hover {
+		background-color: $color-orange;
+		color: $color-white;
+	}
+}
+
+/*Btn Style Outline*/
+
+.btn-style-outline{
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	color: $color-primary;
+	padding: 8px 47px;
+	font-weight: bold;
+	font-style: normal;
+	overflow: hidden;
+	border-radius: 6px;
+	border: 2px solid #1B3349;
+	background-color: transparent;
+	font-family: $font-primary;
+
+	.txt{
+		position:relative;
+		z-index:1;
+	}
+
+	&:hover {
+		border: 2px solid $color-orange;
+		background-color: $color-orange;
+		color: $color-white;
+	}
+}
+
+.theme-btn{
+	display:inline-block;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}

@@ -1,0 +1,103 @@
+// OTITOPIC BASE
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input {
+  color: #888888;
+}
+
+input::-webkit-input-placeholder {
+  color: #888888;
+}
+
+input:-ms-input-placeholder {
+  color: #888888;
+}
+
+input::-ms-input-placeholder {
+  color: #888888;
+}
+
+input::placeholder {
+  color: #888888;
+}
+
+._keyfocus :focus,
+input:not([disabled]):focus,
+textarea:not([disabled]):focus,
+select:not([disabled]):focus {
+  outline: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// img {
+//   max-width: 100%;
+// }
+
+.img-full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+a:hover {
+  // color: $color-orange !important;
+  text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover {
+  color: $color-orange;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+button,
+button:focus,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  outline: none;
+  background: transparent;
+}
+
+// .page-wrapper {
+//   overflow: hidden;
+// }
+
+.clear-fix {
+  overflow: hidden;
+}
